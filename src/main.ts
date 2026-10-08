@@ -125,6 +125,7 @@ import {createSourceRedeemInputOverlay,type SourceRedeemInputOverlay} from "./so
 import {createSourceNewGunPopup} from "./source-newgun-popup";
 import {installFrameClock} from "./frame-clock";
 import "./style.css";
+import {assetLoadPercent,setBootProgress} from "./loading-progress";
 
 const qaRoute=resolveSourceQARoute(location.search);
 let qaFixtureActive=qaRoute.isolated;
@@ -207,7 +208,9 @@ function resize() {
 addEventListener("resize", resize);
 resize();
 
+setBootProgress(5,'加载字体中…');
 await Promise.all([document.fonts.load('18px "MPLUS Rounded"'), document.fonts.load('700 20px "CatGunnerSC"')]);
+setBootProgress(10,'加载游戏素材中…');
 const loadState = window as Window & { __catPhase?: string };
 loadState.__catPhase = "sprites";
 const settingsAssets = {
@@ -228,7 +231,8 @@ function indexSourceUI(value:unknown) {
   for(const child of Object.values(value))indexSourceUI(child);
 }
 indexSourceUI(round3UI);
-const loaded = await Assets.load([...sourceRaidAssetURLs,...sourceSkinAssetURLs,...sourceAdventureAssetURLs,...sourceHuntPanelAssetURLs,...sourcePetPanelAssetURLs,...sourceBossHudAssetURLs,...sourceBossPanelAssetURLs,...sourceUiAssetURLs,...round3AssetURLs,...new Set(round2UILayout.loading.nodes.map(n=>n.spriteURL).filter((url): url is string=>Boolean(url))), ...Object.values(round3UI.entries).map(entry=>entry.url), ...Object.values(settingsAssets), ...Object.values(paths), ...Object.values(mapSkins.sprites).map(s=>s.url), ...gunSource.guns.map(g=>g.spriteURL), ...Object.values(mapScene.extraSprites).map(s=>s.url), ...mapScene.mine.oreURLs]);
+const loaded = await Assets.load([...sourceRaidAssetURLs,...sourceSkinAssetURLs,...sourceAdventureAssetURLs,...sourceHuntPanelAssetURLs,...sourcePetPanelAssetURLs,...sourceBossHudAssetURLs,...sourceBossPanelAssetURLs,...sourceUiAssetURLs,...round3AssetURLs,...new Set(round2UILayout.loading.nodes.map(n=>n.spriteURL).filter((url): url is string=>Boolean(url))), ...Object.values(round3UI.entries).map(entry=>entry.url), ...Object.values(settingsAssets), ...Object.values(paths), ...Object.values(mapSkins.sprites).map(s=>s.url), ...gunSource.guns.map(g=>g.spriteURL), ...Object.values(mapScene.extraSprites).map(s=>s.url), ...mapScene.mine.oreURLs], ratio => setBootProgress(assetLoadPercent(ratio),'加载游戏素材中…'));
+setBootProgress(80,'整理素材中…');
 const skinMeta=(id:number)=>mapSkins.sprites[String(id) as keyof typeof mapSkins.sprites];
 const skinURL=(id:number)=>skinMeta(id).url;
 const gunTexture = (gun: Gun): Texture => loaded[gunSource.guns[weaponIndex(gun.id)]?.spriteURL ?? paths.gun];
@@ -237,12 +241,17 @@ const cashFrames = Array.from({ length: 9 }, (_, index) => new Texture(loaded[pa
   new Rectangle((index % 3) * cashCell, Math.floor(index / 3) * cashCell, cashCell, cashCell)));
 loadState.__catPhase = "frames";
 const loadingAnimation:SourceLoadingAnimation=await (await fetch("/assets/round2-ui/loading-animation.json")).json();
+setBootProgress(83,'加载角色模型中…');
 const rigAssets = await loadCatRigAssets();
+setBootProgress(88,'加载角色皮肤中…');
 const rigSkinAssets = await loadCatRigSkinAssets();
 loadState.__catPhase = "projectiles";
+setBootProgress(91,'准备战斗效果中…');
 await loadProjectileViewAssets();
+setBootProgress(94,'准备战斗场景中…');
 const bossAssets=await loadSourceBossViewAssets();
 loadState.__catPhase = "scene";
+setBootProgress(96,'进入战场中…');
 const world = new Container(), hud = new Container(), modal = new Container();
 // Retired prototype HUD: keep its diagnostic state, never its rendering/input.
 // Menus, currencies and upgrade cards are owned by createSourceHud instead.
@@ -2356,6 +2365,7 @@ app.ticker.add(() => {
 update();
 const frameClock=installFrameClock(app);
 loadState.__catPhase = "running";
+setBootProgress(99,'画面准备完毕…');
 if (import.meta.env.DEV && new URLSearchParams(location.search).has("spine")) {
   import("./spine-probe").then(({ startSpineProbe }) => startSpineProbe(app)).then(slime => {
     (window as Window & { __spineProbe?: string }).__spineProbe = slime.state.tracks[0] ? "Walk playing" : "missing animation";

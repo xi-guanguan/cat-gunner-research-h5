@@ -5,9 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
     <meta name="theme-color" content="#31452b" />
     <title>Cat Gunner Research H5</title>
+    <!-- Inline so a cold connection sees progress before the game bundle or fonts arrive. -->
+    <style>
+      html, body { margin: 0; width: 100%; height: 100%; background: #202920; }
+      #boot-loading { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center;
+        padding: 24px; box-sizing: border-box; background: radial-gradient(circle at 50% 35%, #4f684c, #233525 75%);
+        color: #fff5d8; font-family: system-ui, -apple-system, sans-serif; }
+      .boot-card { width: min(360px, 100%); box-sizing: border-box; padding: 30px 26px 25px;
+        border: 3px solid #594427; border-radius: 26px; background: #f8e5ae; color: #4d351e;
+        box-shadow: 0 12px 0 #172317, 0 24px 56px #101b18a8; text-align: center; }
+      .boot-cat { font-size: 52px; line-height: 1.2; margin-bottom: 7px; }
+      .boot-title { margin: 0 0 19px; font-size: 23px; font-weight: 800; }
+      .boot-track { position: relative; height: 19px; border: 3px solid #49351f; border-radius: 99px; overflow: hidden;
+        background: #b8a376; }
+      #boot-bar { width: 0%; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #9edf50, #48b85e);
+        transition: width .15s ease-out; }
+      .boot-track::after { content: ""; position: absolute; inset: 0 auto 0 0; width: 42%; pointer-events: none;
+        background: linear-gradient(90deg, transparent, #fff8e0a6, transparent); animation: boot-sheen 1.8s linear infinite; }
+      @keyframes boot-sheen { from { transform: translateX(-100%); } to { transform: translateX(250%); } }
+      .boot-meta { display: flex; justify-content: space-between; gap: 12px; margin-top: 12px;
+        font-weight: 700; font-size: 14px; }
+      #boot-status { text-align: left; }
+      .boot-hint { margin: 16px 0 0; color: #785f41; font-size: 12px; line-height: 1.4; }
+      #boot-retry { margin-top: 15px; padding: 10px 24px; border: 2px solid #41351d; border-radius: 12px;
+        background: #65d15a; color: #30281a; font: 700 16px system-ui, sans-serif; cursor: pointer; }
+      [hidden] { display: none !important; }
+      @media (prefers-reduced-motion: reduce) { #boot-bar { transition: none; } .boot-track::after { animation: none; } }
+    </style>
   </head>
   <body>
     <main id="game" aria-label="Cat Gunner game"></main>
+    <div id="boot-loading" role="status" aria-live="polite">
+      <div class="boot-card">
+        <div class="boot-cat" aria-hidden="true">🐱</div>
+        <p class="boot-title">猫猫准备出发</p>
+        <div id="boot-progress" class="boot-track" role="progressbar" aria-label="游戏加载进度"
+          aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div id="boot-bar"></div></div>
+        <div class="boot-meta"><span id="boot-status">连接游戏中…</span><span id="boot-percent" aria-hidden="true">0%</span></div>
+        <p class="boot-hint">程序下载期间百分比可能暂不变动，初次打开请稍候</p>
+        <button id="boot-retry" type="button" hidden>重新加载</button>
+      </div>
+    </div>
     <script type="module" src="/src/bootstrap.ts"></script>
   </body>
 </html>
