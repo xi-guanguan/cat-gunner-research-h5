@@ -1,0 +1,26 @@
+{
+  "gunRewards": [
+    23,
+    28,
+    33,
+    39,
+    44
+  ],
+  "diaRewards": [
+    0,
+    200,
+    400,
+    600,
+    1000
+  ],
+  "products": [
+    "catgunner_stepup_0",
+    "catgunner_stepup_1",
+    "catgunner_stepup_2",
+    "catgunner_stepup_3",
+    "catgunner_stepup_4"
+  ],
+  "durationDays": 7,
+  "bannerUnlockDegree": 2,
+  "sourceELFSHA256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583"
+}

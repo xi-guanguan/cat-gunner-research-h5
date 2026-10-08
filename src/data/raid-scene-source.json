@@ -1,0 +1,4734 @@
+{
+  "schemaVersion": 1,
+  "sceneSha256": "12a68a5fe3c5d40de08cb430543f6ee2a7cc13a91f7e92fea862085e0977e7a5",
+  "sampleSha256": "12a68a5fe3c5d40de08cb430543f6ee2a7cc13a91f7e92fea862085e0977e7a5",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "boss": {
+    "componentID": 146861,
+    "enemyID": 128082,
+    "bounceTransformID": 66779,
+    "skinObjectIDs": [
+      30955,
+      16506,
+      4569,
+      18378,
+      19392
+    ],
+    "rawSha256": "76b7519cc2c51f2cb29b9fc8533fda71d78090f798813adf7c2c5ee3b48d4a38",
+    "parsedBytes": 120
+  },
+  "objects": [
+    {
+      "gameObjectID": 141,
+      "path": "/Raid_manager",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [],
+      "components": [
+        {
+          "id": 123118,
+          "kind": "Raid_manager",
+          "rawSha256": "19be820b1d3f47c3318e84321f5f7bfeb6834bd1f373e7b059b6cfdfdedf54e5"
+        }
+      ]
+    },
+    {
+      "gameObjectID": 1253,
+      "path": "/Raid_manager/Map_obj/PortalDust",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 39312,
+          "name": "PortalDust",
+          "position": [
+            0.0,
+            1.340000033378601,
+            0.0
+          ],
+          "rotation": [
+            2.2351741790771484e-08,
+            0.7071067690849304,
+            -0.70710688829422,
+            -3.1529303612387594e-08
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [],
+      "components": []
+    },
+    {
+      "gameObjectID": 1554,
+      "path": "/Raid_manager/Map_obj/Ground (1)",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 39327,
+          "name": "Ground (1)",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.6532815098762512,
+            -0.27059805393218994,
+            0.27059805393218994,
+            0.6532815098762512
+          ],
+          "scale": [
+            15.0,
+            15.0,
+            15.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 82857,
+          "spriteKey": "sharedassets0.assets:457",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": -32,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            1.0,
+            1.0
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 29
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 2234,
+      "path": "/Raid_manager/Map_obj",
+      "active": false,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [],
+      "components": []
+    },
+    {
+      "gameObjectID": 4569,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/2",
+      "active": false,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 51515,
+          "name": "2",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [],
+      "components": []
+    },
+    {
+      "gameObjectID": 4798,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/2/Head",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 46579,
+          "name": "Head",
+          "position": [
+            -10.300000190734863,
+            14.5,
+            10.300000190734863
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 51515,
+          "name": "2",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 86543,
+          "spriteKey": "sharedassets0.assets:898",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            2.009999990463257,
+            1.8200000524520874
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 5567,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/0/Hand_R",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 63622,
+          "name": "Hand_R",
+          "position": [
+            6.760000228881836,
+            3.1600000858306885,
+            15.09000015258789
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 55673,
+          "name": "0",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 84325,
+          "spriteKey": "sharedassets0.assets:908",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            1.9900000095367432,
+            1.7799999713897705
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 8606,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/4/Head",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 48689,
+          "name": "Head",
+          "position": [
+            -10.300000190734863,
+            14.5,
+            10.300000190734863
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 59883,
+          "name": "4",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 86495,
+          "spriteKey": "sharedassets0.assets:896",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            2.009999990463257,
+            1.8200000524520874
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 8806,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/2/Hand_L",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 50890,
+          "name": "Hand_L",
+          "position": [
+            -15.489999771118164,
+            2.759999990463257,
+            -5.909999847412109
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 51515,
+          "name": "2",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 86784,
+          "spriteKey": "sharedassets0.assets:924",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            5.929999828338623,
+            4.53000020980835
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 11052,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/3/Hand_L",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 50825,
+          "name": "Hand_L",
+          "position": [
+            -15.489999771118164,
+            2.759999990463257,
+            -5.909999847412109
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 46559,
+          "name": "3",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 83907,
+          "spriteKey": "sharedassets0.assets:923",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            5.929999828338623,
+            4.53000020980835
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 11259,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/4/Body",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 40799,
+          "name": "Body",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 59883,
+          "name": "4",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 83256,
+          "spriteKey": "sharedassets0.assets:914",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 5,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            5.929999828338623,
+            4.53000020980835
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 12142,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/2/Body",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 42255,
+          "name": "Body",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 51515,
+          "name": "2",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 84323,
+          "spriteKey": "sharedassets0.assets:916",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 5,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            5.929999828338623,
+            4.53000020980835
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 12510,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/1/Head",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 40772,
+          "name": "Head",
+          "position": [
+            -10.300000190734863,
+            14.5,
+            10.300000190734863
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 63994,
+          "name": "1",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 89093,
+          "spriteKey": "sharedassets0.assets:899",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            2.009999990463257,
+            1.8200000524520874
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 13896,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/1/Body",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 54110,
+          "name": "Body",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 63994,
+          "name": "1",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 84002,
+          "spriteKey": "sharedassets0.assets:917",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 5,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            5.929999828338623,
+            4.53000020980835
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 16096,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/0/Body",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 54984,
+          "name": "Body",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 55673,
+          "name": "0",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 88554,
+          "spriteKey": "sharedassets0.assets:913",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 5,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            5.929999828338623,
+            4.53000020980835
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 16302,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/4/Hand_R",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 56506,
+          "name": "Hand_R",
+          "position": [
+            6.760000228881836,
+            3.1600000858306885,
+            15.09000015258789
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 59883,
+          "name": "4",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 84339,
+          "spriteKey": "sharedassets0.assets:909",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            1.9900000095367432,
+            1.7799999713897705
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 16506,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/1",
+      "active": false,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 63994,
+          "name": "1",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [],
+      "components": []
+    },
+    {
+      "gameObjectID": 17968,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/3/Head",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 48932,
+          "name": "Head",
+          "position": [
+            -10.300000190734863,
+            14.5,
+            10.300000190734863
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 46559,
+          "name": "3",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 86508,
+          "spriteKey": "sharedassets0.assets:897",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            2.009999990463257,
+            1.8200000524520874
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 18378,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/3",
+      "active": false,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 46559,
+          "name": "3",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [],
+      "components": []
+    },
+    {
+      "gameObjectID": 19277,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/4/Hand_L",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 59491,
+          "name": "Hand_L",
+          "position": [
+            -15.489999771118164,
+            2.759999990463257,
+            -5.909999847412109
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 59883,
+          "name": "4",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 86584,
+          "spriteKey": "sharedassets0.assets:922",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            5.929999828338623,
+            4.53000020980835
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 19392,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/4",
+      "active": false,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 59883,
+          "name": "4",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [],
+      "components": []
+    },
+    {
+      "gameObjectID": 20245,
+      "path": "/Raid_manager/Map_obj/RaidBoss/EnemyColl",
+      "active": true,
+      "layer": 7,
+      "transformChain": [
+        {
+          "id": 60678,
+          "name": "EnemyColl",
+          "position": [
+            0.0,
+            -7.449999809265137,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [],
+      "components": [
+        {
+          "id": 137132,
+          "kind": "EnemyColl",
+          "rawSha256": "56a6ea9564647039188ddbcf5e0ebb2c9d0a21760070838fa582b1ef948c62e0"
+        }
+      ]
+    },
+    {
+      "gameObjectID": 22246,
+      "path": "/Raid_manager/Map_obj/RaidBoss/GibletExplodeDirt",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 55310,
+          "name": "GibletExplodeDirt",
+          "position": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -7.4505797087454084e-09,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [],
+      "components": []
+    },
+    {
+      "gameObjectID": 23360,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/0/Head",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 47874,
+          "name": "Head",
+          "position": [
+            -10.300000190734863,
+            14.5,
+            10.300000190734863
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 55673,
+          "name": "0",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 89203,
+          "spriteKey": "sharedassets0.assets:895",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            2.009999990463257,
+            1.8200000524520874
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 26377,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/2/Hand_R",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 49024,
+          "name": "Hand_R",
+          "position": [
+            6.760000228881836,
+            3.1600000858306885,
+            15.09000015258789
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 51515,
+          "name": "2",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 88657,
+          "spriteKey": "sharedassets0.assets:911",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            1.9900000095367432,
+            1.7799999713897705
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 30256,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/1/Hand_L",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 60243,
+          "name": "Hand_L",
+          "position": [
+            -15.489999771118164,
+            2.759999990463257,
+            -5.909999847412109
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 63994,
+          "name": "1",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 89247,
+          "spriteKey": "sharedassets0.assets:925",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            5.929999828338623,
+            4.53000020980835
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 30322,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/3/Body",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 42524,
+          "name": "Body",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 46559,
+          "name": "3",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 83248,
+          "spriteKey": "sharedassets0.assets:915",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 5,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            5.929999828338623,
+            4.53000020980835
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 30955,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/0",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 55673,
+          "name": "0",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [],
+      "components": []
+    },
+    {
+      "gameObjectID": 33751,
+      "path": "/Raid_manager/Map_obj/RaidBoss",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [],
+      "components": [
+        {
+          "id": 146861,
+          "kind": "Raid_Boss",
+          "rawSha256": "76b7519cc2c51f2cb29b9fc8533fda71d78090f798813adf7c2c5ee3b48d4a38"
+        },
+        {
+          "id": 128082,
+          "kind": "Enemy",
+          "rawSha256": "b3bb6664b42e4897055e78c7951f38fbd739d07195734adf14e810bfce94a94a"
+        }
+      ]
+    },
+    {
+      "gameObjectID": 33983,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [],
+      "components": [
+        {
+          "id": 133043,
+          "kind": "Bounce_Custom",
+          "rawSha256": "03ec773670eac9acca836a69cb002528eaa39e80ef41dbdc5c43ba93e99276f2"
+        }
+      ]
+    },
+    {
+      "gameObjectID": 35253,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/3/Hand_R",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 48480,
+          "name": "Hand_R",
+          "position": [
+            6.760000228881836,
+            3.1600000858306885,
+            15.09000015258789
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 46559,
+          "name": "3",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 83233,
+          "spriteKey": "sharedassets0.assets:910",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            1.9900000095367432,
+            1.7799999713897705
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 36534,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/0/Hand_L",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 54013,
+          "name": "Hand_L",
+          "position": [
+            -15.489999771118164,
+            2.759999990463257,
+            -5.909999847412109
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 55673,
+          "name": "0",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 88644,
+          "spriteKey": "sharedassets0.assets:921",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            5.929999828338623,
+            4.53000020980835
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    },
+    {
+      "gameObjectID": 38823,
+      "path": "/Raid_manager/Map_obj/RaidBoss/Bounce/1/Hand_R",
+      "active": true,
+      "layer": 0,
+      "transformChain": [
+        {
+          "id": 46461,
+          "name": "Hand_R",
+          "position": [
+            6.760000228881836,
+            3.1600000858306885,
+            15.09000015258789
+          ],
+          "rotation": [
+            0.3535533845424652,
+            -0.3535533845424652,
+            0.1464466005563736,
+            0.8535534739494324
+          ],
+          "scale": [
+            5.0,
+            5.0,
+            1.0
+          ]
+        },
+        {
+          "id": 63994,
+          "name": "1",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 49158,
+          "name": "Bounce",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 53342,
+          "name": "RaidBoss",
+          "position": [
+            -20.0,
+            0.0,
+            20.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39347,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "id": 39266,
+          "name": "Raid_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "renderers": [
+        {
+          "componentID": 83909,
+          "spriteKey": "sharedassets0.assets:912",
+          "enabled": true,
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sortingOrder": 6,
+          "sortingLayerID": 0,
+          "flipX": false,
+          "flipY": false,
+          "drawMode": 0,
+          "size": [
+            1.9900000095367432,
+            1.7799999713897705
+          ],
+          "materials": [
+            {
+              "m_FileID": 2,
+              "m_PathID": 60
+            }
+          ]
+        }
+      ],
+      "components": []
+    }
+  ],
+  "sprites": {
+    "sharedassets0.assets:457": {
+      "key": "sharedassets0.assets:457",
+      "pathID": 457,
+      "file": "sharedassets0.assets",
+      "name": "Raid",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000457__Raid.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 512.0,
+        "height": 512.0
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 50.0,
+      "pngSha256": "14c31ad0c3951b61e1fca4f93d02e161eee3a7721bbb3b567dbf8a1b7e2ad960"
+    },
+    "sharedassets0.assets:898": {
+      "key": "sharedassets0.assets:898",
+      "pathID": 898,
+      "file": "sharedassets0.assets",
+      "name": "Head",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000898__Head.png",
+      "rect": {
+        "x": 681.3942260742188,
+        "y": 101.13152313232422,
+        "width": 224.26841735839844,
+        "height": 129.75364685058594
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "a1af886cde5025a1848773eb0e11193319f50cc01dddf5723cccf480ba6732f5"
+    },
+    "sharedassets0.assets:908": {
+      "key": "sharedassets0.assets:908",
+      "pathID": 908,
+      "file": "sharedassets0.assets",
+      "name": "Hand_R",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000908__Hand_R.png",
+      "rect": {
+        "x": 834.087646484375,
+        "y": 287.17535400390625,
+        "width": 189.9123992919922,
+        "height": 169.8246307373047
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "c3e83c5e555cb279f185a545b455845495bf603f3767f23c2cc34d60dcdc723c"
+    },
+    "sharedassets0.assets:896": {
+      "key": "sharedassets0.assets:896",
+      "pathID": 896,
+      "file": "sharedassets0.assets",
+      "name": "Head",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000896__Head.png",
+      "rect": {
+        "x": 681.3942260742188,
+        "y": 101.13152313232422,
+        "width": 224.26841735839844,
+        "height": 129.75364685058594
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "a1af886cde5025a1848773eb0e11193319f50cc01dddf5723cccf480ba6732f5"
+    },
+    "sharedassets0.assets:924": {
+      "key": "sharedassets0.assets:924",
+      "pathID": 924,
+      "file": "sharedassets0.assets",
+      "name": "Hand_L",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000924__Hand_L.png",
+      "rect": {
+        "x": 585.0065307617188,
+        "y": 287.17535400390625,
+        "width": 189.9123992919922,
+        "height": 168.8705596923828
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "a2283b448003c9f0a650e0edfe9a058bb30cded1135309ce4da331ef77c20746"
+    },
+    "sharedassets0.assets:923": {
+      "key": "sharedassets0.assets:923",
+      "pathID": 923,
+      "file": "sharedassets0.assets",
+      "name": "Hand_L",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000923__Hand_L.png",
+      "rect": {
+        "x": 585.0065307617188,
+        "y": 287.17535400390625,
+        "width": 189.9123992919922,
+        "height": 168.8705596923828
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "09525136b69dd4c945ffba69a6df52bdc2c49a11341dff093bc6df4abfe04451"
+    },
+    "sharedassets0.assets:914": {
+      "key": "sharedassets0.assets:914",
+      "pathID": 914,
+      "file": "sharedassets0.assets",
+      "name": "Body",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000914__Body.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 563.056884765625,
+        "height": 457.0
+      },
+      "pivot": [
+        0.5,
+        0.19402173161506653
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "4ec0dd7501c0387fe35bd31b044116320c6c7098c52287dee952ad15738f1b18"
+    },
+    "sharedassets0.assets:916": {
+      "key": "sharedassets0.assets:916",
+      "pathID": 916,
+      "file": "sharedassets0.assets",
+      "name": "Body",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000916__Body.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 563.056884765625,
+        "height": 457.0
+      },
+      "pivot": [
+        0.5,
+        0.19402173161506653
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "0fa77c1ea8f383a34cb426c676e430c8f01572ded0d7ce83ca1b471c96da0939"
+    },
+    "sharedassets0.assets:899": {
+      "key": "sharedassets0.assets:899",
+      "pathID": 899,
+      "file": "sharedassets0.assets",
+      "name": "Head",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000899__Head.png",
+      "rect": {
+        "x": 681.3942260742188,
+        "y": 101.13152313232422,
+        "width": 224.26841735839844,
+        "height": 129.75364685058594
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "a1af886cde5025a1848773eb0e11193319f50cc01dddf5723cccf480ba6732f5"
+    },
+    "sharedassets0.assets:917": {
+      "key": "sharedassets0.assets:917",
+      "pathID": 917,
+      "file": "sharedassets0.assets",
+      "name": "Body",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000917__Body.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 563.056884765625,
+        "height": 457.0
+      },
+      "pivot": [
+        0.5,
+        0.19402173161506653
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "9e324c3b79bfabb9fbb8a928606be686180650d775e9f2cf4da4a4070e4b2fb2"
+    },
+    "sharedassets0.assets:913": {
+      "key": "sharedassets0.assets:913",
+      "pathID": 913,
+      "file": "sharedassets0.assets",
+      "name": "Body",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000913__Body.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 563.056884765625,
+        "height": 457.0
+      },
+      "pivot": [
+        0.5,
+        0.19402173161506653
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "4d3dd100589492e7a524fa3025f0bc8330d380b308f7895708948f6af78bfb19"
+    },
+    "sharedassets0.assets:909": {
+      "key": "sharedassets0.assets:909",
+      "pathID": 909,
+      "file": "sharedassets0.assets",
+      "name": "Hand_R",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000909__Hand_R.png",
+      "rect": {
+        "x": 834.087646484375,
+        "y": 287.17535400390625,
+        "width": 189.9123992919922,
+        "height": 169.8246307373047
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "e46185f84047e9dc1811d931387d9d6aa5ab07f52030095a1a1b73dd0cdee0a3"
+    },
+    "sharedassets0.assets:897": {
+      "key": "sharedassets0.assets:897",
+      "pathID": 897,
+      "file": "sharedassets0.assets",
+      "name": "Head",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000897__Head.png",
+      "rect": {
+        "x": 681.3942260742188,
+        "y": 101.13152313232422,
+        "width": 224.26841735839844,
+        "height": 129.75364685058594
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "a1af886cde5025a1848773eb0e11193319f50cc01dddf5723cccf480ba6732f5"
+    },
+    "sharedassets0.assets:922": {
+      "key": "sharedassets0.assets:922",
+      "pathID": 922,
+      "file": "sharedassets0.assets",
+      "name": "Hand_L",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000922__Hand_L.png",
+      "rect": {
+        "x": 585.0065307617188,
+        "y": 287.17535400390625,
+        "width": 189.9123992919922,
+        "height": 168.8705596923828
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "7e9f1cc98bfe72a482535fcf0f020b54fc42bb5bbfb9be78c5d8f6d9cf1d26ed"
+    },
+    "sharedassets0.assets:895": {
+      "key": "sharedassets0.assets:895",
+      "pathID": 895,
+      "file": "sharedassets0.assets",
+      "name": "Head",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000895__Head.png",
+      "rect": {
+        "x": 681.3942260742188,
+        "y": 101.13152313232422,
+        "width": 224.26841735839844,
+        "height": 129.75364685058594
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "a1af886cde5025a1848773eb0e11193319f50cc01dddf5723cccf480ba6732f5"
+    },
+    "sharedassets0.assets:911": {
+      "key": "sharedassets0.assets:911",
+      "pathID": 911,
+      "file": "sharedassets0.assets",
+      "name": "Hand_R",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000911__Hand_R.png",
+      "rect": {
+        "x": 834.087646484375,
+        "y": 287.17535400390625,
+        "width": 189.9123992919922,
+        "height": 169.8246307373047
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "93e5eda50a0c788de3dbf597ab7256176033bb1de73a8ec6c5e5d59f683a7038"
+    },
+    "sharedassets0.assets:925": {
+      "key": "sharedassets0.assets:925",
+      "pathID": 925,
+      "file": "sharedassets0.assets",
+      "name": "Hand_L",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000925__Hand_L.png",
+      "rect": {
+        "x": 585.0065307617188,
+        "y": 287.17535400390625,
+        "width": 189.9123992919922,
+        "height": 168.8705596923828
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "114615fe9d729cb934f95dc91df3f131d199a98ceaef38c4633b4650120bccc0"
+    },
+    "sharedassets0.assets:915": {
+      "key": "sharedassets0.assets:915",
+      "pathID": 915,
+      "file": "sharedassets0.assets",
+      "name": "Body",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000915__Body.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 563.056884765625,
+        "height": 457.0
+      },
+      "pivot": [
+        0.5,
+        0.19402173161506653
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "5d9d1e5359221bcbcb63c21804257728d562c429f4312c4e0ed3e382cce30aeb"
+    },
+    "sharedassets0.assets:910": {
+      "key": "sharedassets0.assets:910",
+      "pathID": 910,
+      "file": "sharedassets0.assets",
+      "name": "Hand_R",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000910__Hand_R.png",
+      "rect": {
+        "x": 834.087646484375,
+        "y": 287.17535400390625,
+        "width": 189.9123992919922,
+        "height": 169.8246307373047
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "a76f27af23574dbaba41d044ea87fef4c0c65a67e427a8da66b633b0ddfe5a53"
+    },
+    "sharedassets0.assets:921": {
+      "key": "sharedassets0.assets:921",
+      "pathID": 921,
+      "file": "sharedassets0.assets",
+      "name": "Hand_L",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000921__Hand_L.png",
+      "rect": {
+        "x": 585.0065307617188,
+        "y": 287.17535400390625,
+        "width": 189.9123992919922,
+        "height": 168.8705596923828
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "4055d93230a5afbc259ad277792d505240d2a1d84db2a4fb809ee41f415fabfb"
+    },
+    "sharedassets0.assets:912": {
+      "key": "sharedassets0.assets:912",
+      "pathID": 912,
+      "file": "sharedassets0.assets",
+      "name": "Hand_R",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000912__Hand_R.png",
+      "rect": {
+        "x": 834.087646484375,
+        "y": 287.17535400390625,
+        "width": 189.9123992919922,
+        "height": 169.8246307373047
+      },
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 95.40709686279297,
+      "pngSha256": "aa98ce29d0a3e11b0d1403b8a2e5de3787901271c51fa7e1d89a1722ab99cea5"
+    }
+  },
+  "limitations": [
+    "Original asset identities/TRS/renderer fields only, not a live Raid scene.",
+    "Material references retained; shader/particle/Animator behavior is not established by sprite export.",
+    "Mode5 Cat native disassembly is evidence, not a complete AI consumer."
+  ]
+}

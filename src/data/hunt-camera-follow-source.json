@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "sceneSha256": "12a68a5fe3c5d40de08cb430543f6ee2a7cc13a91f7e92fea862085e0977e7a5",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "componentID": 123273,
+  "targetTransformID": 44677,
+  "targetCatComponentID": 147400,
+  "method": "Follow.Update@0x2b17ae0",
+  "operation": "Copy target world position into Camera_manager world position, no interpolation or offset",
+  "setPositionWrapper": {
+    "wrapper": "0x56eee74",
+    "icallStringVA": "0x10af0af",
+    "icall": "UnityEngine.Transform::set_position_Injected(System.IntPtr,UnityEngine.Vector3&)",
+    "rawSha256": "f4240e56f0678ffaba73ab6d0003c188b9a93d5de8ab179d53db7fb8974bb415"
+  },
+  "h5Scheduling": "Live projection reads leader position at each host query/consume/render; Unity Update ordering is not claimed",
+  "limitations": [
+    "Original camera mode/zoom consumers and dynamic runtime comparison NOT_RUN"
+  ]
+}

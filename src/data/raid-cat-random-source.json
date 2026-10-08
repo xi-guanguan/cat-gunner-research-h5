@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "provenance": "artifacts/evidence/round6-20261002/raid-cat-random-extract.json",
+  "constants": {
+    "lagMin": 0.15000000596046448,
+    "lagMax": 0.6000000238418579,
+    "speedMin": 0.8799999952316284,
+    "speedMax": 1.1200000047683716,
+    "intervalMin": 1.7999999523162842,
+    "attackOffsetMax": 0.4000000059604645,
+    "radiusMin": 0.30000001192092896,
+    "radiusMax": 0.800000011920929,
+    "degreesToRadians": 0.01745329238474369,
+    "intervalMax": 3.5,
+    "attackOffsetMin": 0,
+    "angleMin": 0,
+    "angleMax": 360
+  }
+}

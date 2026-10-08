@@ -1,0 +1,244 @@
+{
+  "sceneSha256": "12a68a5fe3c5d40de08cb430543f6ee2a7cc13a91f7e92fea862085e0977e7a5",
+  "managerComponent": 124352,
+  "managerRawSha256": "80dc4a6fbd1d68aae3566f9615a0b88910f2702b2a727bae99d33ae99d855467",
+  "arrayCountOffset": "0x878",
+  "arrayCount": 25,
+  "slots": [
+    {
+      "index": 0,
+      "id": "level0:7963",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 1",
+      "component": 129860,
+      "serializedOffset": "0x87c",
+      "displayLevel": 2
+    },
+    {
+      "index": 1,
+      "id": "level0:11833",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 2",
+      "component": 132996,
+      "serializedOffset": "0x888",
+      "displayLevel": 3
+    },
+    {
+      "index": 2,
+      "id": "level0:11826",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 3",
+      "component": 133003,
+      "serializedOffset": "0x894",
+      "displayLevel": 4
+    },
+    {
+      "index": 3,
+      "id": "level0:11810",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 4",
+      "component": 132995,
+      "serializedOffset": "0x8a0",
+      "displayLevel": 5
+    },
+    {
+      "index": 4,
+      "id": "level0:11815",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 5",
+      "component": 132989,
+      "serializedOffset": "0x8ac",
+      "displayLevel": 6
+    },
+    {
+      "index": 5,
+      "id": "level0:11811",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 6",
+      "component": 132993,
+      "serializedOffset": "0x8b8",
+      "displayLevel": 7
+    },
+    {
+      "index": 6,
+      "id": "level0:11829",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 7",
+      "component": 133000,
+      "serializedOffset": "0x8c4",
+      "displayLevel": 8
+    },
+    {
+      "index": 7,
+      "id": "level0:11831",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 8",
+      "component": 132998,
+      "serializedOffset": "0x8d0",
+      "displayLevel": 9
+    },
+    {
+      "index": 8,
+      "id": "level0:11818",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 9",
+      "component": 132986,
+      "serializedOffset": "0x8dc",
+      "displayLevel": 10
+    },
+    {
+      "index": 9,
+      "id": "level0:11828",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 10",
+      "component": 133001,
+      "serializedOffset": "0x8e8",
+      "displayLevel": 11
+    },
+    {
+      "index": 10,
+      "id": "level0:11819",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 11",
+      "component": 133010,
+      "serializedOffset": "0x8f4",
+      "displayLevel": 12
+    },
+    {
+      "index": 11,
+      "id": "level0:11827",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 12",
+      "component": 133002,
+      "serializedOffset": "0x900",
+      "displayLevel": 13
+    },
+    {
+      "index": 12,
+      "id": "level0:11813",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 13",
+      "component": 132991,
+      "serializedOffset": "0x90c",
+      "displayLevel": 14
+    },
+    {
+      "index": 13,
+      "id": "level0:11820",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 14",
+      "component": 133009,
+      "serializedOffset": "0x918",
+      "displayLevel": 15
+    },
+    {
+      "index": 14,
+      "id": "level0:11830",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 15",
+      "component": 132999,
+      "serializedOffset": "0x924",
+      "displayLevel": 16
+    },
+    {
+      "index": 15,
+      "id": "level0:11817",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 16",
+      "component": 132987,
+      "serializedOffset": "0x930",
+      "displayLevel": 17
+    },
+    {
+      "index": 16,
+      "id": "level0:11825",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 17",
+      "component": 133004,
+      "serializedOffset": "0x93c",
+      "displayLevel": 18
+    },
+    {
+      "index": 17,
+      "id": "level0:11823",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 18",
+      "component": 133006,
+      "serializedOffset": "0x948",
+      "displayLevel": 19
+    },
+    {
+      "index": 18,
+      "id": "level0:11814",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 19",
+      "component": 132990,
+      "serializedOffset": "0x954",
+      "displayLevel": 20
+    },
+    {
+      "index": 19,
+      "id": "level0:11812",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 20",
+      "component": 132992,
+      "serializedOffset": "0x960",
+      "displayLevel": 21
+    },
+    {
+      "index": 20,
+      "id": "level0:11816",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 21",
+      "component": 132988,
+      "serializedOffset": "0x96c",
+      "displayLevel": 22
+    },
+    {
+      "index": 21,
+      "id": "level0:11809",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 22",
+      "component": 132994,
+      "serializedOffset": "0x978",
+      "displayLevel": 23
+    },
+    {
+      "index": 22,
+      "id": "level0:11832",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 23",
+      "component": 132997,
+      "serializedOffset": "0x984",
+      "displayLevel": 24
+    },
+    {
+      "index": 23,
+      "id": "level0:11821",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 24",
+      "component": 133008,
+      "serializedOffset": "0x990",
+      "displayLevel": 25
+    },
+    {
+      "index": 24,
+      "id": "level0:11822",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 25",
+      "component": 133007,
+      "serializedOffset": "0x99c",
+      "displayLevel": 26
+    }
+  ],
+  "spacer": {
+    "id": "level0:11824",
+    "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 0",
+    "displayLevel": 1
+  },
+  "excludedButtons": [
+    {
+      "id": "level0:9581",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 0/Mission_Reward_Normal",
+      "reason": "source-spacer-reward-inactive",
+      "inactiveAncestor": "/Canvas/SafeArea/Mission_maanger/Mission_UI"
+    },
+    {
+      "id": "level0:11720",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Reward/Scroll View/Viewport/Content/Mission_Slot_list/Mission_Lv_Slot 0/Mission_Reward_Epic",
+      "reason": "source-spacer-reward-inactive",
+      "inactiveAncestor": "/Canvas/SafeArea/Mission_maanger/Mission_UI"
+    },
+    {
+      "id": "level0:1742",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Test_obj/Image",
+      "reason": "source-debug-inactive",
+      "inactiveAncestor": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Test_obj"
+    },
+    {
+      "id": "level0:380",
+      "path": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Test_obj/Image (1)",
+      "reason": "source-debug-inactive",
+      "inactiveAncestor": "/Canvas/SafeArea/Mission_maanger/Mission_UI/Test_obj"
+    }
+  ],
+  "nativeEvidence": [
+    "Mission_manager.UI_First_Reload@0x2aa55ac: array +0x98, position passed as w1",
+    "Mission_Reward_Slot.First_Reload@0x2b04658: w19=w1, stored +0x20; display index+2 @0x2b04744"
+  ]
+}

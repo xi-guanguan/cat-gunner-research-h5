@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "product": "remove_forced_ads",
+      "flag": "removeAdsForced",
+      "slot": "0x5d64298",
+      "relativeRelocationAddend": "0x5f24f68",
+      "encodedUsage": "0xa0009e65",
+      "literalIndex": 20274,
+      "dataIndex": 611888,
+      "length": 17
+    },
+    {
+      "product": "remove_all_ads",
+      "flag": "removeAdsAll",
+      "slot": "0x5d642c0",
+      "relativeRelocationAddend": "0x5f24f60",
+      "encodedUsage": "0xa0009e63",
+      "literalIndex": 20273,
+      "dataIndex": 611874,
+      "length": 14
+    }
+  ],
+  "catchUpToleranceSeconds": 300.0,
+  "catchUpPendingMaximum": 2,
+  "tickSeconds": 60,
+  "maximum": 500,
+  "initial": 0,
+  "elfSHA256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "native": "ApplyNonConsumable first two branches @0x2b96898..0x2b96a3c; flags +8 forced/+9 all; no direct diamond grant in these branches",
+  "timeEvidence": "Tick_Accumulate @0x2b8cdf4 compare gap vs .rodata 0x106f908; @0x2b8ce44 pendingCount <=2; @0x2b8ce9c constant 60.0"
+}

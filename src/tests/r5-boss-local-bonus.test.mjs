@@ -1,0 +1,9 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {createSession,sourceGun,startBoss,step,sweepBoss} from '../session';
+import {freshPlatformState,developerBossBonus} from '../local-platform';
+import {freshSourceEntitlements} from '../r5-entitlements';
+const fixture=()=>({...createSession(4311),historicMax:90,overlay:'none',diamonds:3000,equippedGuns:[sourceGun(25),null,null]});
+function win(){let s=startBoss(fixture());for(let i=0;i<3601&&s.mode==='boss';i++)s=step(s,1/60);assert.equal(s.boss.run.phase,'won');return s;}
+test('Boss local ad is unavailable outside developer mode and does not consume settlement',()=>{const s=win(),p=freshPlatformState(),r=developerBossBonus(s,p);assert.equal(r.status,'unavailable');assert.equal(r.session,s);assert.equal(r.platform,p);assert.equal(s.diamonds,3150);});
+test('Boss local ad grants only extra2x, returns to preserved field and records a replay-safe receipt',()=>{const s=win(),p={...freshPlatformState(),developerEnabled:true},r=developerBossBonus(s,p);assert.equal(r.status,'granted');assert.equal(r.session.mode,'field');assert.equal(r.session.diamonds,3450);assert.equal(r.session.battle,s.fieldBattle);assert.equal(r.platform.audit.length,1);assert.equal(r.platform.audit[0].amount,300);assert.equal(r.platform.audit[0].kind,'ad');const repeat=developerBossBonus(s,r.platform);assert.equal(repeat.status,'duplicate');assert.equal(repeat.session,s);assert.equal(repeat.platform.audit.length,1);assert.equal(developerBossBonus(r.session,r.platform).status,'blocked');});
+test('automatic Boss reward never stacks the local ad reward',()=>{const e={...freshSourceEntitlements(),plusPack1Active:true,plusPack2Active:true,automaticBonus:true},s=sweepBoss(fixture(),e),p={...freshPlatformState(),developerEnabled:true};assert.equal(s.diamonds,3900);const r=developerBossBonus(s,p);assert.equal(r.status,'blocked');assert.equal(r.session,s);assert.equal(r.platform.audit.length,0);});

@@ -1,0 +1,53 @@
+{
+  "sourceSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "capacity": [
+    660,
+    1500,
+    2500
+  ],
+  "purchaseMax": [
+    2,
+    2,
+    1
+  ],
+  "salePercent": [
+    50,
+    35,
+    35
+  ],
+  "defaultPrices": [
+    "$0.99",
+    "$2.99",
+    "$4.99"
+  ],
+  "productPrefix": "catgunner_stargem_pig_",
+  "initial": {
+    "lv": 1,
+    "gem": 0,
+    "purchaseCount": 0,
+    "seasonIndex": -1
+  },
+  "fillPerEntry": 50,
+  "fillPerBar": 25,
+  "methods": {
+    "startHook": "Raid_manager.Game_Start 0x2b58b88 \u2192 StarGem_Pig.OnRaidEnter 0x2ba1254",
+    "barHook": "Raid_manager.Boss_Damaged 0x2b56298 \u2192 StarGem_Pig.OnBossBarCleared 0x2ba1338",
+    "reward": "StarGem_Pig.ApplyReward 0x2ba157c",
+    "load": "StarGem_Pig.LoadFromSaveData 0x2ba1940",
+    "season": "StarGem_Pig.Season_Check 0x2ba0830"
+  },
+  "semantics": [
+    "Only level3 is sold out; levels1/2 each promote after two purchases, level3 permits one.",
+    "Reward grants capacity for purchased product level, not gem balance; equal current level zeroes gem and increments count.",
+    "OnRaidEnter season-check then +50 at actual Game_Start, not resource preparation/admission.",
+    "OnBossBarCleared adds25 to current pig, no season check inside Add; Add has no source Save call.",
+    "Load clamps lv1..3, gem/count to nonnegative int32, then season-check resets to [1,0,0] for new week."
+  ],
+  "proof": "STATIC ONLY; UI/GUI and local-provider adapter need separate receipts",
+  "textFormats": {
+    "level": "Lv.{0}",
+    "count": "{0}/{1}",
+    "percent": "{0}%",
+    "sale": "Sale {0}%"
+  }
+}

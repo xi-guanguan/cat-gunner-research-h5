@@ -1,0 +1,26 @@
+PinkRabbit.png
+size:256,256
+filter:Linear,Linear
+pma:true
+PinkRabbit/Body
+bounds:2,121,73,73
+PinkRabbit/Body line
+bounds:2,42,77,53
+offsets:0,0,78,53
+rotate:90
+PinkRabbit/Eye
+bounds:57,86,33,18
+offsets:1,1,35,20
+rotate:90
+PinkRabbit/Mouth
+bounds:178,187,12,7
+offsets:1,1,14,9
+PinkRabbit/Red
+bounds:77,145,52,19
+offsets:1,1,57,21
+PinkRabbit/Tail
+bounds:2,2,39,38
+offsets:1,1,41,40
+Shadow
+bounds:77,166,99,28
+offsets:1,1,101,30

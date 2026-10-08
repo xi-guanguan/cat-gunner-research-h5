@@ -1,0 +1,3750 @@
+{
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "items": [
+    {
+      "index": 0,
+      "type": 0,
+      "coreType": 0,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 1,
+      "type": 1,
+      "coreType": 0,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 2,
+      "type": 2,
+      "coreType": 0,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 3,
+      "type": 11,
+      "coreType": 0,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 4,
+      "type": 12,
+      "coreType": 0,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 5,
+      "type": 3,
+      "coreType": 1,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 6,
+      "type": 4,
+      "coreType": 1,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 7,
+      "type": 5,
+      "coreType": 1,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 8,
+      "type": 10,
+      "coreType": 1,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 9,
+      "type": 12,
+      "coreType": 1,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 10,
+      "type": 6,
+      "coreType": 2,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 11,
+      "type": 7,
+      "coreType": 2,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 12,
+      "type": 8,
+      "coreType": 2,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 13,
+      "type": 9,
+      "coreType": 2,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    },
+    {
+      "index": 14,
+      "type": 12,
+      "coreType": 2,
+      "lv": 0,
+      "count": 0,
+      "unlocked": false
+    }
+  ],
+  "balances": {
+    "Damage_Balance": [
+      {
+        "coefficient": "500",
+        "exponent": -2
+      },
+      {
+        "coefficient": "100",
+        "exponent": -1
+      },
+      {
+        "coefficient": "150",
+        "exponent": -1
+      },
+      {
+        "coefficient": "200",
+        "exponent": -1
+      },
+      {
+        "coefficient": "260",
+        "exponent": -1
+      },
+      {
+        "coefficient": "320",
+        "exponent": -1
+      },
+      {
+        "coefficient": "380",
+        "exponent": -1
+      },
+      {
+        "coefficient": "440",
+        "exponent": -1
+      },
+      {
+        "coefficient": "510",
+        "exponent": -1
+      },
+      {
+        "coefficient": "580",
+        "exponent": -1
+      },
+      {
+        "coefficient": "650",
+        "exponent": -1
+      },
+      {
+        "coefficient": "730",
+        "exponent": -1
+      },
+      {
+        "coefficient": "810",
+        "exponent": -1
+      },
+      {
+        "coefficient": "900",
+        "exponent": -1
+      },
+      {
+        "coefficient": "990",
+        "exponent": -1
+      },
+      {
+        "coefficient": "108",
+        "exponent": 0
+      },
+      {
+        "coefficient": "118",
+        "exponent": 0
+      },
+      {
+        "coefficient": "128",
+        "exponent": 0
+      },
+      {
+        "coefficient": "139",
+        "exponent": 0
+      },
+      {
+        "coefficient": "150",
+        "exponent": 0
+      },
+      {
+        "coefficient": "162",
+        "exponent": 0
+      },
+      {
+        "coefficient": "175",
+        "exponent": 0
+      },
+      {
+        "coefficient": "188",
+        "exponent": 0
+      },
+      {
+        "coefficient": "202",
+        "exponent": 0
+      },
+      {
+        "coefficient": "217",
+        "exponent": 0
+      },
+      {
+        "coefficient": "232",
+        "exponent": 0
+      },
+      {
+        "coefficient": "248",
+        "exponent": 0
+      },
+      {
+        "coefficient": "265",
+        "exponent": 0
+      },
+      {
+        "coefficient": "283",
+        "exponent": 0
+      },
+      {
+        "coefficient": "302",
+        "exponent": 0
+      },
+      {
+        "coefficient": "322",
+        "exponent": 0
+      },
+      {
+        "coefficient": "343",
+        "exponent": 0
+      },
+      {
+        "coefficient": "365",
+        "exponent": 0
+      },
+      {
+        "coefficient": "388",
+        "exponent": 0
+      },
+      {
+        "coefficient": "412",
+        "exponent": 0
+      },
+      {
+        "coefficient": "437",
+        "exponent": 0
+      },
+      {
+        "coefficient": "463",
+        "exponent": 0
+      },
+      {
+        "coefficient": "491",
+        "exponent": 0
+      },
+      {
+        "coefficient": "520",
+        "exponent": 0
+      },
+      {
+        "coefficient": "551",
+        "exponent": 0
+      },
+      {
+        "coefficient": "583",
+        "exponent": 0
+      },
+      {
+        "coefficient": "617",
+        "exponent": 0
+      },
+      {
+        "coefficient": "652",
+        "exponent": 0
+      },
+      {
+        "coefficient": "689",
+        "exponent": 0
+      },
+      {
+        "coefficient": "728",
+        "exponent": 0
+      },
+      {
+        "coefficient": "769",
+        "exponent": 0
+      },
+      {
+        "coefficient": "812",
+        "exponent": 0
+      },
+      {
+        "coefficient": "857",
+        "exponent": 0
+      },
+      {
+        "coefficient": "900",
+        "exponent": 0
+      },
+      {
+        "coefficient": "950",
+        "exponent": 0
+      },
+      {
+        "coefficient": "100",
+        "exponent": 1
+      },
+      {
+        "coefficient": "105",
+        "exponent": 1
+      },
+      {
+        "coefficient": "110",
+        "exponent": 1
+      },
+      {
+        "coefficient": "116",
+        "exponent": 1
+      },
+      {
+        "coefficient": "122",
+        "exponent": 1
+      },
+      {
+        "coefficient": "128",
+        "exponent": 1
+      },
+      {
+        "coefficient": "134",
+        "exponent": 1
+      },
+      {
+        "coefficient": "141",
+        "exponent": 1
+      },
+      {
+        "coefficient": "148",
+        "exponent": 1
+      },
+      {
+        "coefficient": "155",
+        "exponent": 1
+      },
+      {
+        "coefficient": "163",
+        "exponent": 1
+      },
+      {
+        "coefficient": "171",
+        "exponent": 1
+      },
+      {
+        "coefficient": "180",
+        "exponent": 1
+      },
+      {
+        "coefficient": "189",
+        "exponent": 1
+      },
+      {
+        "coefficient": "198",
+        "exponent": 1
+      },
+      {
+        "coefficient": "208",
+        "exponent": 1
+      },
+      {
+        "coefficient": "218",
+        "exponent": 1
+      },
+      {
+        "coefficient": "229",
+        "exponent": 1
+      },
+      {
+        "coefficient": "240",
+        "exponent": 1
+      },
+      {
+        "coefficient": "252",
+        "exponent": 1
+      },
+      {
+        "coefficient": "265",
+        "exponent": 1
+      },
+      {
+        "coefficient": "278",
+        "exponent": 1
+      },
+      {
+        "coefficient": "292",
+        "exponent": 1
+      },
+      {
+        "coefficient": "307",
+        "exponent": 1
+      },
+      {
+        "coefficient": "322",
+        "exponent": 1
+      },
+      {
+        "coefficient": "338",
+        "exponent": 1
+      },
+      {
+        "coefficient": "355",
+        "exponent": 1
+      },
+      {
+        "coefficient": "373",
+        "exponent": 1
+      },
+      {
+        "coefficient": "392",
+        "exponent": 1
+      },
+      {
+        "coefficient": "412",
+        "exponent": 1
+      },
+      {
+        "coefficient": "433",
+        "exponent": 1
+      },
+      {
+        "coefficient": "455",
+        "exponent": 1
+      },
+      {
+        "coefficient": "478",
+        "exponent": 1
+      },
+      {
+        "coefficient": "502",
+        "exponent": 1
+      },
+      {
+        "coefficient": "527",
+        "exponent": 1
+      },
+      {
+        "coefficient": "553",
+        "exponent": 1
+      },
+      {
+        "coefficient": "581",
+        "exponent": 1
+      },
+      {
+        "coefficient": "610",
+        "exponent": 1
+      },
+      {
+        "coefficient": "641",
+        "exponent": 1
+      },
+      {
+        "coefficient": "673",
+        "exponent": 1
+      },
+      {
+        "coefficient": "707",
+        "exponent": 1
+      },
+      {
+        "coefficient": "742",
+        "exponent": 1
+      },
+      {
+        "coefficient": "779",
+        "exponent": 1
+      },
+      {
+        "coefficient": "818",
+        "exponent": 1
+      },
+      {
+        "coefficient": "859",
+        "exponent": 1
+      },
+      {
+        "coefficient": "902",
+        "exponent": 1
+      },
+      {
+        "coefficient": "947",
+        "exponent": 1
+      },
+      {
+        "coefficient": "990",
+        "exponent": 1
+      },
+      {
+        "coefficient": "104",
+        "exponent": 2
+      },
+      {
+        "coefficient": "109",
+        "exponent": 2
+      },
+      {
+        "coefficient": "114",
+        "exponent": 2
+      },
+      {
+        "coefficient": "119",
+        "exponent": 2
+      },
+      {
+        "coefficient": "125",
+        "exponent": 2
+      },
+      {
+        "coefficient": "131",
+        "exponent": 2
+      },
+      {
+        "coefficient": "137",
+        "exponent": 2
+      },
+      {
+        "coefficient": "143",
+        "exponent": 2
+      },
+      {
+        "coefficient": "150",
+        "exponent": 2
+      },
+      {
+        "coefficient": "157",
+        "exponent": 2
+      },
+      {
+        "coefficient": "164",
+        "exponent": 2
+      },
+      {
+        "coefficient": "172",
+        "exponent": 2
+      },
+      {
+        "coefficient": "180",
+        "exponent": 2
+      },
+      {
+        "coefficient": "189",
+        "exponent": 2
+      },
+      {
+        "coefficient": "198",
+        "exponent": 2
+      },
+      {
+        "coefficient": "207",
+        "exponent": 2
+      },
+      {
+        "coefficient": "217",
+        "exponent": 2
+      },
+      {
+        "coefficient": "227",
+        "exponent": 2
+      },
+      {
+        "coefficient": "238",
+        "exponent": 2
+      },
+      {
+        "coefficient": "249",
+        "exponent": 2
+      },
+      {
+        "coefficient": "261",
+        "exponent": 2
+      },
+      {
+        "coefficient": "274",
+        "exponent": 2
+      },
+      {
+        "coefficient": "287",
+        "exponent": 2
+      },
+      {
+        "coefficient": "301",
+        "exponent": 2
+      },
+      {
+        "coefficient": "316",
+        "exponent": 2
+      },
+      {
+        "coefficient": "331",
+        "exponent": 2
+      },
+      {
+        "coefficient": "347",
+        "exponent": 2
+      },
+      {
+        "coefficient": "364",
+        "exponent": 2
+      },
+      {
+        "coefficient": "382",
+        "exponent": 2
+      },
+      {
+        "coefficient": "401",
+        "exponent": 2
+      },
+      {
+        "coefficient": "421",
+        "exponent": 2
+      },
+      {
+        "coefficient": "442",
+        "exponent": 2
+      },
+      {
+        "coefficient": "464",
+        "exponent": 2
+      },
+      {
+        "coefficient": "487",
+        "exponent": 2
+      },
+      {
+        "coefficient": "511",
+        "exponent": 2
+      },
+      {
+        "coefficient": "536",
+        "exponent": 2
+      },
+      {
+        "coefficient": "562",
+        "exponent": 2
+      },
+      {
+        "coefficient": "590",
+        "exponent": 2
+      },
+      {
+        "coefficient": "619",
+        "exponent": 2
+      },
+      {
+        "coefficient": "650",
+        "exponent": 2
+      },
+      {
+        "coefficient": "682",
+        "exponent": 2
+      },
+      {
+        "coefficient": "716",
+        "exponent": 2
+      },
+      {
+        "coefficient": "751",
+        "exponent": 2
+      },
+      {
+        "coefficient": "788",
+        "exponent": 2
+      },
+      {
+        "coefficient": "827",
+        "exponent": 2
+      },
+      {
+        "coefficient": "868",
+        "exponent": 2
+      },
+      {
+        "coefficient": "911",
+        "exponent": 2
+      },
+      {
+        "coefficient": "956",
+        "exponent": 2
+      },
+      {
+        "coefficient": "999",
+        "exponent": 2
+      },
+      {
+        "coefficient": "104",
+        "exponent": 3
+      },
+      {
+        "coefficient": "109",
+        "exponent": 3
+      },
+      {
+        "coefficient": "114",
+        "exponent": 3
+      },
+      {
+        "coefficient": "119",
+        "exponent": 3
+      },
+      {
+        "coefficient": "125",
+        "exponent": 3
+      },
+      {
+        "coefficient": "131",
+        "exponent": 3
+      },
+      {
+        "coefficient": "137",
+        "exponent": 3
+      },
+      {
+        "coefficient": "143",
+        "exponent": 3
+      },
+      {
+        "coefficient": "150",
+        "exponent": 3
+      },
+      {
+        "coefficient": "157",
+        "exponent": 3
+      },
+      {
+        "coefficient": "164",
+        "exponent": 3
+      },
+      {
+        "coefficient": "172",
+        "exponent": 3
+      },
+      {
+        "coefficient": "180",
+        "exponent": 3
+      },
+      {
+        "coefficient": "189",
+        "exponent": 3
+      },
+      {
+        "coefficient": "198",
+        "exponent": 3
+      },
+      {
+        "coefficient": "207",
+        "exponent": 3
+      },
+      {
+        "coefficient": "217",
+        "exponent": 3
+      },
+      {
+        "coefficient": "227",
+        "exponent": 3
+      },
+      {
+        "coefficient": "238",
+        "exponent": 3
+      },
+      {
+        "coefficient": "249",
+        "exponent": 3
+      },
+      {
+        "coefficient": "261",
+        "exponent": 3
+      },
+      {
+        "coefficient": "274",
+        "exponent": 3
+      },
+      {
+        "coefficient": "287",
+        "exponent": 3
+      },
+      {
+        "coefficient": "301",
+        "exponent": 3
+      },
+      {
+        "coefficient": "316",
+        "exponent": 3
+      },
+      {
+        "coefficient": "331",
+        "exponent": 3
+      },
+      {
+        "coefficient": "347",
+        "exponent": 3
+      },
+      {
+        "coefficient": "364",
+        "exponent": 3
+      },
+      {
+        "coefficient": "382",
+        "exponent": 3
+      },
+      {
+        "coefficient": "401",
+        "exponent": 3
+      },
+      {
+        "coefficient": "421",
+        "exponent": 3
+      },
+      {
+        "coefficient": "442",
+        "exponent": 3
+      },
+      {
+        "coefficient": "464",
+        "exponent": 3
+      },
+      {
+        "coefficient": "487",
+        "exponent": 3
+      },
+      {
+        "coefficient": "511",
+        "exponent": 3
+      },
+      {
+        "coefficient": "536",
+        "exponent": 3
+      },
+      {
+        "coefficient": "562",
+        "exponent": 3
+      },
+      {
+        "coefficient": "590",
+        "exponent": 3
+      },
+      {
+        "coefficient": "619",
+        "exponent": 3
+      },
+      {
+        "coefficient": "650",
+        "exponent": 3
+      },
+      {
+        "coefficient": "682",
+        "exponent": 3
+      },
+      {
+        "coefficient": "716",
+        "exponent": 3
+      },
+      {
+        "coefficient": "751",
+        "exponent": 3
+      },
+      {
+        "coefficient": "788",
+        "exponent": 3
+      },
+      {
+        "coefficient": "827",
+        "exponent": 3
+      },
+      {
+        "coefficient": "868",
+        "exponent": 3
+      },
+      {
+        "coefficient": "911",
+        "exponent": 3
+      },
+      {
+        "coefficient": "956",
+        "exponent": 3
+      },
+      {
+        "coefficient": "999",
+        "exponent": 3
+      },
+      {
+        "coefficient": "104",
+        "exponent": 4
+      },
+      {
+        "coefficient": "109",
+        "exponent": 4
+      },
+      {
+        "coefficient": "114",
+        "exponent": 4
+      },
+      {
+        "coefficient": "119",
+        "exponent": 4
+      },
+      {
+        "coefficient": "125",
+        "exponent": 4
+      },
+      {
+        "coefficient": "131",
+        "exponent": 4
+      },
+      {
+        "coefficient": "137",
+        "exponent": 4
+      },
+      {
+        "coefficient": "143",
+        "exponent": 4
+      },
+      {
+        "coefficient": "150",
+        "exponent": 4
+      },
+      {
+        "coefficient": "157",
+        "exponent": 4
+      },
+      {
+        "coefficient": "164",
+        "exponent": 4
+      },
+      {
+        "coefficient": "172",
+        "exponent": 4
+      },
+      {
+        "coefficient": "180",
+        "exponent": 4
+      },
+      {
+        "coefficient": "189",
+        "exponent": 4
+      },
+      {
+        "coefficient": "198",
+        "exponent": 4
+      },
+      {
+        "coefficient": "207",
+        "exponent": 4
+      },
+      {
+        "coefficient": "217",
+        "exponent": 4
+      },
+      {
+        "coefficient": "227",
+        "exponent": 4
+      },
+      {
+        "coefficient": "238",
+        "exponent": 4
+      },
+      {
+        "coefficient": "249",
+        "exponent": 4
+      },
+      {
+        "coefficient": "261",
+        "exponent": 4
+      },
+      {
+        "coefficient": "274",
+        "exponent": 4
+      },
+      {
+        "coefficient": "287",
+        "exponent": 4
+      },
+      {
+        "coefficient": "301",
+        "exponent": 4
+      },
+      {
+        "coefficient": "316",
+        "exponent": 4
+      },
+      {
+        "coefficient": "331",
+        "exponent": 4
+      },
+      {
+        "coefficient": "347",
+        "exponent": 4
+      },
+      {
+        "coefficient": "364",
+        "exponent": 4
+      },
+      {
+        "coefficient": "382",
+        "exponent": 4
+      },
+      {
+        "coefficient": "401",
+        "exponent": 4
+      },
+      {
+        "coefficient": "421",
+        "exponent": 4
+      },
+      {
+        "coefficient": "442",
+        "exponent": 4
+      },
+      {
+        "coefficient": "464",
+        "exponent": 4
+      },
+      {
+        "coefficient": "487",
+        "exponent": 4
+      },
+      {
+        "coefficient": "511",
+        "exponent": 4
+      },
+      {
+        "coefficient": "536",
+        "exponent": 4
+      },
+      {
+        "coefficient": "562",
+        "exponent": 4
+      },
+      {
+        "coefficient": "590",
+        "exponent": 4
+      },
+      {
+        "coefficient": "619",
+        "exponent": 4
+      },
+      {
+        "coefficient": "650",
+        "exponent": 4
+      },
+      {
+        "coefficient": "682",
+        "exponent": 4
+      },
+      {
+        "coefficient": "716",
+        "exponent": 4
+      },
+      {
+        "coefficient": "751",
+        "exponent": 4
+      },
+      {
+        "coefficient": "788",
+        "exponent": 4
+      },
+      {
+        "coefficient": "827",
+        "exponent": 4
+      },
+      {
+        "coefficient": "868",
+        "exponent": 4
+      },
+      {
+        "coefficient": "911",
+        "exponent": 4
+      },
+      {
+        "coefficient": "956",
+        "exponent": 4
+      },
+      {
+        "coefficient": "100",
+        "exponent": 5
+      },
+      {
+        "coefficient": "105",
+        "exponent": 5
+      },
+      {
+        "coefficient": "110",
+        "exponent": 5
+      },
+      {
+        "coefficient": "115",
+        "exponent": 5
+      },
+      {
+        "coefficient": "120",
+        "exponent": 5
+      },
+      {
+        "coefficient": "126",
+        "exponent": 5
+      },
+      {
+        "coefficient": "132",
+        "exponent": 5
+      },
+      {
+        "coefficient": "138",
+        "exponent": 5
+      },
+      {
+        "coefficient": "144",
+        "exponent": 5
+      },
+      {
+        "coefficient": "151",
+        "exponent": 5
+      },
+      {
+        "coefficient": "158",
+        "exponent": 5
+      },
+      {
+        "coefficient": "165",
+        "exponent": 5
+      },
+      {
+        "coefficient": "173",
+        "exponent": 5
+      },
+      {
+        "coefficient": "181",
+        "exponent": 5
+      },
+      {
+        "coefficient": "190",
+        "exponent": 5
+      },
+      {
+        "coefficient": "199",
+        "exponent": 5
+      },
+      {
+        "coefficient": "208",
+        "exponent": 5
+      },
+      {
+        "coefficient": "218",
+        "exponent": 5
+      },
+      {
+        "coefficient": "228",
+        "exponent": 5
+      },
+      {
+        "coefficient": "239",
+        "exponent": 5
+      },
+      {
+        "coefficient": "250",
+        "exponent": 5
+      },
+      {
+        "coefficient": "262",
+        "exponent": 5
+      },
+      {
+        "coefficient": "275",
+        "exponent": 5
+      },
+      {
+        "coefficient": "288",
+        "exponent": 5
+      },
+      {
+        "coefficient": "302",
+        "exponent": 5
+      },
+      {
+        "coefficient": "317",
+        "exponent": 5
+      },
+      {
+        "coefficient": "332",
+        "exponent": 5
+      },
+      {
+        "coefficient": "348",
+        "exponent": 5
+      },
+      {
+        "coefficient": "365",
+        "exponent": 5
+      },
+      {
+        "coefficient": "383",
+        "exponent": 5
+      },
+      {
+        "coefficient": "402",
+        "exponent": 5
+      },
+      {
+        "coefficient": "422",
+        "exponent": 5
+      },
+      {
+        "coefficient": "443",
+        "exponent": 5
+      },
+      {
+        "coefficient": "465",
+        "exponent": 5
+      },
+      {
+        "coefficient": "488",
+        "exponent": 5
+      },
+      {
+        "coefficient": "512",
+        "exponent": 5
+      },
+      {
+        "coefficient": "537",
+        "exponent": 5
+      },
+      {
+        "coefficient": "563",
+        "exponent": 5
+      },
+      {
+        "coefficient": "591",
+        "exponent": 5
+      },
+      {
+        "coefficient": "620",
+        "exponent": 5
+      },
+      {
+        "coefficient": "651",
+        "exponent": 5
+      },
+      {
+        "coefficient": "683",
+        "exponent": 5
+      },
+      {
+        "coefficient": "717",
+        "exponent": 5
+      },
+      {
+        "coefficient": "752",
+        "exponent": 5
+      },
+      {
+        "coefficient": "789",
+        "exponent": 5
+      },
+      {
+        "coefficient": "828",
+        "exponent": 5
+      },
+      {
+        "coefficient": "869",
+        "exponent": 5
+      },
+      {
+        "coefficient": "912",
+        "exponent": 5
+      },
+      {
+        "coefficient": "957",
+        "exponent": 5
+      },
+      {
+        "coefficient": "100",
+        "exponent": 6
+      },
+      {
+        "coefficient": "105",
+        "exponent": 6
+      },
+      {
+        "coefficient": "110",
+        "exponent": 6
+      },
+      {
+        "coefficient": "115",
+        "exponent": 6
+      },
+      {
+        "coefficient": "120",
+        "exponent": 6
+      },
+      {
+        "coefficient": "126",
+        "exponent": 6
+      },
+      {
+        "coefficient": "132",
+        "exponent": 6
+      }
+    ],
+    "Money_Balance": [
+      {
+        "coefficient": "500",
+        "exponent": -2
+      },
+      {
+        "coefficient": "100",
+        "exponent": -1
+      },
+      {
+        "coefficient": "150",
+        "exponent": -1
+      },
+      {
+        "coefficient": "200",
+        "exponent": -1
+      },
+      {
+        "coefficient": "260",
+        "exponent": -1
+      },
+      {
+        "coefficient": "320",
+        "exponent": -1
+      },
+      {
+        "coefficient": "380",
+        "exponent": -1
+      },
+      {
+        "coefficient": "440",
+        "exponent": -1
+      },
+      {
+        "coefficient": "510",
+        "exponent": -1
+      },
+      {
+        "coefficient": "580",
+        "exponent": -1
+      },
+      {
+        "coefficient": "650",
+        "exponent": -1
+      },
+      {
+        "coefficient": "730",
+        "exponent": -1
+      },
+      {
+        "coefficient": "810",
+        "exponent": -1
+      },
+      {
+        "coefficient": "900",
+        "exponent": -1
+      },
+      {
+        "coefficient": "990",
+        "exponent": -1
+      },
+      {
+        "coefficient": "108",
+        "exponent": 0
+      },
+      {
+        "coefficient": "118",
+        "exponent": 0
+      },
+      {
+        "coefficient": "128",
+        "exponent": 0
+      },
+      {
+        "coefficient": "139",
+        "exponent": 0
+      },
+      {
+        "coefficient": "150",
+        "exponent": 0
+      },
+      {
+        "coefficient": "162",
+        "exponent": 0
+      },
+      {
+        "coefficient": "175",
+        "exponent": 0
+      },
+      {
+        "coefficient": "188",
+        "exponent": 0
+      },
+      {
+        "coefficient": "202",
+        "exponent": 0
+      },
+      {
+        "coefficient": "217",
+        "exponent": 0
+      },
+      {
+        "coefficient": "232",
+        "exponent": 0
+      },
+      {
+        "coefficient": "248",
+        "exponent": 0
+      },
+      {
+        "coefficient": "265",
+        "exponent": 0
+      },
+      {
+        "coefficient": "283",
+        "exponent": 0
+      },
+      {
+        "coefficient": "302",
+        "exponent": 0
+      },
+      {
+        "coefficient": "322",
+        "exponent": 0
+      },
+      {
+        "coefficient": "343",
+        "exponent": 0
+      },
+      {
+        "coefficient": "365",
+        "exponent": 0
+      },
+      {
+        "coefficient": "388",
+        "exponent": 0
+      },
+      {
+        "coefficient": "412",
+        "exponent": 0
+      },
+      {
+        "coefficient": "437",
+        "exponent": 0
+      },
+      {
+        "coefficient": "463",
+        "exponent": 0
+      },
+      {
+        "coefficient": "491",
+        "exponent": 0
+      },
+      {
+        "coefficient": "520",
+        "exponent": 0
+      },
+      {
+        "coefficient": "551",
+        "exponent": 0
+      },
+      {
+        "coefficient": "583",
+        "exponent": 0
+      },
+      {
+        "coefficient": "617",
+        "exponent": 0
+      },
+      {
+        "coefficient": "652",
+        "exponent": 0
+      },
+      {
+        "coefficient": "689",
+        "exponent": 0
+      },
+      {
+        "coefficient": "728",
+        "exponent": 0
+      },
+      {
+        "coefficient": "769",
+        "exponent": 0
+      },
+      {
+        "coefficient": "812",
+        "exponent": 0
+      },
+      {
+        "coefficient": "857",
+        "exponent": 0
+      },
+      {
+        "coefficient": "900",
+        "exponent": 0
+      },
+      {
+        "coefficient": "950",
+        "exponent": 0
+      },
+      {
+        "coefficient": "100",
+        "exponent": 1
+      },
+      {
+        "coefficient": "105",
+        "exponent": 1
+      },
+      {
+        "coefficient": "110",
+        "exponent": 1
+      },
+      {
+        "coefficient": "116",
+        "exponent": 1
+      },
+      {
+        "coefficient": "122",
+        "exponent": 1
+      },
+      {
+        "coefficient": "128",
+        "exponent": 1
+      },
+      {
+        "coefficient": "134",
+        "exponent": 1
+      },
+      {
+        "coefficient": "141",
+        "exponent": 1
+      },
+      {
+        "coefficient": "148",
+        "exponent": 1
+      },
+      {
+        "coefficient": "155",
+        "exponent": 1
+      },
+      {
+        "coefficient": "163",
+        "exponent": 1
+      },
+      {
+        "coefficient": "171",
+        "exponent": 1
+      },
+      {
+        "coefficient": "180",
+        "exponent": 1
+      },
+      {
+        "coefficient": "189",
+        "exponent": 1
+      },
+      {
+        "coefficient": "198",
+        "exponent": 1
+      },
+      {
+        "coefficient": "208",
+        "exponent": 1
+      },
+      {
+        "coefficient": "218",
+        "exponent": 1
+      },
+      {
+        "coefficient": "229",
+        "exponent": 1
+      },
+      {
+        "coefficient": "240",
+        "exponent": 1
+      },
+      {
+        "coefficient": "252",
+        "exponent": 1
+      },
+      {
+        "coefficient": "265",
+        "exponent": 1
+      },
+      {
+        "coefficient": "278",
+        "exponent": 1
+      },
+      {
+        "coefficient": "292",
+        "exponent": 1
+      },
+      {
+        "coefficient": "307",
+        "exponent": 1
+      },
+      {
+        "coefficient": "322",
+        "exponent": 1
+      },
+      {
+        "coefficient": "338",
+        "exponent": 1
+      },
+      {
+        "coefficient": "355",
+        "exponent": 1
+      },
+      {
+        "coefficient": "373",
+        "exponent": 1
+      },
+      {
+        "coefficient": "392",
+        "exponent": 1
+      },
+      {
+        "coefficient": "412",
+        "exponent": 1
+      },
+      {
+        "coefficient": "433",
+        "exponent": 1
+      },
+      {
+        "coefficient": "455",
+        "exponent": 1
+      },
+      {
+        "coefficient": "478",
+        "exponent": 1
+      },
+      {
+        "coefficient": "502",
+        "exponent": 1
+      },
+      {
+        "coefficient": "527",
+        "exponent": 1
+      },
+      {
+        "coefficient": "553",
+        "exponent": 1
+      },
+      {
+        "coefficient": "581",
+        "exponent": 1
+      },
+      {
+        "coefficient": "610",
+        "exponent": 1
+      },
+      {
+        "coefficient": "641",
+        "exponent": 1
+      },
+      {
+        "coefficient": "673",
+        "exponent": 1
+      },
+      {
+        "coefficient": "707",
+        "exponent": 1
+      },
+      {
+        "coefficient": "742",
+        "exponent": 1
+      },
+      {
+        "coefficient": "779",
+        "exponent": 1
+      },
+      {
+        "coefficient": "818",
+        "exponent": 1
+      },
+      {
+        "coefficient": "859",
+        "exponent": 1
+      },
+      {
+        "coefficient": "902",
+        "exponent": 1
+      },
+      {
+        "coefficient": "947",
+        "exponent": 1
+      },
+      {
+        "coefficient": "990",
+        "exponent": 1
+      },
+      {
+        "coefficient": "104",
+        "exponent": 2
+      },
+      {
+        "coefficient": "109",
+        "exponent": 2
+      },
+      {
+        "coefficient": "114",
+        "exponent": 2
+      },
+      {
+        "coefficient": "119",
+        "exponent": 2
+      },
+      {
+        "coefficient": "125",
+        "exponent": 2
+      },
+      {
+        "coefficient": "131",
+        "exponent": 2
+      },
+      {
+        "coefficient": "137",
+        "exponent": 2
+      },
+      {
+        "coefficient": "143",
+        "exponent": 2
+      },
+      {
+        "coefficient": "150",
+        "exponent": 2
+      },
+      {
+        "coefficient": "157",
+        "exponent": 2
+      },
+      {
+        "coefficient": "164",
+        "exponent": 2
+      },
+      {
+        "coefficient": "172",
+        "exponent": 2
+      },
+      {
+        "coefficient": "180",
+        "exponent": 2
+      },
+      {
+        "coefficient": "189",
+        "exponent": 2
+      },
+      {
+        "coefficient": "198",
+        "exponent": 2
+      },
+      {
+        "coefficient": "207",
+        "exponent": 2
+      },
+      {
+        "coefficient": "217",
+        "exponent": 2
+      },
+      {
+        "coefficient": "227",
+        "exponent": 2
+      },
+      {
+        "coefficient": "238",
+        "exponent": 2
+      },
+      {
+        "coefficient": "249",
+        "exponent": 2
+      },
+      {
+        "coefficient": "261",
+        "exponent": 2
+      },
+      {
+        "coefficient": "274",
+        "exponent": 2
+      },
+      {
+        "coefficient": "287",
+        "exponent": 2
+      },
+      {
+        "coefficient": "301",
+        "exponent": 2
+      },
+      {
+        "coefficient": "316",
+        "exponent": 2
+      },
+      {
+        "coefficient": "331",
+        "exponent": 2
+      },
+      {
+        "coefficient": "347",
+        "exponent": 2
+      },
+      {
+        "coefficient": "364",
+        "exponent": 2
+      },
+      {
+        "coefficient": "382",
+        "exponent": 2
+      },
+      {
+        "coefficient": "401",
+        "exponent": 2
+      },
+      {
+        "coefficient": "421",
+        "exponent": 2
+      },
+      {
+        "coefficient": "442",
+        "exponent": 2
+      },
+      {
+        "coefficient": "464",
+        "exponent": 2
+      },
+      {
+        "coefficient": "487",
+        "exponent": 2
+      },
+      {
+        "coefficient": "511",
+        "exponent": 2
+      },
+      {
+        "coefficient": "536",
+        "exponent": 2
+      },
+      {
+        "coefficient": "562",
+        "exponent": 2
+      },
+      {
+        "coefficient": "590",
+        "exponent": 2
+      },
+      {
+        "coefficient": "619",
+        "exponent": 2
+      },
+      {
+        "coefficient": "650",
+        "exponent": 2
+      },
+      {
+        "coefficient": "682",
+        "exponent": 2
+      },
+      {
+        "coefficient": "716",
+        "exponent": 2
+      },
+      {
+        "coefficient": "751",
+        "exponent": 2
+      },
+      {
+        "coefficient": "788",
+        "exponent": 2
+      },
+      {
+        "coefficient": "827",
+        "exponent": 2
+      },
+      {
+        "coefficient": "868",
+        "exponent": 2
+      },
+      {
+        "coefficient": "911",
+        "exponent": 2
+      },
+      {
+        "coefficient": "956",
+        "exponent": 2
+      },
+      {
+        "coefficient": "999",
+        "exponent": 2
+      },
+      {
+        "coefficient": "104",
+        "exponent": 3
+      },
+      {
+        "coefficient": "109",
+        "exponent": 3
+      },
+      {
+        "coefficient": "114",
+        "exponent": 3
+      },
+      {
+        "coefficient": "119",
+        "exponent": 3
+      },
+      {
+        "coefficient": "125",
+        "exponent": 3
+      },
+      {
+        "coefficient": "131",
+        "exponent": 3
+      },
+      {
+        "coefficient": "137",
+        "exponent": 3
+      },
+      {
+        "coefficient": "143",
+        "exponent": 3
+      },
+      {
+        "coefficient": "150",
+        "exponent": 3
+      },
+      {
+        "coefficient": "157",
+        "exponent": 3
+      },
+      {
+        "coefficient": "164",
+        "exponent": 3
+      },
+      {
+        "coefficient": "172",
+        "exponent": 3
+      },
+      {
+        "coefficient": "180",
+        "exponent": 3
+      },
+      {
+        "coefficient": "189",
+        "exponent": 3
+      },
+      {
+        "coefficient": "198",
+        "exponent": 3
+      },
+      {
+        "coefficient": "207",
+        "exponent": 3
+      },
+      {
+        "coefficient": "217",
+        "exponent": 3
+      },
+      {
+        "coefficient": "227",
+        "exponent": 3
+      },
+      {
+        "coefficient": "238",
+        "exponent": 3
+      },
+      {
+        "coefficient": "249",
+        "exponent": 3
+      },
+      {
+        "coefficient": "261",
+        "exponent": 3
+      },
+      {
+        "coefficient": "274",
+        "exponent": 3
+      },
+      {
+        "coefficient": "287",
+        "exponent": 3
+      },
+      {
+        "coefficient": "301",
+        "exponent": 3
+      },
+      {
+        "coefficient": "316",
+        "exponent": 3
+      },
+      {
+        "coefficient": "331",
+        "exponent": 3
+      },
+      {
+        "coefficient": "347",
+        "exponent": 3
+      },
+      {
+        "coefficient": "364",
+        "exponent": 3
+      },
+      {
+        "coefficient": "382",
+        "exponent": 3
+      },
+      {
+        "coefficient": "401",
+        "exponent": 3
+      },
+      {
+        "coefficient": "421",
+        "exponent": 3
+      },
+      {
+        "coefficient": "442",
+        "exponent": 3
+      },
+      {
+        "coefficient": "464",
+        "exponent": 3
+      },
+      {
+        "coefficient": "487",
+        "exponent": 3
+      },
+      {
+        "coefficient": "511",
+        "exponent": 3
+      },
+      {
+        "coefficient": "536",
+        "exponent": 3
+      },
+      {
+        "coefficient": "562",
+        "exponent": 3
+      },
+      {
+        "coefficient": "590",
+        "exponent": 3
+      },
+      {
+        "coefficient": "619",
+        "exponent": 3
+      },
+      {
+        "coefficient": "650",
+        "exponent": 3
+      },
+      {
+        "coefficient": "682",
+        "exponent": 3
+      },
+      {
+        "coefficient": "716",
+        "exponent": 3
+      },
+      {
+        "coefficient": "751",
+        "exponent": 3
+      },
+      {
+        "coefficient": "788",
+        "exponent": 3
+      },
+      {
+        "coefficient": "827",
+        "exponent": 3
+      },
+      {
+        "coefficient": "868",
+        "exponent": 3
+      },
+      {
+        "coefficient": "911",
+        "exponent": 3
+      },
+      {
+        "coefficient": "956",
+        "exponent": 3
+      },
+      {
+        "coefficient": "999",
+        "exponent": 3
+      },
+      {
+        "coefficient": "104",
+        "exponent": 4
+      },
+      {
+        "coefficient": "109",
+        "exponent": 4
+      },
+      {
+        "coefficient": "114",
+        "exponent": 4
+      },
+      {
+        "coefficient": "119",
+        "exponent": 4
+      },
+      {
+        "coefficient": "125",
+        "exponent": 4
+      },
+      {
+        "coefficient": "131",
+        "exponent": 4
+      },
+      {
+        "coefficient": "137",
+        "exponent": 4
+      },
+      {
+        "coefficient": "143",
+        "exponent": 4
+      },
+      {
+        "coefficient": "150",
+        "exponent": 4
+      },
+      {
+        "coefficient": "157",
+        "exponent": 4
+      },
+      {
+        "coefficient": "164",
+        "exponent": 4
+      },
+      {
+        "coefficient": "172",
+        "exponent": 4
+      },
+      {
+        "coefficient": "180",
+        "exponent": 4
+      },
+      {
+        "coefficient": "189",
+        "exponent": 4
+      },
+      {
+        "coefficient": "198",
+        "exponent": 4
+      },
+      {
+        "coefficient": "207",
+        "exponent": 4
+      },
+      {
+        "coefficient": "217",
+        "exponent": 4
+      },
+      {
+        "coefficient": "227",
+        "exponent": 4
+      },
+      {
+        "coefficient": "238",
+        "exponent": 4
+      },
+      {
+        "coefficient": "249",
+        "exponent": 4
+      },
+      {
+        "coefficient": "261",
+        "exponent": 4
+      },
+      {
+        "coefficient": "274",
+        "exponent": 4
+      },
+      {
+        "coefficient": "287",
+        "exponent": 4
+      },
+      {
+        "coefficient": "301",
+        "exponent": 4
+      },
+      {
+        "coefficient": "316",
+        "exponent": 4
+      },
+      {
+        "coefficient": "331",
+        "exponent": 4
+      },
+      {
+        "coefficient": "347",
+        "exponent": 4
+      },
+      {
+        "coefficient": "364",
+        "exponent": 4
+      },
+      {
+        "coefficient": "382",
+        "exponent": 4
+      },
+      {
+        "coefficient": "401",
+        "exponent": 4
+      },
+      {
+        "coefficient": "421",
+        "exponent": 4
+      },
+      {
+        "coefficient": "442",
+        "exponent": 4
+      },
+      {
+        "coefficient": "464",
+        "exponent": 4
+      },
+      {
+        "coefficient": "487",
+        "exponent": 4
+      },
+      {
+        "coefficient": "511",
+        "exponent": 4
+      },
+      {
+        "coefficient": "536",
+        "exponent": 4
+      },
+      {
+        "coefficient": "562",
+        "exponent": 4
+      },
+      {
+        "coefficient": "590",
+        "exponent": 4
+      },
+      {
+        "coefficient": "619",
+        "exponent": 4
+      },
+      {
+        "coefficient": "650",
+        "exponent": 4
+      },
+      {
+        "coefficient": "682",
+        "exponent": 4
+      },
+      {
+        "coefficient": "716",
+        "exponent": 4
+      },
+      {
+        "coefficient": "751",
+        "exponent": 4
+      },
+      {
+        "coefficient": "788",
+        "exponent": 4
+      },
+      {
+        "coefficient": "827",
+        "exponent": 4
+      },
+      {
+        "coefficient": "868",
+        "exponent": 4
+      },
+      {
+        "coefficient": "911",
+        "exponent": 4
+      },
+      {
+        "coefficient": "956",
+        "exponent": 4
+      },
+      {
+        "coefficient": "100",
+        "exponent": 5
+      },
+      {
+        "coefficient": "105",
+        "exponent": 5
+      },
+      {
+        "coefficient": "110",
+        "exponent": 5
+      },
+      {
+        "coefficient": "115",
+        "exponent": 5
+      },
+      {
+        "coefficient": "120",
+        "exponent": 5
+      },
+      {
+        "coefficient": "126",
+        "exponent": 5
+      },
+      {
+        "coefficient": "132",
+        "exponent": 5
+      },
+      {
+        "coefficient": "138",
+        "exponent": 5
+      },
+      {
+        "coefficient": "144",
+        "exponent": 5
+      },
+      {
+        "coefficient": "151",
+        "exponent": 5
+      },
+      {
+        "coefficient": "158",
+        "exponent": 5
+      },
+      {
+        "coefficient": "165",
+        "exponent": 5
+      },
+      {
+        "coefficient": "173",
+        "exponent": 5
+      },
+      {
+        "coefficient": "181",
+        "exponent": 5
+      },
+      {
+        "coefficient": "190",
+        "exponent": 5
+      },
+      {
+        "coefficient": "199",
+        "exponent": 5
+      },
+      {
+        "coefficient": "208",
+        "exponent": 5
+      },
+      {
+        "coefficient": "218",
+        "exponent": 5
+      },
+      {
+        "coefficient": "228",
+        "exponent": 5
+      },
+      {
+        "coefficient": "239",
+        "exponent": 5
+      },
+      {
+        "coefficient": "250",
+        "exponent": 5
+      },
+      {
+        "coefficient": "262",
+        "exponent": 5
+      },
+      {
+        "coefficient": "275",
+        "exponent": 5
+      },
+      {
+        "coefficient": "288",
+        "exponent": 5
+      },
+      {
+        "coefficient": "302",
+        "exponent": 5
+      },
+      {
+        "coefficient": "317",
+        "exponent": 5
+      },
+      {
+        "coefficient": "332",
+        "exponent": 5
+      },
+      {
+        "coefficient": "348",
+        "exponent": 5
+      },
+      {
+        "coefficient": "365",
+        "exponent": 5
+      },
+      {
+        "coefficient": "383",
+        "exponent": 5
+      },
+      {
+        "coefficient": "402",
+        "exponent": 5
+      },
+      {
+        "coefficient": "422",
+        "exponent": 5
+      },
+      {
+        "coefficient": "443",
+        "exponent": 5
+      },
+      {
+        "coefficient": "465",
+        "exponent": 5
+      },
+      {
+        "coefficient": "488",
+        "exponent": 5
+      },
+      {
+        "coefficient": "512",
+        "exponent": 5
+      },
+      {
+        "coefficient": "537",
+        "exponent": 5
+      },
+      {
+        "coefficient": "563",
+        "exponent": 5
+      },
+      {
+        "coefficient": "591",
+        "exponent": 5
+      },
+      {
+        "coefficient": "620",
+        "exponent": 5
+      },
+      {
+        "coefficient": "651",
+        "exponent": 5
+      },
+      {
+        "coefficient": "683",
+        "exponent": 5
+      },
+      {
+        "coefficient": "717",
+        "exponent": 5
+      },
+      {
+        "coefficient": "752",
+        "exponent": 5
+      },
+      {
+        "coefficient": "789",
+        "exponent": 5
+      },
+      {
+        "coefficient": "828",
+        "exponent": 5
+      },
+      {
+        "coefficient": "869",
+        "exponent": 5
+      },
+      {
+        "coefficient": "912",
+        "exponent": 5
+      },
+      {
+        "coefficient": "957",
+        "exponent": 5
+      },
+      {
+        "coefficient": "100",
+        "exponent": 6
+      },
+      {
+        "coefficient": "105",
+        "exponent": 6
+      },
+      {
+        "coefficient": "110",
+        "exponent": 6
+      },
+      {
+        "coefficient": "115",
+        "exponent": 6
+      },
+      {
+        "coefficient": "120",
+        "exponent": 6
+      },
+      {
+        "coefficient": "126",
+        "exponent": 6
+      },
+      {
+        "coefficient": "132",
+        "exponent": 6
+      }
+    ],
+    "CriDmg_Balance": [
+      {
+        "coefficient": "500",
+        "exponent": -2
+      },
+      {
+        "coefficient": "100",
+        "exponent": -1
+      },
+      {
+        "coefficient": "150",
+        "exponent": -1
+      },
+      {
+        "coefficient": "200",
+        "exponent": -1
+      },
+      {
+        "coefficient": "260",
+        "exponent": -1
+      },
+      {
+        "coefficient": "320",
+        "exponent": -1
+      },
+      {
+        "coefficient": "380",
+        "exponent": -1
+      },
+      {
+        "coefficient": "440",
+        "exponent": -1
+      },
+      {
+        "coefficient": "510",
+        "exponent": -1
+      },
+      {
+        "coefficient": "580",
+        "exponent": -1
+      },
+      {
+        "coefficient": "650",
+        "exponent": -1
+      },
+      {
+        "coefficient": "730",
+        "exponent": -1
+      },
+      {
+        "coefficient": "810",
+        "exponent": -1
+      },
+      {
+        "coefficient": "900",
+        "exponent": -1
+      },
+      {
+        "coefficient": "990",
+        "exponent": -1
+      },
+      {
+        "coefficient": "108",
+        "exponent": 0
+      },
+      {
+        "coefficient": "118",
+        "exponent": 0
+      },
+      {
+        "coefficient": "128",
+        "exponent": 0
+      },
+      {
+        "coefficient": "139",
+        "exponent": 0
+      },
+      {
+        "coefficient": "150",
+        "exponent": 0
+      },
+      {
+        "coefficient": "162",
+        "exponent": 0
+      },
+      {
+        "coefficient": "175",
+        "exponent": 0
+      },
+      {
+        "coefficient": "188",
+        "exponent": 0
+      },
+      {
+        "coefficient": "202",
+        "exponent": 0
+      },
+      {
+        "coefficient": "217",
+        "exponent": 0
+      },
+      {
+        "coefficient": "232",
+        "exponent": 0
+      },
+      {
+        "coefficient": "248",
+        "exponent": 0
+      },
+      {
+        "coefficient": "265",
+        "exponent": 0
+      },
+      {
+        "coefficient": "283",
+        "exponent": 0
+      },
+      {
+        "coefficient": "302",
+        "exponent": 0
+      },
+      {
+        "coefficient": "322",
+        "exponent": 0
+      },
+      {
+        "coefficient": "343",
+        "exponent": 0
+      },
+      {
+        "coefficient": "365",
+        "exponent": 0
+      },
+      {
+        "coefficient": "388",
+        "exponent": 0
+      },
+      {
+        "coefficient": "412",
+        "exponent": 0
+      },
+      {
+        "coefficient": "437",
+        "exponent": 0
+      },
+      {
+        "coefficient": "463",
+        "exponent": 0
+      },
+      {
+        "coefficient": "491",
+        "exponent": 0
+      },
+      {
+        "coefficient": "520",
+        "exponent": 0
+      },
+      {
+        "coefficient": "551",
+        "exponent": 0
+      },
+      {
+        "coefficient": "583",
+        "exponent": 0
+      },
+      {
+        "coefficient": "617",
+        "exponent": 0
+      },
+      {
+        "coefficient": "652",
+        "exponent": 0
+      },
+      {
+        "coefficient": "689",
+        "exponent": 0
+      },
+      {
+        "coefficient": "728",
+        "exponent": 0
+      },
+      {
+        "coefficient": "769",
+        "exponent": 0
+      },
+      {
+        "coefficient": "812",
+        "exponent": 0
+      },
+      {
+        "coefficient": "857",
+        "exponent": 0
+      },
+      {
+        "coefficient": "900",
+        "exponent": 0
+      },
+      {
+        "coefficient": "950",
+        "exponent": 0
+      },
+      {
+        "coefficient": "100",
+        "exponent": 1
+      },
+      {
+        "coefficient": "105",
+        "exponent": 1
+      },
+      {
+        "coefficient": "110",
+        "exponent": 1
+      },
+      {
+        "coefficient": "116",
+        "exponent": 1
+      },
+      {
+        "coefficient": "122",
+        "exponent": 1
+      },
+      {
+        "coefficient": "128",
+        "exponent": 1
+      },
+      {
+        "coefficient": "134",
+        "exponent": 1
+      },
+      {
+        "coefficient": "141",
+        "exponent": 1
+      },
+      {
+        "coefficient": "148",
+        "exponent": 1
+      },
+      {
+        "coefficient": "155",
+        "exponent": 1
+      },
+      {
+        "coefficient": "163",
+        "exponent": 1
+      },
+      {
+        "coefficient": "171",
+        "exponent": 1
+      },
+      {
+        "coefficient": "180",
+        "exponent": 1
+      },
+      {
+        "coefficient": "189",
+        "exponent": 1
+      },
+      {
+        "coefficient": "198",
+        "exponent": 1
+      },
+      {
+        "coefficient": "208",
+        "exponent": 1
+      },
+      {
+        "coefficient": "218",
+        "exponent": 1
+      },
+      {
+        "coefficient": "229",
+        "exponent": 1
+      },
+      {
+        "coefficient": "240",
+        "exponent": 1
+      },
+      {
+        "coefficient": "252",
+        "exponent": 1
+      },
+      {
+        "coefficient": "265",
+        "exponent": 1
+      },
+      {
+        "coefficient": "278",
+        "exponent": 1
+      },
+      {
+        "coefficient": "292",
+        "exponent": 1
+      },
+      {
+        "coefficient": "307",
+        "exponent": 1
+      },
+      {
+        "coefficient": "322",
+        "exponent": 1
+      },
+      {
+        "coefficient": "338",
+        "exponent": 1
+      },
+      {
+        "coefficient": "355",
+        "exponent": 1
+      },
+      {
+        "coefficient": "373",
+        "exponent": 1
+      },
+      {
+        "coefficient": "392",
+        "exponent": 1
+      },
+      {
+        "coefficient": "412",
+        "exponent": 1
+      },
+      {
+        "coefficient": "433",
+        "exponent": 1
+      },
+      {
+        "coefficient": "455",
+        "exponent": 1
+      },
+      {
+        "coefficient": "478",
+        "exponent": 1
+      },
+      {
+        "coefficient": "502",
+        "exponent": 1
+      },
+      {
+        "coefficient": "527",
+        "exponent": 1
+      },
+      {
+        "coefficient": "553",
+        "exponent": 1
+      },
+      {
+        "coefficient": "581",
+        "exponent": 1
+      },
+      {
+        "coefficient": "610",
+        "exponent": 1
+      },
+      {
+        "coefficient": "641",
+        "exponent": 1
+      },
+      {
+        "coefficient": "673",
+        "exponent": 1
+      },
+      {
+        "coefficient": "707",
+        "exponent": 1
+      },
+      {
+        "coefficient": "742",
+        "exponent": 1
+      },
+      {
+        "coefficient": "779",
+        "exponent": 1
+      },
+      {
+        "coefficient": "818",
+        "exponent": 1
+      },
+      {
+        "coefficient": "859",
+        "exponent": 1
+      },
+      {
+        "coefficient": "902",
+        "exponent": 1
+      },
+      {
+        "coefficient": "947",
+        "exponent": 1
+      },
+      {
+        "coefficient": "990",
+        "exponent": 1
+      },
+      {
+        "coefficient": "104",
+        "exponent": 2
+      },
+      {
+        "coefficient": "109",
+        "exponent": 2
+      },
+      {
+        "coefficient": "114",
+        "exponent": 2
+      },
+      {
+        "coefficient": "119",
+        "exponent": 2
+      },
+      {
+        "coefficient": "125",
+        "exponent": 2
+      },
+      {
+        "coefficient": "131",
+        "exponent": 2
+      },
+      {
+        "coefficient": "137",
+        "exponent": 2
+      },
+      {
+        "coefficient": "143",
+        "exponent": 2
+      },
+      {
+        "coefficient": "150",
+        "exponent": 2
+      },
+      {
+        "coefficient": "157",
+        "exponent": 2
+      },
+      {
+        "coefficient": "164",
+        "exponent": 2
+      },
+      {
+        "coefficient": "172",
+        "exponent": 2
+      },
+      {
+        "coefficient": "180",
+        "exponent": 2
+      },
+      {
+        "coefficient": "189",
+        "exponent": 2
+      },
+      {
+        "coefficient": "198",
+        "exponent": 2
+      },
+      {
+        "coefficient": "207",
+        "exponent": 2
+      },
+      {
+        "coefficient": "217",
+        "exponent": 2
+      },
+      {
+        "coefficient": "227",
+        "exponent": 2
+      },
+      {
+        "coefficient": "238",
+        "exponent": 2
+      },
+      {
+        "coefficient": "249",
+        "exponent": 2
+      },
+      {
+        "coefficient": "261",
+        "exponent": 2
+      },
+      {
+        "coefficient": "274",
+        "exponent": 2
+      },
+      {
+        "coefficient": "287",
+        "exponent": 2
+      },
+      {
+        "coefficient": "301",
+        "exponent": 2
+      },
+      {
+        "coefficient": "316",
+        "exponent": 2
+      },
+      {
+        "coefficient": "331",
+        "exponent": 2
+      },
+      {
+        "coefficient": "347",
+        "exponent": 2
+      },
+      {
+        "coefficient": "364",
+        "exponent": 2
+      },
+      {
+        "coefficient": "382",
+        "exponent": 2
+      },
+      {
+        "coefficient": "401",
+        "exponent": 2
+      },
+      {
+        "coefficient": "421",
+        "exponent": 2
+      },
+      {
+        "coefficient": "442",
+        "exponent": 2
+      },
+      {
+        "coefficient": "464",
+        "exponent": 2
+      },
+      {
+        "coefficient": "487",
+        "exponent": 2
+      },
+      {
+        "coefficient": "511",
+        "exponent": 2
+      },
+      {
+        "coefficient": "536",
+        "exponent": 2
+      },
+      {
+        "coefficient": "562",
+        "exponent": 2
+      },
+      {
+        "coefficient": "590",
+        "exponent": 2
+      },
+      {
+        "coefficient": "619",
+        "exponent": 2
+      },
+      {
+        "coefficient": "650",
+        "exponent": 2
+      },
+      {
+        "coefficient": "682",
+        "exponent": 2
+      },
+      {
+        "coefficient": "716",
+        "exponent": 2
+      },
+      {
+        "coefficient": "751",
+        "exponent": 2
+      },
+      {
+        "coefficient": "788",
+        "exponent": 2
+      },
+      {
+        "coefficient": "827",
+        "exponent": 2
+      },
+      {
+        "coefficient": "868",
+        "exponent": 2
+      },
+      {
+        "coefficient": "911",
+        "exponent": 2
+      },
+      {
+        "coefficient": "956",
+        "exponent": 2
+      },
+      {
+        "coefficient": "999",
+        "exponent": 2
+      },
+      {
+        "coefficient": "104",
+        "exponent": 3
+      },
+      {
+        "coefficient": "109",
+        "exponent": 3
+      },
+      {
+        "coefficient": "114",
+        "exponent": 3
+      },
+      {
+        "coefficient": "119",
+        "exponent": 3
+      },
+      {
+        "coefficient": "125",
+        "exponent": 3
+      },
+      {
+        "coefficient": "131",
+        "exponent": 3
+      },
+      {
+        "coefficient": "137",
+        "exponent": 3
+      },
+      {
+        "coefficient": "143",
+        "exponent": 3
+      },
+      {
+        "coefficient": "150",
+        "exponent": 3
+      },
+      {
+        "coefficient": "157",
+        "exponent": 3
+      },
+      {
+        "coefficient": "164",
+        "exponent": 3
+      },
+      {
+        "coefficient": "172",
+        "exponent": 3
+      },
+      {
+        "coefficient": "180",
+        "exponent": 3
+      },
+      {
+        "coefficient": "189",
+        "exponent": 3
+      },
+      {
+        "coefficient": "198",
+        "exponent": 3
+      },
+      {
+        "coefficient": "207",
+        "exponent": 3
+      },
+      {
+        "coefficient": "217",
+        "exponent": 3
+      },
+      {
+        "coefficient": "227",
+        "exponent": 3
+      },
+      {
+        "coefficient": "238",
+        "exponent": 3
+      },
+      {
+        "coefficient": "249",
+        "exponent": 3
+      },
+      {
+        "coefficient": "261",
+        "exponent": 3
+      },
+      {
+        "coefficient": "274",
+        "exponent": 3
+      },
+      {
+        "coefficient": "287",
+        "exponent": 3
+      },
+      {
+        "coefficient": "301",
+        "exponent": 3
+      },
+      {
+        "coefficient": "316",
+        "exponent": 3
+      },
+      {
+        "coefficient": "331",
+        "exponent": 3
+      },
+      {
+        "coefficient": "347",
+        "exponent": 3
+      },
+      {
+        "coefficient": "364",
+        "exponent": 3
+      },
+      {
+        "coefficient": "382",
+        "exponent": 3
+      },
+      {
+        "coefficient": "401",
+        "exponent": 3
+      },
+      {
+        "coefficient": "421",
+        "exponent": 3
+      },
+      {
+        "coefficient": "442",
+        "exponent": 3
+      },
+      {
+        "coefficient": "464",
+        "exponent": 3
+      },
+      {
+        "coefficient": "487",
+        "exponent": 3
+      },
+      {
+        "coefficient": "511",
+        "exponent": 3
+      },
+      {
+        "coefficient": "536",
+        "exponent": 3
+      },
+      {
+        "coefficient": "562",
+        "exponent": 3
+      },
+      {
+        "coefficient": "590",
+        "exponent": 3
+      },
+      {
+        "coefficient": "619",
+        "exponent": 3
+      },
+      {
+        "coefficient": "650",
+        "exponent": 3
+      },
+      {
+        "coefficient": "682",
+        "exponent": 3
+      },
+      {
+        "coefficient": "716",
+        "exponent": 3
+      },
+      {
+        "coefficient": "751",
+        "exponent": 3
+      },
+      {
+        "coefficient": "788",
+        "exponent": 3
+      },
+      {
+        "coefficient": "827",
+        "exponent": 3
+      },
+      {
+        "coefficient": "868",
+        "exponent": 3
+      },
+      {
+        "coefficient": "911",
+        "exponent": 3
+      },
+      {
+        "coefficient": "956",
+        "exponent": 3
+      },
+      {
+        "coefficient": "999",
+        "exponent": 3
+      },
+      {
+        "coefficient": "104",
+        "exponent": 4
+      },
+      {
+        "coefficient": "109",
+        "exponent": 4
+      },
+      {
+        "coefficient": "114",
+        "exponent": 4
+      },
+      {
+        "coefficient": "119",
+        "exponent": 4
+      },
+      {
+        "coefficient": "125",
+        "exponent": 4
+      },
+      {
+        "coefficient": "131",
+        "exponent": 4
+      },
+      {
+        "coefficient": "137",
+        "exponent": 4
+      },
+      {
+        "coefficient": "143",
+        "exponent": 4
+      },
+      {
+        "coefficient": "150",
+        "exponent": 4
+      },
+      {
+        "coefficient": "157",
+        "exponent": 4
+      },
+      {
+        "coefficient": "164",
+        "exponent": 4
+      },
+      {
+        "coefficient": "172",
+        "exponent": 4
+      },
+      {
+        "coefficient": "180",
+        "exponent": 4
+      },
+      {
+        "coefficient": "189",
+        "exponent": 4
+      },
+      {
+        "coefficient": "198",
+        "exponent": 4
+      },
+      {
+        "coefficient": "207",
+        "exponent": 4
+      },
+      {
+        "coefficient": "217",
+        "exponent": 4
+      },
+      {
+        "coefficient": "227",
+        "exponent": 4
+      },
+      {
+        "coefficient": "238",
+        "exponent": 4
+      },
+      {
+        "coefficient": "249",
+        "exponent": 4
+      },
+      {
+        "coefficient": "261",
+        "exponent": 4
+      },
+      {
+        "coefficient": "274",
+        "exponent": 4
+      },
+      {
+        "coefficient": "287",
+        "exponent": 4
+      },
+      {
+        "coefficient": "301",
+        "exponent": 4
+      },
+      {
+        "coefficient": "316",
+        "exponent": 4
+      },
+      {
+        "coefficient": "331",
+        "exponent": 4
+      },
+      {
+        "coefficient": "347",
+        "exponent": 4
+      },
+      {
+        "coefficient": "364",
+        "exponent": 4
+      },
+      {
+        "coefficient": "382",
+        "exponent": 4
+      },
+      {
+        "coefficient": "401",
+        "exponent": 4
+      },
+      {
+        "coefficient": "421",
+        "exponent": 4
+      },
+      {
+        "coefficient": "442",
+        "exponent": 4
+      },
+      {
+        "coefficient": "464",
+        "exponent": 4
+      },
+      {
+        "coefficient": "487",
+        "exponent": 4
+      },
+      {
+        "coefficient": "511",
+        "exponent": 4
+      },
+      {
+        "coefficient": "536",
+        "exponent": 4
+      },
+      {
+        "coefficient": "562",
+        "exponent": 4
+      },
+      {
+        "coefficient": "590",
+        "exponent": 4
+      },
+      {
+        "coefficient": "619",
+        "exponent": 4
+      },
+      {
+        "coefficient": "650",
+        "exponent": 4
+      },
+      {
+        "coefficient": "682",
+        "exponent": 4
+      },
+      {
+        "coefficient": "716",
+        "exponent": 4
+      },
+      {
+        "coefficient": "751",
+        "exponent": 4
+      },
+      {
+        "coefficient": "788",
+        "exponent": 4
+      },
+      {
+        "coefficient": "827",
+        "exponent": 4
+      },
+      {
+        "coefficient": "868",
+        "exponent": 4
+      },
+      {
+        "coefficient": "911",
+        "exponent": 4
+      },
+      {
+        "coefficient": "956",
+        "exponent": 4
+      },
+      {
+        "coefficient": "100",
+        "exponent": 5
+      },
+      {
+        "coefficient": "105",
+        "exponent": 5
+      },
+      {
+        "coefficient": "110",
+        "exponent": 5
+      },
+      {
+        "coefficient": "115",
+        "exponent": 5
+      },
+      {
+        "coefficient": "120",
+        "exponent": 5
+      },
+      {
+        "coefficient": "126",
+        "exponent": 5
+      },
+      {
+        "coefficient": "132",
+        "exponent": 5
+      },
+      {
+        "coefficient": "138",
+        "exponent": 5
+      },
+      {
+        "coefficient": "144",
+        "exponent": 5
+      },
+      {
+        "coefficient": "151",
+        "exponent": 5
+      },
+      {
+        "coefficient": "158",
+        "exponent": 5
+      },
+      {
+        "coefficient": "165",
+        "exponent": 5
+      },
+      {
+        "coefficient": "173",
+        "exponent": 5
+      },
+      {
+        "coefficient": "181",
+        "exponent": 5
+      },
+      {
+        "coefficient": "190",
+        "exponent": 5
+      },
+      {
+        "coefficient": "199",
+        "exponent": 5
+      },
+      {
+        "coefficient": "208",
+        "exponent": 5
+      },
+      {
+        "coefficient": "218",
+        "exponent": 5
+      },
+      {
+        "coefficient": "228",
+        "exponent": 5
+      },
+      {
+        "coefficient": "239",
+        "exponent": 5
+      },
+      {
+        "coefficient": "250",
+        "exponent": 5
+      },
+      {
+        "coefficient": "262",
+        "exponent": 5
+      },
+      {
+        "coefficient": "275",
+        "exponent": 5
+      },
+      {
+        "coefficient": "288",
+        "exponent": 5
+      },
+      {
+        "coefficient": "302",
+        "exponent": 5
+      },
+      {
+        "coefficient": "317",
+        "exponent": 5
+      },
+      {
+        "coefficient": "332",
+        "exponent": 5
+      },
+      {
+        "coefficient": "348",
+        "exponent": 5
+      },
+      {
+        "coefficient": "365",
+        "exponent": 5
+      },
+      {
+        "coefficient": "383",
+        "exponent": 5
+      },
+      {
+        "coefficient": "402",
+        "exponent": 5
+      },
+      {
+        "coefficient": "422",
+        "exponent": 5
+      },
+      {
+        "coefficient": "443",
+        "exponent": 5
+      },
+      {
+        "coefficient": "465",
+        "exponent": 5
+      },
+      {
+        "coefficient": "488",
+        "exponent": 5
+      },
+      {
+        "coefficient": "512",
+        "exponent": 5
+      },
+      {
+        "coefficient": "537",
+        "exponent": 5
+      },
+      {
+        "coefficient": "563",
+        "exponent": 5
+      },
+      {
+        "coefficient": "591",
+        "exponent": 5
+      },
+      {
+        "coefficient": "620",
+        "exponent": 5
+      },
+      {
+        "coefficient": "651",
+        "exponent": 5
+      },
+      {
+        "coefficient": "683",
+        "exponent": 5
+      },
+      {
+        "coefficient": "717",
+        "exponent": 5
+      },
+      {
+        "coefficient": "752",
+        "exponent": 5
+      },
+      {
+        "coefficient": "789",
+        "exponent": 5
+      },
+      {
+        "coefficient": "828",
+        "exponent": 5
+      },
+      {
+        "coefficient": "869",
+        "exponent": 5
+      },
+      {
+        "coefficient": "912",
+        "exponent": 5
+      },
+      {
+        "coefficient": "957",
+        "exponent": 5
+      },
+      {
+        "coefficient": "100",
+        "exponent": 6
+      },
+      {
+        "coefficient": "105",
+        "exponent": 6
+      },
+      {
+        "coefficient": "110",
+        "exponent": 6
+      },
+      {
+        "coefficient": "115",
+        "exponent": 6
+      },
+      {
+        "coefficient": "120",
+        "exponent": 6
+      },
+      {
+        "coefficient": "126",
+        "exponent": 6
+      },
+      {
+        "coefficient": "132",
+        "exponent": 6
+      }
+    ]
+  },
+  "itemUI": [
+    "level0:3555",
+    "level0:7100",
+    "level0:7092",
+    "level0:7095",
+    "level0:7096",
+    "level0:7097",
+    "level0:7098",
+    "level0:7093",
+    "level0:7103",
+    "level0:7101",
+    "level0:7102",
+    "level0:7094",
+    "level0:7099",
+    "level0:7091",
+    "level0:7090"
+  ]
+}

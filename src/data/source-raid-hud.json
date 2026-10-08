@@ -1,0 +1,5349 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "unitySha256": "12a68a5fe3c5d40de08cb430543f6ee2a7cc13a91f7e92fea862085e0977e7a5",
+    "unityVersion": "6000.0.61f1",
+    "file": "level0",
+    "canvasPathID": 102616,
+    "canvasGameObjectPathID": 866,
+    "scalerPathID": 124022
+  },
+  "coordinateConvention": "RectTransform Y up; Pixi Y down; Canvas root runtime scale replaces serialized zero scale. Layout padding order left,right,top,bottom. Stable id=file:GameObjectPathID.",
+  "canvas": {
+    "root": "level0:866",
+    "scaler": {
+      "uiScaleMode": 1,
+      "referencePixelsPerUnit": 100.0,
+      "scaleFactor": 1.0,
+      "referenceResolution": [
+        1080.0,
+        1920.0
+      ],
+      "screenMatchMode": 0,
+      "matchWidthOrHeight": 0.0,
+      "physicalUnit": 3,
+      "fallbackScreenDPI": 96.0,
+      "defaultSpriteDPI": 96.0,
+      "dynamicPixelsPerUnit": 1.0,
+      "presetInfoIsWorld": false
+    }
+  },
+  "nodes": [
+    {
+      "id": "level0:866",
+      "name": "Canvas",
+      "path": "/Canvas",
+      "file": "level0",
+      "gameObjectPathID": 866,
+      "transformPathID": 103466,
+      "parent": null,
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          0.0,
+          0.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          0.0
+        ],
+        "pivot": [
+          0.0,
+          0.0
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "Canvas",
+          "pathID": 102616,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 866
+            },
+            "m_Enabled": 1,
+            "m_RenderMode": 0,
+            "m_Camera": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_PlaneDistance": 100.0,
+            "m_PixelPerfect": false,
+            "m_ReceivesEvents": true,
+            "m_OverrideSorting": false,
+            "m_OverridePixelPerfect": false,
+            "m_SortingBucketNormalizedSize": 0.0,
+            "m_VertexColorAlwaysGammaSpace": false,
+            "m_AdditionalShaderChannelsFlag": 25,
+            "m_UpdateRectTransformForStandalone": 0,
+            "m_SortingLayerID": 0,
+            "m_SortingOrder": 0,
+            "m_TargetDisplay": 0
+          }
+        },
+        {
+          "kind": "CanvasScaler",
+          "pathID": 124022,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 80,
+          "data": {
+            "uiScaleMode": 1,
+            "referencePixelsPerUnit": 100.0,
+            "scaleFactor": 1.0,
+            "referenceResolution": [
+              1080.0,
+              1920.0
+            ],
+            "screenMatchMode": 0,
+            "matchWidthOrHeight": 0.0,
+            "physicalUnit": 3,
+            "fallbackScreenDPI": 96.0,
+            "defaultSpriteDPI": 96.0,
+            "dynamicPixelsPerUnit": 1.0,
+            "presetInfoIsWorld": false
+          },
+          "decode": {
+            "serializedBytes": 80,
+            "consumedBytes": 80,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_UiScaleMode": 32,
+              "m_ReferencePixelsPerUnit": 36,
+              "m_ScaleFactor": 40,
+              "m_ReferenceResolution": 44,
+              "m_ScreenMatchMode": 52,
+              "m_MatchWidthOrHeight": 56,
+              "m_PhysicalUnit": 60,
+              "m_FallbackScreenDPI": 64,
+              "m_DefaultSpriteDPI": 68,
+              "m_DynamicPixelsPerUnit": 72,
+              "m_PresetInfoIsWorld": 76
+            }
+          }
+        },
+        {
+          "kind": "GraphicRaycaster",
+          "pathID": 124021,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 44,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:415",
+      "name": "SafeArea",
+      "path": "/Canvas/SafeArea",
+      "file": "level0",
+      "gameObjectPathID": 415,
+      "transformPathID": 103034,
+      "parent": "level0:866",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          0.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": []
+    },
+    {
+      "id": "level0:1879",
+      "name": "Raid_UI",
+      "path": "/Canvas/SafeArea/Raid_UI",
+      "file": "level0",
+      "gameObjectPathID": 1879,
+      "transformPathID": 104438,
+      "parent": "level0:415",
+      "siblingIndex": 6,
+      "active": false,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          0.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "Raid_Ingame_UI",
+          "pathID": 125222,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 260,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:89",
+      "name": "Time_Slider",
+      "path": "/Canvas/SafeArea/Raid_UI/Time_Slider",
+      "file": "level0",
+      "gameObjectPathID": 89,
+      "transformPathID": 102722,
+      "parent": "level0:1879",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          1.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          37.0
+        ],
+        "pivot": [
+          0.5,
+          1.0
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89483,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 89
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 123055,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.4905660152435303,
+              0.39075955748558044,
+              0.15040940046310425,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 482
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:482",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        },
+        {
+          "kind": "Boss_Slider",
+          "pathID": 123054,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 80,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:1632",
+      "name": "Fill",
+      "path": "/Canvas/SafeArea/Raid_UI/Time_Slider/Fill",
+      "file": "level0",
+      "gameObjectPathID": 1632,
+      "transformPathID": 104198,
+      "parent": "level0:89",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          2.09808349609375e-05,
+          0.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90685,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1632
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "SlicedFilledImage",
+          "pathID": 124908,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 116,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.988235354423523,
+              0.8901961445808411,
+              0.7490196228027344,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 482
+            },
+            "fillDirection": 0,
+            "fillAmount": 0.4779999852180481,
+            "fillCenter": true,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:482",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 116,
+            "consumedBytes": 116,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_FillDirection": 100,
+              "m_FillAmount": 104,
+              "m_FillCenter": 108,
+              "m_PixelsPerUnitMultiplier": 112
+            }
+          }
+        },
+        {
+          "kind": "Mask",
+          "pathID": 124907,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 36,
+          "data": {
+            "showMaskGraphic": true
+          },
+          "decode": {
+            "serializedBytes": 36,
+            "consumedBytes": 36,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_ShowMaskGraphic": 32
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:1264",
+      "name": "Outline",
+      "path": "/Canvas/SafeArea/Raid_UI/Time_Slider/Outline",
+      "file": "level0",
+      "gameObjectPathID": 1264,
+      "transformPathID": 103849,
+      "parent": "level0:89",
+      "siblingIndex": 1,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          0.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90408,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1264
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 124489,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 466
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:466",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:1822",
+      "name": "Time_txt",
+      "path": "/Canvas/SafeArea/Raid_UI/Time_Slider/Time_txt",
+      "file": "level0",
+      "gameObjectPathID": 1822,
+      "transformPathID": 104382,
+      "parent": "level0:89",
+      "siblingIndex": 2,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          0.0,
+          -8.300000190734863
+        ],
+        "sizeDelta": [
+          332.8999938964844,
+          50.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90839,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1822
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 117352,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 516,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "0s",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1006
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 75
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 30.0,
+            "fontSizeBase": 30.0,
+            "fontWeight": 400,
+            "autoSize": false,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 72.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 0.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 516,
+              "consumedBytes": 488,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 96,
+                "m_fontAsset": 100,
+                "m_sharedMaterial": 112,
+                "m_fontSharedMaterialsCount": 124,
+                "m_fontMaterial": 128,
+                "m_fontMaterialsCount": 140,
+                "m_fontColor32": 144,
+                "m_fontColor": 148,
+                "m_enableVertexGradient": 164,
+                "m_colorMode": 168,
+                "m_fontColorGradient": 172,
+                "m_fontColorGradientPreset": 236,
+                "m_spriteAsset": 248,
+                "m_tintAllSprites": 260,
+                "m_StyleSheet": 264,
+                "m_TextStyleHashCode": 276,
+                "m_overrideHtmlColors": 280,
+                "m_faceColor": 284,
+                "m_fontSize": 288,
+                "m_fontSizeBase": 292,
+                "m_fontWeight": 296,
+                "m_enableAutoSizing": 300,
+                "m_fontSizeMin": 304,
+                "m_fontSizeMax": 308,
+                "fontStyle": 312,
+                "horizontalAlignment": 316,
+                "verticalAlignment": 320,
+                "textAlignment": 324,
+                "m_characterSpacing": 328,
+                "m_wordSpacing": 332,
+                "m_lineSpacing": 336,
+                "m_lineSpacingMax": 340,
+                "m_paragraphSpacing": 344,
+                "m_charWidthMaxAdj": 348,
+                "m_TextWrappingMode": 352,
+                "m_wordWrappingRatios": 356,
+                "m_overflowMode": 360,
+                "m_linkedTextComponent": 364,
+                "parentLinkedComponent": 376,
+                "m_enableKerning": 388,
+                "m_ActiveFontFeaturesCount": 392,
+                "enableExtraPadding": 400,
+                "checkPaddingRequired": 404,
+                "isRichText": 408,
+                "EmojiFallbackSupport": 412,
+                "EnableAdvancedText": 416,
+                "parseCtrlCharacters": 420,
+                "isOrthographic": 424,
+                "isCullingEnabled": 428,
+                "horizontalMapping": 432,
+                "verticalMapping": 436,
+                "uvLineOffset": 440,
+                "geometrySortingOrder": 444,
+                "IsTextObjectScaleStatic": 448,
+                "VertexBufferAutoSizeReduction": 452,
+                "useMaxVisibleDescender": 456,
+                "m_pageToDisplay": 460,
+                "m_margin": 464,
+                "isUsingLegacyAnimationComponent": 480,
+                "isVolumetricText": 484
+              }
+            },
+            "fontKey": "sharedassets0.assets:1006",
+            "materialKey": "sharedassets0.assets:75"
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:10254",
+      "name": "HighScore_txt",
+      "path": "/Canvas/SafeArea/Raid_UI/HighScore_txt",
+      "file": "level0",
+      "gameObjectPathID": 10254,
+      "transformPathID": 105584,
+      "parent": "level0:1879",
+      "siblingIndex": 1,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          1.0
+        ],
+        "anchorMax": [
+          0.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          517.0,
+          -74.0
+        ],
+        "sizeDelta": [
+          1000.0,
+          50.0216064453125
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 101049,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 10254
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 121341,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 552,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "이번주 최고기록 : <size=45>Lv.30",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1009
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 72
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 36.0,
+            "fontSizeBase": 36.0,
+            "fontWeight": 400,
+            "autoSize": false,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 45.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 1,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 0.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 552,
+              "consumedBytes": 524,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 132,
+                "m_fontAsset": 136,
+                "m_sharedMaterial": 148,
+                "m_fontSharedMaterialsCount": 160,
+                "m_fontMaterial": 164,
+                "m_fontMaterialsCount": 176,
+                "m_fontColor32": 180,
+                "m_fontColor": 184,
+                "m_enableVertexGradient": 200,
+                "m_colorMode": 204,
+                "m_fontColorGradient": 208,
+                "m_fontColorGradientPreset": 272,
+                "m_spriteAsset": 284,
+                "m_tintAllSprites": 296,
+                "m_StyleSheet": 300,
+                "m_TextStyleHashCode": 312,
+                "m_overrideHtmlColors": 316,
+                "m_faceColor": 320,
+                "m_fontSize": 324,
+                "m_fontSizeBase": 328,
+                "m_fontWeight": 332,
+                "m_enableAutoSizing": 336,
+                "m_fontSizeMin": 340,
+                "m_fontSizeMax": 344,
+                "fontStyle": 348,
+                "horizontalAlignment": 352,
+                "verticalAlignment": 356,
+                "textAlignment": 360,
+                "m_characterSpacing": 364,
+                "m_wordSpacing": 368,
+                "m_lineSpacing": 372,
+                "m_lineSpacingMax": 376,
+                "m_paragraphSpacing": 380,
+                "m_charWidthMaxAdj": 384,
+                "m_TextWrappingMode": 388,
+                "m_wordWrappingRatios": 392,
+                "m_overflowMode": 396,
+                "m_linkedTextComponent": 400,
+                "parentLinkedComponent": 412,
+                "m_enableKerning": 424,
+                "m_ActiveFontFeaturesCount": 428,
+                "enableExtraPadding": 436,
+                "checkPaddingRequired": 440,
+                "isRichText": 444,
+                "EmojiFallbackSupport": 448,
+                "EnableAdvancedText": 452,
+                "parseCtrlCharacters": 456,
+                "isOrthographic": 460,
+                "isCullingEnabled": 464,
+                "horizontalMapping": 468,
+                "verticalMapping": 472,
+                "uvLineOffset": 476,
+                "geometrySortingOrder": 480,
+                "IsTextObjectScaleStatic": 484,
+                "VertexBufferAutoSizeReduction": 488,
+                "useMaxVisibleDescender": 492,
+                "m_pageToDisplay": 496,
+                "m_margin": 500,
+                "isUsingLegacyAnimationComponent": 516,
+                "isVolumetricText": 520
+              }
+            },
+            "fontKey": "sharedassets0.assets:1009",
+            "materialKey": "sharedassets0.assets:72"
+          }
+        },
+        {
+          "kind": "Localize",
+          "pathID": 139994,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 204,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:1084",
+      "name": "HighScore_obj",
+      "path": "/Canvas/SafeArea/Raid_UI/HighScore_obj",
+      "file": "level0",
+      "gameObjectPathID": 1084,
+      "transformPathID": 103677,
+      "parent": "level0:1879",
+      "siblingIndex": 2,
+      "active": false,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          1.0
+        ],
+        "anchorMax": [
+          0.5,
+          1.0
+        ],
+        "anchoredPosition": [
+          -0.6273999810218811,
+          -175.0
+        ],
+        "sizeDelta": [
+          720.0,
+          100.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90270,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1084
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 124277,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              0.9914532899856567,
+              0.5411764979362488,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 447
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:447",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        },
+        {
+          "kind": "DOTweenAnimation",
+          "pathID": 124276,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 376,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:10217",
+      "name": "I2_txt(Outline)",
+      "path": "/Canvas/SafeArea/Raid_UI/HighScore_obj/I2_txt(Outline)",
+      "file": "level0",
+      "gameObjectPathID": 10217,
+      "transformPathID": 105541,
+      "parent": "level0:1084",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          1.0,
+          1.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          -12.0
+        ],
+        "sizeDelta": [
+          330.70001220703125,
+          50.02159881591797
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        -0.13052624464035034,
+        0.9914448857307434
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 101092,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 10217
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 121378,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 528,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "최고기록!",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1009
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 72
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 45.0,
+            "fontSizeBase": 36.0,
+            "fontWeight": 400,
+            "autoSize": true,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 45.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 0.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 528,
+              "consumedBytes": 500,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 108,
+                "m_fontAsset": 112,
+                "m_sharedMaterial": 124,
+                "m_fontSharedMaterialsCount": 136,
+                "m_fontMaterial": 140,
+                "m_fontMaterialsCount": 152,
+                "m_fontColor32": 156,
+                "m_fontColor": 160,
+                "m_enableVertexGradient": 176,
+                "m_colorMode": 180,
+                "m_fontColorGradient": 184,
+                "m_fontColorGradientPreset": 248,
+                "m_spriteAsset": 260,
+                "m_tintAllSprites": 272,
+                "m_StyleSheet": 276,
+                "m_TextStyleHashCode": 288,
+                "m_overrideHtmlColors": 292,
+                "m_faceColor": 296,
+                "m_fontSize": 300,
+                "m_fontSizeBase": 304,
+                "m_fontWeight": 308,
+                "m_enableAutoSizing": 312,
+                "m_fontSizeMin": 316,
+                "m_fontSizeMax": 320,
+                "fontStyle": 324,
+                "horizontalAlignment": 328,
+                "verticalAlignment": 332,
+                "textAlignment": 336,
+                "m_characterSpacing": 340,
+                "m_wordSpacing": 344,
+                "m_lineSpacing": 348,
+                "m_lineSpacingMax": 352,
+                "m_paragraphSpacing": 356,
+                "m_charWidthMaxAdj": 360,
+                "m_TextWrappingMode": 364,
+                "m_wordWrappingRatios": 368,
+                "m_overflowMode": 372,
+                "m_linkedTextComponent": 376,
+                "parentLinkedComponent": 388,
+                "m_enableKerning": 400,
+                "m_ActiveFontFeaturesCount": 404,
+                "enableExtraPadding": 412,
+                "checkPaddingRequired": 416,
+                "isRichText": 420,
+                "EmojiFallbackSupport": 424,
+                "EnableAdvancedText": 428,
+                "parseCtrlCharacters": 432,
+                "isOrthographic": 436,
+                "isCullingEnabled": 440,
+                "horizontalMapping": 444,
+                "verticalMapping": 448,
+                "uvLineOffset": 452,
+                "geometrySortingOrder": 456,
+                "IsTextObjectScaleStatic": 460,
+                "VertexBufferAutoSizeReduction": 464,
+                "useMaxVisibleDescender": 468,
+                "m_pageToDisplay": 472,
+                "m_margin": 476,
+                "isUsingLegacyAnimationComponent": 492,
+                "isVolumetricText": 496
+              }
+            },
+            "fontKey": "sharedassets0.assets:1009",
+            "materialKey": "sharedassets0.assets:72"
+          }
+        },
+        {
+          "kind": "Localize",
+          "pathID": 140020,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 216,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:31",
+      "name": "HP_Slider",
+      "path": "/Canvas/SafeArea/Raid_UI/HP_Slider",
+      "file": "level0",
+      "gameObjectPathID": 31,
+      "transformPathID": 102665,
+      "parent": "level0:1879",
+      "siblingIndex": 3,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          1.0
+        ],
+        "anchorMax": [
+          0.5,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          -175.0
+        ],
+        "sizeDelta": [
+          647.05859375,
+          43.93707275390625
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89430,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 31
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 122978,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.2980392277240753,
+              0.6509804129600525,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 801
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:801",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:200",
+      "name": "Fill",
+      "path": "/Canvas/SafeArea/Raid_UI/HP_Slider/Fill",
+      "file": "level0",
+      "gameObjectPathID": 200,
+      "transformPathID": 102829,
+      "parent": "level0:31",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          -14.0,
+          -14.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89573,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 200
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "SlicedFilledImage",
+          "pathID": 123199,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 116,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.3490196168422699,
+              0.8509804010391235,
+              0.3490196168422699,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 649
+            },
+            "fillDirection": 0,
+            "fillAmount": 0.6669999957084656,
+            "fillCenter": true,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:649",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 116,
+            "consumedBytes": 116,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_FillDirection": 100,
+              "m_FillAmount": 104,
+              "m_FillCenter": 108,
+              "m_PixelsPerUnitMultiplier": 112
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:2034",
+      "name": "Outline",
+      "path": "/Canvas/SafeArea/Raid_UI/HP_Slider/Outline",
+      "file": "level0",
+      "gameObjectPathID": 2034,
+      "transformPathID": 104589,
+      "parent": "level0:31",
+      "siblingIndex": 1,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          0.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 91006,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 2034
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 125392,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 778
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:778",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:1508",
+      "name": "HP_txt",
+      "path": "/Canvas/SafeArea/Raid_UI/HP_Slider/HP_txt",
+      "file": "level0",
+      "gameObjectPathID": 1508,
+      "transformPathID": 104081,
+      "parent": "level0:31",
+      "siblingIndex": 2,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          0.0,
+          16.0
+        ],
+        "sizeDelta": [
+          332.8999938964844,
+          50.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90597,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1508
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 117310,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 520,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "1343a",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1006
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 75
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 34.0,
+            "fontSizeBase": 34.0,
+            "fontWeight": 400,
+            "autoSize": false,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 72.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 0.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 520,
+              "consumedBytes": 492,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 100,
+                "m_fontAsset": 104,
+                "m_sharedMaterial": 116,
+                "m_fontSharedMaterialsCount": 128,
+                "m_fontMaterial": 132,
+                "m_fontMaterialsCount": 144,
+                "m_fontColor32": 148,
+                "m_fontColor": 152,
+                "m_enableVertexGradient": 168,
+                "m_colorMode": 172,
+                "m_fontColorGradient": 176,
+                "m_fontColorGradientPreset": 240,
+                "m_spriteAsset": 252,
+                "m_tintAllSprites": 264,
+                "m_StyleSheet": 268,
+                "m_TextStyleHashCode": 280,
+                "m_overrideHtmlColors": 284,
+                "m_faceColor": 288,
+                "m_fontSize": 292,
+                "m_fontSizeBase": 296,
+                "m_fontWeight": 300,
+                "m_enableAutoSizing": 304,
+                "m_fontSizeMin": 308,
+                "m_fontSizeMax": 312,
+                "fontStyle": 316,
+                "horizontalAlignment": 320,
+                "verticalAlignment": 324,
+                "textAlignment": 328,
+                "m_characterSpacing": 332,
+                "m_wordSpacing": 336,
+                "m_lineSpacing": 340,
+                "m_lineSpacingMax": 344,
+                "m_paragraphSpacing": 348,
+                "m_charWidthMaxAdj": 352,
+                "m_TextWrappingMode": 356,
+                "m_wordWrappingRatios": 360,
+                "m_overflowMode": 364,
+                "m_linkedTextComponent": 368,
+                "parentLinkedComponent": 380,
+                "m_enableKerning": 392,
+                "m_ActiveFontFeaturesCount": 396,
+                "enableExtraPadding": 404,
+                "checkPaddingRequired": 408,
+                "isRichText": 412,
+                "EmojiFallbackSupport": 416,
+                "EnableAdvancedText": 420,
+                "parseCtrlCharacters": 424,
+                "isOrthographic": 428,
+                "isCullingEnabled": 432,
+                "horizontalMapping": 436,
+                "verticalMapping": 440,
+                "uvLineOffset": 444,
+                "geometrySortingOrder": 448,
+                "IsTextObjectScaleStatic": 452,
+                "VertexBufferAutoSizeReduction": 456,
+                "useMaxVisibleDescender": 460,
+                "m_pageToDisplay": 464,
+                "m_margin": 468,
+                "isUsingLegacyAnimationComponent": 484,
+                "isVolumetricText": 488
+              }
+            },
+            "fontKey": "sharedassets0.assets:1006",
+            "materialKey": "sharedassets0.assets:75"
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:497",
+      "name": "Score_txt",
+      "path": "/Canvas/SafeArea/Raid_UI/HP_Slider/Score_txt",
+      "file": "level0",
+      "gameObjectPathID": 497,
+      "transformPathID": 103111,
+      "parent": "level0:31",
+      "siblingIndex": 3,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          -150.0800018310547,
+          25.0
+        ],
+        "sizeDelta": [
+          332.8999938964844,
+          50.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89807,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 497
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 117187,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 520,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "Lv.30",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1006
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 75
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 27.0,
+            "fontSizeBase": 27.0,
+            "fontWeight": 400,
+            "autoSize": false,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 72.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 1,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 0.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 520,
+              "consumedBytes": 492,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 100,
+                "m_fontAsset": 104,
+                "m_sharedMaterial": 116,
+                "m_fontSharedMaterialsCount": 128,
+                "m_fontMaterial": 132,
+                "m_fontMaterialsCount": 144,
+                "m_fontColor32": 148,
+                "m_fontColor": 152,
+                "m_enableVertexGradient": 168,
+                "m_colorMode": 172,
+                "m_fontColorGradient": 176,
+                "m_fontColorGradientPreset": 240,
+                "m_spriteAsset": 252,
+                "m_tintAllSprites": 264,
+                "m_StyleSheet": 268,
+                "m_TextStyleHashCode": 280,
+                "m_overrideHtmlColors": 284,
+                "m_faceColor": 288,
+                "m_fontSize": 292,
+                "m_fontSizeBase": 296,
+                "m_fontWeight": 300,
+                "m_enableAutoSizing": 304,
+                "m_fontSizeMin": 308,
+                "m_fontSizeMax": 312,
+                "fontStyle": 316,
+                "horizontalAlignment": 320,
+                "verticalAlignment": 324,
+                "textAlignment": 328,
+                "m_characterSpacing": 332,
+                "m_wordSpacing": 336,
+                "m_lineSpacing": 340,
+                "m_lineSpacingMax": 344,
+                "m_paragraphSpacing": 348,
+                "m_charWidthMaxAdj": 352,
+                "m_TextWrappingMode": 356,
+                "m_wordWrappingRatios": 360,
+                "m_overflowMode": 364,
+                "m_linkedTextComponent": 368,
+                "parentLinkedComponent": 380,
+                "m_enableKerning": 392,
+                "m_ActiveFontFeaturesCount": 396,
+                "enableExtraPadding": 404,
+                "checkPaddingRequired": 408,
+                "isRichText": 412,
+                "EmojiFallbackSupport": 416,
+                "EnableAdvancedText": 420,
+                "parseCtrlCharacters": 424,
+                "isOrthographic": 428,
+                "isCullingEnabled": 432,
+                "horizontalMapping": 436,
+                "verticalMapping": 440,
+                "uvLineOffset": 444,
+                "geometrySortingOrder": 448,
+                "IsTextObjectScaleStatic": 452,
+                "VertexBufferAutoSizeReduction": 456,
+                "useMaxVisibleDescender": 460,
+                "m_pageToDisplay": 464,
+                "m_margin": 468,
+                "isUsingLegacyAnimationComponent": 484,
+                "isVolumetricText": 488
+              }
+            },
+            "fontKey": "sharedassets0.assets:1006",
+            "materialKey": "sharedassets0.assets:75"
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:36878",
+      "name": "Currency",
+      "path": "/Canvas/SafeArea/Raid_UI/Currency",
+      "file": "level0",
+      "gameObjectPathID": 36878,
+      "transformPathID": 109285,
+      "parent": "level0:1879",
+      "siblingIndex": 4,
+      "active": false,
+      "rect": {
+        "anchorMin": [
+          1.0,
+          1.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          -111.10009765625,
+          -122.0
+        ],
+        "sizeDelta": [
+          200.0,
+          136.89990234375
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "Currency",
+          "pathID": 138011,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 56,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:32532",
+      "name": "Dia",
+      "path": "/Canvas/SafeArea/Raid_UI/Currency/Dia",
+      "file": "level0",
+      "gameObjectPathID": 32532,
+      "transformPathID": 112881,
+      "parent": "level0:36878",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          1.0,
+          1.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          -87.9626693725586,
+          -33.0
+        ],
+        "sizeDelta": [
+          175.92529296875,
+          64.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 101274,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 32532
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 148167,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              0.9329958558082581,
+              0.7971698045730591,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 658
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:658",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:23326",
+      "name": "Image",
+      "path": "/Canvas/SafeArea/Raid_UI/Currency/Dia/Image",
+      "file": "level0",
+      "gameObjectPathID": 23326,
+      "transformPathID": 116104,
+      "parent": "level0:32532",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.5
+        ],
+        "anchorMax": [
+          0.0,
+          0.5
+        ],
+        "anchoredPosition": [
+          18.600000381469727,
+          -0.800000011920929
+        ],
+        "sizeDelta": [
+          65.0,
+          65.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 101525,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 23326
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 129094,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 904
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:904",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:5792",
+      "name": "Price_txt",
+      "path": "/Canvas/SafeArea/Raid_UI/Currency/Dia/Price_txt",
+      "file": "level0",
+      "gameObjectPathID": 5792,
+      "transformPathID": 108030,
+      "parent": "level0:32532",
+      "siblingIndex": 1,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          17.655807495117188,
+          3.4000000953674316
+        ],
+        "sizeDelta": [
+          127.44259643554688,
+          54.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 102581,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 5792
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 119568,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 516,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "0",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1006
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 75
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1018
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 32.0,
+            "fontSizeBase": 36.0,
+            "fontWeight": 400,
+            "autoSize": true,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 32.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 9.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 516,
+              "consumedBytes": 488,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 96,
+                "m_fontAsset": 100,
+                "m_sharedMaterial": 112,
+                "m_fontSharedMaterialsCount": 124,
+                "m_fontMaterial": 128,
+                "m_fontMaterialsCount": 140,
+                "m_fontColor32": 144,
+                "m_fontColor": 148,
+                "m_enableVertexGradient": 164,
+                "m_colorMode": 168,
+                "m_fontColorGradient": 172,
+                "m_fontColorGradientPreset": 236,
+                "m_spriteAsset": 248,
+                "m_tintAllSprites": 260,
+                "m_StyleSheet": 264,
+                "m_TextStyleHashCode": 276,
+                "m_overrideHtmlColors": 280,
+                "m_faceColor": 284,
+                "m_fontSize": 288,
+                "m_fontSizeBase": 292,
+                "m_fontWeight": 296,
+                "m_enableAutoSizing": 300,
+                "m_fontSizeMin": 304,
+                "m_fontSizeMax": 308,
+                "fontStyle": 312,
+                "horizontalAlignment": 316,
+                "verticalAlignment": 320,
+                "textAlignment": 324,
+                "m_characterSpacing": 328,
+                "m_wordSpacing": 332,
+                "m_lineSpacing": 336,
+                "m_lineSpacingMax": 340,
+                "m_paragraphSpacing": 344,
+                "m_charWidthMaxAdj": 348,
+                "m_TextWrappingMode": 352,
+                "m_wordWrappingRatios": 356,
+                "m_overflowMode": 360,
+                "m_linkedTextComponent": 364,
+                "parentLinkedComponent": 376,
+                "m_enableKerning": 388,
+                "m_ActiveFontFeaturesCount": 392,
+                "enableExtraPadding": 400,
+                "checkPaddingRequired": 404,
+                "isRichText": 408,
+                "EmojiFallbackSupport": 412,
+                "EnableAdvancedText": 416,
+                "parseCtrlCharacters": 420,
+                "isOrthographic": 424,
+                "isCullingEnabled": 428,
+                "horizontalMapping": 432,
+                "verticalMapping": 436,
+                "uvLineOffset": 440,
+                "geometrySortingOrder": 444,
+                "IsTextObjectScaleStatic": 448,
+                "VertexBufferAutoSizeReduction": 452,
+                "useMaxVisibleDescender": 456,
+                "m_pageToDisplay": 460,
+                "m_margin": 464,
+                "isUsingLegacyAnimationComponent": 480,
+                "isVolumetricText": 484
+              }
+            },
+            "fontKey": "sharedassets0.assets:1006",
+            "materialKey": "sharedassets0.assets:75"
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:6887",
+      "name": "Money",
+      "path": "/Canvas/SafeArea/Raid_UI/Currency/Money",
+      "file": "level0",
+      "gameObjectPathID": 6887,
+      "transformPathID": 116145,
+      "parent": "level0:36878",
+      "siblingIndex": 1,
+      "active": false,
+      "rect": {
+        "anchorMin": [
+          1.0,
+          1.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          -97.29399871826172,
+          -32.0
+        ],
+        "sizeDelta": [
+          194.58389282226562,
+          64.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 97372,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 6887
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 141003,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              0.9329958558082581,
+              0.7971698045730591,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 658
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:658",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:36205",
+      "name": "Image",
+      "path": "/Canvas/SafeArea/Raid_UI/Currency/Money/Image",
+      "file": "level0",
+      "gameObjectPathID": 36205,
+      "transformPathID": 106475,
+      "parent": "level0:6887",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.5
+        ],
+        "anchorMax": [
+          0.0,
+          0.5
+        ],
+        "anchoredPosition": [
+          19.800010681152344,
+          -4.881620407104492e-05
+        ],
+        "sizeDelta": [
+          70.0,
+          70.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 96585,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 36205
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 134764,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 375
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:375",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:17249",
+      "name": "Price_txt",
+      "path": "/Canvas/SafeArea/Raid_UI/Currency/Money/Price_txt",
+      "file": "level0",
+      "gameObjectPathID": 17249,
+      "transformPathID": 108998,
+      "parent": "level0:6887",
+      "siblingIndex": 1,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          17.374500274658203,
+          3.4000000953674316
+        ],
+        "sizeDelta": [
+          146.86599731445312,
+          54.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 97285,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 17249
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 117717,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 516,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "0",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1006
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 75
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1018
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 32.0,
+            "fontSizeBase": 36.0,
+            "fontWeight": 400,
+            "autoSize": true,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 32.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 9.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 516,
+              "consumedBytes": 488,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 96,
+                "m_fontAsset": 100,
+                "m_sharedMaterial": 112,
+                "m_fontSharedMaterialsCount": 124,
+                "m_fontMaterial": 128,
+                "m_fontMaterialsCount": 140,
+                "m_fontColor32": 144,
+                "m_fontColor": 148,
+                "m_enableVertexGradient": 164,
+                "m_colorMode": 168,
+                "m_fontColorGradient": 172,
+                "m_fontColorGradientPreset": 236,
+                "m_spriteAsset": 248,
+                "m_tintAllSprites": 260,
+                "m_StyleSheet": 264,
+                "m_TextStyleHashCode": 276,
+                "m_overrideHtmlColors": 280,
+                "m_faceColor": 284,
+                "m_fontSize": 288,
+                "m_fontSizeBase": 292,
+                "m_fontWeight": 296,
+                "m_enableAutoSizing": 300,
+                "m_fontSizeMin": 304,
+                "m_fontSizeMax": 308,
+                "fontStyle": 312,
+                "horizontalAlignment": 316,
+                "verticalAlignment": 320,
+                "textAlignment": 324,
+                "m_characterSpacing": 328,
+                "m_wordSpacing": 332,
+                "m_lineSpacing": 336,
+                "m_lineSpacingMax": 340,
+                "m_paragraphSpacing": 344,
+                "m_charWidthMaxAdj": 348,
+                "m_TextWrappingMode": 352,
+                "m_wordWrappingRatios": 356,
+                "m_overflowMode": 360,
+                "m_linkedTextComponent": 364,
+                "parentLinkedComponent": 376,
+                "m_enableKerning": 388,
+                "m_ActiveFontFeaturesCount": 392,
+                "enableExtraPadding": 400,
+                "checkPaddingRequired": 404,
+                "isRichText": 408,
+                "EmojiFallbackSupport": 412,
+                "EnableAdvancedText": 416,
+                "parseCtrlCharacters": 420,
+                "isOrthographic": 424,
+                "isCullingEnabled": 428,
+                "horizontalMapping": 432,
+                "verticalMapping": 436,
+                "uvLineOffset": 440,
+                "geometrySortingOrder": 444,
+                "IsTextObjectScaleStatic": 448,
+                "VertexBufferAutoSizeReduction": 452,
+                "useMaxVisibleDescender": 456,
+                "m_pageToDisplay": 460,
+                "m_margin": 464,
+                "isUsingLegacyAnimationComponent": 480,
+                "isVolumetricText": 484
+              }
+            },
+            "fontKey": "sharedassets0.assets:1006",
+            "materialKey": "sharedassets0.assets:75"
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:742",
+      "name": "Exit_Btn",
+      "path": "/Canvas/SafeArea/Raid_UI/Exit_Btn",
+      "file": "level0",
+      "gameObjectPathID": 742,
+      "transformPathID": 103348,
+      "parent": "level0:1879",
+      "siblingIndex": 5,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          0.0,
+          0.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          150.0
+        ],
+        "sizeDelta": [
+          130.0,
+          95.19000244140625
+        ],
+        "pivot": [
+          0.0,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90003,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 742
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 123841,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              0.5137255191802979,
+              0.5759073495864868,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 448
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:448",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        },
+        {
+          "kind": "Button",
+          "pathID": 123840,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 448,
+          "unknown": "custom runtime/animation component not decoded"
+        },
+        {
+          "kind": "BounceBtn",
+          "pathID": 123839,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 52,
+          "unknown": "custom runtime/animation component not decoded"
+        },
+        {
+          "kind": "SFX_BtnScript",
+          "pathID": 123838,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 36,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:10066",
+      "name": "I2_txt(Outline)",
+      "path": "/Canvas/SafeArea/Raid_UI/Exit_Btn/I2_txt(Outline)",
+      "file": "level0",
+      "gameObjectPathID": 10066,
+      "transformPathID": 105368,
+      "parent": "level0:742",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          -4.91998291015625,
+          3.5
+        ],
+        "sizeDelta": [
+          119.95999908447266,
+          50.02159881591797
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 100908,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 10066
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 121555,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 516,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "Exit",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1009
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 72
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 45.0,
+            "fontSizeBase": 36.0,
+            "fontWeight": 400,
+            "autoSize": true,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 45.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 0.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 516,
+              "consumedBytes": 488,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 96,
+                "m_fontAsset": 100,
+                "m_sharedMaterial": 112,
+                "m_fontSharedMaterialsCount": 124,
+                "m_fontMaterial": 128,
+                "m_fontMaterialsCount": 140,
+                "m_fontColor32": 144,
+                "m_fontColor": 148,
+                "m_enableVertexGradient": 164,
+                "m_colorMode": 168,
+                "m_fontColorGradient": 172,
+                "m_fontColorGradientPreset": 236,
+                "m_spriteAsset": 248,
+                "m_tintAllSprites": 260,
+                "m_StyleSheet": 264,
+                "m_TextStyleHashCode": 276,
+                "m_overrideHtmlColors": 280,
+                "m_faceColor": 284,
+                "m_fontSize": 288,
+                "m_fontSizeBase": 292,
+                "m_fontWeight": 296,
+                "m_enableAutoSizing": 300,
+                "m_fontSizeMin": 304,
+                "m_fontSizeMax": 308,
+                "fontStyle": 312,
+                "horizontalAlignment": 316,
+                "verticalAlignment": 320,
+                "textAlignment": 324,
+                "m_characterSpacing": 328,
+                "m_wordSpacing": 332,
+                "m_lineSpacing": 336,
+                "m_lineSpacingMax": 340,
+                "m_paragraphSpacing": 344,
+                "m_charWidthMaxAdj": 348,
+                "m_TextWrappingMode": 352,
+                "m_wordWrappingRatios": 356,
+                "m_overflowMode": 360,
+                "m_linkedTextComponent": 364,
+                "parentLinkedComponent": 376,
+                "m_enableKerning": 388,
+                "m_ActiveFontFeaturesCount": 392,
+                "enableExtraPadding": 400,
+                "checkPaddingRequired": 404,
+                "isRichText": 408,
+                "EmojiFallbackSupport": 412,
+                "EnableAdvancedText": 416,
+                "parseCtrlCharacters": 420,
+                "isOrthographic": 424,
+                "isCullingEnabled": 428,
+                "horizontalMapping": 432,
+                "verticalMapping": 436,
+                "uvLineOffset": 440,
+                "geometrySortingOrder": 444,
+                "IsTextObjectScaleStatic": 448,
+                "VertexBufferAutoSizeReduction": 452,
+                "useMaxVisibleDescender": 456,
+                "m_pageToDisplay": 460,
+                "m_margin": 464,
+                "isUsingLegacyAnimationComponent": 480,
+                "isVolumetricText": 484
+              }
+            },
+            "fontKey": "sharedassets0.assets:1009",
+            "materialKey": "sharedassets0.assets:72"
+          }
+        },
+        {
+          "kind": "Localize",
+          "pathID": 139883,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 204,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    }
+  ],
+  "sprites": {
+    "sharedassets0.assets:375": {
+      "key": "sharedassets0.assets:375",
+      "pathID": 375,
+      "file": "sharedassets0.assets",
+      "name": "currency_dia_0",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000375__currency_dia_0.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 148.0,
+        "height": 148.0
+      },
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:447": {
+      "key": "sharedassets0.assets:447",
+      "pathID": 447,
+      "file": "sharedassets0.assets",
+      "name": "Common_Glow_Circle_White 2",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000447__Common_Glow_Circle_White_2.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 128.0,
+        "height": 128.0
+      },
+      "border": [
+        64.0,
+        64.0,
+        64.0,
+        64.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:448": {
+      "key": "sharedassets0.assets:448",
+      "pathID": 448,
+      "file": "sharedassets0.assets",
+      "name": "ui 1 (Half)",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000448__ui_1_Half_.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 33.0,
+        "height": 78.0
+      },
+      "border": [
+        0.0,
+        41.0,
+        33.0,
+        37.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:466": {
+      "key": "sharedassets0.assets:466",
+      "pathID": 466,
+      "file": "sharedassets0.assets",
+      "name": "ui 12 (Outline",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000466__ui_12_Outline.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 116.0,
+        "height": 21.0
+      },
+      "border": [
+        55.0,
+        11.0,
+        55.0,
+        10.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:482": {
+      "key": "sharedassets0.assets:482",
+      "pathID": 482,
+      "file": "sharedassets0.assets",
+      "name": "ui 12",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000482__ui_12.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 116.0,
+        "height": 21.0
+      },
+      "border": [
+        55.0,
+        11.0,
+        55.0,
+        10.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:649": {
+      "key": "sharedassets0.assets:649",
+      "pathID": 649,
+      "file": "sharedassets0.assets",
+      "name": "ui 11 (Fill)",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000649__ui_11_Fill_.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 20.0,
+        "height": 25.0
+      },
+      "border": [
+        9.0,
+        17.0,
+        9.0,
+        8.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:658": {
+      "key": "sharedassets0.assets:658",
+      "pathID": 658,
+      "file": "sharedassets0.assets",
+      "name": "ui 1 (Small",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000658__ui_1_Small.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 64.0,
+        "height": 76.0
+      },
+      "border": [
+        32.0,
+        44.0,
+        32.0,
+        34.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:778": {
+      "key": "sharedassets0.assets:778",
+      "pathID": 778,
+      "file": "sharedassets0.assets",
+      "name": "ui 11 (Outline)",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000778__ui_11_Outline_.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 34.0,
+        "height": 39.0
+      },
+      "border": [
+        16.0,
+        22.0,
+        16.0,
+        15.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:801": {
+      "key": "sharedassets0.assets:801",
+      "pathID": 801,
+      "file": "sharedassets0.assets",
+      "name": "ui 11",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000801__ui_11.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 34.0,
+        "height": 39.0
+      },
+      "border": [
+        16.0,
+        22.0,
+        16.0,
+        15.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:904": {
+      "key": "sharedassets0.assets:904",
+      "pathID": 904,
+      "file": "sharedassets0.assets",
+      "name": "currency_dia_1",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000904__currency_dia_1.png",
+      "rect": {
+        "x": 148.0,
+        "y": 0.0,
+        "width": 148.0,
+        "height": 148.0
+      },
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    }
+  },
+  "materials": {
+    "sharedassets0.assets:72": {
+      "m_Name": "Mitme Atlas Material",
+      "m_Shader": {
+        "m_FileID": 0,
+        "m_PathID": 228
+      },
+      "m_ValidKeywords": [
+        "UNDERLAY_ON"
+      ],
+      "m_InvalidKeywords": [],
+      "m_LightmapFlags": 4,
+      "m_EnableInstancingVariants": false,
+      "m_DoubleSidedGI": false,
+      "m_CustomRenderQueue": -1,
+      "stringTagMap": [],
+      "disabledShaderPasses": [],
+      "m_SavedProperties": {
+        "m_TexEnvs": [
+          [
+            "_BumpMap",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_Cube",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_FaceTex",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_MainTex",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 81
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_OutlineTex",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ]
+        ],
+        "m_Ints": [],
+        "m_Floats": [
+          [
+            "_Ambient",
+            0.5
+          ],
+          [
+            "_Bevel",
+            0.5
+          ],
+          [
+            "_BevelClamp",
+            0.0
+          ],
+          [
+            "_BevelOffset",
+            0.0
+          ],
+          [
+            "_BevelRoundness",
+            0.0
+          ],
+          [
+            "_BevelWidth",
+            0.0
+          ],
+          [
+            "_BumpFace",
+            0.0
+          ],
+          [
+            "_BumpOutline",
+            0.0
+          ],
+          [
+            "_ColorMask",
+            15.0
+          ],
+          [
+            "_CullMode",
+            0.0
+          ],
+          [
+            "_Diffuse",
+            0.5
+          ],
+          [
+            "_FaceDilate",
+            1.0
+          ],
+          [
+            "_FaceUVSpeedX",
+            0.0
+          ],
+          [
+            "_FaceUVSpeedY",
+            0.0
+          ],
+          [
+            "_GlowInner",
+            0.05000000074505806
+          ],
+          [
+            "_GlowOffset",
+            0.0
+          ],
+          [
+            "_GlowOuter",
+            0.05000000074505806
+          ],
+          [
+            "_GlowPower",
+            0.75
+          ],
+          [
+            "_GradientScale",
+            10.0
+          ],
+          [
+            "_LightAngle",
+            3.1415998935699463
+          ],
+          [
+            "_MaskSoftnessX",
+            0.0
+          ],
+          [
+            "_MaskSoftnessY",
+            0.0
+          ],
+          [
+            "_OutlineSoftness",
+            0.0
+          ],
+          [
+            "_OutlineUVSpeedX",
+            0.0
+          ],
+          [
+            "_OutlineUVSpeedY",
+            0.0
+          ],
+          [
+            "_OutlineWidth",
+            1.0
+          ],
+          [
+            "_PerspectiveFilter",
+            0.875
+          ],
+          [
+            "_Reflectivity",
+            10.0
+          ],
+          [
+            "_ScaleRatioA",
+            0.4114285707473755
+          ],
+          [
+            "_ScaleRatioB",
+            0.0
+          ],
+          [
+            "_ScaleRatioC",
+            0.0
+          ],
+          [
+            "_ScaleX",
+            1.0
+          ],
+          [
+            "_ScaleY",
+            1.0
+          ],
+          [
+            "_ShaderFlags",
+            0.0
+          ],
+          [
+            "_Sharpness",
+            0.0
+          ],
+          [
+            "_SpecularPower",
+            2.0
+          ],
+          [
+            "_Stencil",
+            0.0
+          ],
+          [
+            "_StencilComp",
+            8.0
+          ],
+          [
+            "_StencilOp",
+            0.0
+          ],
+          [
+            "_StencilReadMask",
+            255.0
+          ],
+          [
+            "_StencilWriteMask",
+            255.0
+          ],
+          [
+            "_TextureHeight",
+            2048.0
+          ],
+          [
+            "_TextureWidth",
+            2048.0
+          ],
+          [
+            "_UnderlayDilate",
+            0.0
+          ],
+          [
+            "_UnderlayOffsetX",
+            1.0
+          ],
+          [
+            "_UnderlayOffsetY",
+            0.0
+          ],
+          [
+            "_UnderlaySoftness",
+            0.0
+          ],
+          [
+            "_VertexOffsetX",
+            0.0
+          ],
+          [
+            "_VertexOffsetY",
+            0.0
+          ],
+          [
+            "_WeightBold",
+            0.75
+          ],
+          [
+            "_WeightNormal",
+            0.0
+          ]
+        ],
+        "m_Colors": [
+          [
+            "_ClipRect",
+            {
+              "r": -32767.0,
+              "g": -32767.0,
+              "b": 32767.0,
+              "a": 32767.0
+            }
+          ],
+          [
+            "_EnvMatrixRotation",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 0.0
+            }
+          ],
+          [
+            "_FaceColor",
+            {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_GlowColor",
+            {
+              "r": 0.0,
+              "g": 1.0,
+              "b": 0.0,
+              "a": 0.5
+            }
+          ],
+          [
+            "_MaskCoord",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 32767.0,
+              "a": 32767.0
+            }
+          ],
+          [
+            "_OutlineColor",
+            {
+              "r": 0.3960784375667572,
+              "g": 0.2705882489681244,
+              "b": 0.1764705926179886,
+              "a": 1.0
+            }
+          ],
+          [
+            "_ReflectFaceColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_ReflectOutlineColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_SpecularColor",
+            {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_UnderlayColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 0.5
+            }
+          ]
+        ]
+      },
+      "m_BuildTextureStacks": []
+    },
+    "sharedassets0.assets:75": {
+      "m_Name": "MPLUSRounded1c-Black Atlas Material",
+      "m_Shader": {
+        "m_FileID": 0,
+        "m_PathID": 228
+      },
+      "m_ValidKeywords": [
+        "UNDERLAY_ON"
+      ],
+      "m_InvalidKeywords": [],
+      "m_LightmapFlags": 4,
+      "m_EnableInstancingVariants": false,
+      "m_DoubleSidedGI": false,
+      "m_CustomRenderQueue": -1,
+      "stringTagMap": [],
+      "disabledShaderPasses": [],
+      "m_SavedProperties": {
+        "m_TexEnvs": [
+          [
+            "_BumpMap",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_Cube",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_FaceTex",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_MainTex",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 82
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_OutlineTex",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ]
+        ],
+        "m_Ints": [],
+        "m_Floats": [
+          [
+            "_Ambient",
+            0.5
+          ],
+          [
+            "_Bevel",
+            0.0
+          ],
+          [
+            "_BevelClamp",
+            0.0
+          ],
+          [
+            "_BevelOffset",
+            -0.16699999570846558
+          ],
+          [
+            "_BevelRoundness",
+            0.0
+          ],
+          [
+            "_BevelWidth",
+            -0.5
+          ],
+          [
+            "_BumpFace",
+            0.0
+          ],
+          [
+            "_BumpOutline",
+            0.0
+          ],
+          [
+            "_ColorMask",
+            15.0
+          ],
+          [
+            "_CullMode",
+            0.0
+          ],
+          [
+            "_Diffuse",
+            0.5
+          ],
+          [
+            "_FaceDilate",
+            0.25
+          ],
+          [
+            "_FaceUVSpeedX",
+            0.0
+          ],
+          [
+            "_FaceUVSpeedY",
+            0.0
+          ],
+          [
+            "_GlowInner",
+            0.05000000074505806
+          ],
+          [
+            "_GlowOffset",
+            0.10000000149011612
+          ],
+          [
+            "_GlowOuter",
+            0.05000000074505806
+          ],
+          [
+            "_GlowPower",
+            0.75
+          ],
+          [
+            "_GradientScale",
+            26.0
+          ],
+          [
+            "_LightAngle",
+            3.1415998935699463
+          ],
+          [
+            "_MaskSoftnessX",
+            0.0
+          ],
+          [
+            "_MaskSoftnessY",
+            0.0
+          ],
+          [
+            "_OutlineSoftness",
+            0.0
+          ],
+          [
+            "_OutlineUVSpeedX",
+            0.0
+          ],
+          [
+            "_OutlineUVSpeedY",
+            0.0
+          ],
+          [
+            "_OutlineWidth",
+            0.20800000429153442
+          ],
+          [
+            "_PerspectiveFilter",
+            0.875
+          ],
+          [
+            "_Reflectivity",
+            10.0
+          ],
+          [
+            "_ScaleRatioA",
+            0.9615384340286255
+          ],
+          [
+            "_ScaleRatioB",
+            0.5408653616905212
+          ],
+          [
+            "_ScaleRatioC",
+            0.2704326808452606
+          ],
+          [
+            "_ScaleX",
+            1.0
+          ],
+          [
+            "_ScaleY",
+            1.0
+          ],
+          [
+            "_ShaderFlags",
+            1.0
+          ],
+          [
+            "_Sharpness",
+            0.0
+          ],
+          [
+            "_SpecularPower",
+            2.0
+          ],
+          [
+            "_Stencil",
+            0.0
+          ],
+          [
+            "_StencilComp",
+            8.0
+          ],
+          [
+            "_StencilOp",
+            0.0
+          ],
+          [
+            "_StencilReadMask",
+            255.0
+          ],
+          [
+            "_StencilWriteMask",
+            255.0
+          ],
+          [
+            "_TextureHeight",
+            1024.0
+          ],
+          [
+            "_TextureWidth",
+            1024.0
+          ],
+          [
+            "_UnderlayDilate",
+            1.0
+          ],
+          [
+            "_UnderlayOffsetX",
+            0.49000000953674316
+          ],
+          [
+            "_UnderlayOffsetY",
+            -1.0
+          ],
+          [
+            "_UnderlaySoftness",
+            0.0
+          ],
+          [
+            "_VertexOffsetX",
+            0.0
+          ],
+          [
+            "_VertexOffsetY",
+            0.0
+          ],
+          [
+            "_WeightBold",
+            0.75
+          ],
+          [
+            "_WeightNormal",
+            0.0
+          ]
+        ],
+        "m_Colors": [
+          [
+            "_ClipRect",
+            {
+              "r": -32767.0,
+              "g": -32767.0,
+              "b": 32767.0,
+              "a": 32767.0
+            }
+          ],
+          [
+            "_EnvMatrixRotation",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 0.0
+            }
+          ],
+          [
+            "_FaceColor",
+            {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_GlowColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 0.5
+            }
+          ],
+          [
+            "_MaskCoord",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 32767.0,
+              "a": 32767.0
+            }
+          ],
+          [
+            "_OutlineColor",
+            {
+              "r": 0.3962264060974121,
+              "g": 0.27127090096473694,
+              "b": 0.17755427956581116,
+              "a": 1.0
+            }
+          ],
+          [
+            "_ReflectFaceColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_ReflectOutlineColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_SpecularColor",
+            {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_UnderlayColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 0.6196078658103943
+            }
+          ]
+        ]
+      },
+      "m_BuildTextureStacks": []
+    }
+  },
+  "fonts": {
+    "sharedassets0.assets:1006": {
+      "key": "sharedassets0.assets:1006",
+      "name": "MPLUS",
+      "pathID": 1006,
+      "file": "sharedassets0.assets",
+      "unknown": [
+        "TMP font glyph/face metrics not decoded; font family follows asset name"
+      ],
+      "rawBytes": 158088
+    },
+    "sharedassets0.assets:1009": {
+      "key": "sharedassets0.assets:1009",
+      "name": "Mitme_Outline",
+      "pathID": 1009,
+      "file": "sharedassets0.assets",
+      "unknown": [
+        "TMP font glyph/face metrics not decoded; font family follows asset name"
+      ],
+      "rawBytes": 24724
+    }
+  },
+  "selectedRoots": [
+    "/Canvas/SafeArea/Raid_UI"
+  ]
+}

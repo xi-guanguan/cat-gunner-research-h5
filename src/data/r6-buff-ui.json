@@ -1,0 +1,268 @@
+{
+  "toAdType": [
+    0,
+    1,
+    14
+  ],
+  "rows": [
+    {
+      "kind": "Buff_manager",
+      "path": "/Canvas/Buff_manager",
+      "component": 123799,
+      "data": {
+        "Buff_Menu_Btn": {
+          "fileID": 0,
+          "pathID": 125624,
+          "id": "level0:2228",
+          "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/Buff_obj/Buff_Btn"
+        },
+        "SuperBuff_Active_obj": {
+          "fileID": 0,
+          "pathID": 2125,
+          "id": "level0:2125",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Super_Buff_Panel/Active_obj"
+        },
+        "SuperBuff_NonActive_obj": {
+          "fileID": 0,
+          "pathID": 2113,
+          "id": "level0:2113",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Super_Buff_Panel/NonActive_obj"
+        }
+      },
+      "sha256": "d4b7f5dad4f5496a83db1a8d03a1e2cc62074313137788928fd7d69e6c562c96"
+    },
+    {
+      "kind": "Buff_Menu_Btn",
+      "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/Buff_obj/Buff_Btn",
+      "component": 125624,
+      "data": {
+        "Power_On_obj": {
+          "fileID": 0,
+          "pathID": 2003,
+          "id": "level0:2003",
+          "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/Buff_obj/Buff_Btn/Btn/Power/On"
+        },
+        "Power_Off_obj": {
+          "fileID": 0,
+          "pathID": 557,
+          "id": "level0:557",
+          "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/Buff_obj/Buff_Btn/Btn/Power/Off"
+        },
+        "Speed_On_obj": {
+          "fileID": 0,
+          "pathID": 2037,
+          "id": "level0:2037",
+          "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/Buff_obj/Buff_Btn/Btn/Speed/On"
+        },
+        "Speed_Off_obj": {
+          "fileID": 0,
+          "pathID": 239,
+          "id": "level0:239",
+          "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/Buff_obj/Buff_Btn/Btn/Speed/Off"
+        },
+        "Money_On_obj": {
+          "fileID": 0,
+          "pathID": 1735,
+          "id": "level0:1735",
+          "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/Buff_obj/Buff_Btn/Btn/Money/On"
+        },
+        "Money_Off_obj": {
+          "fileID": 0,
+          "pathID": 211,
+          "id": "level0:211",
+          "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/Buff_obj/Buff_Btn/Btn/Money/Off"
+        },
+        "NormalValue_obj": {
+          "fileID": 0,
+          "pathID": 11754,
+          "id": "level0:11754",
+          "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/Buff_obj/Buff_Btn/Btn/NormalValue_obj"
+        },
+        "SuperValue_obj": {
+          "fileID": 0,
+          "pathID": 1115,
+          "id": "level0:1115",
+          "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/Buff_obj/Buff_Btn/Btn/SuperValue_obj"
+        },
+        "Cool_txt": {
+          "fileID": 0,
+          "pathID": 117185,
+          "id": "level0:473",
+          "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/Buff_obj/Buff_Btn/Btn/Cool_txt"
+        }
+      },
+      "sha256": "896030877c17abc092d33b0657da47d4090d9f468039d36b0057567e8e381280"
+    },
+    {
+      "kind": "Buff_Panel",
+      "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (2)",
+      "component": 128237,
+      "data": {
+        "type": 2,
+        "BuffTime_txt": {
+          "fileID": 0,
+          "pathID": 120765,
+          "id": "level0:32668",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (2)/Slider/Time_txt"
+        },
+        "Fill": {
+          "fileID": 0,
+          "pathID": 146872,
+          "id": "level0:33406",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (2)/Slider/Fill"
+        },
+        "AD_Btn_obj": {
+          "fileID": 0,
+          "pathID": 38820,
+          "id": "level0:38820",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (2)/AD_Btn"
+        },
+        "NonActive_obj": {
+          "fileID": 0,
+          "pathID": 36171,
+          "id": "level0:36171",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (2)/NonActive_obj"
+        },
+        "Active_obj": {
+          "fileID": 0,
+          "pathID": 24865,
+          "id": "level0:24865",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (2)/Active_obj"
+        },
+        "Explain_txt": {
+          "fileID": 0,
+          "pathID": 119747,
+          "id": "level0:22853",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (2)/Explain_txt"
+        },
+        "NormalBuff_obj": {
+          "fileID": 0,
+          "pathID": 20859,
+          "id": "level0:20859",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (2)/Icon/NormalValue_obj"
+        },
+        "SuperBuff_obj": {
+          "fileID": 0,
+          "pathID": 10845,
+          "id": "level0:10845",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (2)/Icon/SuperValue_obj"
+        }
+      },
+      "sha256": "e12ec2465ab912cd9f5227239f481ed62485e35531d19fa08ba4599d73f4f50b"
+    },
+    {
+      "kind": "Buff_Panel",
+      "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel",
+      "component": 128979,
+      "data": {
+        "type": 0,
+        "BuffTime_txt": {
+          "fileID": 0,
+          "pathID": 120612,
+          "id": "level0:35077",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel/Slider/Time_txt"
+        },
+        "Fill": {
+          "fileID": 0,
+          "pathID": 147673,
+          "id": "level0:36168",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel/Slider/Fill"
+        },
+        "AD_Btn_obj": {
+          "fileID": 0,
+          "pathID": 30719,
+          "id": "level0:30719",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel/AD_Btn"
+        },
+        "NonActive_obj": {
+          "fileID": 0,
+          "pathID": 33695,
+          "id": "level0:33695",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel/NonActive_obj"
+        },
+        "Active_obj": {
+          "fileID": 0,
+          "pathID": 21089,
+          "id": "level0:21089",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel/Active_obj"
+        },
+        "Explain_txt": {
+          "fileID": 0,
+          "pathID": 119328,
+          "id": "level0:25481",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel/Explain_txt"
+        },
+        "NormalBuff_obj": {
+          "fileID": 0,
+          "pathID": 24880,
+          "id": "level0:24880",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel/Icon/NormalValue_obj"
+        },
+        "SuperBuff_obj": {
+          "fileID": 0,
+          "pathID": 17910,
+          "id": "level0:17910",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel/Icon/SuperValue_obj"
+        }
+      },
+      "sha256": "8f181990bc479d9f97909747efd3564798c0997964380eb8ffd48097b45e66c2"
+    },
+    {
+      "kind": "Buff_Panel",
+      "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (1)",
+      "component": 131941,
+      "data": {
+        "type": 1,
+        "BuffTime_txt": {
+          "fileID": 0,
+          "pathID": 120176,
+          "id": "level0:39036",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (1)/Slider/Time_txt"
+        },
+        "Fill": {
+          "fileID": 0,
+          "pathID": 148533,
+          "id": "level0:36979",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (1)/Slider/Fill"
+        },
+        "AD_Btn_obj": {
+          "fileID": 0,
+          "pathID": 32592,
+          "id": "level0:32592",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (1)/AD_Btn"
+        },
+        "NonActive_obj": {
+          "fileID": 0,
+          "pathID": 29984,
+          "id": "level0:29984",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (1)/NonActive_obj"
+        },
+        "Active_obj": {
+          "fileID": 0,
+          "pathID": 20356,
+          "id": "level0:20356",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (1)/Active_obj"
+        },
+        "Explain_txt": {
+          "fileID": 0,
+          "pathID": 118778,
+          "id": "level0:26491",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (1)/Explain_txt"
+        },
+        "NormalBuff_obj": {
+          "fileID": 0,
+          "pathID": 28807,
+          "id": "level0:28807",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (1)/Icon/NormalValue_obj"
+        },
+        "SuperBuff_obj": {
+          "fileID": 0,
+          "pathID": 16507,
+          "id": "level0:16507",
+          "path": "/Canvas/Buff_manager/Buff_UI/Buff_list/Buff_Panel (1)/Icon/SuperValue_obj"
+        }
+      },
+      "sha256": "0b22b27b8395f7f16a0d80e26b9d5e020081863ffe6f5b1f5954404e2ddebb15"
+    }
+  ]
+}

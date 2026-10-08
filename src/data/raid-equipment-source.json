@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "catSpawnPos": [
+    -100.0,
+    0.0,
+    0.0
+  ],
+  "warpOffsets": [
+    [
+      -6.0,
+      0.0,
+      -6.0
+    ],
+    [
+      6.0,
+      0.0,
+      -6.0
+    ]
+  ],
+  "provenance": {
+    "spawn": "Raid_manager..ctor@0x2b59e3c; literal0x106fb78 xy; store0x2b59efc z=0",
+    "warpOffsets": "Cat_manager..ctor@0x2b44a0c; manager+0x48 array length2; literals0x106f9e0/0x1070000 xy + immediate0xc0c00000 z",
+    "warpConsumer": "Cat_manager.Warp@0x2b44748: leader spawn; AI slotNum-1 offset; serialized FormationOffset only if missing",
+    "equipmentConsumer": "Cat_manager.Balance_Reload@0x2b43744 UI5 Raid_manager+0x88; skip -1 then compact; Cat.SlotNum = compact index"
+  },
+  "proof": {
+    "static": "PASS",
+    "sourceDevice": "NOT_RUN"
+  },
+  "limitations": [
+    "Warp offsets are NOT the 2.5 radius follow ring.",
+    "Helper branch NOT_CONNECTED."
+  ]
+}

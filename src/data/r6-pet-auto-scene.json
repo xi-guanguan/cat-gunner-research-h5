@@ -1,0 +1,123 @@
+{
+  "requested": false,
+  "configuredDegree": 6,
+  "degreeColors": [
+    [
+      0.9339622855186462,
+      0.40089890360832214,
+      0.5638090372085571,
+      1.0
+    ],
+    [
+      1.0,
+      0.7761600017547607,
+      0.4117647409439087,
+      1.0
+    ],
+    [
+      0.7610068917274475,
+      1.0,
+      0.4745098352432251,
+      1.0
+    ],
+    [
+      1.0,
+      0.6212770938873291,
+      0.31603771448135376,
+      1.0
+    ],
+    [
+      0.9887425899505615,
+      0.6933962106704712,
+      1.0,
+      1.0
+    ],
+    [
+      0.5149074196815491,
+      0.5149074196815491,
+      0.8207547068595886,
+      1.0
+    ],
+    [
+      1.0,
+      0.5058823823928833,
+      0.8980392217636108,
+      1.0
+    ],
+    [
+      0.7176470756530762,
+      0.658823549747467,
+      0.8000000715255737,
+      1.0
+    ],
+    [
+      0.5637682676315308,
+      0.9716981053352356,
+      0.9443380236625671,
+      1.0
+    ],
+    [
+      1.0,
+      0.8569863438606262,
+      0.28773581981658936,
+      1.0
+    ],
+    [
+      0.9450981020927429,
+      0.9058824181556702,
+      0.8431373238563538,
+      1.0
+    ],
+    [
+      0.7870746850967407,
+      0.5047169923782349,
+      1.0,
+      1.0
+    ],
+    [
+      0.47641509771347046,
+      0.5016548037528992,
+      1.0,
+      1.0
+    ]
+  ],
+  "OnOff_UI": {
+    "fileID": 0,
+    "pathID": 134599,
+    "id": "level0:18806",
+    "path": "/Canvas/SafeArea/Pet_UI (SafeArea)/Pet_UI/Panel/OnOff"
+  },
+  "Auto_Explain_obj": {
+    "fileID": 0,
+    "pathID": 10196,
+    "id": "level0:10196",
+    "path": "/Canvas/SafeArea/Pet_UI (SafeArea)/Pet_UI/Panel/Auto_Explain"
+  },
+  "NonAuto_Explain_obj": {
+    "fileID": 0,
+    "pathID": 10212,
+    "id": "level0:10212",
+    "path": "/Canvas/SafeArea/Pet_UI (SafeArea)/Pet_UI/Panel/Explain"
+  },
+  "Auto_Btn_obj": {
+    "fileID": 0,
+    "pathID": 18806,
+    "id": "level0:18806",
+    "path": "/Canvas/SafeArea/Pet_UI (SafeArea)/Pet_UI/Panel/OnOff"
+  },
+  "OnOff": {
+    "on": {
+      "fileID": 0,
+      "pathID": 11041,
+      "id": "level0:11041",
+      "path": "/Canvas/SafeArea/Pet_UI (SafeArea)/Pet_UI/Panel/OnOff/On"
+    },
+    "off": {
+      "fileID": 0,
+      "pathID": 30494,
+      "id": "level0:30494",
+      "path": "/Canvas/SafeArea/Pet_UI (SafeArea)/Pet_UI/Panel/OnOff/Off"
+    }
+  },
+  "onOffSha256": "a69e3fd7c9c2d09cc2a4e17f1a91375ea61338c0d240db1cefe60597980b7337"
+}

@@ -1,0 +1,96 @@
+{
+  "amounts": [
+    100,
+    500,
+    1050,
+    3300,
+    750,
+    1750,
+    6000
+  ],
+  "products": [
+    "catgunner_core_100",
+    "catgunner_core_500",
+    "catgunner_core_1050",
+    "catgunner_core_3300",
+    "catgunner_core_daily_750",
+    "catgunner_core_weekly_1750",
+    "catgunner_core_weekly_6000"
+  ],
+  "cooldownHours": [
+    0,
+    0,
+    0,
+    0,
+    24,
+    168,
+    168
+  ],
+  "targetCore": 3,
+  "comparison": "elapsed >= duration",
+  "sourceSHA256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "evidence": {
+    "amountVA": "0x10b0538",
+    "literals": [
+      {
+        "slot": "0x5d64260",
+        "addend": "0x5f1d9e8",
+        "literalIndex": 16514,
+        "value": "catgunner_core_100"
+      },
+      {
+        "slot": "0x5d64200",
+        "addend": "0x5f1da00",
+        "literalIndex": 16517,
+        "value": "catgunner_core_500"
+      },
+      {
+        "slot": "0x5d64278",
+        "addend": "0x5f1d9f0",
+        "literalIndex": 16515,
+        "value": "catgunner_core_1050"
+      },
+      {
+        "slot": "0x5d64238",
+        "addend": "0x5f1d9f8",
+        "literalIndex": 16516,
+        "value": "catgunner_core_3300"
+      },
+      {
+        "slot": "0x5d642a8",
+        "addend": "0x5f1da08",
+        "literalIndex": 16518,
+        "value": "catgunner_core_daily_750"
+      },
+      {
+        "slot": "0x5d642b0",
+        "addend": "0x5f1da10",
+        "literalIndex": 16519,
+        "value": "catgunner_core_weekly_1750"
+      },
+      {
+        "slot": "0x5d64270",
+        "addend": "0x5f1da18",
+        "literalIndex": 16520,
+        "value": "catgunner_core_weekly_6000"
+      }
+    ],
+    "availableVA": "0x2b8a0dc",
+    "applyVA": "0x2b95830",
+    "compareVA": "0x4768df0",
+    "compare": [
+      [
+        "cmp",
+        "x0, x1"
+      ],
+      [
+        "cset",
+        "w0, ge"
+      ],
+      [
+        "ret",
+        ""
+      ]
+    ]
+  }
+}

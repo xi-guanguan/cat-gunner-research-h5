@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-01",
+  "sourceElfSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "evidenceRoot": "artifacts/evidence/round4-20261001",
+  "implementation": {
+    "pure": "src/source-meta-actions.ts",
+    "bridge": "src/source-meta-runtime.ts",
+    "persistence": "Persist session, activities, platform and meta as one envelope; UI/save are caller-owned",
+    "pureApis": [
+      "sourceMineSweepGate",
+      "sourceMineSweep",
+      "sourceMineSweepAdBonus",
+      "sourceMineSweepClose",
+      "sourcePassExpGet",
+      "sourceApplySeasonPass",
+      "sourcePassClaimGate",
+      "sourceClaimPassReward",
+      "sourceClaimLuxuryMission",
+      "sourceMissionReset",
+      "sourceSeasonReset",
+      "sourceDailyGunGate",
+      "sourceClaimDailyGun",
+      "sourceAutoMergeGate",
+      "sourceNextSeasonEnd",
+      "sourceSeasonClosed"
+    ],
+    "bridgeApis": [
+      "freshSourceMetaState",
+      "decodeSourceMetaState",
+      "serializeSourceMetaState",
+      "sourceMetaPassView",
+      "developerSourceMetaPass",
+      "developerSourceMetaEntitlement",
+      "runtimeSourceMineSweep",
+      "developerSourceMineSweepBonus",
+      "closeSourceMineSweep",
+      "runtimeSourcePassClaim",
+      "runtimeSourceMissionClaim"
+    ]
+  },
+  "mineSweep": {
+    "status": "implemented-pure-and-bridge",
+    "gate": "PlusPack.Is_Active(2) && Best_Reward > 0; before Ticket_Reload",
+    "ticketMaximum": {
+      "normal": 2,
+      "minePack": 6
+    },
+    "reward": "trunc(float32(Best_Reward * (Plus1Active ? 1.5 : 1))); automatic initial4x otherwise1x then confirmedad+3x",
+    "successTransaction": [
+      "consume1ticket",
+      "grantdiamonds",
+      "incrementmission(type3,1)",
+      "setsweeppending"
+    ],
+    "adTransaction": [
+      "grant3xstoredreward",
+      "nosupplementalticket",
+      "nosupplementalmission",
+      "closesweep"
+    ],
+    "source": [
+      {
+        "method": "Mine_manager.is_SweepAble",
+        "va": "0x2b4a0a0"
+      },
+      {
+        "method": "Mine_manager.Game_Sweep",
+        "va": "0x2b4a114"
+      },
+      {
+        "method": "Mine_manager.SweepBonus_Get",
+        "va": "0x2b4a034"
+      },
+      {
+        "method": "Mine_manager.Ticket_Reload",
+        "va": "0x2b49008"
+      },
+      {
+        "method": "Mine_manager.Ticket_MaxCount_return",
+        "va": "0x2b4946c"
+      },
+      {
+        "method": "PlusPack.Is_Active",
+        "va": "0x2b9077c"
+      },
+      {
+        "method": "PlusPack.get_Reward_Mult_Mine",
+        "va": "0x2b90914"
+      }
+    ],
+    "adapterGuarantees": [
+      "duplicateadcallbackguard",
+      "int32overflowdomainexcluded",
+      "localclockadapterhasmonotonicdayguardbutNOTtrustedserverparity"
+    ]
+  },
+  "seasonPass": {
+    "status": "implemented-pure-and-initial-season-bridge",
+    "apply": {
+      "vip": {
+        "vip": true,
+        "diamonds": 500,
+        "exp": 0
+      },
+      "luxury": {
+        "vip": true,
+        "luxury": true,
+        "diamonds": 1000,
+        "exp": 300
+      },
+      "luxury-upgrade": {
+        "vip": true,
+        "luxury": true,
+        "diamonds": 1000,
+        "exp": 300
+      }
+    },
+    "expPerLevel": 100,
+    "maxLevel": 25,
+    "capRule": "At25ignorelaterExp_Get; reaching25preservesremainder",
+    "claimGate": "level>sourceIndex; track1requiresVIP; allpreviousnormalclaimed and, ifVIP, allpreviousepicclaimed",
+    "normalAdGate": "index>=3 && index%3==0 && !adRemoved",
+    "consumer": "Markclaimonlyaftersuccessfulconsumer; gunduplicatesareentities;16slotcapacity",
+    "luxuryMission": "Normalclaimtrue + luxuryclaimfalse + Luxuryflag; RoundToEven(float32(rewardExp*0.5))",
+    "source": [
+      {
+        "method": "Shop_manager.ApplyVipPass",
+        "va": "0x2b98350"
+      },
+      {
+        "method": "Shop_manager.ApplyLuxuryPass",
+        "va": "0x2b981a4"
+      },
+      {
+        "method": "Shop_manager.ApplyLuxuryUpgrade",
+        "va": "0x2b97ff8"
+      },
+      {
+        "method": "Mission_manager.Exp_Get",
+        "va": "0x2a9d264"
+      },
+      {
+        "method": "Mission_manager.Reward_Get",
+        "va": "0x2aa5e74"
+      },
+      {
+        "method": "Mission_manager.is_Reward_SequenceLocked",
+        "va": "0x2aa629c"
+      },
+      {
+        "method": "Mission_manager.Mission_Reward_Get_Luxury",
+        "va": "0x2aa5020"
+      }
+    ],
+    "adapterGuarantees": [
+      "confirmeddeveloperprovideronlyinbridge",
+      "receiptdeduplication",
+      "VIPmissionsstoredinextensiontoavoidlegacydecoderincompatibility"
+    ]
+  },
+  "resets": {
+    "status": "implemented-pure-bridge-disabled-for-later-seasons",
+    "missionReset": [
+      "writeMissionStart=Now",
+      "clear4counters",
+      "clearnormalandLuxurytaskflags",
+      "retainpasslevel/exp/claimflags/VIP/Luxury"
+    ],
+    "seasonReset": [
+      "optionalincrementseason",
+      "optionalRecordGain(source-string-key)",
+      "pendingAd=-1",
+      "isGunSeason=isSeasonStart=true",
+      "Mission_Reset",
+      "level=exp=0",
+      "SeasonEnd=Now.AddMonths(1)",
+      "clearVIPandLuxury",
+      "clearnormalandepicclaims",
+      "Reward_Balance_Apply"
+    ],
+    "seasonClosed": "!seasonStarted || (CanGrantTimedReward && PendingCount==0 && Today>=SeasonEnd.Date)",
+    "systemSymbolEvidence": "meta-system-symbols.json",
+    "source": [
+      {
+        "method": "Mission_manager.Season_Reset",
+        "va": "0x2aa49bc"
+      },
+      {
+        "method": "Mission_manager.Mission_Reset",
+        "va": "0x2aa4ba8"
+      },
+      {
+        "method": "Mission_manager.Season_Reload",
+        "va": "0x2aa3ef4"
+      },
+      {
+        "method": "Mission_manager.is_Season_Closed",
+        "va": "0x2aa48ac"
+      },
+      {
+        "method": "Mission_manager.NewSeason_Start",
+        "va": "0x2a9da24"
+      }
+    ]
+  },
+  "dailyGun": {
+    "status": "implemented-pure-bridge-not-exposed",
+    "uiGate": "serverWeapon01AdOn && historicStage>=30 && lastDate!=trustedTodayKey",
+    "callbackRule": "AD_Daily_Gun_RewardGet itself checks duplicate date, then DrawRandomGun(1); date saved only after success",
+    "pool": {
+      "minimumInclusive": 5,
+      "maximumExclusive": 10,
+      "source": "UnityEngine.Random.Range(int,int)resolvedfrommetadataRID/ELFtable"
+    },
+    "placement": "firstemptyownedslot; duplicateIDsremainnewentities",
+    "date": "Time_manager.Now -> LoadData.ToStringSafe; sourceformatstringnotmapped; callerprovidestrustedTodayKey",
+    "source": [
+      {
+        "method": "Gun_manager.get_Is_AD_Daily_Gun_Unlocked",
+        "va": "0x2b69fc0"
+      },
+      {
+        "method": "Gun_manager.get_Is_AD_Daily_Gun_Able",
+        "va": "0x2b6a0ac"
+      },
+      {
+        "method": "Gun_manager.AD_Daily_Gun_RewardGet",
+        "va": "0x2b6a298"
+      },
+      {
+        "method": "Gun_manager.DrawRandomGun",
+        "va": "0x2b686ac"
+      },
+      {
+        "method": "Gun_manager.get_AD_Daily_TodayKey",
+        "va": "0x2b69f50"
+      }
+    ]
+  },
+  "autoMerge": {
+    "status": "eligibility-pure-only-no-coroutineimplementation",
+    "gate": "PlusPack.Is_Active(2) && userenabled",
+    "limitDegree": "min(configuredLimit,maxCollectedDegree-1,6)",
+    "source": [
+      {
+        "method": "Gun_manager.get_is_AutoMergeAble",
+        "va": "0x2b694d4"
+      },
+      {
+        "method": "Gun_manager.get_AutoMerge_Active",
+        "va": "0x2b69528"
+      },
+      {
+        "method": "Gun_manager.get_AutoMerge_Limit_Degree",
+        "va": "0x2b695b4"
+      },
+      {
+        "method": "Gun_manager.TryStartAutoMerge",
+        "va": "0x2b67c50"
+      },
+      {
+        "method": "Gun_Item_List.StartAutoMergeChain",
+        "va": "0x2b75d6c"
+      },
+      {
+        "method": "Gun_Item_List.FindAutoMergePair",
+        "va": "0x2b76ccc"
+      }
+    ],
+    "unsupported": [
+      "nativepairordering",
+      "pin/lockstate",
+      "coroutinetiming",
+      "automaticfusionmutation"
+    ]
+  },
+  "evidenceOnly": {
+    "Adventure": {
+      "status": "entry-names-and-native-VAs-only",
+      "source": [
+        {
+          "method": "Adventure_manager.Adventure_Start",
+          "va": "0x2b2d524"
+        },
+        {
+          "method": "Adventure_manager.Adventure_Reward_Get",
+          "va": "0x2b2dc3c"
+        },
+        {
+          "method": "Adventure_manager.Ticket_Refresh",
+          "va": "0x2b2d168"
+        },
+        {
+          "method": "Adventure_manager.is_Unlock_return",
+          "va": "0x2b2db58"
+        },
+        {
+          "method": "Adventure_manager.is_Finish_return",
+          "va": "0x2b2e56c"
+        },
+        {
+          "method": "Adventure_manager.Adventure_Reward_Core_return",
+          "va": "0x2b2e128"
+        },
+        {
+          "method": "Adventure_manager.Adventure_Reward_Exp_return",
+          "va": "0x2b2e2ec"
+        }
+      ],
+      "implementation": null,
+      "disabledReason": "No closed runtime/state/reward/playability contract; no substitute implementation"
+    },
+    "Fish": {
+      "status": "entry-names-and-native-VAs-only",
+      "source": [
+        {
+          "method": "Fish_manager.FreeGacha",
+          "va": "0x2b5e568"
+        },
+        {
+          "method": "Fish_manager.FreeGacha_RewardGet",
+          "va": "0x2b5e634"
+        },
+        {
+          "method": "Fish_manager.PremiumGacha",
+          "va": "0x2b5ea80"
+        },
+        {
+          "method": "Fish_manager.TryFusion",
+          "va": "0x2b5ece8"
+        },
+        {
+          "method": "Fish_manager.RollGrade",
+          "va": "0x2b5e7fc"
+        }
+      ],
+      "implementation": null,
+      "disabledReason": "No closed runtime/state/reward/playability contract; no substitute implementation"
+    },
+    "Pet": {
+      "status": "entry-names-and-native-VAs-only",
+      "source": [
+        {
+          "method": "Pet_manager.DrawPet",
+          "va": "0x2b7d16c"
+        },
+        {
+          "method": "Pet_manager.DrawPet_Normal",
+          "va": "0x2b7d310"
+        },
+        {
+          "method": "Pet_manager.DrawPet_Dia",
+          "va": "0x2b7d490"
+        },
+        {
+          "method": "Pet_manager.CanDispatchOwned",
+          "va": "0x2b7cce0"
+        },
+        {
+          "method": "Pet_manager.AD_Daily_Pet_RewardGet",
+          "va": "0x2b7e208"
+        }
+      ],
+      "implementation": null,
+      "disabledReason": "No closed runtime/state/reward/playability contract; no substitute implementation"
+    },
+    "Raid": {
+      "status": "entry-names-and-native-VAs-only",
+      "source": [
+        {
+          "method": "Raid_manager.Panel_Open",
+          "va": "0x2b57280"
+        },
+        {
+          "method": "Raid_manager.Game_Enter_Normal",
+          "va": "0x2b57758"
+        },
+        {
+          "method": "Raid_manager.Game_Enter_AD",
+          "va": "0x2b57ad4"
+        },
+        {
+          "method": "Raid_manager.Game_Enter_IAP",
+          "va": "0x2b57c30"
+        },
+        {
+          "method": "Raid_manager.Game_Start",
+          "va": "0x2b58a38"
+        },
+        {
+          "method": "Raid_manager.Game_End",
+          "va": "0x2b59258"
+        },
+        {
+          "method": "Raid_manager.StarGem_Reward_return",
+          "va": "0x2b5704c"
+        }
+      ],
+      "implementation": null,
+      "disabledReason": "No closed runtime/state/reward/playability contract; no substitute implementation"
+    }
+  },
+  "unsupported": [
+    "Adventure/Fish/Pet/Raidplayableimplementation",
+    "AutoMergecoroutine",
+    "laterseasongunrewardtable",
+    "nativeDailyGunkeyformat",
+    "trustedserverclockandRecordGainseasonstringkey",
+    "realbilling/advertisementprovider",
+    "int32overflowrewarddomain"
+  ]
+}

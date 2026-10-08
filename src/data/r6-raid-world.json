@@ -1,0 +1,36 @@
+{
+  "sourceSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "sourceWorldEvidence": "artifacts/evidence/round6-20261002/raid-world-scene.json",
+  "enemyID": 128082,
+  "enemyType": 5,
+  "colliderID": 66820,
+  "enemyColliderComponentID": 137132,
+  "layer": 7,
+  "projectileUiMode": 5,
+  "bossPosition": [
+    -120.0,
+    0.0,
+    20.0
+  ],
+  "sphere": {
+    "center": [
+      -120.0,
+      4.550000190734863,
+      20.0
+    ],
+    "radius": 12.0,
+    "enabled": true,
+    "isTrigger": false
+  },
+  "transformChain": [
+    39266,
+    39347,
+    53342,
+    60678
+  ],
+  "limitations": [
+    "Swept sphere and analytic ray/overlap queries are explicit H5 adapters, not PhysX scheduling or source-device parity.",
+    "Boss type5 does not use Monster knockback; Enemy.Damaged only applies it to type3.",
+    "Enemy.Spawn receives zero money from Raid_Boss.Spawn/Reload."
+  ]
+}

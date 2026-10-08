@@ -1,0 +1,654 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "apkSha256": "a2f354148ca44e73f86d2fb3d20199e8f62ab88a6bb40d40e7332ddf93bcbeda",
+    "bundleSha256": "12a68a5fe3c5d40de08cb430543f6ee2a7cc13a91f7e92fea862085e0977e7a5",
+    "method": "27 serialized Bullet pool roots and their full child hierarchies; all 65 selected Skin_particles templates; all 65 source muzzle subtrees"
+  },
+  "sharedCollider": {
+    "shape": "sphere",
+    "radius": 0.6000000238418579,
+    "center": [
+      0,
+      0,
+      0
+    ],
+    "worldScale": [
+      1,
+      1,
+      1
+    ],
+    "actualBulletRadius": 0.6000000238418579,
+    "trigger": true,
+    "enabledSerialized": true,
+    "poolGameObjectActiveSerialized": false,
+    "rigidbodyCollisionDetection": 0
+  },
+  "poolRoots": [
+    {
+      "component": "level0:132109",
+      "gameObject": "level0:22719",
+      "transform": "level0:50801",
+      "collider": "level0:66821"
+    },
+    {
+      "component": "level0:148817",
+      "gameObject": "level0:13705",
+      "transform": "level0:55018",
+      "collider": "level0:66808"
+    },
+    {
+      "component": "level0:148818",
+      "gameObject": "level0:13704",
+      "transform": "level0:55016",
+      "collider": "level0:66810"
+    },
+    {
+      "component": "level0:148819",
+      "gameObject": "level0:13703",
+      "transform": "level0:55015",
+      "collider": "level0:66811"
+    },
+    {
+      "component": "level0:148820",
+      "gameObject": "level0:13702",
+      "transform": "level0:55014",
+      "collider": "level0:66812"
+    },
+    {
+      "component": "level0:148821",
+      "gameObject": "level0:13701",
+      "transform": "level0:55017",
+      "collider": "level0:66809"
+    },
+    {
+      "component": "level0:148822",
+      "gameObject": "level0:13708",
+      "transform": "level0:55019",
+      "collider": "level0:66815"
+    },
+    {
+      "component": "level0:148823",
+      "gameObject": "level0:13706",
+      "transform": "level0:55020",
+      "collider": "level0:66813"
+    },
+    {
+      "component": "level0:148824",
+      "gameObject": "level0:13707",
+      "transform": "level0:55021",
+      "collider": "level0:66814"
+    },
+    {
+      "component": "level0:148825",
+      "gameObject": "level0:13697",
+      "transform": "level0:55022",
+      "collider": "level0:66816"
+    },
+    {
+      "component": "level0:148826",
+      "gameObject": "level0:13699",
+      "transform": "level0:55024",
+      "collider": "level0:66818"
+    },
+    {
+      "component": "level0:148827",
+      "gameObject": "level0:13700",
+      "transform": "level0:55025",
+      "collider": "level0:66819"
+    },
+    {
+      "component": "level0:148828",
+      "gameObject": "level0:13698",
+      "transform": "level0:55023",
+      "collider": "level0:66817"
+    },
+    {
+      "component": "level0:148829",
+      "gameObject": "level0:13691",
+      "transform": "level0:55030",
+      "collider": "level0:66796"
+    },
+    {
+      "component": "level0:148830",
+      "gameObject": "level0:13690",
+      "transform": "level0:55028",
+      "collider": "level0:66794"
+    },
+    {
+      "component": "level0:148831",
+      "gameObject": "level0:13689",
+      "transform": "level0:55029",
+      "collider": "level0:66795"
+    },
+    {
+      "component": "level0:148832",
+      "gameObject": "level0:13688",
+      "transform": "level0:55026",
+      "collider": "level0:66797"
+    },
+    {
+      "component": "level0:148833",
+      "gameObject": "level0:13687",
+      "transform": "level0:55027",
+      "collider": "level0:66798"
+    },
+    {
+      "component": "level0:148834",
+      "gameObject": "level0:13696",
+      "transform": "level0:55035",
+      "collider": "level0:66799"
+    },
+    {
+      "component": "level0:148835",
+      "gameObject": "level0:13695",
+      "transform": "level0:55034",
+      "collider": "level0:66803"
+    },
+    {
+      "component": "level0:148836",
+      "gameObject": "level0:13694",
+      "transform": "level0:55031",
+      "collider": "level0:66801"
+    },
+    {
+      "component": "level0:148837",
+      "gameObject": "level0:13693",
+      "transform": "level0:55032",
+      "collider": "level0:66800"
+    },
+    {
+      "component": "level0:148838",
+      "gameObject": "level0:13692",
+      "transform": "level0:55033",
+      "collider": "level0:66802"
+    },
+    {
+      "component": "level0:148839",
+      "gameObject": "level0:13684",
+      "transform": "level0:55036",
+      "collider": "level0:66805"
+    },
+    {
+      "component": "level0:148840",
+      "gameObject": "level0:13683",
+      "transform": "level0:55037",
+      "collider": "level0:66804"
+    },
+    {
+      "component": "level0:148841",
+      "gameObject": "level0:13686",
+      "transform": "level0:55038",
+      "collider": "level0:66806"
+    },
+    {
+      "component": "level0:148842",
+      "gameObject": "level0:13685",
+      "transform": "level0:55039",
+      "collider": "level0:66807"
+    }
+  ],
+  "gunBindings": [
+    {
+      "gunNum": 0,
+      "gunType": 0,
+      "visualTemplateKey": "level0:71566",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 1,
+      "gunType": 0,
+      "visualTemplateKey": "level0:71566",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 2,
+      "gunType": 0,
+      "visualTemplateKey": "level0:71566",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 3,
+      "gunType": 3,
+      "visualTemplateKey": "level0:71566",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 4,
+      "gunType": 3,
+      "visualTemplateKey": "level0:71566",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 5,
+      "gunType": 0,
+      "visualTemplateKey": "level0:73709",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 6,
+      "gunType": 0,
+      "visualTemplateKey": "level0:73709",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 7,
+      "gunType": 3,
+      "visualTemplateKey": "level0:73709",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 8,
+      "gunType": 2,
+      "visualTemplateKey": "level0:68370",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 9,
+      "gunType": 2,
+      "visualTemplateKey": "level0:68370",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 10,
+      "gunType": 0,
+      "visualTemplateKey": "level0:67788",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 11,
+      "gunType": 0,
+      "visualTemplateKey": "level0:67788",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 12,
+      "gunType": 3,
+      "visualTemplateKey": "level0:67788",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 13,
+      "gunType": 2,
+      "visualTemplateKey": "level0:74600",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 14,
+      "gunType": 4,
+      "visualTemplateKey": "level0:72785",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 15,
+      "gunType": 0,
+      "visualTemplateKey": "level0:73183",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 16,
+      "gunType": 3,
+      "visualTemplateKey": "level0:73183",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 17,
+      "gunType": 2,
+      "visualTemplateKey": "level0:71286",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 18,
+      "gunType": 4,
+      "visualTemplateKey": "level0:69607",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 19,
+      "gunType": 1,
+      "visualTemplateKey": "level0:71286",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 20,
+      "gunType": 0,
+      "visualTemplateKey": "level0:72604",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 21,
+      "gunType": 2,
+      "visualTemplateKey": "level0:71476",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 22,
+      "gunType": 4,
+      "visualTemplateKey": "level0:72452",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 23,
+      "gunType": 1,
+      "visualTemplateKey": "level0:71476",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 24,
+      "gunType": 5,
+      "visualTemplateKey": "level0:69419",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 25,
+      "gunType": 2,
+      "visualTemplateKey": "level0:72084",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 26,
+      "gunType": 4,
+      "visualTemplateKey": "level0:73881",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 27,
+      "gunType": 1,
+      "visualTemplateKey": "level0:72084",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 28,
+      "gunType": 5,
+      "visualTemplateKey": "level0:73882",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 29,
+      "gunType": 6,
+      "visualTemplateKey": "level0:70679",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 30,
+      "gunType": 2,
+      "visualTemplateKey": "level0:69449",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 31,
+      "gunType": 4,
+      "visualTemplateKey": "level0:72019",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 32,
+      "gunType": 1,
+      "visualTemplateKey": "level0:69449",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 33,
+      "gunType": 5,
+      "visualTemplateKey": "level0:73496",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 34,
+      "gunType": 6,
+      "visualTemplateKey": "level0:69766",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 35,
+      "gunType": 2,
+      "visualTemplateKey": "level0:74410",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 36,
+      "gunType": 4,
+      "visualTemplateKey": "level0:67946",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 37,
+      "gunType": 1,
+      "visualTemplateKey": "level0:74410",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 38,
+      "gunType": 5,
+      "visualTemplateKey": "level0:74169",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 39,
+      "gunType": 6,
+      "visualTemplateKey": "level0:74682",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 40,
+      "gunType": 2,
+      "visualTemplateKey": "level0:69488",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 41,
+      "gunType": 4,
+      "visualTemplateKey": "level0:68886",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 42,
+      "gunType": 1,
+      "visualTemplateKey": "level0:69488",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 43,
+      "gunType": 5,
+      "visualTemplateKey": "level0:72085",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 44,
+      "gunType": 6,
+      "visualTemplateKey": "level0:74937",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 45,
+      "gunType": 2,
+      "visualTemplateKey": "level0:67302",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 46,
+      "gunType": 4,
+      "visualTemplateKey": "level0:67402",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 47,
+      "gunType": 1,
+      "visualTemplateKey": "level0:67302",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 48,
+      "gunType": 5,
+      "visualTemplateKey": "level0:71045",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 49,
+      "gunType": 6,
+      "visualTemplateKey": "level0:74684",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 50,
+      "gunType": 2,
+      "visualTemplateKey": "level0:71365",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 51,
+      "gunType": 4,
+      "visualTemplateKey": "level0:69642",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 52,
+      "gunType": 1,
+      "visualTemplateKey": "level0:71365",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 53,
+      "gunType": 5,
+      "visualTemplateKey": "level0:71081",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 54,
+      "gunType": 6,
+      "visualTemplateKey": "level0:72731",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 55,
+      "gunType": 2,
+      "visualTemplateKey": "level0:71362",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 56,
+      "gunType": 4,
+      "visualTemplateKey": "level0:67143",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 57,
+      "gunType": 1,
+      "visualTemplateKey": "level0:71362",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 58,
+      "gunType": 5,
+      "visualTemplateKey": "level0:72077",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 59,
+      "gunType": 6,
+      "visualTemplateKey": "level0:73941",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 60,
+      "gunType": 2,
+      "visualTemplateKey": "level0:71043",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 61,
+      "gunType": 4,
+      "visualTemplateKey": "level0:71261",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 62,
+      "gunType": 1,
+      "visualTemplateKey": "level0:71043",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 63,
+      "gunType": 5,
+      "visualTemplateKey": "level0:71032",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    },
+    {
+      "gunNum": 64,
+      "gunType": 6,
+      "visualTemplateKey": "level0:68742",
+      "colliderBinding": "Bullet root SphereCollider",
+      "actualBulletRadius": 0.6000000238418579
+    }
+  ],
+  "activation": {
+    "spawn": "Bullet.ResetState enables cached root Collider; SpawnMissile calls ResetState",
+    "die": "Bullet.DieAndWait disables cached root Collider",
+    "nativeEvidence": "artifacts/evidence/round5-20261001/boss-projectile-native-disasm.txt",
+    "runtimeObserved": false
+  }
+}

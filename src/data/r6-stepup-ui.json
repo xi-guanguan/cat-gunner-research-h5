@@ -1,0 +1,1145 @@
+[
+  {
+    "kind": "StepUp_popup",
+    "id": "level0:697",
+    "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup",
+    "component": 123780,
+    "data": {
+      "Time_txt": {
+        "fileID": 0,
+        "pathID": 117375,
+        "id": "level0:1955",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Time/Time_txt"
+      },
+      "StepUp_Item_list": [
+        {
+          "fileID": 0,
+          "pathID": 129854,
+          "id": "level0:7948",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack"
+        },
+        {
+          "fileID": 0,
+          "pathID": 131823,
+          "id": "level0:9091",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 131822,
+          "id": "level0:9094",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 131821,
+          "id": "level0:9093",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 131824,
+          "id": "level0:9092",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)"
+        }
+      ]
+    },
+    "bytes": 108,
+    "sha256": "687838fb9de3f1875937b1eb1f001794f67049621e22a1b8608d714f0e9350dd"
+  },
+  {
+    "kind": "StepUp_Banner",
+    "id": "level0:1128",
+    "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner",
+    "component": 124333,
+    "data": {
+      "Time_txt": {
+        "fileID": 0,
+        "pathID": 117136,
+        "id": "level0:149",
+        "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/LastTime/Time_txt"
+      },
+      "gun_item": {
+        "fileID": 0,
+        "pathID": 146154,
+        "id": "level0:17917",
+        "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo"
+      },
+      "Sale_txt": {
+        "fileID": 0,
+        "pathID": 121358,
+        "id": "level0:10274",
+        "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Sale/I2_txt(Outline)"
+      }
+    },
+    "bytes": 68,
+    "sha256": "d735119abea9f22fc4e0fe37e2dc805fc7beae222151d9831a033220abddfb34"
+  },
+  {
+    "kind": "StepUp_Hud",
+    "id": "level0:2180",
+    "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/StepUp_obj/StepUp_Btn",
+    "component": 125578,
+    "data": {
+      "Time_txt": {
+        "fileID": 0,
+        "pathID": 117303,
+        "id": "level0:1452",
+        "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/StepUp_obj/StepUp_Btn/Time_txt"
+      },
+      "Price_obj": {
+        "fileID": 0,
+        "pathID": 1273,
+        "id": "level0:1273",
+        "path": "/Canvas/SafeArea/Main_UI/Btn_list/Left_Menu/StepUp_obj/StepUp_Btn/0.99"
+      }
+    },
+    "bytes": 56,
+    "sha256": "9b7795a520c1c61158c27472592c819c79f4147e209172fc1205cb1cafb00989"
+  },
+  {
+    "kind": "StepUp_Item_UI",
+    "id": "level0:7948",
+    "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack",
+    "component": 129854,
+    "data": {
+      "Step_Num": 0,
+      "Step_txt": {
+        "fileID": 0,
+        "pathID": 118602,
+        "id": "level0:17452",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/Step/Step_txt"
+      },
+      "gun_item": {
+        "fileID": 0,
+        "pathID": 135188,
+        "id": "level0:32477",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo"
+      },
+      "Dia_obj": {
+        "fileID": 0,
+        "pathID": 33959,
+        "id": "level0:33959",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/Dia"
+      },
+      "Dia_txt": {
+        "fileID": 0,
+        "pathID": 121694,
+        "id": "level0:23393",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/Dia/Dia_txt"
+      },
+      "Locked_txt": {
+        "fileID": 0,
+        "pathID": 121829,
+        "id": "level0:7160",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/Disable_obj/I2_txt(Outline)"
+      },
+      "Disable_Panel_obj": {
+        "fileID": 0,
+        "pathID": 20219,
+        "id": "level0:20219",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/Disable_obj"
+      },
+      "Disable_Step_obj": {
+        "fileID": 0,
+        "pathID": 15412,
+        "id": "level0:15412",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/Step/Disable_obj"
+      },
+      "Purchased_obj": {
+        "fileID": 0,
+        "pathID": 37064,
+        "id": "level0:37064",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/Purchased_obj"
+      },
+      "Purchase_Btn_obj": {
+        "fileID": 0,
+        "pathID": 23171,
+        "id": "level0:23171",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/Purchase_Btn"
+      },
+      "Glow_obj": {
+        "fileID": 0,
+        "pathID": 24869,
+        "id": "level0:24869",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/Glow"
+      }
+    },
+    "bytes": 156,
+    "sha256": "7c2e418056d131184bdcf01352f70a22e0d7daa27090b96056249404c2dd3699"
+  },
+  {
+    "kind": "StepUp_Item_UI",
+    "id": "level0:9093",
+    "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)",
+    "component": 131821,
+    "data": {
+      "Step_Num": 0,
+      "Step_txt": {
+        "fileID": 0,
+        "pathID": 118155,
+        "id": "level0:17103",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/Step/Step_txt"
+      },
+      "gun_item": {
+        "fileID": 0,
+        "pathID": 136739,
+        "id": "level0:30923",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo"
+      },
+      "Dia_obj": {
+        "fileID": 0,
+        "pathID": 29954,
+        "id": "level0:29954",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/Dia"
+      },
+      "Dia_txt": {
+        "fileID": 0,
+        "pathID": 121781,
+        "id": "level0:28534",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/Dia/Dia_txt"
+      },
+      "Locked_txt": {
+        "fileID": 0,
+        "pathID": 121222,
+        "id": "level0:9450",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/Disable_obj/I2_txt(Outline)"
+      },
+      "Disable_Panel_obj": {
+        "fileID": 0,
+        "pathID": 22366,
+        "id": "level0:22366",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/Disable_obj"
+      },
+      "Disable_Step_obj": {
+        "fileID": 0,
+        "pathID": 10872,
+        "id": "level0:10872",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/Step/Disable_obj"
+      },
+      "Purchased_obj": {
+        "fileID": 0,
+        "pathID": 35561,
+        "id": "level0:35561",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/Purchased_obj"
+      },
+      "Purchase_Btn_obj": {
+        "fileID": 0,
+        "pathID": 19294,
+        "id": "level0:19294",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/Purchase_Btn"
+      },
+      "Glow_obj": {
+        "fileID": 0,
+        "pathID": 28193,
+        "id": "level0:28193",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/Glow"
+      }
+    },
+    "bytes": 156,
+    "sha256": "cbf37c19603e1f9c9f921624f67d3a6a63eae4c603b2671b69c27c564d910de6"
+  },
+  {
+    "kind": "StepUp_Item_UI",
+    "id": "level0:9094",
+    "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)",
+    "component": 131822,
+    "data": {
+      "Step_Num": 0,
+      "Step_txt": {
+        "fileID": 0,
+        "pathID": 118154,
+        "id": "level0:17104",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/Step/Step_txt"
+      },
+      "gun_item": {
+        "fileID": 0,
+        "pathID": 136738,
+        "id": "level0:30924",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo"
+      },
+      "Dia_obj": {
+        "fileID": 0,
+        "pathID": 29955,
+        "id": "level0:29955",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/Dia"
+      },
+      "Dia_txt": {
+        "fileID": 0,
+        "pathID": 121782,
+        "id": "level0:28535",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/Dia/Dia_txt"
+      },
+      "Locked_txt": {
+        "fileID": 0,
+        "pathID": 121223,
+        "id": "level0:9451",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/Disable_obj/I2_txt(Outline)"
+      },
+      "Disable_Panel_obj": {
+        "fileID": 0,
+        "pathID": 22365,
+        "id": "level0:22365",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/Disable_obj"
+      },
+      "Disable_Step_obj": {
+        "fileID": 0,
+        "pathID": 10871,
+        "id": "level0:10871",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/Step/Disable_obj"
+      },
+      "Purchased_obj": {
+        "fileID": 0,
+        "pathID": 35562,
+        "id": "level0:35562",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/Purchased_obj"
+      },
+      "Purchase_Btn_obj": {
+        "fileID": 0,
+        "pathID": 19295,
+        "id": "level0:19295",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/Purchase_Btn"
+      },
+      "Glow_obj": {
+        "fileID": 0,
+        "pathID": 28192,
+        "id": "level0:28192",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/Glow"
+      }
+    },
+    "bytes": 156,
+    "sha256": "43d44ca4cda73c220a88e11a265acf096d2e369f319571ca076d747e060f1adf"
+  },
+  {
+    "kind": "StepUp_Item_UI",
+    "id": "level0:9091",
+    "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)",
+    "component": 131823,
+    "data": {
+      "Step_Num": 0,
+      "Step_txt": {
+        "fileID": 0,
+        "pathID": 118153,
+        "id": "level0:17105",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/Step/Step_txt"
+      },
+      "gun_item": {
+        "fileID": 0,
+        "pathID": 136741,
+        "id": "level0:30921",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo"
+      },
+      "Dia_obj": {
+        "fileID": 0,
+        "pathID": 29952,
+        "id": "level0:29952",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/Dia"
+      },
+      "Dia_txt": {
+        "fileID": 0,
+        "pathID": 121783,
+        "id": "level0:28536",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/Dia/Dia_txt"
+      },
+      "Locked_txt": {
+        "fileID": 0,
+        "pathID": 121224,
+        "id": "level0:9448",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/Disable_obj/I2_txt(Outline)"
+      },
+      "Disable_Panel_obj": {
+        "fileID": 0,
+        "pathID": 22368,
+        "id": "level0:22368",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/Disable_obj"
+      },
+      "Disable_Step_obj": {
+        "fileID": 0,
+        "pathID": 10874,
+        "id": "level0:10874",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/Step/Disable_obj"
+      },
+      "Purchased_obj": {
+        "fileID": 0,
+        "pathID": 35563,
+        "id": "level0:35563",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/Purchased_obj"
+      },
+      "Purchase_Btn_obj": {
+        "fileID": 0,
+        "pathID": 19292,
+        "id": "level0:19292",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/Purchase_Btn"
+      },
+      "Glow_obj": {
+        "fileID": 0,
+        "pathID": 28191,
+        "id": "level0:28191",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/Glow"
+      }
+    },
+    "bytes": 156,
+    "sha256": "ce43cce71cfc3a19e5817d29f55eb9037d97a7bcd88bd4ba547485fa1f2f8cab"
+  },
+  {
+    "kind": "StepUp_Item_UI",
+    "id": "level0:9092",
+    "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)",
+    "component": 131824,
+    "data": {
+      "Step_Num": 0,
+      "Step_txt": {
+        "fileID": 0,
+        "pathID": 118152,
+        "id": "level0:17106",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/Step/Step_txt"
+      },
+      "gun_item": {
+        "fileID": 0,
+        "pathID": 136740,
+        "id": "level0:30922",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo"
+      },
+      "Dia_obj": {
+        "fileID": 0,
+        "pathID": 29953,
+        "id": "level0:29953",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/Dia"
+      },
+      "Dia_txt": {
+        "fileID": 0,
+        "pathID": 121784,
+        "id": "level0:28537",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/Dia/Dia_txt"
+      },
+      "Locked_txt": {
+        "fileID": 0,
+        "pathID": 121225,
+        "id": "level0:9449",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/Disable_obj/I2_txt(Outline)"
+      },
+      "Disable_Panel_obj": {
+        "fileID": 0,
+        "pathID": 22367,
+        "id": "level0:22367",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/Disable_obj"
+      },
+      "Disable_Step_obj": {
+        "fileID": 0,
+        "pathID": 10873,
+        "id": "level0:10873",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/Step/Disable_obj"
+      },
+      "Purchased_obj": {
+        "fileID": 0,
+        "pathID": 35564,
+        "id": "level0:35564",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/Purchased_obj"
+      },
+      "Purchase_Btn_obj": {
+        "fileID": 0,
+        "pathID": 19293,
+        "id": "level0:19293",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/Purchase_Btn"
+      },
+      "Glow_obj": {
+        "fileID": 0,
+        "pathID": 28190,
+        "id": "level0:28190",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/Glow"
+      }
+    },
+    "bytes": 156,
+    "sha256": "6e7dd9a8b4d1ec820be1f8d6f7dae54739d3e39a16e9c8cfcb76b6039d07eb77"
+  },
+  {
+    "kind": "Gun_Item_Demo",
+    "id": "level0:32477",
+    "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo",
+    "component": 135188,
+    "data": {
+      "GunNum": 0,
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 139462,
+        "id": "level0:22999",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 147990,
+        "id": "level0:31218",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 135189,
+        "id": "level0:22324",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 35331,
+          "id": "level0:35331",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12075,
+          "id": "level0:12075",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 22550,
+          "id": "level0:22550",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9930,
+          "id": "level0:9930",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33321,
+          "id": "level0:33321",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9095,
+          "id": "level0:9095",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20843,
+          "id": "level0:20843",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 25499,
+          "id": "level0:25499",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/X"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21034,
+          "id": "level0:21034",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/XX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 5801,
+          "id": "level0:5801",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/XXX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 8461,
+          "id": "level0:8461",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/Z"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6963,
+          "id": "level0:6963",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/ZZ"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12226,
+          "id": "level0:12226",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Degree/ZZZ"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 118012,
+        "id": "level0:35454",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack/GunItem_Demo/Type_txt"
+      }
+    },
+    "bytes": 244,
+    "sha256": "84726fac9d66dcea0d2f737ed2f559d54b886d98231644319639d1ac5c663855"
+  },
+  {
+    "kind": "Gun_Item_Demo",
+    "id": "level0:30924",
+    "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo",
+    "component": 136738,
+    "data": {
+      "GunNum": 0,
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 140099,
+        "id": "level0:19154",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 148785,
+        "id": "level0:32617",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 136742,
+        "id": "level0:20345",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 37387,
+          "id": "level0:37387",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 13654,
+          "id": "level0:13654",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19662,
+          "id": "level0:19662",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6457,
+          "id": "level0:6457",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 30727,
+          "id": "level0:30727",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 7955,
+          "id": "level0:7955",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20583,
+          "id": "level0:20583",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28078,
+          "id": "level0:28078",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/X"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20782,
+          "id": "level0:20782",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/XX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3181,
+          "id": "level0:3181",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/XXX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9349,
+          "id": "level0:9349",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/Z"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10024,
+          "id": "level0:10024",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/ZZ"
+        },
+        {
+          "fileID": 0,
+          "pathID": 13907,
+          "id": "level0:13907",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Degree/ZZZ"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 117572,
+        "id": "level0:36731",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (2)/GunItem_Demo/Type_txt"
+      }
+    },
+    "bytes": 244,
+    "sha256": "723fe6597ed096b3ba33c7dab980820178c280cb39b3ff4e080d979a8eb37130"
+  },
+  {
+    "kind": "Gun_Item_Demo",
+    "id": "level0:30923",
+    "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo",
+    "component": 136739,
+    "data": {
+      "GunNum": 0,
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 140098,
+        "id": "level0:19153",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 148784,
+        "id": "level0:32616",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 136743,
+        "id": "level0:20346",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 37386,
+          "id": "level0:37386",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 13655,
+          "id": "level0:13655",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19661,
+          "id": "level0:19661",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6458,
+          "id": "level0:6458",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 30726,
+          "id": "level0:30726",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 7956,
+          "id": "level0:7956",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20584,
+          "id": "level0:20584",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28077,
+          "id": "level0:28077",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/X"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20781,
+          "id": "level0:20781",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/XX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3180,
+          "id": "level0:3180",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/XXX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9348,
+          "id": "level0:9348",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/Z"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10023,
+          "id": "level0:10023",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/ZZ"
+        },
+        {
+          "fileID": 0,
+          "pathID": 13906,
+          "id": "level0:13906",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Degree/ZZZ"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 117571,
+        "id": "level0:36730",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (3)/GunItem_Demo/Type_txt"
+      }
+    },
+    "bytes": 244,
+    "sha256": "32ea34c5fc3ecfd56deaa49af2e0191f634fe6c34e78993d0acc69f04ce676c1"
+  },
+  {
+    "kind": "Gun_Item_Demo",
+    "id": "level0:30922",
+    "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo",
+    "component": 136740,
+    "data": {
+      "GunNum": 0,
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 140097,
+        "id": "level0:19152",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 148783,
+        "id": "level0:32615",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 136744,
+        "id": "level0:20343",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 37389,
+          "id": "level0:37389",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 13652,
+          "id": "level0:13652",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19660,
+          "id": "level0:19660",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6455,
+          "id": "level0:6455",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 30725,
+          "id": "level0:30725",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 7957,
+          "id": "level0:7957",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20585,
+          "id": "level0:20585",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28080,
+          "id": "level0:28080",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/X"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20784,
+          "id": "level0:20784",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/XX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3179,
+          "id": "level0:3179",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/XXX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9351,
+          "id": "level0:9351",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/Z"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10022,
+          "id": "level0:10022",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/ZZ"
+        },
+        {
+          "fileID": 0,
+          "pathID": 13905,
+          "id": "level0:13905",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Degree/ZZZ"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 117570,
+        "id": "level0:36733",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (4)/GunItem_Demo/Type_txt"
+      }
+    },
+    "bytes": 244,
+    "sha256": "32f6800fe103e09ea8bdedaa7949bf60335d7152a8f092ad58fb1fd82aeb0c70"
+  },
+  {
+    "kind": "Gun_Item_Demo",
+    "id": "level0:30921",
+    "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo",
+    "component": 136741,
+    "data": {
+      "GunNum": 0,
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 140096,
+        "id": "level0:19151",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 148782,
+        "id": "level0:32614",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 136745,
+        "id": "level0:20344",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 37388,
+          "id": "level0:37388",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 13653,
+          "id": "level0:13653",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19659,
+          "id": "level0:19659",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6456,
+          "id": "level0:6456",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 30724,
+          "id": "level0:30724",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 7958,
+          "id": "level0:7958",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20586,
+          "id": "level0:20586",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28079,
+          "id": "level0:28079",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/X"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20783,
+          "id": "level0:20783",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/XX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3178,
+          "id": "level0:3178",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/XXX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9350,
+          "id": "level0:9350",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/Z"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10021,
+          "id": "level0:10021",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/ZZ"
+        },
+        {
+          "fileID": 0,
+          "pathID": 13904,
+          "id": "level0:13904",
+          "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Degree/ZZZ"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 117569,
+        "id": "level0:36732",
+        "path": "/Canvas/Shop_manager/StepUp/StepUp_Popup/Panel/Pack_list/StepUp_Gun_Pack (1)/GunItem_Demo/Type_txt"
+      }
+    },
+    "bytes": 244,
+    "sha256": "a6377ca7a16c811079b2a9c2219e85dce92f4f2e9dc417bb0cc563645d5b83db"
+  },
+  {
+    "kind": "Gun_Item_Demo",
+    "id": "level0:17917",
+    "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo",
+    "component": 146154,
+    "data": {
+      "GunNum": 25,
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 129737,
+        "id": "level0:9465",
+        "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 133087,
+        "id": "level0:16494",
+        "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 146153,
+        "id": "level0:9034",
+        "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 10844,
+          "id": "level0:10844",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 35534,
+          "id": "level0:35534",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9929,
+          "id": "level0:9929",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 22551,
+          "id": "level0:22551",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17411,
+          "id": "level0:17411",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20946,
+          "id": "level0:20946",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9206,
+          "id": "level0:9206",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 4136,
+          "id": "level0:4136",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/X"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9398,
+          "id": "level0:9398",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/XX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28800,
+          "id": "level0:28800",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/XXX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20664,
+          "id": "level0:20664",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/Z"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19717,
+          "id": "level0:19717",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/ZZ"
+        },
+        {
+          "fileID": 0,
+          "pathID": 35667,
+          "id": "level0:35667",
+          "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Degree/ZZZ"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 120965,
+        "id": "level0:12082",
+        "path": "/Canvas/SafeArea/Gun_UI  (SafeArea)/GunList_UI/StepUp_Banner/Panel/Profile/GunItem_Demo/Type_txt"
+      }
+    },
+    "bytes": 244,
+    "sha256": "3dbb83fc887b3fb5f935b59321dde36d1330997d6f56e9007baff452e6955825"
+  }
+]

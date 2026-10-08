@@ -1,0 +1,936 @@
+{
+  "schemaVersion": 1,
+  "sceneSha256": "12a68a5fe3c5d40de08cb430543f6ee2a7cc13a91f7e92fea862085e0977e7a5",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "nativeMethods": [
+    {
+      "method": "Cat.Balance_Reload",
+      "va": "0x2b38f10",
+      "bytes": 2748,
+      "sha256": "4a3955575a5baa6bd9bef120ed9032cc796abbf8c95d1a3c3a65640ad0b5fba6"
+    },
+    {
+      "method": "Cat_manager.Balance_Reload",
+      "va": "0x2b43744",
+      "bytes": 1076,
+      "sha256": "5e910ba52805b14bbb7a34b6e8508b6c4bd1c5be11ec339619c9adf373e9c61f"
+    },
+    {
+      "method": "Cat_manager.Warp",
+      "va": "0x2b44748",
+      "bytes": 508,
+      "sha256": "e279f1c4b3661bb6e1e8de084a910cc92c5c4ac3247b21299138d93556a89448"
+    },
+    {
+      "method": "Monster_manager.SkinSprite_return",
+      "va": "0x2b4ff4c",
+      "bytes": 88,
+      "sha256": "ffa984319eb56f1424a573bda45f9fac789a35bb08875ee66d5525d8fe158717"
+    }
+  ],
+  "camera": {
+    "id": 64047,
+    "chain": [
+      {
+        "pathID": 39272,
+        "name": "Camera_manager",
+        "position": [
+          -100.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "pathID": 39276,
+        "name": "Main Camera",
+        "position": [
+          73.5,
+          72.11000061035156,
+          -73.4000015258789
+        ],
+        "rotation": [
+          0.2798451781272888,
+          -0.3647055923938751,
+          0.11591566354036331,
+          0.880477249622345
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "orthographic": true,
+    "orthographicSize": 40.0,
+    "scope": "serialized main camera; follow/zoom consumer not yet verified"
+  },
+  "skins": [
+    "sharedassets0.assets:591",
+    "sharedassets0.assets:822",
+    "sharedassets0.assets:828",
+    "sharedassets0.assets:695",
+    "sharedassets0.assets:835",
+    "sharedassets0.assets:461",
+    "sharedassets0.assets:611",
+    "sharedassets0.assets:776",
+    "sharedassets0.assets:723",
+    "sharedassets0.assets:718",
+    "sharedassets0.assets:840",
+    "sharedassets0.assets:484",
+    "sharedassets0.assets:412",
+    "sharedassets0.assets:768",
+    "sharedassets0.assets:518",
+    "sharedassets0.assets:609",
+    "sharedassets0.assets:872",
+    "sharedassets0.assets:476",
+    "sharedassets0.assets:824",
+    "sharedassets0.assets:399"
+  ],
+  "monster": {
+    "rendererID": 83196,
+    "spriteKey": "sharedassets0.assets:591",
+    "chain": [
+      {
+        "pathID": 52684,
+        "name": "Monster",
+        "position": [
+          -17.110000610351562,
+          0.0,
+          9.859999656677246
+        ],
+        "rotation": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "scale": [
+          5.0,
+          5.0,
+          5.0
+        ]
+      },
+      {
+        "pathID": 51686,
+        "name": "BounceStart",
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "pathID": 48519,
+        "name": "Skin",
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.3535533845424652,
+          -0.3535533845424652,
+          0.1464466005563736,
+          0.8535534739494324
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "pathID": 54917,
+        "name": "Bounce_Custom",
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "pathID": 44888,
+        "name": "Sprite",
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.5000001192092896
+        ]
+      }
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "flipX": false,
+    "flipY": false,
+    "sortingOrder": 0,
+    "enabled": true
+  },
+  "grounds": [
+    {
+      "rendererID": 82853,
+      "spriteKey": "sharedassets0.assets:755",
+      "chain": [
+        {
+          "pathID": 39262,
+          "name": "Monster_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "pathID": 39336,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "pathID": 39268,
+          "name": "Groud",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.6532815098762512,
+            -0.27059805393218994,
+            0.27059805393218994,
+            0.6532815098762512
+          ],
+          "scale": [
+            15.0,
+            15.0,
+            15.0
+          ]
+        }
+      ],
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "flipX": false,
+      "flipY": false,
+      "sortingOrder": -40,
+      "enabled": true
+    },
+    {
+      "rendererID": 82854,
+      "spriteKey": "sharedassets0.assets:716",
+      "chain": [
+        {
+          "pathID": 39262,
+          "name": "Monster_manager",
+          "position": [
+            -100.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "pathID": 39336,
+          "name": "Map_obj",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            -0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "pathID": 39274,
+          "name": "Groud (1)",
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0.6532815098762512,
+            -0.27059805393218994,
+            0.27059805393218994,
+            0.6532815098762512
+          ],
+          "scale": [
+            3.3200864791870117,
+            3.3200864791870117,
+            3.3200864791870117
+          ]
+        }
+      ],
+      "color": [
+        0.7529412508010864,
+        0.6117647290229797,
+        0.572549045085907,
+        1.0
+      ],
+      "flipX": false,
+      "flipY": false,
+      "sortingOrder": -39,
+      "enabled": true
+    }
+  ],
+  "resources": {
+    "sharedassets0.assets:591": {
+      "file": "sharedassets0.assets",
+      "pathID": 591,
+      "name": "0",
+      "url": "/assets/hunt/sprite-591.png",
+      "rect": [
+        76.0,
+        79.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        76,
+        79
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "3c1285797f0828e71ade0033afaf06c4c2329f659d2108d95e89b6f829bc0dbb",
+      "sourceSha256": "91cf1a9e1ecfa898ed51320d5bc8e9f86a772f57f8783a367405efd24c26380e"
+    },
+    "sharedassets0.assets:822": {
+      "file": "sharedassets0.assets",
+      "pathID": 822,
+      "name": "1",
+      "url": "/assets/hunt/sprite-822.png",
+      "rect": [
+        77.0,
+        74.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        77,
+        74
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "84adeee50622f637d671c48199b096df8dc7f673a8c65bd914a092dcad09a07c",
+      "sourceSha256": "6b3d3d0ba55d436afc9a3d5ac95efc53ef05d5de79a8441944a6b6f628ca6795"
+    },
+    "sharedassets0.assets:828": {
+      "file": "sharedassets0.assets",
+      "pathID": 828,
+      "name": "2",
+      "url": "/assets/hunt/sprite-828.png",
+      "rect": [
+        76.0,
+        79.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        76,
+        79
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "10a99ebdbe33d8f82e96fdc7a8d76b4e6235f5617d6df7e60765219cc53c7d61",
+      "sourceSha256": "d07a8cac4c916ec5b405e65c81808338b69e6f76fa4eb6785dd64ec2cd1d6e02"
+    },
+    "sharedassets0.assets:695": {
+      "file": "sharedassets0.assets",
+      "pathID": 695,
+      "name": "3",
+      "url": "/assets/hunt/sprite-695.png",
+      "rect": [
+        77.0,
+        74.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        77,
+        74
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "72046b2583cb0d3cffa3622a63f34405bbeb55a369a40fd8e9a162149b454551",
+      "sourceSha256": "04e4492f6ae0021ff07741238a2b35abc167ba8836ccf312020fdd9c67448449"
+    },
+    "sharedassets0.assets:835": {
+      "file": "sharedassets0.assets",
+      "pathID": 835,
+      "name": "4",
+      "url": "/assets/hunt/sprite-835.png",
+      "rect": [
+        76.0,
+        79.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        76,
+        79
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "f0ebc3ef787ea910f22c0804133f1121a1bceaac1f14355a51d73b368f29f344",
+      "sourceSha256": "0e4f12b4f01d5728541256b30cdf1f524b38b55ce12ae1e7394af58ea3a908d5"
+    },
+    "sharedassets0.assets:461": {
+      "file": "sharedassets0.assets",
+      "pathID": 461,
+      "name": "5",
+      "url": "/assets/hunt/sprite-461.png",
+      "rect": [
+        77.0,
+        74.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        77,
+        74
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "d7f87a30404ed6b8c126c701e95d225b9a090daa742c16281dd172199bfebf0f",
+      "sourceSha256": "df95d31ca50f55ea836b2af10aba04cadbd303d46bcd138ead89d8a090880e2b"
+    },
+    "sharedassets0.assets:611": {
+      "file": "sharedassets0.assets",
+      "pathID": 611,
+      "name": "6",
+      "url": "/assets/hunt/sprite-611.png",
+      "rect": [
+        76.0,
+        79.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        76,
+        79
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "c6d93d019ea8e2f72682b05627d6bf1fda1997f5a4efa01cd4e9a207c9d67195",
+      "sourceSha256": "77b4a73bc9e8f09b57213e6eb591bd0b96d29bd6223e5a3add975d0db242c300"
+    },
+    "sharedassets0.assets:776": {
+      "file": "sharedassets0.assets",
+      "pathID": 776,
+      "name": "7",
+      "url": "/assets/hunt/sprite-776.png",
+      "rect": [
+        77.0,
+        74.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        77,
+        74
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "a9c5bcf76752256e8b41a681ec9d0614545efabffba58e4bce3b658ff4c28bb4",
+      "sourceSha256": "06ad61b0b047c628eb79bbaae590f730dbe16d625719c80ac673c2dfd7cc0eff"
+    },
+    "sharedassets0.assets:723": {
+      "file": "sharedassets0.assets",
+      "pathID": 723,
+      "name": "8",
+      "url": "/assets/hunt/sprite-723.png",
+      "rect": [
+        76.0,
+        79.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        76,
+        79
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "65de3df15065d690b54b5ab0849eaec992bc6c4a87dcd5fc9e4a9cf145856abb",
+      "sourceSha256": "68a42d39e82a565e4b96bc7cd7ffd68bee14d3659c68acf0a48b108c81724171"
+    },
+    "sharedassets0.assets:718": {
+      "file": "sharedassets0.assets",
+      "pathID": 718,
+      "name": "9",
+      "url": "/assets/hunt/sprite-718.png",
+      "rect": [
+        77.0,
+        74.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        77,
+        74
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "b616bf6dedcaa544ef86e71598189b53411040845b82b5c8abbff9abb5ac0bb6",
+      "sourceSha256": "4861291135952c9d4d81d05efb716c60664e4a5dd61831dde1325902b5a78b05"
+    },
+    "sharedassets0.assets:840": {
+      "file": "sharedassets0.assets",
+      "pathID": 840,
+      "name": "10",
+      "url": "/assets/hunt/sprite-840.png",
+      "rect": [
+        76.0,
+        79.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        76,
+        79
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "9066d00f890a9b87580772b96822da6d70ce5a2ea50055fed531cd79fc716c9d",
+      "sourceSha256": "f9b9ee80c83dbcdaed6efaea638dd36b79ea5836d3d038cb0fc1617104742380"
+    },
+    "sharedassets0.assets:484": {
+      "file": "sharedassets0.assets",
+      "pathID": 484,
+      "name": "11",
+      "url": "/assets/hunt/sprite-484.png",
+      "rect": [
+        77.0,
+        74.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        77,
+        74
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "9efb08a6695f72342117d8beb83c7b3060a69c5d9bcf969ee57a9b8420ba935a",
+      "sourceSha256": "c21f1f481fc51322d5a36e5c2167798909383be2e8c8c066f3ce6bf0524a12fa"
+    },
+    "sharedassets0.assets:412": {
+      "file": "sharedassets0.assets",
+      "pathID": 412,
+      "name": "12",
+      "url": "/assets/hunt/sprite-412.png",
+      "rect": [
+        76.0,
+        79.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        76,
+        79
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "7a83bc89624e6760ef60fcf1faa5e53e5da5685e0680ddf008ad86d7e61ea303",
+      "sourceSha256": "27960b9d2ee634f67ef76800f3f3535663c67908ee91cb8b1fe4e0b4fc31565a"
+    },
+    "sharedassets0.assets:768": {
+      "file": "sharedassets0.assets",
+      "pathID": 768,
+      "name": "13",
+      "url": "/assets/hunt/sprite-768.png",
+      "rect": [
+        77.0,
+        74.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        77,
+        74
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "e5763ff80226b6e6ca6c70d95a78849be20fb327f8eb49199cf0ea04bb979f0c",
+      "sourceSha256": "277b47c65ab6f0ffb4e072a07380d5cfec60a5f360f655086296a62498f78be7"
+    },
+    "sharedassets0.assets:518": {
+      "file": "sharedassets0.assets",
+      "pathID": 518,
+      "name": "14",
+      "url": "/assets/hunt/sprite-518.png",
+      "rect": [
+        76.0,
+        79.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        76,
+        79
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "d058b30040fe51c25b6aee9ee241e6a91be84012f8063650009f0c7a7c2b64e7",
+      "sourceSha256": "599b1a56be31474e6fe8f23ce3f895f607119f7009b285499edbe23b62af4ab5"
+    },
+    "sharedassets0.assets:609": {
+      "file": "sharedassets0.assets",
+      "pathID": 609,
+      "name": "15",
+      "url": "/assets/hunt/sprite-609.png",
+      "rect": [
+        77.0,
+        74.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        77,
+        74
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "dbcb5f0c21a9b5171bf7413581e8ae5ed71ac05e45c1884857a57afb5515abf8",
+      "sourceSha256": "e7ffb1e905c212efbdc5d8e1f03ffc851ed23ad359c16a9bb4e71c59e037494c"
+    },
+    "sharedassets0.assets:872": {
+      "file": "sharedassets0.assets",
+      "pathID": 872,
+      "name": "16",
+      "url": "/assets/hunt/sprite-872.png",
+      "rect": [
+        76.0,
+        79.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        76,
+        79
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "d77f904448c34ab6af673807c25686dae0204f4c0851203abeaf73be230d2d84",
+      "sourceSha256": "95d954197c333f15e85fd5d5ae26b5d870f52718a0cfabd99021c067f1448ce4"
+    },
+    "sharedassets0.assets:476": {
+      "file": "sharedassets0.assets",
+      "pathID": 476,
+      "name": "17",
+      "url": "/assets/hunt/sprite-476.png",
+      "rect": [
+        77.0,
+        74.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        77,
+        74
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "4f2edf5365551b3cf41ffc969d61d5d781de9dd8e4baffea777482f9fe3e4d0f",
+      "sourceSha256": "cf5fe5407d41425ec9108eb6429e51865492e48303babb7d9b86dc3caa0d542a"
+    },
+    "sharedassets0.assets:824": {
+      "file": "sharedassets0.assets",
+      "pathID": 824,
+      "name": "18",
+      "url": "/assets/hunt/sprite-824.png",
+      "rect": [
+        76.0,
+        79.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        76,
+        79
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "5fcb2f1e6f19204cade3669744883e09f28e636c99d7d16d010e6d72a3ef27f9",
+      "sourceSha256": "fd5869d27bd364a9cd47752f3ecd55018dc79c88b6db1837444f38e7a5848803"
+    },
+    "sharedassets0.assets:399": {
+      "file": "sharedassets0.assets",
+      "pathID": 399,
+      "name": "19",
+      "url": "/assets/hunt/sprite-399.png",
+      "rect": [
+        77.0,
+        74.0
+      ],
+      "pivot": [
+        0.5,
+        0.18700000643730164
+      ],
+      "pixelsPerUnit": 100.0,
+      "texturePixels": [
+        77,
+        74
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "d45eb458089055082656c5d97266fa34ece213729041db0ee52592aeb9314d97",
+      "sourceSha256": "b91f395541405c626e1c4e09582c502f3533bc6f81fb572a315958b51da90a66"
+    },
+    "sharedassets0.assets:755": {
+      "file": "sharedassets0.assets",
+      "pathID": 755,
+      "name": "0",
+      "url": "/assets/hunt/sprite-755.png",
+      "rect": [
+        512.0,
+        512.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 50.0,
+      "texturePixels": [
+        512,
+        512
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "43f3549c86efe4c18c8948043f5ddc7dce1190eb600cd89e9ea35401e8f91acf",
+      "sourceSha256": "502304678ed51823fc875fc71a6ec1af04f69724e83416983c8801550e8855a2"
+    },
+    "sharedassets0.assets:716": {
+      "file": "sharedassets0.assets",
+      "pathID": 716,
+      "name": "Grass-8",
+      "url": "/assets/hunt/sprite-716.png",
+      "rect": [
+        512.0,
+        512.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 50.0,
+      "texturePixels": [
+        512,
+        512
+      ],
+      "textureRectOffset": [
+        0.0,
+        0.0
+      ],
+      "sha256": "efa254607118b2614ed170b0c1e4d37d8a403203ee5953ca6d33cca376a9ec7e",
+      "sourceSha256": "f9265e176f79fa9402a77eb08e9781e1bb4c0a4b88c33789166a8781ed95d32c"
+    }
+  },
+  "skinRule": {
+    "method": "Monster_manager.SkinSprite_return@0x2b4ff4c",
+    "index": "2*(wave%10)+variant",
+    "variant": [
+      0,
+      1
+    ]
+  },
+  "limitations": [
+    "H5 camera projection/follow explicit; original camera mode transitions not runtime captured.",
+    "Monster spawn-bounce, hit-bounce, slime/death/zone particles and mesh HP not restored by this manifest.",
+    "PNG rectangle SpriteRenderer projection, not Unity Sprite mesh/material shader equivalence."
+  ]
+}

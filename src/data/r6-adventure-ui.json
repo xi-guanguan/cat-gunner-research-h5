@@ -1,0 +1,2208 @@
+[
+  {
+    "kind": "Adventure_Enter_popup",
+    "id": "level0:126",
+    "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup",
+    "component": 123096,
+    "bytes": 336,
+    "sha256": "681de0c4657e2a22d516f2f03bcd5e03a022112df7bc0ebcb6a44141003d3a2a",
+    "data": {
+      "Map_img_objs": [
+        {
+          "fileID": 0,
+          "pathID": 1939,
+          "id": "level0:1939",
+          "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Map_item/Mask/Forest"
+        },
+        {
+          "fileID": 0,
+          "pathID": 93,
+          "id": "level0:93",
+          "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Map_item/Mask/Desert"
+        },
+        {
+          "fileID": 0,
+          "pathID": 1979,
+          "id": "level0:1979",
+          "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Map_item/Mask/Tundra"
+        }
+      ],
+      "Stage_txt": {
+        "fileID": 0,
+        "pathID": 121582,
+        "id": "level0:10092",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Map_item/Name/Stage_txt"
+      },
+      "Time_txt": {
+        "fileID": 0,
+        "pathID": 117397,
+        "id": "level0:2119",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Map_item/Time/Time_txt"
+      },
+      "Exp_txt": {
+        "fileID": 0,
+        "pathID": 117128,
+        "id": "level0:86",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Exp/Exp_txt"
+      },
+      "Core_txt": {
+        "fileID": 0,
+        "pathID": 117232,
+        "id": "level0:909",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Core/Core_txt"
+      },
+      "petSelect_popup": {
+        "fileID": 0,
+        "pathID": 124453,
+        "id": "level0:1228",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup"
+      },
+      "RewardCore_img": {
+        "fileID": 0,
+        "pathID": 123723,
+        "id": "level0:649",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Core/Core_Icon"
+      },
+      "RewardCore_Panel_img": {
+        "fileID": 0,
+        "pathID": 124917,
+        "id": "level0:1643",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Core"
+      },
+      "EnterTicket_txt": {
+        "fileID": 0,
+        "pathID": 117415,
+        "id": "level0:2211",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Enter_Btn/Ticket_txt"
+      },
+      "Enter_Btn_img": {
+        "fileID": 0,
+        "pathID": 122966,
+        "id": "level0:22",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Enter_Btn"
+      },
+      "CorePanel_Colors": [
+        [
+          0.6117647290229797,
+          1.0,
+          0.5647059082984924,
+          1.0
+        ],
+        [
+          1.0,
+          0.7529411911964417,
+          0.1764705926179886,
+          1.0
+        ],
+        [
+          0.545098066329956,
+          0.9921568632125854,
+          1.0,
+          1.0
+        ]
+      ],
+      "Color_EnterAble_txt": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "Color_EnterDisable_txt": [
+        1.0,
+        0.5058823823928833,
+        0.5058823823928833,
+        1.0
+      ],
+      "Color_EnterAble": [
+        0.6078431606292725,
+        0.9137254953384399,
+        0.5843137502670288,
+        1.0
+      ],
+      "Color_EnterDisable": [
+        0.6823529601097107,
+        0.6823529601097107,
+        0.6823529601097107,
+        1.0
+      ],
+      "Pet_Slot_list": [
+        {
+          "fileID": 0,
+          "pathID": 148041,
+          "id": "level0:15481",
+          "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147188,
+          "id": "level0:17005",
+          "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot (1)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147189,
+          "id": "level0:17004",
+          "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot (2)"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Adventure_Reward_popup",
+    "id": "level0:611",
+    "path": "/Canvas/Adventure_manager/Adventure_Reward_UI",
+    "component": 123676,
+    "bytes": 240,
+    "sha256": "b311af93a8fba8ef89f36d65e9e1a964c8880cec98093b895185be52e2547467",
+    "data": {
+      "ExpSlider_obj": {
+        "fileID": 0,
+        "pathID": 456,
+        "id": "level0:456",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI/Panel/Exp_Slider"
+      },
+      "Endtxt_obj": {
+        "fileID": 0,
+        "pathID": 10225,
+        "id": "level0:10225",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI/Panel/I2_txt(Outline)"
+      },
+      "Exp_obj": {
+        "fileID": 0,
+        "pathID": 2082,
+        "id": "level0:2082",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI/Panel/Exp"
+      },
+      "Core_obj": {
+        "fileID": 0,
+        "pathID": 780,
+        "id": "level0:780",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI/Panel/Core"
+      },
+      "Exit_obj": {
+        "fileID": 0,
+        "pathID": 2105,
+        "id": "level0:2105",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI/TouchToExit"
+      },
+      "ExpSlider_Fill": {
+        "fileID": 0,
+        "pathID": 123314,
+        "id": "level0:298",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI/Panel/Exp_Slider/Fill"
+      },
+      "Slider_Lv_txt": {
+        "fileID": 0,
+        "pathID": 117281,
+        "id": "level0:1278",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI/Panel/Exp_Slider/Lv_txt"
+      },
+      "Slider_Exp_txt": {
+        "fileID": 0,
+        "pathID": 117410,
+        "id": "level0:2195",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI/Panel/Exp_Slider/Exp_txt"
+      },
+      "Reward_Exp_txt": {
+        "fileID": 0,
+        "pathID": 117244,
+        "id": "level0:986",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI/Panel/Exp/Panel/Exp_txt"
+      },
+      "Reward_Core_txt": {
+        "fileID": 0,
+        "pathID": 117165,
+        "id": "level0:361",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI/Panel/Core/Panel/Core_txt"
+      },
+      "Reward_Core_img": {
+        "fileID": 0,
+        "pathID": 124267,
+        "id": "level0:1074",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI/Panel/Core/Panel/Core_Icon"
+      },
+      "RewardCore_Panel_img": {
+        "fileID": 0,
+        "pathID": 123593,
+        "id": "level0:540",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI/Panel/Core/Panel"
+      },
+      "CorePanel_Colors": [
+        [
+          0.6117647290229797,
+          1.0,
+          0.5647059082984924,
+          1.0
+        ],
+        [
+          1.0,
+          0.7529411911964417,
+          0.1764705926179886,
+          1.0
+        ],
+        [
+          0.545098066329956,
+          0.9921568632125854,
+          1.0,
+          1.0
+        ]
+      ],
+      "ElementGap": 0.15000000596046448,
+      "SliderFillDuration": 0.800000011920929,
+      "ExitDelay": 0.30000001192092896
+    }
+  },
+  {
+    "kind": "Adventure_Ticket_UI",
+    "id": "level0:688",
+    "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Pet_Panel/Ticket",
+    "component": 123767,
+    "bytes": 88,
+    "sha256": "029c7d2c82c3b9536da044264e48c05f2a45eee69b372638b7242b85a762cabf",
+    "data": {
+      "Count_txt": [
+        {
+          "fileID": 0,
+          "pathID": 117237,
+          "id": "level0:931",
+          "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Pet_Panel/Ticket/Count_txt"
+        },
+        {
+          "fileID": 0,
+          "pathID": 117172,
+          "id": "level0:382",
+          "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Ticket/Count_txt"
+        }
+      ],
+      "Cooltime_txt": [
+        {
+          "fileID": 0,
+          "pathID": 117357,
+          "id": "level0:1849",
+          "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Pet_Panel/Ticket/CoolTime_txt"
+        },
+        {
+          "fileID": 0,
+          "pathID": 117182,
+          "id": "level0:458",
+          "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Ticket/CoolTime_txt"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Adventure_Panel",
+    "id": "level0:977",
+    "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel",
+    "component": 124152,
+    "bytes": 540,
+    "sha256": "f3aaebfe438e7428ed9c6d17e29c2c204f2fb1adcf9e671bbdba8b79630957c4",
+    "data": {
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117252,
+        "id": "level0:1071",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Pet_Panel/Exp_Slider/lv/Lv_txt"
+      },
+      "Exp_txt": {
+        "fileID": 0,
+        "pathID": 117245,
+        "id": "level0:993",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Pet_Panel/Exp_Slider/Exp_txt"
+      },
+      "Exp_Fill": {
+        "fileID": 0,
+        "pathID": 125252,
+        "id": "level0:1904",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Pet_Panel/Exp_Slider/Fill"
+      },
+      "RenderTexture_Map_obj": {
+        "fileID": 0,
+        "pathID": 1744,
+        "id": null,
+        "path": null
+      },
+      "Pet_Dummy_list": [
+        {
+          "fileID": 0,
+          "pathID": 133675,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133676,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133689,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133682,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133673,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133684,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133678,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133690,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133679,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133674,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133686,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133685,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133677,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133687,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133681,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133683,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133688,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133691,
+          "id": null,
+          "path": null
+        },
+        {
+          "fileID": 0,
+          "pathID": 133680,
+          "id": null,
+          "path": null
+        }
+      ],
+      "Adventure_Maplist_popup": {
+        "fileID": 0,
+        "pathID": 1248,
+        "id": "level0:1248",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup"
+      },
+      "Adventure_Map_list": [
+        {
+          "fileID": 0,
+          "pathID": 140373,
+          "id": "level0:19528",
+          "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Menu_Map/Map_Panel_list/Adventure_Map_item"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128437,
+          "id": "level0:3701",
+          "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Menu_Map/Map_Panel_list/Adventure_Map_item (1)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128436,
+          "id": "level0:3700",
+          "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Menu_Map/Map_Panel_list/Adventure_Map_item (2)"
+        }
+      ],
+      "Adventure_Map_Info_list": [
+        {
+          "fileID": 0,
+          "pathID": 149315,
+          "id": "level0:4962",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139742,
+          "id": "level0:18445",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139743,
+          "id": "level0:18442",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139744,
+          "id": "level0:18443",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139745,
+          "id": "level0:18444",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)"
+        }
+      ],
+      "Adventure_Enter_popup": {
+        "fileID": 0,
+        "pathID": 123096,
+        "id": "level0:126",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup"
+      },
+      "Adventure_Reward_popup": {
+        "fileID": 0,
+        "pathID": 123676,
+        "id": "level0:611",
+        "path": "/Canvas/Adventure_manager/Adventure_Reward_UI"
+      },
+      "MapInfo_Panel_img": {
+        "fileID": 0,
+        "pathID": 124627,
+        "id": "level0:1384",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel"
+      },
+      "MapInfo_Panel_Colors": [
+        [
+          0.7058823704719543,
+          0.9058823585510254,
+          0.7372549176216125,
+          1.0
+        ],
+        [
+          1.0,
+          0.9176470637321472,
+          0.729411780834198,
+          1.0
+        ],
+        [
+          0.7333333492279053,
+          1.0,
+          0.9764705896377563,
+          1.0
+        ]
+      ],
+      "Map_Alert_obj": {
+        "fileID": 0,
+        "pathID": 33903,
+        "id": "level0:33903",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Btn_list/Btn (1)/Alert_obj"
+      },
+      "Core_Alert_obj": {
+        "fileID": 0,
+        "pathID": 9625,
+        "id": "level0:9625",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Btn_list/Btn/Alert_obj"
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_popup",
+    "id": "level0:1228",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup",
+    "component": 124453,
+    "bytes": 276,
+    "sha256": "b65839b5bbc97064a292977250734368c3af5c4d601a7f93f0cacd3d1161ee57",
+    "data": {
+      "Pet_Slot_list": [
+        {
+          "fileID": 0,
+          "pathID": 145526,
+          "id": "level0:23280",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 0"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139721,
+          "id": "level0:37034",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelect_Slot 1"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139714,
+          "id": "level0:37044",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 2"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139719,
+          "id": "level0:37043",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 3"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139718,
+          "id": "level0:37042",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 4"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139722,
+          "id": "level0:37036",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 5"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139726,
+          "id": "level0:37040",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 6"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139728,
+          "id": "level0:37030",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 7"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139717,
+          "id": "level0:37047",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 8"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139725,
+          "id": "level0:37039",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 9"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139723,
+          "id": "level0:37037",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 10"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139727,
+          "id": "level0:37041",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 11"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139715,
+          "id": "level0:37045",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 12"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139720,
+          "id": "level0:37035",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 13"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139729,
+          "id": "level0:37031",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 14"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139724,
+          "id": "level0:37038",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 15"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139730,
+          "id": "level0:37032",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 16"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139716,
+          "id": "level0:37046",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 17"
+        },
+        {
+          "fileID": 0,
+          "pathID": 139731,
+          "id": "level0:37033",
+          "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 18"
+        }
+      ],
+      "enter_popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_Exit_Panel",
+    "id": "level0:1612",
+    "path": "/Canvas/Adventure_manager/AdventureExit_panel",
+    "component": 124886,
+    "bytes": 140,
+    "sha256": "c642c898671008d8dbba28ba9a24744822244a439e5d0991f683e988a472ce8b",
+    "data": {
+      "_type": 0,
+      "_index": 0,
+      "Reward_Exp_txt": {
+        "fileID": 0,
+        "pathID": 117341,
+        "id": "level0:1707",
+        "path": "/Canvas/Adventure_manager/AdventureExit_panel/Panel/Exp/Panel/Exp_txt"
+      },
+      "Reward_Core_txt": {
+        "fileID": 0,
+        "pathID": 117376,
+        "id": "level0:1959",
+        "path": "/Canvas/Adventure_manager/AdventureExit_panel/Panel/Core/Panel/Core_txt"
+      },
+      "Reward_Core_img": {
+        "fileID": 0,
+        "pathID": 124235,
+        "id": "level0:1052",
+        "path": "/Canvas/Adventure_manager/AdventureExit_panel/Panel/Core/Panel/Core_Icon"
+      },
+      "RewardCore_Panel_img": {
+        "fileID": 0,
+        "pathID": 124216,
+        "id": "level0:1032",
+        "path": "/Canvas/Adventure_manager/AdventureExit_panel/Panel/Core/Panel"
+      },
+      "CorePanel_Colors": [
+        [
+          0.6117647290229797,
+          1.0,
+          0.5647059082984924,
+          1.0
+        ],
+        [
+          1.0,
+          0.7529411911964417,
+          0.1764705926179886,
+          1.0
+        ],
+        [
+          0.545098066329956,
+          0.9921568632125854,
+          1.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  {
+    "kind": "Adventure_Map_item",
+    "id": "level0:3700",
+    "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Menu_Map/Map_Panel_list/Adventure_Map_item (2)",
+    "component": 128436,
+    "bytes": 72,
+    "sha256": "eb9bb014487b3a35cb647e40b98867145b42b8042edf6ba2efe9f9e395c092b3",
+    "data": {
+      "_type": 2,
+      "adventure_panel": {
+        "fileID": 0,
+        "pathID": 124152,
+        "id": "level0:977",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel"
+      },
+      "Finished_obj": {
+        "fileID": 0,
+        "pathID": 30265,
+        "id": "level0:30265",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Menu_Map/Map_Panel_list/Adventure_Map_item (2)/Enter_Btn/Alert_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 17354,
+        "id": "level0:17354",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Menu_Map/Map_Panel_list/Adventure_Map_item (2)/Block_obj"
+      }
+    }
+  },
+  {
+    "kind": "Adventure_Map_item",
+    "id": "level0:3701",
+    "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Menu_Map/Map_Panel_list/Adventure_Map_item (1)",
+    "component": 128437,
+    "bytes": 72,
+    "sha256": "def478fcf0ec805b9c434b0660337b4569665aa12cdd86e3bb3458d74f496b3f",
+    "data": {
+      "_type": 1,
+      "adventure_panel": {
+        "fileID": 0,
+        "pathID": 124152,
+        "id": "level0:977",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel"
+      },
+      "Finished_obj": {
+        "fileID": 0,
+        "pathID": 30264,
+        "id": "level0:30264",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Menu_Map/Map_Panel_list/Adventure_Map_item (1)/Enter_Btn/Alert_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 17353,
+        "id": "level0:17353",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Menu_Map/Map_Panel_list/Adventure_Map_item (1)/Block_obj"
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37044",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 2",
+    "component": 139714,
+    "bytes": 80,
+    "sha256": "420848afa4822153e80f04bc3e5fc262fd8b9769e3e9ed8c1c0c233ae6277fa9",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18100,
+        "id": "level0:18100",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 2/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15151,
+        "id": "level0:15151",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 2/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141107,
+        "id": "level0:19068",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 2/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37045",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 12",
+    "component": 139715,
+    "bytes": 80,
+    "sha256": "a688f6e67cb55e1f59b78c48995c0674482cd240d8e79b49cea0e09e7f0fd1b6",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18099,
+        "id": "level0:18099",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 12/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15152,
+        "id": "level0:15152",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 12/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141106,
+        "id": "level0:19069",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 12/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37046",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 17",
+    "component": 139716,
+    "bytes": 80,
+    "sha256": "243caea0175fe7fd0cdfe3f436f205d1e43b620b3e0ce2d8e91595733a4b5b6b",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18102,
+        "id": "level0:18102",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 17/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15153,
+        "id": "level0:15153",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 17/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141105,
+        "id": "level0:19070",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 17/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37047",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 8",
+    "component": 139717,
+    "bytes": 80,
+    "sha256": "4edd0cd9298aae130067e3f92797db81244348037ebac4337b6f6eeba6fabcbb",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18101,
+        "id": "level0:18101",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 8/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15154,
+        "id": "level0:15154",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 8/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141104,
+        "id": "level0:19071",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 8/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37042",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 4",
+    "component": 139718,
+    "bytes": 80,
+    "sha256": "b0a6804f69894e1f95036df3c481e94fb13e30957df3a0dc201b8e33fe8d955c",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18104,
+        "id": "level0:18104",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 4/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15149,
+        "id": "level0:15149",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 4/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141103,
+        "id": "level0:19066",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 4/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37043",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 3",
+    "component": 139719,
+    "bytes": 80,
+    "sha256": "ce97bb13421953e6ff9ec15dc7b837b609d532545df872d270c83b3ebaf8e9c2",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18103,
+        "id": "level0:18103",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 3/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15150,
+        "id": "level0:15150",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 3/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141102,
+        "id": "level0:19067",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 3/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37035",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 13",
+    "component": 139720,
+    "bytes": 80,
+    "sha256": "e61216f64a96e8e7d211a12295589f67e3a0a45858a759afea15c2c360b31679",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18089,
+        "id": "level0:18089",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 13/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15160,
+        "id": "level0:15160",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 13/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141119,
+        "id": "level0:19059",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 13/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37034",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelect_Slot 1",
+    "component": 139721,
+    "bytes": 80,
+    "sha256": "31e5cf3c05aca691e605d1dd03be4738f11e8e28aeb5865ce0ad7ccb35d8bc49",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18090,
+        "id": "level0:18090",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelect_Slot 1/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15159,
+        "id": "level0:15159",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelect_Slot 1/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141118,
+        "id": "level0:19058",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelect_Slot 1/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37036",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 5",
+    "component": 139722,
+    "bytes": 80,
+    "sha256": "81b40023bb94452e5f96b517a5d8978a035c0bd8b7ec7796914a2b308deed048",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18088,
+        "id": "level0:18088",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 5/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15162,
+        "id": "level0:15162",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 5/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141116,
+        "id": "level0:19060",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 5/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37037",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 10",
+    "component": 139723,
+    "bytes": 80,
+    "sha256": "719b7a529dc61207da3b19c7a3f9dc7166c963ca3b30a295bffee4b9c8355bb0",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18087,
+        "id": "level0:18087",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 10/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15161,
+        "id": "level0:15161",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 10/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141117,
+        "id": "level0:19061",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 10/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37038",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 15",
+    "component": 139724,
+    "bytes": 80,
+    "sha256": "508de0ae17ee2d9c687b668f88aa69408415c78b3e39edf6fcaf1ab3dcf1ac54",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18094,
+        "id": "level0:18094",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 15/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15163,
+        "id": "level0:15163",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 15/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141115,
+        "id": "level0:19062",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 15/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37039",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 9",
+    "component": 139725,
+    "bytes": 80,
+    "sha256": "f4de2927eddbb637127ad280270e74ada82d2406103c34d6b20ecde872795b52",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18093,
+        "id": "level0:18093",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 9/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15165,
+        "id": "level0:15165",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 9/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141113,
+        "id": "level0:19063",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 9/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37040",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 6",
+    "component": 139726,
+    "bytes": 80,
+    "sha256": "f1f87552cac3b47d3bb54f679761a572f40c61b31f4512d8cb6a793c7147db1c",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18092,
+        "id": "level0:18092",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 6/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15164,
+        "id": "level0:15164",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 6/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141114,
+        "id": "level0:19064",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 6/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37041",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 11",
+    "component": 139727,
+    "bytes": 80,
+    "sha256": "28000ac50bc1445d23234c2db46e15c7052a5a0d2bd4cbe8e00143e25ae7a400",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18091,
+        "id": "level0:18091",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 11/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15166,
+        "id": "level0:15166",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 11/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141112,
+        "id": "level0:19065",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 11/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37030",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 7",
+    "component": 139728,
+    "bytes": 80,
+    "sha256": "a73eed9ff99a17665312699af0fb0962d977acf9336aaebb071b263dc0ba1875",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18098,
+        "id": "level0:18098",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 7/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15155,
+        "id": "level0:15155",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 7/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141111,
+        "id": "level0:19054",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 7/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37031",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 14",
+    "component": 139729,
+    "bytes": 80,
+    "sha256": "01fc995f976c4a2103064780d52ac834c6985a5ffb6a8d52767996d14733c90b",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18097,
+        "id": "level0:18097",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 14/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15156,
+        "id": "level0:15156",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 14/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141110,
+        "id": "level0:19055",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 14/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37032",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 16",
+    "component": 139730,
+    "bytes": 80,
+    "sha256": "0fadbaad8db805eae03b6cd6b4201042d8eacd33238a21d2445fa33324a94717",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18096,
+        "id": "level0:18096",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 16/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15158,
+        "id": "level0:15158",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 16/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141108,
+        "id": "level0:19056",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 16/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:37033",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 18",
+    "component": 139731,
+    "bytes": 80,
+    "sha256": "8e88d71f83d7c85415f61f0179d8dd5be2210d8c9b479af625d7f672239fc467",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 18095,
+        "id": "level0:18095",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 18/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 15157,
+        "id": "level0:15157",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 18/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 141109,
+        "id": "level0:19057",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 18/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_Map_info_item",
+    "id": "level0:18445",
+    "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)",
+    "component": 139742,
+    "bytes": 256,
+    "sha256": "454d5ca24e28107bc5015ed81d4f0077bcd280d0726f8a8ab958c3efe35d732c",
+    "data": {
+      "Block_obj": {
+        "fileID": 0,
+        "pathID": 19607,
+        "id": "level0:19607",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Block_obj"
+      },
+      "EnterAble_obj": {
+        "fileID": 0,
+        "pathID": 30442,
+        "id": "level0:30442",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/EnterAble_obj"
+      },
+      "Entered_obj": {
+        "fileID": 0,
+        "pathID": 28326,
+        "id": "level0:28326",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Entered_obj"
+      },
+      "Finish_obj": {
+        "fileID": 0,
+        "pathID": 4373,
+        "id": "level0:4373",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Finish_obj"
+      },
+      "Daylock_obj": {
+        "fileID": 0,
+        "pathID": 19499,
+        "id": "level0:19499",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Block_obj (day lock)"
+      },
+      "Pet_imgs": [
+        {
+          "fileID": 0,
+          "pathID": 132214,
+          "id": "level0:19542",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Pet_imgs/Pet_img 0"
+        },
+        {
+          "fileID": 0,
+          "pathID": 125940,
+          "id": "level0:19072",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Pet_imgs/Pet_img 1"
+        },
+        {
+          "fileID": 0,
+          "pathID": 140999,
+          "id": "level0:4878",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Pet_imgs/Pet_img 2"
+        }
+      ],
+      "Map_img_objs": [
+        {
+          "fileID": 0,
+          "pathID": 24738,
+          "id": "level0:24738",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Mask/Forest"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33375,
+          "id": "level0:33375",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Mask/Desert"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36882,
+          "id": "level0:36882",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Mask/Tundra"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 127798,
+        "id": "level0:31080",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Core_img"
+      },
+      "Stage_txt": {
+        "fileID": 0,
+        "pathID": 118761,
+        "id": "level0:26419",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Stage/Stage_txt"
+      },
+      "Time_txt": {
+        "fileID": 0,
+        "pathID": 118549,
+        "id": "level0:29971",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Time/Time_txt"
+      },
+      "Remaining_Duration_txt": {
+        "fileID": 0,
+        "pathID": 122088,
+        "id": "level0:9570",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Entered_obj/Enter_Btn/Text (TMP)"
+      },
+      "LvLock_txt": {
+        "fileID": 0,
+        "pathID": 117793,
+        "id": "level0:38944",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Block_obj/I2_txt(Outline)"
+      },
+      "AD_Btn_obj": {
+        "fileID": 0,
+        "pathID": 12209,
+        "id": "level0:12209",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Entered_obj/AD_Bonus_Btn"
+      },
+      "AD_Count_txt": {
+        "fileID": 0,
+        "pathID": 117844,
+        "id": "level0:22395",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (1)/Entered_obj/AD_Bonus_Btn/Count_txt"
+      }
+    }
+  },
+  {
+    "kind": "Adventure_Map_info_item",
+    "id": "level0:18442",
+    "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)",
+    "component": 139743,
+    "bytes": 256,
+    "sha256": "d82517851c77dbaba896e27f31d2353dd8ec988d7aa494a370af2dba70e31b1b",
+    "data": {
+      "Block_obj": {
+        "fileID": 0,
+        "pathID": 19608,
+        "id": "level0:19608",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Block_obj"
+      },
+      "EnterAble_obj": {
+        "fileID": 0,
+        "pathID": 30444,
+        "id": "level0:30444",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/EnterAble_obj"
+      },
+      "Entered_obj": {
+        "fileID": 0,
+        "pathID": 28325,
+        "id": "level0:28325",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Entered_obj"
+      },
+      "Finish_obj": {
+        "fileID": 0,
+        "pathID": 4372,
+        "id": "level0:4372",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Finish_obj"
+      },
+      "Daylock_obj": {
+        "fileID": 0,
+        "pathID": 19502,
+        "id": "level0:19502",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Block_obj (day lock)"
+      },
+      "Pet_imgs": [
+        {
+          "fileID": 0,
+          "pathID": 132211,
+          "id": "level0:19544",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Pet_imgs/Pet_img 0"
+        },
+        {
+          "fileID": 0,
+          "pathID": 125941,
+          "id": "level0:19073",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Pet_imgs/Pet_img 1"
+        },
+        {
+          "fileID": 0,
+          "pathID": 141001,
+          "id": "level0:4876",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Pet_imgs/Pet_img 2"
+        }
+      ],
+      "Map_img_objs": [
+        {
+          "fileID": 0,
+          "pathID": 24741,
+          "id": "level0:24741",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Mask/Forest"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33377,
+          "id": "level0:33377",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Mask/Desert"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36884,
+          "id": "level0:36884",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Mask/Tundra"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 127796,
+        "id": "level0:31078",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Core_img"
+      },
+      "Stage_txt": {
+        "fileID": 0,
+        "pathID": 118760,
+        "id": "level0:26422",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Stage/Stage_txt"
+      },
+      "Time_txt": {
+        "fileID": 0,
+        "pathID": 118547,
+        "id": "level0:29973",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Time/Time_txt"
+      },
+      "Remaining_Duration_txt": {
+        "fileID": 0,
+        "pathID": 122089,
+        "id": "level0:9572",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Entered_obj/Enter_Btn/Text (TMP)"
+      },
+      "LvLock_txt": {
+        "fileID": 0,
+        "pathID": 117791,
+        "id": "level0:38946",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Block_obj/I2_txt(Outline)"
+      },
+      "AD_Btn_obj": {
+        "fileID": 0,
+        "pathID": 12206,
+        "id": "level0:12206",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Entered_obj/AD_Bonus_Btn"
+      },
+      "AD_Count_txt": {
+        "fileID": 0,
+        "pathID": 117842,
+        "id": "level0:22396",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (2)/Entered_obj/AD_Bonus_Btn/Count_txt"
+      }
+    }
+  },
+  {
+    "kind": "Adventure_Map_info_item",
+    "id": "level0:18443",
+    "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)",
+    "component": 139744,
+    "bytes": 256,
+    "sha256": "f953f4f22f5ab42ddce6a85859eba42ca4bfdc08e27529615a50bf4132cdeb98",
+    "data": {
+      "Block_obj": {
+        "fileID": 0,
+        "pathID": 19609,
+        "id": "level0:19609",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Block_obj"
+      },
+      "EnterAble_obj": {
+        "fileID": 0,
+        "pathID": 30445,
+        "id": "level0:30445",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/EnterAble_obj"
+      },
+      "Entered_obj": {
+        "fileID": 0,
+        "pathID": 28324,
+        "id": "level0:28324",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Entered_obj"
+      },
+      "Finish_obj": {
+        "fileID": 0,
+        "pathID": 4371,
+        "id": "level0:4371",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Finish_obj"
+      },
+      "Daylock_obj": {
+        "fileID": 0,
+        "pathID": 19501,
+        "id": "level0:19501",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Block_obj (day lock)"
+      },
+      "Pet_imgs": [
+        {
+          "fileID": 0,
+          "pathID": 132212,
+          "id": "level0:19545",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Pet_imgs/Pet_img 0"
+        },
+        {
+          "fileID": 0,
+          "pathID": 125942,
+          "id": "level0:19074",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Pet_imgs/Pet_img 1"
+        },
+        {
+          "fileID": 0,
+          "pathID": 141002,
+          "id": "level0:4877",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Pet_imgs/Pet_img 2"
+        }
+      ],
+      "Map_img_objs": [
+        {
+          "fileID": 0,
+          "pathID": 24740,
+          "id": "level0:24740",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Mask/Forest"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33376,
+          "id": "level0:33376",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Mask/Desert"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36885,
+          "id": "level0:36885",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Mask/Tundra"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 127797,
+        "id": "level0:31079",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Core_img"
+      },
+      "Stage_txt": {
+        "fileID": 0,
+        "pathID": 118759,
+        "id": "level0:26421",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Stage/Stage_txt"
+      },
+      "Time_txt": {
+        "fileID": 0,
+        "pathID": 118546,
+        "id": "level0:29972",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Time/Time_txt"
+      },
+      "Remaining_Duration_txt": {
+        "fileID": 0,
+        "pathID": 122090,
+        "id": "level0:9573",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Entered_obj/Enter_Btn/Text (TMP)"
+      },
+      "LvLock_txt": {
+        "fileID": 0,
+        "pathID": 117792,
+        "id": "level0:38947",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Block_obj/I2_txt(Outline)"
+      },
+      "AD_Btn_obj": {
+        "fileID": 0,
+        "pathID": 12207,
+        "id": "level0:12207",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Entered_obj/AD_Bonus_Btn"
+      },
+      "AD_Count_txt": {
+        "fileID": 0,
+        "pathID": 117843,
+        "id": "level0:22397",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (3)/Entered_obj/AD_Bonus_Btn/Count_txt"
+      }
+    }
+  },
+  {
+    "kind": "Adventure_Map_info_item",
+    "id": "level0:18444",
+    "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)",
+    "component": 139745,
+    "bytes": 256,
+    "sha256": "64f3c15d497b0cae3ccca91d2abf5dfaf80d1a5560ac1119c12e3ce5136daccd",
+    "data": {
+      "Block_obj": {
+        "fileID": 0,
+        "pathID": 19610,
+        "id": "level0:19610",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Block_obj"
+      },
+      "EnterAble_obj": {
+        "fileID": 0,
+        "pathID": 30443,
+        "id": "level0:30443",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/EnterAble_obj"
+      },
+      "Entered_obj": {
+        "fileID": 0,
+        "pathID": 28323,
+        "id": "level0:28323",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Entered_obj"
+      },
+      "Finish_obj": {
+        "fileID": 0,
+        "pathID": 4370,
+        "id": "level0:4370",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Finish_obj"
+      },
+      "Daylock_obj": {
+        "fileID": 0,
+        "pathID": 19500,
+        "id": "level0:19500",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Block_obj (day lock)"
+      },
+      "Pet_imgs": [
+        {
+          "fileID": 0,
+          "pathID": 132213,
+          "id": "level0:19543",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Pet_imgs/Pet_img 0"
+        },
+        {
+          "fileID": 0,
+          "pathID": 125943,
+          "id": "level0:19075",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Pet_imgs/Pet_img 1"
+        },
+        {
+          "fileID": 0,
+          "pathID": 141000,
+          "id": "level0:4875",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Pet_imgs/Pet_img 2"
+        }
+      ],
+      "Map_img_objs": [
+        {
+          "fileID": 0,
+          "pathID": 24739,
+          "id": "level0:24739",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Mask/Forest"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33378,
+          "id": "level0:33378",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Mask/Desert"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36883,
+          "id": "level0:36883",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Mask/Tundra"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 127795,
+        "id": "level0:31077",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Core_img"
+      },
+      "Stage_txt": {
+        "fileID": 0,
+        "pathID": 118758,
+        "id": "level0:26420",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Stage/Stage_txt"
+      },
+      "Time_txt": {
+        "fileID": 0,
+        "pathID": 118548,
+        "id": "level0:29974",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Time/Time_txt"
+      },
+      "Remaining_Duration_txt": {
+        "fileID": 0,
+        "pathID": 122091,
+        "id": "level0:9571",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Entered_obj/Enter_Btn/Text (TMP)"
+      },
+      "LvLock_txt": {
+        "fileID": 0,
+        "pathID": 117790,
+        "id": "level0:38945",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Block_obj/I2_txt(Outline)"
+      },
+      "AD_Btn_obj": {
+        "fileID": 0,
+        "pathID": 12208,
+        "id": "level0:12208",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Entered_obj/AD_Bonus_Btn"
+      },
+      "AD_Count_txt": {
+        "fileID": 0,
+        "pathID": 117841,
+        "id": "level0:22398",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item (4)/Entered_obj/AD_Bonus_Btn/Count_txt"
+      }
+    }
+  },
+  {
+    "kind": "Adventure_Map_item",
+    "id": "level0:19528",
+    "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Menu_Map/Map_Panel_list/Adventure_Map_item",
+    "component": 140373,
+    "bytes": 72,
+    "sha256": "00f4f350d5931ef4568945ab4c69af7039a215a0d69fe2739ca56c07c033f697",
+    "data": {
+      "_type": 0,
+      "adventure_panel": {
+        "fileID": 0,
+        "pathID": 124152,
+        "id": "level0:977",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel"
+      },
+      "Finished_obj": {
+        "fileID": 0,
+        "pathID": 11909,
+        "id": "level0:11909",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Menu_Map/Map_Panel_list/Adventure_Map_item/Enter_Btn/Alert_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 38917,
+        "id": "level0:38917",
+        "path": "/Canvas/SafeArea/Adventure_UI (SafeArea)/Adventure_Panel/Panel/Menu_list/Menu_Map/Map_Panel_list/Adventure_Map_item/Block_obj"
+      }
+    }
+  },
+  {
+    "kind": "Adventure_PetSelect_Slot",
+    "id": "level0:23280",
+    "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 0",
+    "component": 145526,
+    "bytes": 80,
+    "sha256": "730f778e4f7b4eff6c4082170b974c9db09eb9f62f07566804a79fa228eb2a61",
+    "data": {
+      "SelectAble_obj": {
+        "fileID": 0,
+        "pathID": 6765,
+        "id": "level0:6765",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 0/SelectAble_obj"
+      },
+      "Disable_obj": {
+        "fileID": 0,
+        "pathID": 3594,
+        "id": "level0:3594",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 0/Disable_obj"
+      },
+      "pet_item_demo": {
+        "fileID": 0,
+        "pathID": 148223,
+        "id": "level0:7947",
+        "path": "/Canvas/Adventure_manager/Adventure_PetSelect_Popup/Panel/Empty_Slot_list/Adventure_PetSelet_Slot 0/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_Pet_Slot",
+    "id": "level0:17005",
+    "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot (1)",
+    "component": 147188,
+    "bytes": 100,
+    "sha256": "9aca311a4d0e793a77aedccbe584949a14deed00400c538cd0f658e5a2c41ea1",
+    "data": {
+      "SlotNum": 1,
+      "_status": 0,
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 24829,
+        "id": "level0:24829",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot (1)/Selected_obj"
+      },
+      "Empty_obj": {
+        "fileID": 0,
+        "pathID": 20490,
+        "id": "level0:20490",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot (1)/Empty_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 3989,
+        "id": "level0:3989",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot (1)/Locked_obj"
+      },
+      "pet_item": {
+        "fileID": 0,
+        "pathID": 137181,
+        "id": "level0:23664",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot (1)/Selected_obj/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_Pet_Slot",
+    "id": "level0:17004",
+    "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot (2)",
+    "component": 147189,
+    "bytes": 100,
+    "sha256": "8f8e637c29113804ea68f0bedb3d86b249123f6ee51bf3af3550933b8e355525",
+    "data": {
+      "SlotNum": 2,
+      "_status": 0,
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 24830,
+        "id": "level0:24830",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot (2)/Selected_obj"
+      },
+      "Empty_obj": {
+        "fileID": 0,
+        "pathID": 20491,
+        "id": "level0:20491",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot (2)/Empty_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 3988,
+        "id": "level0:3988",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot (2)/Locked_obj"
+      },
+      "pet_item": {
+        "fileID": 0,
+        "pathID": 137182,
+        "id": "level0:23663",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot (2)/Selected_obj/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_Pet_Slot",
+    "id": "level0:15481",
+    "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot",
+    "component": 148041,
+    "bytes": 100,
+    "sha256": "b1697b5b9fcec343eba634c15c7e6fb41a29f2c21d8f17abd759d46f1c6b2c7d",
+    "data": {
+      "SlotNum": 0,
+      "_status": 0,
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 25567,
+        "id": "level0:25567",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot/Selected_obj"
+      },
+      "Empty_obj": {
+        "fileID": 0,
+        "pathID": 19267,
+        "id": "level0:19267",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot/Empty_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 2662,
+        "id": "level0:2662",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot/Locked_obj"
+      },
+      "pet_item": {
+        "fileID": 0,
+        "pathID": 135610,
+        "id": "level0:25801",
+        "path": "/Canvas/Adventure_manager/Adventure_Enter_Popup/Panel/Adventure_Pet_Slot/Selected_obj/Pet_Item_Demo"
+      },
+      "popup": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    }
+  },
+  {
+    "kind": "Adventure_Map_info_item",
+    "id": "level0:4962",
+    "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item",
+    "component": 149315,
+    "bytes": 256,
+    "sha256": "a4db1f381525180c4f620a9bf535d146787e2c3712ab712679c86156d446adc7",
+    "data": {
+      "Block_obj": {
+        "fileID": 0,
+        "pathID": 35635,
+        "id": "level0:35635",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Block_obj"
+      },
+      "EnterAble_obj": {
+        "fileID": 0,
+        "pathID": 25409,
+        "id": "level0:25409",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/EnterAble_obj"
+      },
+      "Entered_obj": {
+        "fileID": 0,
+        "pathID": 32967,
+        "id": "level0:32967",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Entered_obj"
+      },
+      "Finish_obj": {
+        "fileID": 0,
+        "pathID": 18733,
+        "id": "level0:18733",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Finish_obj"
+      },
+      "Daylock_obj": {
+        "fileID": 0,
+        "pathID": 36016,
+        "id": "level0:36016",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Block_obj (day lock)"
+      },
+      "Pet_imgs": [
+        {
+          "fileID": 0,
+          "pathID": 130224,
+          "id": "level0:35584",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Pet_imgs/Pet_img 0"
+        },
+        {
+          "fileID": 0,
+          "pathID": 135139,
+          "id": "level0:4183",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Pet_imgs/Pet_img 1"
+        },
+        {
+          "fileID": 0,
+          "pathID": 146096,
+          "id": "level0:18376",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Pet_imgs/Pet_img 2"
+        }
+      ],
+      "Map_img_objs": [
+        {
+          "fileID": 0,
+          "pathID": 30760,
+          "id": "level0:30760",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Mask/Forest"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28246,
+          "id": "level0:28246",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Mask/Desert"
+        },
+        {
+          "fileID": 0,
+          "pathID": 22828,
+          "id": "level0:22828",
+          "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Mask/Tundra"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 137399,
+        "id": "level0:23606",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Core_img"
+      },
+      "Stage_txt": {
+        "fileID": 0,
+        "pathID": 118360,
+        "id": "level0:33953",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Stage/Stage_txt"
+      },
+      "Time_txt": {
+        "fileID": 0,
+        "pathID": 119371,
+        "id": "level0:25969",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Time/Time_txt"
+      },
+      "Remaining_Duration_txt": {
+        "fileID": 0,
+        "pathID": 120209,
+        "id": "level0:14451",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Entered_obj/Enter_Btn/Text (TMP)"
+      },
+      "LvLock_txt": {
+        "fileID": 0,
+        "pathID": 119564,
+        "id": "level0:21107",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Block_obj/I2_txt(Outline)"
+      },
+      "AD_Btn_obj": {
+        "fileID": 0,
+        "pathID": 6478,
+        "id": "level0:6478",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Entered_obj/AD_Bonus_Btn"
+      },
+      "AD_Count_txt": {
+        "fileID": 0,
+        "pathID": 120094,
+        "id": "level0:37232",
+        "path": "/Canvas/Adventure_manager/Adventure_Map_Popup/Panel/Map_list/Adventure_Map_item/Entered_obj/AD_Bonus_Btn/Count_txt"
+      }
+    }
+  }
+]

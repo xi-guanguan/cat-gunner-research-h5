@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "provenance": "artifacts/evidence/round6-20261002/raid-leader-extract.json",
+  "constants": {
+    "retreatArrival": 0.05000000074505806,
+    "awayFallbackSquared": 0.0010000000474974513,
+    "normalizeMagnitude": 9.999999747378752e-06,
+    "joystickSquared": 9.999999747378752e-05
+  }
+}

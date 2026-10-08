@@ -1,0 +1,108 @@
+{
+  "SlotNum_txt": {
+    "fileID": 0,
+    "pathID": 121527,
+    "id": "level0:10100",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/Panel/Slot_txt"
+  },
+  "StarGem_txt": {
+    "fileID": 0,
+    "pathID": 117254,
+    "id": "level0:1081",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/Panel/StarGem/StarGem_txt"
+  },
+  "StarLv_txt_Now": {
+    "fileID": 0,
+    "pathID": 117401,
+    "id": "level0:2145",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/Panel/Now/Star/StarLv_txt"
+  },
+  "StarValue_txt_Now": {
+    "fileID": 0,
+    "pathID": 117157,
+    "id": "level0:297",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/Panel/Now/Value/Value_txt"
+  },
+  "DamageValue_txt_Now": {
+    "fileID": 0,
+    "pathID": 117394,
+    "id": "level0:2089",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/Panel/Damage/Now/Value_txt"
+  },
+  "StarLv_txt_After": {
+    "fileID": 0,
+    "pathID": 117198,
+    "id": "level0:577",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/Panel/After/Star/StarLv_txt"
+  },
+  "StarValue_txt_After": {
+    "fileID": 0,
+    "pathID": 117194,
+    "id": "level0:564",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/Panel/After/Value/Value_txt"
+  },
+  "DamageValue_txt_After": {
+    "fileID": 0,
+    "pathID": 117383,
+    "id": "level0:2015",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/Panel/Damage/After/Value_txt"
+  },
+  "Percent_txt": {
+    "fileID": 0,
+    "pathID": 117234,
+    "id": "level0:924",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/Panel/Percent/Percent_Value_txt"
+  },
+  "UpgradePrice_txt": {
+    "fileID": 0,
+    "pathID": 117163,
+    "id": "level0:355",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/Panel/Upgrade_btn/Price_txt"
+  },
+  "Damage_Value_obj": {
+    "fileID": 0,
+    "pathID": 2202,
+    "id": "level0:2202",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/Panel/Damage"
+  },
+  "Upgrade_Btn_img": {
+    "fileID": 0,
+    "pathID": 124263,
+    "id": "level0:1072",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/Panel/Upgrade_btn"
+  },
+  "success_particle": {
+    "fileID": 0,
+    "pathID": 123241,
+    "id": "level0:237",
+    "path": "/Canvas/Gun_manager/StarUpgrade_manager/SlotUpgrade_UI/ConfettiFullscreen"
+  },
+  "UpgradeBtn_Colors": [
+    [
+      0.729411780834198,
+      0.729411780834198,
+      0.729411780834198,
+      1.0
+    ],
+    [
+      0.5098039507865906,
+      1.0,
+      0.41960784792900085,
+      1.0
+    ]
+  ],
+  "UpgradePrice_Colors": [
+    [
+      1.0,
+      0.37264150381088257,
+      0.37264150381088257,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ]
+}

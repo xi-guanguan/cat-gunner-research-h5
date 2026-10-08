@@ -1,0 +1,1609 @@
+{
+  "schemaVersion": 1,
+  "status": "ORIGINAL_CLIPS_DECODED_EVENT_CONTRACT_PARTIAL",
+  "clips": [
+    {
+      "pathID": 279,
+      "name": "Special & Powerup 45",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 0,
+        "m_Size": 102176
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 1.8612245321273804,
+      "headerHex": "4653423501000000010000002400000000000000c08e01000f0000000100000000000000c01c2a479b38235f9d21b4468ac3f21379af62067c012a2f31000000",
+      "sha256": "ad96cf985150166bd8b4b76de1adba12ba0e6b0a47502319e40a35c2dab608fe",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 82080,
+          "duration": 1.8612244897959183,
+          "url": "/assets/source-audio/clip-279.wav",
+          "sha256": "2fbd3d2683ab3c4cd6bd386b2806ae5578eda55c675a5060801fd978b0901259",
+          "bytes": 328364,
+          "durationError": 4.233146211340966e-08,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 280,
+      "name": "Special & Powerup 43",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 102176,
+        "m_Size": 65824
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 1.5,
+      "headerHex": "4653423501000000010000002400000000000000c00001000f0000000100000000000000022367e1d96a585423aa51fb922f4495a7872ca5eb65ec6d31000000",
+      "sha256": "20e831d46cd546ca3befa7a4f82e9a7188a397c061aff2529132dafa4ac03ba0",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 66150,
+          "duration": 1.5,
+          "url": "/assets/source-audio/clip-280.wav",
+          "sha256": "6d5c7f3e55ebb1f27ad68f56bfab090ca648a5cba89e7baa9ef2e07d99877039",
+          "bytes": 264644,
+          "durationError": 0.0,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 281,
+      "name": "Click",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 168000,
+        "m_Size": 5696
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 0.10303854942321777,
+      "headerHex": "4653423501000000010000002400000000000000e01500000f0000000100000000000000316853cc3718335fd63cf645c7febd2e5a0f7fa5fe6c03ab31000000",
+      "sha256": "81e0bfc37bac78fdb8dcbb0a1f7f0cf6aeca061ae8bd0f00f4542d56f266cd66",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 4544,
+          "duration": 0.10303854875283447,
+          "url": "/assets/source-audio/clip-281.wav",
+          "sha256": "e533fcaeac53652df6da733b71493057d9ed57f2c23902842ec2cd0624c502a9",
+          "bytes": 18220,
+          "durationError": 6.703833044241492e-10,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 282,
+      "name": "Popup1",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 173696,
+        "m_Size": 8384
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 0.1557823121547699,
+      "headerHex": "4653423501000000010000002400000000000000602000000f0000000100000000000000d7d6680728a132c6507c15cd264e90454cf58cfe86610fcc31000000",
+      "sha256": "31bea31202f16d1b230d7c22a022a0c57f722d020319c95a5cd55e441abe050b",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 6870,
+          "duration": 0.15578231292517006,
+          "url": "/assets/source-audio/clip-282.wav",
+          "sha256": "10984a9cde44be2161e4778a755e06331a8c47595839e9a4228c3d1d216cb39f",
+          "bytes": 27524,
+          "durationError": 7.70400160332585e-10,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 283,
+      "name": "GenericButton14",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 182080,
+        "m_Size": 4224
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 0.058594103902578354,
+      "headerHex": "4653423501000000010000002400000000000000201000000f000000010000000000000031adcee48a306e5a0f96113935881317246b053c4c8f8f2031000000",
+      "sha256": "d005e9fedf41915c3ef47f0aa29e01ff38396fb644f9946f6b0a2c16f06f9130",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 2584,
+          "duration": 0.05859410430839002,
+          "url": "/assets/source-audio/clip-283.wav",
+          "sha256": "c9d6c0a13c4f7ce27fe8cfce505fb7a84e289114b58c97842c440b1800150813",
+          "bytes": 10380,
+          "durationError": 4.058116689908964e-10,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 284,
+      "name": "etfx_explosion_chargeup2",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 186304,
+        "m_Size": 195488
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 48000,
+      "sourceDuration": 3.799062490463257,
+      "headerHex": "465342350100000001000000440000000000000020fb02000f0000000100000000000000027e73429ef3d75af0e60cdfbcbbd3a01e1851f859daf36933000000",
+      "sha256": "6ff94d0f07adfb83672c23a38f87ddd44a5019ff9ab7429ac1a22d32fdd54816",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 48000,
+          "frames": 182355,
+          "duration": 3.7990625,
+          "url": "/assets/source-audio/clip-284.wav",
+          "sha256": "805f5589819bcf76c5581440a8f84c107b6d4163683f54581b4b4b905707c21e",
+          "bytes": 729464,
+          "durationError": 9.53674295089968e-09,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 285,
+      "name": "Positive",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 381792,
+        "m_Size": 6272
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 1,
+      "sourceFrequency": 44100,
+      "sourceDuration": 2.0738322734832764,
+      "headerHex": "4653423501000000010000002400000000000000201800000f00000001000000000000004bd20d8f9d97493d249c70c8565177db85ab11c28a580d7b11000000",
+      "sha256": "d085c55bce0f2523b3896a176b3206acacaa74f1121d63681addf73f544bb9fb",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 1,
+          "frequency": 44100,
+          "frames": 91456,
+          "duration": 2.0738321995464855,
+          "url": "/assets/source-audio/clip-285.wav",
+          "sha256": "0e9fb7f90793de6fc3348a902365040d6f6c85b88cc3e995ea37cd64558716fe",
+          "bytes": 182956,
+          "durationError": 7.393679091194372e-08,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 286,
+      "name": "Transition_In",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 388064,
+        "m_Size": 32960
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 0.9887754917144775,
+      "headerHex": "4653423501000000010000002400000000000000608000000f0000000100000000000000672aaf5f10b127c2892f41198d2898abbe9ee6dff045cd7d31000000",
+      "sha256": "6dba47dcde121a18154c114eee0d89ffc051f62dc91e500f9869274c75baf874",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 43605,
+          "duration": 0.9887755102040816,
+          "url": "/assets/source-audio/clip-286.wav",
+          "sha256": "38ee368a2e8f896309f8e3ca4826895811293d2f4037f29370c8c62e16ce7c24",
+          "bytes": 174464,
+          "durationError": 1.8489604070026644e-08,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 287,
+      "name": "Relaxed_7_BlossomDrift",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 421024,
+        "m_Size": 2117184
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 121.26315307617188,
+      "headerHex": "465342350100000001000000e404000000000000204920000f0000000100000000000000341e30b5eca5115eabdf557d1dc0d94d78c462d063f84e2931000000",
+      "sha256": "c7183da9eb542bf46830b93f894f9484e1bfc3efa63319a6ff45943fc83af8c8",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 5347705,
+          "duration": 121.26315192743765,
+          "url": "/assets/source-audio/clip-287.wav",
+          "sha256": "bfd6bb16c268554e58869f2d2d0d856457324551cf32c437dc05a52d04993714",
+          "bytes": 21390864,
+          "durationError": 1.1487342277405332e-06,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 288,
+      "name": "Pop 6",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 2538208,
+        "m_Size": 14048
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 0.2972108721733093,
+      "headerHex": "4653423501000000010000002400000000000000803600000f00000001000000000000009fb221fc3a9951f281c0216d90d18ab54dd4d22ae4d65e0431000000",
+      "sha256": "8d369f62a2e4ac4f4d2d598cc11eed7ccb9404e0f45b53c846004cc14cb044e4",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 13107,
+          "duration": 0.2972108843537415,
+          "url": "/assets/source-audio/clip-288.wav",
+          "sha256": "1f0a425bd542fe63e58d50d4cbb5a2c7b4c57e656fd5af2a3c3b9b5d472bf9d2",
+          "bytes": 52472,
+          "durationError": 1.2180432162889332e-08,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 289,
+      "name": "Cute_5_MilkShake",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 2552256,
+        "m_Size": 2465312
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 105.0,
+      "headerHex": "4653423501000000010000006404000000000000809925000f0000000100000000000000404e9ed3027353eb7be2940413434a28f2a2da3578ffa31331000000",
+      "sha256": "e7cf4ab81f53a50da859df14db888375ce17aa2ba203b6a65c60b322ee4b624d",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 4630500,
+          "duration": 105.0,
+          "url": "/assets/source-audio/clip-289.wav",
+          "sha256": "3cc9483f8c2b5cb4b9ef7b86fe54df414249eacfbc893c3e625f44928c3333b6",
+          "bytes": 18522044,
+          "durationError": 0.0,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 290,
+      "name": "Block_Damage",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 5017568,
+        "m_Size": 6272
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 0.7407936453819275,
+      "headerHex": "4653423501000000010000002400000000000000201800000f0000000100000000000000495f5f652448d15338f97ec124d9a8c9627ab2a229579c0131000000",
+      "sha256": "e80a2879b48d2765ba8662096d20525ad870f021a2dbfb73d7abbfb8c4e0b241",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 32669,
+          "duration": 0.7407936507936508,
+          "url": "/assets/source-audio/clip-290.wav",
+          "sha256": "69409784c11d0183f7e13539c24ee883726cad76cf7b364028f86891595b1b7b",
+          "bytes": 130720,
+          "durationError": 5.4117232917150204e-09,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 291,
+      "name": "etfx_explosion_sharp",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 5023840,
+        "m_Size": 21312
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 48000,
+      "sourceDuration": 0.5303333401679993,
+      "headerHex": "4653423501000000010000002400000000000000e05200000f0000000100000000000000cc618acd91bcc92d9ac971454a3ef0a80984b127267b0b3933000000",
+      "sha256": "f68c426c616baee1f35f8d7977d8e397031b268b55f66d29093919bf60899471",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 48000,
+          "frames": 25456,
+          "duration": 0.5303333333333333,
+          "url": "/assets/source-audio/clip-291.wav",
+          "sha256": "b19762cb5ac7b37c59ec2064d5be78c3f0a2573b515726cfa85ef4b5e54d3a84",
+          "bytes": 101868,
+          "durationError": 6.834665944310814e-09,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 292,
+      "name": "Fail",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 5045152,
+        "m_Size": 12576
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 0.4036281108856201,
+      "headerHex": "4653423501000000010000002400000000000000c03000000f0000000100000000000000e2b3e6e229a443c0553832a66cd2c33d44acaba537a6379231000000",
+      "sha256": "1f3f94b608af7c029833d859193075640fddd5ad4602331eaf90eae6e5ac2a85",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 17800,
+          "duration": 0.4036281179138322,
+          "url": "/assets/source-audio/clip-292.wav",
+          "sha256": "cef6d08a6e18a6f6a8d5a16cd5e50169b9af1db67c7d1f2fd53c4ab4da88438b",
+          "bytes": 71244,
+          "durationError": 7.028212067883288e-09,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 293,
+      "name": "ClickyButton5a",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 5057728,
+        "m_Size": 15968
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 0.2738548815250397,
+      "headerHex": "4653423501000000010000002400000000000000003e00000f0000000100000000000000a65aa563f765135e52b68638d53c6085ad22462c7c49497131000000",
+      "sha256": "831a04a65ba4b51c3e15660e8ddb2124356f1a579b22c5762e6a7fa0460752a2",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 12077,
+          "duration": 0.2738548752834467,
+          "url": "/assets/source-audio/clip-293.wav",
+          "sha256": "19163281bd38ec23649ed9ecb0f5f007408ad3e691769258a18a22c337ebe606",
+          "bytes": 48352,
+          "durationError": 6.241592964695286e-09,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 294,
+      "name": "Prize Wheel Spin 2 Reward",
+      "resource": {
+        "m_Source": "sharedassets0.resource",
+        "m_Offset": 5073696,
+        "m_Size": 104928
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 2.4288434982299805,
+      "headerHex": "4653423501000000010000002400000000000000809901000f0000000100000000000000b9df9b41b47c25a0fbe5d64b6dee28030eb1b86744fe057731000000",
+      "sha256": "19e49aff94bf07dddbd14cfc124dd854dc3235a6815d0a3748beb397a6e8b62a",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 107112,
+          "duration": 2.428843537414966,
+          "url": "/assets/source-audio/clip-294.wav",
+          "sha256": "12d90d817261a264e54d9b0dbd73d432d1e1122403cad576c78fdc7c5fad3fd3",
+          "bytes": 428492,
+          "durationError": 3.9184985478613044e-08,
+          "validated": true
+        }
+      ]
+    },
+    {
+      "pathID": 257,
+      "name": "espannol",
+      "resource": {
+        "m_Source": "resources.resource",
+        "m_Offset": 0,
+        "m_Size": 92352
+      },
+      "compressionFormat": 1,
+      "sourceChannels": 2,
+      "sourceFrequency": 44100,
+      "sourceDuration": 2.377142906188965,
+      "headerHex": "4653423501000000010000002400000000000000606801000f000000010000000000000075030929034e30538e924391fd358001d36cdb1886c4cdbc31000000",
+      "sha256": "74ae674429210bee6eb686b788e5e038c56b957ef293f2e15e5af71c9f53e94c",
+      "container": "FSB5",
+      "fsbMode": 15,
+      "exports": [
+        {
+          "channels": 2,
+          "frequency": 44100,
+          "frames": 104832,
+          "duration": 2.3771428571428572,
+          "url": "/assets/source-audio/clip-257.wav",
+          "sha256": "ea4dd145d2c76f1936a8ad3369c753d3eceb26d8e4133dff7d8d5a6fdeea6900",
+          "bytes": 419372,
+          "durationError": 4.904610761968797e-08,
+          "validated": true
+        }
+      ]
+    }
+  ],
+  "sfxEntries": [
+    {
+      "sfxType": 0,
+      "clipPathID": 282,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 60,
+      "url": "/assets/source-audio/clip-282.wav"
+    },
+    {
+      "sfxType": 1,
+      "clipPathID": 288,
+      "fileID": 2,
+      "volume": 0.5,
+      "serializedOffset": 80,
+      "url": "/assets/source-audio/clip-288.wav"
+    },
+    {
+      "sfxType": 2,
+      "clipPathID": 279,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 100,
+      "url": "/assets/source-audio/clip-279.wav"
+    },
+    {
+      "sfxType": 3,
+      "clipPathID": 294,
+      "fileID": 2,
+      "volume": 0.4000000059604645,
+      "serializedOffset": 120,
+      "url": "/assets/source-audio/clip-294.wav"
+    },
+    {
+      "sfxType": 4,
+      "clipPathID": 280,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 140,
+      "url": "/assets/source-audio/clip-280.wav"
+    },
+    {
+      "sfxType": 5,
+      "clipPathID": 293,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 160,
+      "url": "/assets/source-audio/clip-293.wav"
+    },
+    {
+      "sfxType": 6,
+      "clipPathID": 284,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 180,
+      "url": "/assets/source-audio/clip-284.wav"
+    },
+    {
+      "sfxType": 7,
+      "clipPathID": 294,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 200,
+      "url": "/assets/source-audio/clip-294.wav"
+    },
+    {
+      "sfxType": 8,
+      "clipPathID": 291,
+      "fileID": 2,
+      "volume": 0.30000001192092896,
+      "serializedOffset": 220,
+      "url": "/assets/source-audio/clip-291.wav"
+    },
+    {
+      "sfxType": 9,
+      "clipPathID": 281,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 240,
+      "url": "/assets/source-audio/clip-281.wav"
+    },
+    {
+      "sfxType": 10,
+      "clipPathID": 286,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 260,
+      "url": "/assets/source-audio/clip-286.wav"
+    },
+    {
+      "sfxType": 11,
+      "clipPathID": 285,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 280,
+      "url": "/assets/source-audio/clip-285.wav"
+    },
+    {
+      "sfxType": 12,
+      "clipPathID": 292,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 300,
+      "url": "/assets/source-audio/clip-292.wav"
+    },
+    {
+      "sfxType": 13,
+      "clipPathID": 281,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 320,
+      "url": "/assets/source-audio/clip-281.wav"
+    },
+    {
+      "sfxType": 14,
+      "clipPathID": 283,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 340,
+      "url": "/assets/source-audio/clip-283.wav"
+    },
+    {
+      "sfxType": 15,
+      "clipPathID": 285,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 360,
+      "url": "/assets/source-audio/clip-285.wav"
+    },
+    {
+      "sfxType": 16,
+      "clipPathID": 290,
+      "fileID": 2,
+      "volume": 1.0,
+      "serializedOffset": 380,
+      "url": "/assets/source-audio/clip-290.wav"
+    }
+  ],
+  "sourceChannels": {
+    "66736": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "loop": false,
+      "playOnAwake": false
+    },
+    "66735": {
+      "volume": 1.0,
+      "pitch": 1.0,
+      "loop": true,
+      "playOnAwake": true
+    }
+  },
+  "bgm": {
+    "main": {
+      "clipPathID": 287,
+      "url": "/assets/source-audio/clip-287.wav",
+      "volume": 1,
+      "pitch": 1,
+      "loop": true,
+      "methodVA": "0x2b22750",
+      "serializedOffset": 412
+    },
+    "contents": {
+      "clipPathID": 289,
+      "url": "/assets/source-audio/clip-289.wav",
+      "volume": 1,
+      "pitch": 1,
+      "loop": true,
+      "methodVA": "0x2b226a0",
+      "serializedOffset": 424
+    }
+  },
+  "duplicatePolicy": {
+    "sameFrame": true,
+    "cooldownEnabled": true,
+    "cooldownSeconds": 0.05000000074505806
+  },
+  "playSfx": {
+    "methodVA": "0x2b1f10c",
+    "pitch": "float argument s0; source pitch restored after PlayOneShot",
+    "volume": "nullable volume override x2, otherwise serialized entry.volume",
+    "loop": false,
+    "callsiteEvidence": "artifacts/evidence/round4-20261001/audio-callsite-audit.json"
+  },
+  "limitations": [
+    "Enum names in metadata are declaration order; literal enum constants not yet recovered. Event consumers must use individually traced caller integer values.",
+    "Decoded espannol clip257 is not referenced by Sound_manager.",
+    "No browser runtime playback validation performed by this extraction task."
+  ],
+  "tracedConsumers": [
+    {
+      "caller": "<Reward_Get>d__70.MoveNext",
+      "callVA": "0x2a8fb4c",
+      "sfxType": 7,
+      "clipPathID": 294,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "DailyCheck.Coupang_Grant",
+      "callVA": "0x2aa06ac",
+      "sfxType": 7,
+      "clipPathID": 294,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "FreeCash_manager.TryGiveLinkReward",
+      "callVA": "0x2aa237c",
+      "sfxType": 2,
+      "clipPathID": 279,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Mission_manager.Mission_Reward_Get",
+      "callVA": "0x2aa4e1c",
+      "sfxType": 7,
+      "clipPathID": 294,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Mission_manager.Mission_Reward_Get_Luxury",
+      "callVA": "0x2aa5254",
+      "sfxType": 7,
+      "clipPathID": 294,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Mission_manager.Reward_Get",
+      "callVA": "0x2aa6054",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Mission_manager.Reward_Grant",
+      "callVA": "0x2aa6594",
+      "sfxType": 7,
+      "clipPathID": 294,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Mission_manager.Reward_Get_Value",
+      "callVA": "0x2aa6820",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Dia_Attraction.Dia_FX_End",
+      "callVA": "0x2b26c24",
+      "sfxType": 14,
+      "clipPathID": 283,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Adventure_manager.Adventure_Start",
+      "callVA": "0x2b2d960",
+      "sfxType": 10,
+      "clipPathID": 286,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Adventure_manager.Adventure_Reward_Get",
+      "callVA": "0x2b2de24",
+      "sfxType": 7,
+      "clipPathID": 294,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "<Draw_Multi>d__19.MoveNext",
+      "callVA": "0x2b30d3c",
+      "sfxType": 14,
+      "clipPathID": 283,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Relic_manager.Relic_Upgrade",
+      "callVA": "0x2b31b84",
+      "sfxType": 4,
+      "clipPathID": 280,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Cat.Attack",
+      "callVA": "0x2b3d970",
+      "sfxType": 8,
+      "clipPathID": 291,
+      "volume": 0.30000001192092896,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Boss_manager.Game_Enter",
+      "callVA": "0x2b461a8",
+      "sfxType": 10,
+      "clipPathID": 286,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Boss_manager.Game_Sweep",
+      "callVA": "0x2b473d0",
+      "sfxType": 11,
+      "clipPathID": 285,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Mine_manager.Game_Enter",
+      "callVA": "0x2b4976c",
+      "sfxType": 10,
+      "clipPathID": 286,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Mine_manager.Game_Enter",
+      "callVA": "0x2b4981c",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Mine_manager.Game_End",
+      "callVA": "0x2b49cac",
+      "sfxType": 11,
+      "clipPathID": 285,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Mine_manager.Game_Sweep",
+      "callVA": "0x2b4a374",
+      "sfxType": 11,
+      "clipPathID": 285,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Mine_manager.Game_Sweep",
+      "callVA": "0x2b4a3f4",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Monster_manager.Game_Enter",
+      "callVA": "0x2b4d9d0",
+      "sfxType": 10,
+      "clipPathID": 286,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Monster_manager.LevelClear",
+      "callVA": "0x2b4e008",
+      "sfxType": 11,
+      "clipPathID": 285,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Monster_manager.Game_Fail",
+      "callVA": "0x2b4e790",
+      "sfxType": 12,
+      "clipPathID": 292,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Monster_manager.Game_Sweep",
+      "callVA": "0x2b4f450",
+      "sfxType": 11,
+      "clipPathID": 285,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Raid_HelperSlot.OnClick_Slot",
+      "callVA": "0x2b51f90",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Raid_Helper_Purchase_Popup.OnClick_Purchase",
+      "callVA": "0x2b52350",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Raid_manager.Helper_Purchase",
+      "callVA": "0x2b52410",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Raid_Mission_manager.Reward_Get",
+      "callVA": "0x2b53414",
+      "sfxType": 7,
+      "clipPathID": 294,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Raid_Mission_manager.Reward_Get",
+      "callVA": "0x2b534d8",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Raid_Mission_manager.Reward_ReGet",
+      "callVA": "0x2b53920",
+      "sfxType": 7,
+      "clipPathID": 294,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Raid_Mission_manager.Reward_ReGet",
+      "callVA": "0x2b539e8",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Raid_manager.Game_Enter_Normal",
+      "callVA": "0x2b577bc",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Raid_manager.Game_Enter",
+      "callVA": "0x2b57a7c",
+      "sfxType": 10,
+      "clipPathID": 286,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Raid_manager.Game_Enter_AD",
+      "callVA": "0x2b57b88",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Raid_manager.Game_Enter_IAP",
+      "callVA": "0x2b57cd4",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Raid_GunSlot.onClick_StarUpgrade",
+      "callVA": "0x2b5b428",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Fish_manager.FreeGacha_RewardGet",
+      "callVA": "0x2b5e7d0",
+      "sfxType": 2,
+      "clipPathID": 279,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Fish_manager.PremiumGacha",
+      "callVA": "0x2b5ecd0",
+      "sfxType": 2,
+      "clipPathID": 279,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Fish_manager.TryFusion",
+      "callVA": "0x2b5ee90",
+      "sfxType": 3,
+      "clipPathID": 294,
+      "volume": 0.4000000059604645,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Gun_manager.AD_Daily_Gun_RewardGet",
+      "callVA": "0x2b6a37c",
+      "sfxType": 2,
+      "clipPathID": 279,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Safe_manager.Open_UI",
+      "callVA": "0x2b6b920",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Safe_manager.Put_From_Inventory",
+      "callVA": "0x2b6c000",
+      "sfxType": 9,
+      "clipPathID": 281,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Safe_manager.Put_From_Inventory",
+      "callVA": "0x2b6c070",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Safe_manager.Take_Out",
+      "callVA": "0x2b6c288",
+      "sfxType": 13,
+      "clipPathID": 281,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Safe_manager.Take_Out",
+      "callVA": "0x2b6c334",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Safe_manager.Purchase_Slot",
+      "callVA": "0x2b6c574",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Safe_Slot.onClick_Gun",
+      "callVA": "0x2b6cda4",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Safe_UI.Close",
+      "callVA": "0x2b6d070",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "StarUpgrade_popup.onClick_Upgrade",
+      "callVA": "0x2b6f570",
+      "sfxType": 16,
+      "clipPathID": 290,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "StarUpgrade_popup.onClick_Upgrade",
+      "callVA": "0x2b6f610",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "StarUpgrade_popup.onClick_Upgrade",
+      "callVA": "0x2b6f6b8",
+      "sfxType": 15,
+      "clipPathID": 285,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Gun_Info_UI.onClick_Pause",
+      "callVA": "0x2b704ac",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Gun_Info_UI.onClick_Unpause",
+      "callVA": "0x2b70598",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Gun_Item.OnPointerUp",
+      "callVA": "0x2b71854",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Gun_Item.OnEndDrag",
+      "callVA": "0x2b72e38",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Gun_Item_List.EquipToSlot",
+      "callVA": "0x2b73264",
+      "sfxType": 9,
+      "clipPathID": 281,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Gun_Item_List.FuseItems",
+      "callVA": "0x2b73a1c",
+      "sfxType": 3,
+      "clipPathID": 294,
+      "volume": 0.4000000059604645,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Gun_Slot.onClick_StarUpgrade",
+      "callVA": "0x2b77b4c",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Gun_Slot.OnPointerUp",
+      "callVA": "0x2b77f2c",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Gun_Slot.Unequip",
+      "callVA": "0x2b79740",
+      "sfxType": 13,
+      "clipPathID": 281,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Pet_manager.AD_Daily_Pet_RewardGet",
+      "callVA": "0x2b7e2f0",
+      "sfxType": 2,
+      "clipPathID": 279,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Pet_Item.OnPointerUp",
+      "callVA": "0x2b7f31c",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Pet_Item_List.FuseItems",
+      "callVA": "0x2b830f8",
+      "sfxType": 3,
+      "clipPathID": 294,
+      "volume": 0.4000000059604645,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Pet_Item_List.EquipToSlot",
+      "callVA": "0x2b835ec",
+      "sfxType": 9,
+      "clipPathID": 281,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Pet_Slot.OnPointerUp",
+      "callVA": "0x2b84efc",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Pet_Slot.PerformSlotSwap",
+      "callVA": "0x2b85c50",
+      "sfxType": 9,
+      "clipPathID": 281,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Pet_Slot.Unequip",
+      "callVA": "0x2b8638c",
+      "sfxType": 13,
+      "clipPathID": 281,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Rebirth_Upgrade_Info.Upgrade",
+      "callVA": "0x2b8783c",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "DailyGun_Item.OnClick_Purchase",
+      "callVA": "0x2b8c124",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Shop_manager.CompletePurchaseSuccess",
+      "callVA": "0x2b99eb4",
+      "sfxType": 7,
+      "clipPathID": 294,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "StarGem_Pig.Purchase",
+      "callVA": "0x2ba1520",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "StarGem_Pig.ApplyReward",
+      "callVA": "0x2ba18d8",
+      "sfxType": 7,
+      "clipPathID": 294,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "WeeklyShop.Menu_Open_VIP",
+      "callVA": "0x2ba7494",
+      "sfxType": 5,
+      "clipPathID": 293,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Skin_manager.Skin_Purchse",
+      "callVA": "0x2ba7a74",
+      "sfxType": 7,
+      "clipPathID": 294,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Skin_manager.Skin_Select",
+      "callVA": "0x2ba7c38",
+      "sfxType": 9,
+      "clipPathID": 281,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "SpeedRun_manager.Game_Enter",
+      "callVA": "0x2ba8afc",
+      "sfxType": 10,
+      "clipPathID": 286,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "SpeedRun_manager.Game_Win",
+      "callVA": "0x2ba90c0",
+      "sfxType": 11,
+      "clipPathID": 285,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "SpeedRun_manager.Game_Sweep",
+      "callVA": "0x2ba9c84",
+      "sfxType": 11,
+      "clipPathID": 285,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Tree_manager.Game_Fail",
+      "callVA": "0x2bad844",
+      "sfxType": 12,
+      "clipPathID": 292,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Upgrade_manager.Upgrade",
+      "callVA": "0x2bb17ac",
+      "sfxType": 4,
+      "clipPathID": 280,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    {
+      "caller": "Upgrade_manager.AutoUpgrade_All",
+      "callVA": "0x2bb2064",
+      "sfxType": 4,
+      "clipPathID": 280,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    }
+  ],
+  "recommendedConsumers": {
+    "shot": {
+      "caller": "Cat.Attack",
+      "callVA": "0x2b3d970",
+      "sfxType": 8,
+      "clipPathID": 291,
+      "volume": 0.30000001192092896,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    "uiButton": {
+      "caller": "Raid_HelperSlot.OnClick_Slot",
+      "callVA": "0x2b51f90",
+      "sfxType": 1,
+      "clipPathID": 288,
+      "volume": 0.5,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    "fusion": {
+      "caller": "Gun_Item_List.FuseItems",
+      "callVA": "0x2b73a1c",
+      "sfxType": 3,
+      "clipPathID": 294,
+      "volume": 0.4000000059604645,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    "upgrade": {
+      "caller": "Upgrade_manager.Upgrade",
+      "callVA": "0x2bb17ac",
+      "sfxType": 4,
+      "clipPathID": 280,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    "win": {
+      "caller": "Monster_manager.LevelClear",
+      "callVA": "0x2b4e008",
+      "sfxType": 11,
+      "clipPathID": 285,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    "fail": {
+      "caller": "Monster_manager.Game_Fail",
+      "callVA": "0x2b4e790",
+      "sfxType": 12,
+      "clipPathID": 292,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    "reward": {
+      "caller": "Mission_manager.Reward_Grant",
+      "callVA": "0x2aa6594",
+      "sfxType": 7,
+      "clipPathID": 294,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    },
+    "enter": {
+      "caller": "Monster_manager.Game_Enter",
+      "callVA": "0x2b4d9d0",
+      "sfxType": 10,
+      "clipPathID": 286,
+      "volume": 1.0,
+      "pitch": 1,
+      "loop": false,
+      "volumeOverride": null
+    }
+  }
+}

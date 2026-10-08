@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {sourceSphereBoxSegmentEntry} from '../source-hitbox';import {sourceBulletRadius} from '../source-bullet-colliders';
+const box={centerOffset:{x:0,y:0,z:0},halfExtents:{x:1,y:1,z:1},yawRadians:0};
+test('source bullet sphere hits a side where its center segment misses, at the first contact',()=>{const a={x:-4,y:1.5,z:0},b={x:4,y:1.5,z:0};assert.equal(sourceSphereBoxSegmentEntry(a,b,box,0),null);const r=sourceBulletRadius(6),t=sourceSphereBoxSegmentEntry(a,b,box,r);assert.ok(Math.abs(t-(3-Math.sqrt(r*r-.25))/8)<1e-10);});
+test('rounded box corners refuse the false hit from simply expanded slabs',()=>{assert.equal(sourceSphereBoxSegmentEntry({x:-4,y:1.5,z:1.5},{x:4,y:1.5,z:1.5},box,.6),null);});
+test('zero-length inside overlap, tangent and rotated geometry are stable',()=>{assert.equal(sourceSphereBoxSegmentEntry({x:1.5,y:0,z:0},{x:1.5,y:0,z:0},box,.6),0);const tangent=sourceSphereBoxSegmentEntry({x:-4,y:1.6,z:0},{x:4,y:1.6,z:0},box,.6);assert.ok(Math.abs(tangent-.375)<1e-8);const yaw=Math.PI/4,rotate=p=>({x:Math.cos(yaw)*p.x+Math.sin(yaw)*p.z,y:p.y,z:-Math.sin(yaw)*p.x+Math.cos(yaw)*p.z}),a={x:-4,y:0,z:0},b={x:4,y:0,z:0};assert.ok(Math.abs(sourceSphereBoxSegmentEntry(rotate(a),rotate(b),{...box,yawRadians:yaw},.6)-.3)<1e-10);});

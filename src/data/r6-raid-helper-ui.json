@@ -1,0 +1,194 @@
+[
+  {
+    "kind": "Raid_Helper_Purchase_Popup",
+    "id": "level0:171",
+    "path": "/Canvas/Contents_UI/Raid_UI/Helper_Purchase_Popup",
+    "component": 123163,
+    "data": {
+      "Gun_Demo": {
+        "fileID": 0,
+        "pathID": 146155,
+        "id": "level0:17916",
+        "path": "/Canvas/Contents_UI/Raid_UI/Helper_Purchase_Popup/Panel/GunItem_Demo"
+      },
+      "Purchase_obj": {
+        "fileID": 0,
+        "pathID": 275,
+        "id": "level0:275",
+        "path": "/Canvas/Contents_UI/Raid_UI/Helper_Purchase_Popup/Panel/Purchased_obj"
+      },
+      "Purchase_Btn_obj": {
+        "fileID": 0,
+        "pathID": 58,
+        "id": "level0:58",
+        "path": "/Canvas/Contents_UI/Raid_UI/Helper_Purchase_Popup/Panel/Purchase_Btn"
+      }
+    },
+    "bytes": 68,
+    "parsedBytes": 68,
+    "sha256": "21a99f870e2e6b470112248ae0588bde7a8a4e8926de28704332da10bdcc8d74"
+  },
+  {
+    "kind": "Raid_HelperSlot",
+    "id": "level0:17199",
+    "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot",
+    "component": 133360,
+    "data": {
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 137763,
+        "id": "level0:15833",
+        "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 129864,
+        "id": "level0:6994",
+        "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Gun/Shadow"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 133711,
+        "id": "level0:18883",
+        "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Panel"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 28274,
+        "id": "level0:28274",
+        "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Locked_obj"
+      },
+      "Weak_obj": {
+        "fileID": 0,
+        "pathID": 37354,
+        "id": "level0:37354",
+        "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/WeakAble_obj"
+      },
+      "Weak_Icon_obj": {
+        "fileID": 0,
+        "pathID": 2506,
+        "id": "level0:2506",
+        "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Damage/Weak_Icon"
+      },
+      "Weak_Dmg_Panel": {
+        "fileID": 0,
+        "pathID": 2436,
+        "id": "level0:2436",
+        "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Weak_Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 8904,
+          "id": "level0:8904",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 22721,
+          "id": "level0:22721",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12392,
+          "id": "level0:12392",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 35535,
+          "id": "level0:35535",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2318,
+          "id": "level0:2318",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34910,
+          "id": "level0:34910",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11647,
+          "id": "level0:11647",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 18984,
+          "id": "level0:18984",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/X"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11161,
+          "id": "level0:11161",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/XX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 31070,
+          "id": "level0:31070",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/XXX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 38843,
+          "id": "level0:38843",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/Z"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36763,
+          "id": "level0:36763",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/ZZ"
+        },
+        {
+          "fileID": 0,
+          "pathID": 22585,
+          "id": "level0:22585",
+          "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Degree (1)/ZZZ"
+        }
+      ],
+      "Damage_txt": {
+        "fileID": 0,
+        "pathID": 119445,
+        "id": "level0:28860",
+        "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Damage/Value_txt"
+      },
+      "Speed_txt": {
+        "fileID": 0,
+        "pathID": 119318,
+        "id": "level0:25125",
+        "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Speed/Value_txt"
+      },
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 122095,
+        "id": "level0:4853",
+        "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Selected/Type_txt"
+      },
+      "StarUpgrade_obj": {
+        "fileID": 0,
+        "pathID": 36993,
+        "id": "level0:36993",
+        "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Star_obj"
+      },
+      "StarUpgrade_Lv_txt": {
+        "fileID": 0,
+        "pathID": 122092,
+        "id": "level0:3604",
+        "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Star_obj/StarLv_txt"
+      }
+    },
+    "bytes": 336,
+    "parsedBytes": 336,
+    "sha256": "4888888b2005e89c3414696dfed6a545465946de8e1229429a3dc28d94049109"
+  }
+]

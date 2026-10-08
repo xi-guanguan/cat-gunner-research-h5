@@ -1,0 +1,825 @@
+[
+  {
+    "kind": "DailyGun_popup",
+    "id": "level0:821",
+    "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup",
+    "component": 123955,
+    "data": {
+      "DailyGun_Item_List": [
+        {
+          "fileID": 0,
+          "pathID": 125977,
+          "id": "level0:5042",
+          "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item"
+        },
+        {
+          "fileID": 0,
+          "pathID": 132662,
+          "id": "level0:13985",
+          "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (1)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 132663,
+          "id": "level0:13984",
+          "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (2)"
+        }
+      ],
+      "Time_txt": {
+        "fileID": 0,
+        "pathID": 117370,
+        "id": "level0:1930",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/Time/Time_txt"
+      }
+    },
+    "bytes": 84,
+    "sha256": "0034f90f0d697a915289fd461c7721c15ccf4ba232f8ad75cb87055a2085411d"
+  },
+  {
+    "kind": "DailyGun_popup",
+    "id": "level0:1720",
+    "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun",
+    "component": 125008,
+    "data": {
+      "DailyGun_Item_List": [
+        {
+          "fileID": 0,
+          "pathID": 132660,
+          "id": "level0:13987",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item"
+        },
+        {
+          "fileID": 0,
+          "pathID": 132659,
+          "id": "level0:13988",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 132661,
+          "id": "level0:13986",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)"
+        }
+      ],
+      "Time_txt": {
+        "fileID": 0,
+        "pathID": 117271,
+        "id": "level0:1242",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/Time/Time_txt"
+      }
+    },
+    "bytes": 84,
+    "sha256": "fa729ac06b1db3dcbc515876dcac6b45a8bd5012aa28fdffaa2b7416f6f46ebb"
+  },
+  {
+    "kind": "WeeklyShop",
+    "id": "level0:2013",
+    "path": "/Canvas/Shop_manager/WeeklyShop",
+    "component": 125369,
+    "data": {
+      "WeeklyShop_UI": {
+        "fileID": 0,
+        "pathID": 2024,
+        "id": "level0:2024",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup"
+      },
+      "menu_list": {
+        "fileID": 0,
+        "pathID": 124922,
+        "id": "level0:1648",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu"
+      },
+      "WeeklyShop_Btn_obj": {
+        "fileID": 0,
+        "pathID": 1010,
+        "id": "level0:1010",
+        "path": "/Canvas/SafeArea/Main_UI/Btn_list/WeeklyShop_Btn"
+      },
+      "VIP_Locked_obj": {
+        "fileID": 0,
+        "pathID": 28493,
+        "id": "level0:28493",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu/Menu_Btn_1/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "sha256": "4ade2a885bd8019622b606d0c6ac783816f31891da148d0b6ba0db8a2104e5cd"
+  },
+  {
+    "kind": "PlusPack_Inapp_item",
+    "id": "level0:30005",
+    "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Auto",
+    "component": 125836,
+    "data": {
+      "type": 2,
+      "is_banner": false,
+      "Active_obj": {
+        "fileID": 0,
+        "pathID": 10457,
+        "id": "level0:10457",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Auto/Active_Panel"
+      },
+      "NonActive_obj": {
+        "fileID": 0,
+        "pathID": 11170,
+        "id": "level0:11170",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Auto/NonPurchase_Panel"
+      },
+      "Remain_Time_txt": {
+        "fileID": 0,
+        "pathID": 119885,
+        "id": "level0:25938",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Auto/Active_Panel/Time_txt"
+      }
+    },
+    "bytes": 76,
+    "sha256": "8903b04f20458ffc1beec2d209f9da47b290e81a9874c9015a225ddeba7a58d9"
+  },
+  {
+    "kind": "DailyGun_Item",
+    "id": "level0:5042",
+    "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item",
+    "component": 125977,
+    "data": {
+      "Item_Idx": 0,
+      "gun_item": {
+        "fileID": 0,
+        "pathID": 142528,
+        "id": "level0:2528",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item/GunItem_Demo"
+      },
+      "PetCoin_txt": {
+        "fileID": 0,
+        "pathID": 117785,
+        "id": "level0:11658",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item/PetCoint/Value_txt"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 120374,
+        "id": "level0:34960",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item/Count/Count_txt"
+      },
+      "Disable_Panel_obj": {
+        "fileID": 0,
+        "pathID": 14467,
+        "id": "level0:14467",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item/Disable_obj"
+      },
+      "Disable_Step_obj": {
+        "fileID": 0,
+        "pathID": 14070,
+        "id": "level0:14070",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item/Count/Disable_obj"
+      },
+      "PurchaseAble_obj": {
+        "fileID": 0,
+        "pathID": 4346,
+        "id": "level0:4346",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item/Purchase_Btn"
+      }
+    },
+    "bytes": 108,
+    "sha256": "a384d449042211a9da6fce36b5fa1c7e0434e92635b357591f6ef59fd9885865"
+  },
+  {
+    "kind": "DailyGun_Item",
+    "id": "level0:13988",
+    "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)",
+    "component": 132659,
+    "data": {
+      "Item_Idx": 1,
+      "gun_item": {
+        "fileID": 0,
+        "pathID": 149085,
+        "id": "level0:10755",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo"
+      },
+      "PetCoin_txt": {
+        "fileID": 0,
+        "pathID": 119138,
+        "id": "level0:3698",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/PetCoint/Value_txt"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 121999,
+        "id": "level0:23338",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/Count/Count_txt"
+      },
+      "Disable_Panel_obj": {
+        "fileID": 0,
+        "pathID": 5785,
+        "id": "level0:5785",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/Disable_obj"
+      },
+      "Disable_Step_obj": {
+        "fileID": 0,
+        "pathID": 4906,
+        "id": "level0:4906",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/Count/Disable_obj"
+      },
+      "PurchaseAble_obj": {
+        "fileID": 0,
+        "pathID": 13809,
+        "id": "level0:13809",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/Purchase_Btn"
+      }
+    },
+    "bytes": 108,
+    "sha256": "e642472bd70ed2389762ec2ea1c8ca264fad91a43c63c201ee36d2fd51c0d3ab"
+  },
+  {
+    "kind": "DailyGun_Item",
+    "id": "level0:13987",
+    "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item",
+    "component": 132660,
+    "data": {
+      "Item_Idx": 0,
+      "gun_item": {
+        "fileID": 0,
+        "pathID": 149084,
+        "id": "level0:10756",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo"
+      },
+      "PetCoin_txt": {
+        "fileID": 0,
+        "pathID": 119137,
+        "id": "level0:3699",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/PetCoint/Value_txt"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122000,
+        "id": "level0:23337",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/Count/Count_txt"
+      },
+      "Disable_Panel_obj": {
+        "fileID": 0,
+        "pathID": 5784,
+        "id": "level0:5784",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/Disable_obj"
+      },
+      "Disable_Step_obj": {
+        "fileID": 0,
+        "pathID": 4905,
+        "id": "level0:4905",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/Count/Disable_obj"
+      },
+      "PurchaseAble_obj": {
+        "fileID": 0,
+        "pathID": 13808,
+        "id": "level0:13808",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/Purchase_Btn"
+      }
+    },
+    "bytes": 108,
+    "sha256": "ac934339643f34299017268f39204ffb21896e109cc53a25f304cfa09e0e3133"
+  },
+  {
+    "kind": "DailyGun_Item",
+    "id": "level0:13986",
+    "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)",
+    "component": 132661,
+    "data": {
+      "Item_Idx": 2,
+      "gun_item": {
+        "fileID": 0,
+        "pathID": 149083,
+        "id": "level0:10757",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo"
+      },
+      "PetCoin_txt": {
+        "fileID": 0,
+        "pathID": 119139,
+        "id": "level0:3697",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/PetCoint/Value_txt"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122003,
+        "id": "level0:23341",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/Count/Count_txt"
+      },
+      "Disable_Panel_obj": {
+        "fileID": 0,
+        "pathID": 5786,
+        "id": "level0:5786",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/Disable_obj"
+      },
+      "Disable_Step_obj": {
+        "fileID": 0,
+        "pathID": 4907,
+        "id": "level0:4907",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/Count/Disable_obj"
+      },
+      "PurchaseAble_obj": {
+        "fileID": 0,
+        "pathID": 13812,
+        "id": "level0:13812",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/Purchase_Btn"
+      }
+    },
+    "bytes": 108,
+    "sha256": "f557fed1ec91760eec1ee9a7d892f514abbfc209fa1b5c18a4ef86ca1e62cf29"
+  },
+  {
+    "kind": "DailyGun_Item",
+    "id": "level0:13985",
+    "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (1)",
+    "component": 132662,
+    "data": {
+      "Item_Idx": 1,
+      "gun_item": {
+        "fileID": 0,
+        "pathID": 149082,
+        "id": "level0:10759",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (1)/GunItem_Demo"
+      },
+      "PetCoin_txt": {
+        "fileID": 0,
+        "pathID": 119141,
+        "id": "level0:3695",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (1)/PetCoint/Value_txt"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122002,
+        "id": "level0:23340",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (1)/Count/Count_txt"
+      },
+      "Disable_Panel_obj": {
+        "fileID": 0,
+        "pathID": 5788,
+        "id": "level0:5788",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (1)/Disable_obj"
+      },
+      "Disable_Step_obj": {
+        "fileID": 0,
+        "pathID": 4908,
+        "id": "level0:4908",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (1)/Count/Disable_obj"
+      },
+      "PurchaseAble_obj": {
+        "fileID": 0,
+        "pathID": 13811,
+        "id": "level0:13811",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (1)/Purchase_Btn"
+      }
+    },
+    "bytes": 108,
+    "sha256": "6b5d12cbe8bf2b05ab63e0b6529624537ec37fe1077ba627e7b8b32dd6995ddb"
+  },
+  {
+    "kind": "DailyGun_Item",
+    "id": "level0:13984",
+    "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (2)",
+    "component": 132663,
+    "data": {
+      "Item_Idx": 2,
+      "gun_item": {
+        "fileID": 0,
+        "pathID": 149081,
+        "id": "level0:10758",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (2)/GunItem_Demo"
+      },
+      "PetCoin_txt": {
+        "fileID": 0,
+        "pathID": 119140,
+        "id": "level0:3696",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (2)/PetCoint/Value_txt"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122001,
+        "id": "level0:23339",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (2)/Count/Count_txt"
+      },
+      "Disable_Panel_obj": {
+        "fileID": 0,
+        "pathID": 5787,
+        "id": "level0:5787",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (2)/Disable_obj"
+      },
+      "Disable_Step_obj": {
+        "fileID": 0,
+        "pathID": 4909,
+        "id": "level0:4909",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (2)/Count/Disable_obj"
+      },
+      "PurchaseAble_obj": {
+        "fileID": 0,
+        "pathID": 13810,
+        "id": "level0:13810",
+        "path": "/Canvas/Shop_manager/DailyGun/DailyGun_Popup/Panel/DailyGun_item (2)/Purchase_Btn"
+      }
+    },
+    "bytes": 108,
+    "sha256": "1b5d164a37b87551307872b98fc4c0973c38289a2e62fa2ac73566b71b126874"
+  },
+  {
+    "kind": "PlusPack_Inapp_item",
+    "id": "level0:32373",
+    "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Time",
+    "component": 137191,
+    "data": {
+      "type": 0,
+      "is_banner": false,
+      "Active_obj": {
+        "fileID": 0,
+        "pathID": 30755,
+        "id": "level0:30755",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Time/Active_Panel"
+      },
+      "NonActive_obj": {
+        "fileID": 0,
+        "pathID": 11098,
+        "id": "level0:11098",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Time/NonPurchase_Panel"
+      },
+      "Remain_Time_txt": {
+        "fileID": 0,
+        "pathID": 117782,
+        "id": "level0:16435",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Time/Active_Panel/Time_txt"
+      }
+    },
+    "bytes": 76,
+    "sha256": "048f0e744386ba71d9439be563768aaea206c84477c2ac6baec5f57b9e57a99a"
+  },
+  {
+    "kind": "PlusPack_Inapp_item",
+    "id": "level0:15912",
+    "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Reward",
+    "component": 146100,
+    "data": {
+      "type": 1,
+      "is_banner": false,
+      "Active_obj": {
+        "fileID": 0,
+        "pathID": 10025,
+        "id": "level0:10025",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Reward/Active_Panel"
+      },
+      "NonActive_obj": {
+        "fileID": 0,
+        "pathID": 19427,
+        "id": "level0:19427",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Reward/NonPurchase_Panel"
+      },
+      "Remain_Time_txt": {
+        "fileID": 0,
+        "pathID": 118386,
+        "id": "level0:35441",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_Plus/Scroll View/Viewport/Content/Plus_Reward/Active_Panel/Time_txt"
+      }
+    },
+    "bytes": 76,
+    "sha256": "b96f83a3c881fdf39b119ddf45cc4b4b2b83ee44339f37707d9c9436c02584c2"
+  },
+  {
+    "kind": "Gun_Item_Demo",
+    "id": "level0:10757",
+    "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo",
+    "component": 149083,
+    "data": {
+      "GunNum": 0,
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 128519,
+        "id": "level0:3891",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 137198,
+        "id": "level0:15252",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149088,
+        "id": "level0:3176",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 18308,
+          "id": "level0:18308",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34029,
+          "id": "level0:34029",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3313,
+          "id": "level0:3313",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 25844,
+          "id": "level0:25844",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11391,
+          "id": "level0:11391",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 24731,
+          "id": "level0:24731",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2375,
+          "id": "level0:2375",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9612,
+          "id": "level0:9612",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/X"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2529,
+          "id": "level0:2529",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/XX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20339,
+          "id": "level0:20339",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/XXX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28415,
+          "id": "level0:28415",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/Z"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26781,
+          "id": "level0:26781",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/ZZ"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34309,
+          "id": "level0:34309",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Degree/ZZZ"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 120197,
+        "id": "level0:18481",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (2)/GunItem_Demo/Type_txt"
+      }
+    },
+    "bytes": 244,
+    "sha256": "43912c39a7397c72820d1c3fcd7fb3d409ef413234a93b6a66c10384a657ba9c"
+  },
+  {
+    "kind": "Gun_Item_Demo",
+    "id": "level0:10756",
+    "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo",
+    "component": 149084,
+    "data": {
+      "GunNum": 0,
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 128517,
+        "id": "level0:3889",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 137196,
+        "id": "level0:15251",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149089,
+        "id": "level0:3172",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 18311,
+          "id": "level0:18311",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34026,
+          "id": "level0:34026",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3312,
+          "id": "level0:3312",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 25841,
+          "id": "level0:25841",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11390,
+          "id": "level0:11390",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 24732,
+          "id": "level0:24732",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2377,
+          "id": "level0:2377",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9616,
+          "id": "level0:9616",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/X"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2533,
+          "id": "level0:2533",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/XX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20337,
+          "id": "level0:20337",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/XXX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28419,
+          "id": "level0:28419",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/Z"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26780,
+          "id": "level0:26780",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/ZZ"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34307,
+          "id": "level0:34307",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Degree/ZZZ"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 120196,
+        "id": "level0:18485",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item/GunItem_Demo/Type_txt"
+      }
+    },
+    "bytes": 244,
+    "sha256": "f337e633e9a9a101226ebadc5c7bba98ff3fb203e2930ba547d355639e4d9119"
+  },
+  {
+    "kind": "Gun_Item_Demo",
+    "id": "level0:10755",
+    "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo",
+    "component": 149085,
+    "data": {
+      "GunNum": 0,
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 128518,
+        "id": "level0:3890",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 137197,
+        "id": "level0:15250",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149090,
+        "id": "level0:3173",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 18312,
+          "id": "level0:18312",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34025,
+          "id": "level0:34025",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3311,
+          "id": "level0:3311",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 25840,
+          "id": "level0:25840",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11389,
+          "id": "level0:11389",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 24733,
+          "id": "level0:24733",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2376,
+          "id": "level0:2376",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9615,
+          "id": "level0:9615",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/X"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2532,
+          "id": "level0:2532",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/XX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20338,
+          "id": "level0:20338",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/XXX"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28418,
+          "id": "level0:28418",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/Z"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26779,
+          "id": "level0:26779",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/ZZ"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34308,
+          "id": "level0:34308",
+          "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Degree/ZZZ"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 120195,
+        "id": "level0:18484",
+        "path": "/Canvas/Shop_manager/WeeklyShop/WeeklyShop_Popup/Panel/Menu_DailyGun/DailyGun_item (1)/GunItem_Demo/Type_txt"
+      }
+    },
+    "bytes": 244,
+    "sha256": "d221751bcfdada88d96f7880a4c6972973f2badd87e5510799f3f0dfff0fa06f"
+  }
+]

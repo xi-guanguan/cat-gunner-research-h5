@@ -1,0 +1,343 @@
+{
+  "schemaVersion": 1,
+  "sceneSha256": "12a68a5fe3c5d40de08cb430543f6ee2a7cc13a91f7e92fea862085e0977e7a5",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "serialized": {
+    "HysteresisMargin": 0.11999999731779099,
+    "MinStateDuration": 0.30000001192092896,
+    "DecelerationRange": 2.0,
+    "MinSpeedRatio": 0.15000000596046448,
+    "VelocitySmoothSpeed": 8.0,
+    "ObstacleLayer": 129,
+    "EnemyLayer": 640,
+    "Attack_Length": 40.0,
+    "Raycast_Cool_Max": 0.10000000149011612,
+    "RayCount": 36,
+    "SpreadAngleMin": 2.0,
+    "SpreadAngleMax": 20.0,
+    "SpreadGrowthRate": 0.30000001192092896,
+    "SpreadDecayMultiplier": 3.0
+  },
+  "manager": {
+    "Cat_list": [
+      {
+        "fileID": 0,
+        "pathID": 147400
+      },
+      {
+        "fileID": 0,
+        "pathID": 136809
+      },
+      {
+        "fileID": 0,
+        "pathID": 136808
+      }
+    ],
+    "Helper_Cat": {
+      "fileID": 0,
+      "pathID": 136810
+    },
+    "Helper_FormationOffset": [
+      7.0,
+      0.0,
+      -7.0
+    ],
+    "FormationRadius": 2.5,
+    "SeparationRadius": 1.7999999523162842,
+    "SeparationStrength": 3.0
+  },
+  "cats": [
+    {
+      "componentID": 136808,
+      "name": "Cat (2)",
+      "isAI": true,
+      "moveSpeed": 14.0,
+      "rawSha256": "c27db3fa70ad6da6614a2fb715ebb6f0edf7708af1bdf685010dfbd2620d1d5a",
+      "parsedBytes": 1460,
+      "rayTransform": {
+        "chain": [
+          {
+            "pathID": 54046,
+            "name": "Ray_trans",
+            "position": {
+              "x": 0.0,
+              "y": 2.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "pathID": 54054,
+            "name": "Cat (2)",
+            "position": {
+              "x": 6.0,
+              "y": 0.0,
+              "z": -6.0
+            },
+            "rotation": {
+              "x": -0.0,
+              "y": -0.0,
+              "z": -0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "pathID": 39282,
+            "name": "Cat_manager",
+            "position": {
+              "x": -100.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": -0.0,
+              "y": -0.0,
+              "z": -0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        ]
+      },
+      "slotNum": -1
+    },
+    {
+      "componentID": 136809,
+      "name": "Cat (1)",
+      "isAI": true,
+      "moveSpeed": 14.0,
+      "rawSha256": "2cffab82f293670499bc220fff44ebe279b7ce8d6e32976145ba5eb1bb280656",
+      "parsedBytes": 1460,
+      "rayTransform": {
+        "chain": [
+          {
+            "pathID": 54047,
+            "name": "Ray_trans",
+            "position": {
+              "x": 0.0,
+              "y": 2.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "pathID": 54055,
+            "name": "Cat (1)",
+            "position": {
+              "x": -6.0,
+              "y": 0.0,
+              "z": -6.0
+            },
+            "rotation": {
+              "x": -0.0,
+              "y": -0.0,
+              "z": -0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "pathID": 39282,
+            "name": "Cat_manager",
+            "position": {
+              "x": -100.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": -0.0,
+              "y": -0.0,
+              "z": -0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        ]
+      },
+      "slotNum": -1
+    },
+    {
+      "componentID": 136810,
+      "name": "Cat (Helper)",
+      "isAI": true,
+      "moveSpeed": 14.0,
+      "rawSha256": "989402f1af9f322ca60ac0281275eb590886f84e5e69039087d52b6fc3e3274f",
+      "parsedBytes": 1460,
+      "rayTransform": {
+        "chain": [
+          {
+            "pathID": 54048,
+            "name": "Ray_trans",
+            "position": {
+              "x": 0.0,
+              "y": 2.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "pathID": 54056,
+            "name": "Cat (Helper)",
+            "position": {
+              "x": 6.0,
+              "y": 0.0,
+              "z": -6.0
+            },
+            "rotation": {
+              "x": -0.0,
+              "y": -0.0,
+              "z": -0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "pathID": 39282,
+            "name": "Cat_manager",
+            "position": {
+              "x": -100.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": -0.0,
+              "y": -0.0,
+              "z": -0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        ]
+      },
+      "slotNum": -1
+    },
+    {
+      "componentID": 147400,
+      "name": "Cat",
+      "isAI": false,
+      "moveSpeed": 13.0,
+      "rawSha256": "7fbd52550afc10dcafd17dc40221d2e07a57ea6493ad4ade798cb108770b55b5",
+      "parsedBytes": 1460,
+      "rayTransform": {
+        "chain": [
+          {
+            "pathID": 44674,
+            "name": "Ray_trans",
+            "position": {
+              "x": 0.0,
+              "y": 2.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "pathID": 44677,
+            "name": "Cat",
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": -0.0,
+              "y": -0.0,
+              "z": -0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          },
+          {
+            "pathID": 39282,
+            "name": "Cat_manager",
+            "position": {
+              "x": -100.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": -0.0,
+              "y": -0.0,
+              "z": -0.0,
+              "w": 1.0
+            },
+            "scale": {
+              "x": 1.0,
+              "y": 1.0,
+              "z": 1.0
+            }
+          }
+        ]
+      },
+      "slotNum": -1
+    }
+  ]
+}

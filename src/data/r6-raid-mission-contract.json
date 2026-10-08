@@ -1,0 +1,621 @@
+{
+  "sourceSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "product": "catgunner_raid_mission_ticket",
+  "defaultPrice": "$4.99",
+  "defaultPriceSource": [
+    "level0:6615",
+    "level0:14066"
+  ],
+  "missions": [
+    {
+      "type": 0,
+      "goal": 1,
+      "reward": 300
+    },
+    {
+      "type": 0,
+      "goal": 4,
+      "reward": 500
+    },
+    {
+      "type": 0,
+      "goal": 7,
+      "reward": 800
+    },
+    {
+      "type": 1,
+      "goal": 1,
+      "reward": 200
+    },
+    {
+      "type": 1,
+      "goal": 5,
+      "reward": 300
+    },
+    {
+      "type": 1,
+      "goal": 10,
+      "reward": 400
+    },
+    {
+      "type": 1,
+      "goal": 20,
+      "reward": 500
+    },
+    {
+      "type": 1,
+      "goal": 30,
+      "reward": 600
+    }
+  ],
+  "sortPriority": {
+    "unowned": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "owned": [
+      1,
+      0,
+      0,
+      2
+    ]
+  },
+  "sortTieBreak": [
+    "type ascending",
+    "runtime index ascending"
+  ],
+  "getAll": "one pass index0..7; state1 first OR state2 repeat if ticket; never both per item in the same pass",
+  "buttons": [
+    {
+      "id": "level0:268",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Mission_Ticket_Purchase_Popup/Background",
+      "component": 123278,
+      "calls": [
+        {
+          "targetPathID": 1634,
+          "targetType": "UnityEngine.GameObject, UnityEngine",
+          "method": "SetActive",
+          "mode": 6,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 452,
+      "parsedBytes": 452,
+      "sha256": "c59f95ae90cc2a7ba902f18939bbd97a0a2689424b8a75d226a625b1316359cb"
+    },
+    {
+      "id": "level0:542",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Test_obj/Image (1)",
+      "component": 123595,
+      "calls": [
+        {
+          "targetPathID": 124352,
+          "targetType": "Mission_manager, Assembly-CSharp",
+          "method": "Season_End_Test",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 452,
+      "parsedBytes": 452,
+      "sha256": "72b30238d2f47d82e8c6d7b815d6c2111e1dbf9ea938880d7ba0f11c21a4649b"
+    },
+    {
+      "id": "level0:726",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Test_obj/Image",
+      "component": 123818,
+      "calls": [
+        {
+          "targetPathID": 124352,
+          "targetType": "Mission_manager, Assembly-CSharp",
+          "method": "Mission_End_Test",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 452,
+      "parsedBytes": 452,
+      "sha256": "919a377efb0633da64ffaa5292a6390abadd98df80badd92c620aa8fb6db2ab8"
+    },
+    {
+      "id": "level0:1105",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Mission_Ticket_Purchase_Popup/Close/Close_Btn",
+      "component": 124306,
+      "calls": [
+        {
+          "targetPathID": 1634,
+          "targetType": "UnityEngine.GameObject, UnityEngine",
+          "method": "SetActive",
+          "mode": 6,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 452,
+      "parsedBytes": 452,
+      "sha256": "22b706f9e564cb3e6d0c1de367b974a115ef09b9fec54884166e09769594e88c"
+    },
+    {
+      "id": "level0:1168",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Image",
+      "component": 124378,
+      "calls": [
+        {
+          "targetPathID": 152,
+          "targetType": "UnityEngine.GameObject, UnityEngine",
+          "method": "SetActive",
+          "mode": 6,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 452,
+      "parsedBytes": 452,
+      "sha256": "6bc2383d3214422f5bafcdb49e43804cb8449dc981b4cc777c4bb83eb945ba07"
+    },
+    {
+      "id": "level0:1222",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Close_Btn",
+      "component": 124444,
+      "calls": [
+        {
+          "targetPathID": 152,
+          "targetType": "UnityEngine.GameObject, UnityEngine",
+          "method": "SetActive",
+          "mode": 6,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 452,
+      "parsedBytes": 452,
+      "sha256": "e0c5fd5582c648d9e3f97edc12e8070522e48a3d54b4aa1ccc7b03d401dc7435"
+    },
+    {
+      "id": "level0:1934",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Mission_Btn",
+      "component": 125289,
+      "calls": [
+        {
+          "targetPathID": 125286,
+          "targetType": "Raid_Mission_HUD, Assembly-CSharp",
+          "method": "onClick_Open",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 452,
+      "parsedBytes": 452,
+      "sha256": "d6fd71567c899ad2af7352c1491d5ed3cb6415b85f35ad6d46328fc4c3466934"
+    },
+    {
+      "id": "level0:35043",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item/Re Claimable/Reward_Get_Btn",
+      "component": 132828,
+      "calls": [
+        {
+          "targetPathID": 142407,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_ReReward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "8b2cac00acd7a4e2bf82e66f0ca635f70b5757c0d5a228da3b7b1fcfa2499d72"
+    },
+    {
+      "id": "level0:28654",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (1)/Claimable/Reward_Get_Btn",
+      "component": 133056,
+      "calls": [
+        {
+          "targetPathID": 139487,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_Reward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "67510c81885d057d167ddfce4d1d0b8fcbffe82b46e580dc6399e07b4ed4f806"
+    },
+    {
+      "id": "level0:28653",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (2)/Claimable/Reward_Get_Btn",
+      "component": 133057,
+      "calls": [
+        {
+          "targetPathID": 139486,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_Reward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "8c5baac97c2445122eae70e422584c2e1ff76d5657bc94835877d064066e386f"
+    },
+    {
+      "id": "level0:28657",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (3)/Claimable/Reward_Get_Btn",
+      "component": 133058,
+      "calls": [
+        {
+          "targetPathID": 139491,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_Reward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "4e10b06f0275e9dfadeb62e3acea439ca6fca08283adcbb126c0ac4f91bc4aaf"
+    },
+    {
+      "id": "level0:28659",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (6)/Claimable/Reward_Get_Btn",
+      "component": 133059,
+      "calls": [
+        {
+          "targetPathID": 139490,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_Reward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "311b51cf93f18aadfdab23a6262a2e2422ba7e18520add548566ae9b10aaf483"
+    },
+    {
+      "id": "level0:28658",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (5)/Claimable/Reward_Get_Btn",
+      "component": 133060,
+      "calls": [
+        {
+          "targetPathID": 139489,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_Reward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "5d47d451e5f8b9d0c35cd3a3cc79eace47e351a978eed152ea8067ecaec440ed"
+    },
+    {
+      "id": "level0:28656",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (7)/Claimable/Reward_Get_Btn",
+      "component": 133061,
+      "calls": [
+        {
+          "targetPathID": 139492,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_Reward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "0e39eba0f193622aba9554fe15c857a0a048c9cb36510d44d2a93ccd937f1fc8"
+    },
+    {
+      "id": "level0:28655",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (4)/Claimable/Reward_Get_Btn",
+      "component": 133062,
+      "calls": [
+        {
+          "targetPathID": 139488,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_Reward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "ee81cce11bdd1fb074ebf3ac2a272003f4f7683f132d33db2411db1fcf5f4346"
+    },
+    {
+      "id": "level0:34448",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (2)/Re Claimable/Reward_Get_Btn",
+      "component": 135460,
+      "calls": [
+        {
+          "targetPathID": 139486,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_ReReward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "124eb7de57e80b860bb729130e3e6257d43a8921d6f79eef0184f9e34f65b845"
+    },
+    {
+      "id": "level0:34447",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (1)/Re Claimable/Reward_Get_Btn",
+      "component": 135461,
+      "calls": [
+        {
+          "targetPathID": 139487,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_ReReward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "8ecf9a95eb45a75ca26fa1a6bfa9cb7d68e331542ed22a46526eb16dad6adcf5"
+    },
+    {
+      "id": "level0:34453",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (4)/Re Claimable/Reward_Get_Btn",
+      "component": 135462,
+      "calls": [
+        {
+          "targetPathID": 139488,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_ReReward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "bc0bb155c72d170146d3fb35a7b6aa02ddf049c66111252d4fe89bb51ba5b7e8"
+    },
+    {
+      "id": "level0:34452",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (7)/Re Claimable/Reward_Get_Btn",
+      "component": 135463,
+      "calls": [
+        {
+          "targetPathID": 139492,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_ReReward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "6abd9cf8b64f94fd86af251d7fa6e93f7b7e90b0a659e984d1f1e98e6210598e"
+    },
+    {
+      "id": "level0:34450",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (5)/Re Claimable/Reward_Get_Btn",
+      "component": 135464,
+      "calls": [
+        {
+          "targetPathID": 139489,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_ReReward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "531df39324e9f6abbe75d1e1298fc61c139835247eb6d606d28904012b6eefde"
+    },
+    {
+      "id": "level0:34449",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (6)/Re Claimable/Reward_Get_Btn",
+      "component": 135465,
+      "calls": [
+        {
+          "targetPathID": 139490,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_ReReward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "8df48d35af3bf8b21b282cf8fd134b483170c508c7d42e93e299579879c513bc"
+    },
+    {
+      "id": "level0:34451",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (3)/Re Claimable/Reward_Get_Btn",
+      "component": 135466,
+      "calls": [
+        {
+          "targetPathID": 139491,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_ReReward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "c18e0964c0461e5c907f94a1e77163cc92c59c0c0a9109f7800470329780df4c"
+    },
+    {
+      "id": "level0:19728",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item/Claimable/Reward_Get_Btn",
+      "component": 136760,
+      "calls": [
+        {
+          "targetPathID": 142407,
+          "targetType": "Raid_Mission_Item, Assembly-CSharp",
+          "method": "onClick_Reward",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "50ebb4e99e53e670b9475583ad42a6a35bc06450bdfcca81fed17360f0fa6007"
+    },
+    {
+      "id": "level0:5305",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (1)/Locked/Reward_Get_Btn",
+      "component": 140177,
+      "calls": [],
+      "bytes": 312,
+      "parsedBytes": 312,
+      "sha256": "44daeb00313da37a3cbba24b78be5d9a1e4982147539984097fe2490f9856d1e"
+    },
+    {
+      "id": "level0:5306",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (2)/Locked/Reward_Get_Btn",
+      "component": 140178,
+      "calls": [],
+      "bytes": 312,
+      "parsedBytes": 312,
+      "sha256": "fe2bb8a86acd1b167e6a92c22867087ccd7740325128290856c7d485ef5aac22"
+    },
+    {
+      "id": "level0:5303",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (7)/Locked/Reward_Get_Btn",
+      "component": 140179,
+      "calls": [],
+      "bytes": 312,
+      "parsedBytes": 312,
+      "sha256": "314cd2febe2e75f1b0cb1e9c3571f139358595fcc237ab9c432aae2e4021d322"
+    },
+    {
+      "id": "level0:5301",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (6)/Locked/Reward_Get_Btn",
+      "component": 140180,
+      "calls": [],
+      "bytes": 312,
+      "parsedBytes": 312,
+      "sha256": "f4f4d7011f39fafdc7e6da698f848babba393189ca3e3905e99368a95b963278"
+    },
+    {
+      "id": "level0:5300",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (5)/Locked/Reward_Get_Btn",
+      "component": 140181,
+      "calls": [],
+      "bytes": 312,
+      "parsedBytes": 312,
+      "sha256": "b87151671174f0b7ae307896c50baa3a1fb96751baa4777ba330c697db5a9f9e"
+    },
+    {
+      "id": "level0:5302",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (3)/Locked/Reward_Get_Btn",
+      "component": 140182,
+      "calls": [],
+      "bytes": 312,
+      "parsedBytes": 312,
+      "sha256": "af9b5a997a11453af665e2f3dadfbc5014842383a1979042f8a170ed6a623671"
+    },
+    {
+      "id": "level0:5304",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item (4)/Locked/Reward_Get_Btn",
+      "component": 140183,
+      "calls": [],
+      "bytes": 312,
+      "parsedBytes": 312,
+      "sha256": "bc2f96159cd67f3f7dc214f2818c042f644d7bdd6a876a781d176bfb21833e63"
+    },
+    {
+      "id": "level0:6975",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Scroll View/Viewport/Content/Raid_Mission_Item/Locked/Reward_Get_Btn",
+      "component": 141212,
+      "calls": [],
+      "bytes": 312,
+      "parsedBytes": 312,
+      "sha256": "9aca4a8c72810e6e037f52960b3592562964dc7c994afc38b749c7a4f8d32d1a"
+    },
+    {
+      "id": "level0:37191",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Raid_Mission_UI/Mission_Panel/Raid_Mission_Ticket/PurchaseAble_obj/Reward_Get_Btn",
+      "component": 142489,
+      "calls": [
+        {
+          "targetPathID": 142255,
+          "targetType": "Raid_Mission_Ticket_UI, Assembly-CSharp",
+          "method": "onClick_Ticket_Purchase",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 468,
+      "parsedBytes": 468,
+      "sha256": "2332afe5983bfeabb961d2d605718e8004383fb8b75b590f589c4dd682c3972c"
+    },
+    {
+      "id": "level0:20527",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Mission_manager/Mission_Ticket_Purchase_Popup/Raid_Mission_Ticket (1)/PurchaseAble_obj/Reward_Get_Btn",
+      "component": 146098,
+      "calls": [
+        {
+          "targetPathID": 143915,
+          "targetType": "Raid_Mission_Ticket_UI, Assembly-CSharp",
+          "method": "onClick_Ticket_Purchase",
+          "mode": 1,
+          "intArg": 0,
+          "boolArg": false,
+          "callState": 2
+        }
+      ],
+      "bytes": 468,
+      "parsedBytes": 468,
+      "sha256": "f118520a99dc92d0a2e1c079c6de64e80772b459fd56183312767ac54816495e"
+    }
+  ],
+  "priceNodes": [],
+  "proof": "STATIC ONLY; native plus serialized bytes; local calendar/provider adapters, no device parity"
+}

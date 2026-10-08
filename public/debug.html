@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cat Gunner · 验收 Debug</title><link rel="stylesheet" href="/debug/style.css"></head>
+<body>
+<header><div><span class="eyebrow">CAT GUNNER / ROUND 6 / WIP</span><h1>定向验收控制台</h1></div><nav><a href="/qa.html" target="_blank" rel="noopener">全部测试入口</a><a href="/" target="_blank" rel="noopener">正常入口 · 真实存档</a></nav></header>
+<p class="warning">下方仅运行独立内存测试档。重置/刷新会重新建立夹具，不验证真实磁盘恢复。广告、购买均为本地测试，无真实支付；不连接线上。真人手感、原机对照和连续画面证据未自动通过。</p>
+<main>
+<aside>
+<section><h2>1 · 选择要验收的问题</h2><label for="search">搜索全部现有入口</label><input id="search" type="search" placeholder="宠物 / 狩猎 / mine…"><div id="focus" class="cards"></div><label for="scenario">全部现有场景（来自同构建选择页）</label><select id="scenario" disabled></select><p id="catalog-status">正在读取场景目录…</p></section>
+<section><h2>2 · 回调与实际视口</h2><div class="pair"><label>本地provider结果<select id="outcome"><option value="success">成功 · 本地测试</option><option value="failure">失败</option><option value="cancelled">取消</option><option value="unavailable">不可用 / 未连接</option></select></label><label>回调延迟(ms，0–5000)<input id="delay" type="number" min="0" max="5000" step="500" value="0"></label></div><p id="provider-scope" class="hint"></p><label>实际CSS视口<select id="viewport"><option value="390x844">390 × 844</option><option value="1080x1920">1080 × 1920</option></select></label><p class="hint">外壳缩放只为放进屏幕，iframe内仍是上述尺寸；不是手机DPR/性能模拟。切尺寸不重置游戏。</p><button id="launch" disabled>应用设置并重置场景</button></section>
+<section><h2>3 · 故障注入（白盒）</h2><div class="pair"><button id="fail-save" disabled>注入保存失败</button><button id="allow-save" disabled>解除保存失败</button></div><p class="hint">先点游戏原按钮触发失败，再解除故障，回游戏点同一按钮重试。不替你自动购买/领奖。无接口的场景禁用。</p><div class="pair"><button id="close-result" disabled>关闭首领结算</button><button id="reset" disabled>重建当前夹具</button></div></section>
+<section><h2>4 · 记录人工验收</h2><label>操作/现象<textarea id="note" rows="3" placeholder="记录实际观察；不自动判通过"></textarea></label><div class="pair"><button id="record">记录当前快照</button><button id="export">导出本次JSON</button></div><p id="record-status">0条，仅当前页内存；不含正常存档。</p></section>
+</aside>
+<div class="workbench">
+<section class="preview-head"><div><strong id="title">等待启动独立场景</strong><p id="steps">在左侧选择问题，直接点真实游戏按钮验收。</p></div><a id="standalone" target="_blank" rel="noopener" hidden>单独打开此测试档 ↗</a></section>
+<div id="preview-area"><div id="frame-holder"><iframe id="game-frame" title="独立测试游戏预览" allow="autoplay" src="about:blank"></iframe></div></div>
+<section class="diagnostics"><div class="status-line"><strong id="runtime-status" role="status" aria-live="polite">未启动</strong><span id="size-status"></span></div><p id="action-status" role="status"></p><details open><summary>当前状态（只读；并非自动验收结论）</summary><pre id="state">等待诊断接口</pre></details><details><summary>运行输入版本与证明边界</summary><pre id="build">等待版本记录</pre><p>页面可点 / 规则通过 ≠ GUI通过 ≠ 原机等价。记录本页实际观察后再做结论。指标采样含调试面板开销，不作为性能对照报告。</p></details></section>
+</div>
+</main><script type="module" src="/debug/page.mjs"></script>
+</body></html>

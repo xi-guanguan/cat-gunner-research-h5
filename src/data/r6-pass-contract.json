@@ -1,0 +1,22 @@
+{
+  "highTierGunTable": [
+    16,
+    18,
+    20,
+    22,
+    24,
+    25,
+    27,
+    29
+  ],
+  "sourceELFSHA256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "consumers": {
+    "rewards": "Mission_manager.Reward_Balance_Apply@0x2aa40e4",
+    "core": "Mission_manager.Reward_Get_Value@0x2aa6620 -> Adventure_manager.Core_Get(3,amount)",
+    "allRewards": "Check_All_Reward_Get@0x2aa6834",
+    "next": "NewSeason_Start@0x2a9da24",
+    "daily": "Mission_Reload@0x2aa3f20",
+    "reset": "Season_Reset@0x2aa49bc"
+  },
+  "qualification": "STATIC native + metadata constant proof; local clock/history adapter. Original device/human NOT_RUN."
+}

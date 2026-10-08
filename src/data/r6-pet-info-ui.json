@@ -1,0 +1,124 @@
+{
+  "Pet_img": {
+    "fileID": 0,
+    "pathID": 123474,
+    "id": "level0:442",
+    "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet/Pet_img"
+  },
+  "Shadow_img": {
+    "fileID": 0,
+    "pathID": 124514,
+    "id": "level0:1291",
+    "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet/Shadow"
+  },
+  "Panel_img": {
+    "fileID": 0,
+    "pathID": 125510,
+    "id": "level0:2129",
+    "path": "/Canvas/Pet_manager/PetInfo_UI/Panel"
+  },
+  "Degree_objs": [
+    {
+      "fileID": 0,
+      "pathID": 9759,
+      "id": "level0:9759",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/D"
+    },
+    {
+      "fileID": 0,
+      "pathID": 28033,
+      "id": "level0:28033",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/C"
+    },
+    {
+      "fileID": 0,
+      "pathID": 11910,
+      "id": "level0:11910",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/B"
+    },
+    {
+      "fileID": 0,
+      "pathID": 21035,
+      "id": "level0:21035",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/A"
+    },
+    {
+      "fileID": 0,
+      "pathID": 14579,
+      "id": "level0:14579",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/S"
+    },
+    {
+      "fileID": 0,
+      "pathID": 37355,
+      "id": "level0:37355",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/SS"
+    },
+    {
+      "fileID": 0,
+      "pathID": 28041,
+      "id": "level0:28041",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/SSS"
+    },
+    {
+      "fileID": 0,
+      "pathID": 18611,
+      "id": "level0:18611",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/X"
+    },
+    {
+      "fileID": 0,
+      "pathID": 33308,
+      "id": "level0:33308",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/XX"
+    },
+    {
+      "fileID": 0,
+      "pathID": 34857,
+      "id": "level0:34857",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/XXX"
+    },
+    {
+      "fileID": 0,
+      "pathID": 2836,
+      "id": "level0:2836",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/Z"
+    },
+    {
+      "fileID": 0,
+      "pathID": 15038,
+      "id": "level0:15038",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/ZZ"
+    },
+    {
+      "fileID": 0,
+      "pathID": 26128,
+      "id": "level0:26128",
+      "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Pet_Degree/ZZZ"
+    }
+  ],
+  "Money_txt": {
+    "fileID": 0,
+    "pathID": 117356,
+    "id": "level0:1848",
+    "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Money/Value_txt"
+  },
+  "MoveSpeed_txt": {
+    "fileID": 0,
+    "pathID": 117369,
+    "id": "level0:1924",
+    "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/MoveSpeed/Value_txt"
+  },
+  "LeftBtn_obj": {
+    "fileID": 0,
+    "pathID": 1219,
+    "id": "level0:1219",
+    "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Left_Btn"
+  },
+  "RightBtn_obj": {
+    "fileID": 0,
+    "pathID": 2253,
+    "id": "level0:2253",
+    "path": "/Canvas/Pet_manager/PetInfo_UI/Panel/Right_Btn"
+  }
+}

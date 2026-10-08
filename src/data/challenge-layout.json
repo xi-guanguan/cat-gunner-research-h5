@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "apkSha256": "a2f354148ca44e73f86d2fb3d20199e8f62ab88a6bb40d40e7332ddf93bcbeda",
+    "serializedFile": "level0",
+    "managerComponentPathId": 124629,
+    "managerRawSha256": "45308893f8c377def8230d58bffb97aaa7055d0e2ec74933c126a4c46d8bf94e",
+    "managerRawLength": 2512,
+    "fieldOffsets": {
+      "innerRadius": 2496,
+      "outerRadius": 2500,
+      "radialOffset": 2504,
+      "angularOffset": 2508
+    },
+    "nativeTreeBatchVA": "0x2baa234",
+    "nativeDestroyVA": "0x2baa0bc",
+    "confidence": "serialized parameters + native call path; Unity RNG sequence not replayed"
+  },
+  "poolCount": 190,
+  "originWorld": {
+    "x": -100.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "innerRadius": 22.0,
+  "outerRadius": 70.0,
+  "radialOffset": 3.0,
+  "tangentialOffset": 2.0,
+  "piFloat": 3.1415927410125732,
+  "twoPiFloat": 6.2831854820251465,
+  "degreesToRadiansFloat": 0.01745329238474369
+}

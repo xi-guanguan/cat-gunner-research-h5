@@ -1,0 +1,6959 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "unitySha256": "12a68a5fe3c5d40de08cb430543f6ee2a7cc13a91f7e92fea862085e0977e7a5",
+    "unityVersion": "6000.0.61f1",
+    "file": "level0",
+    "canvasPathID": 102616,
+    "canvasGameObjectPathID": 866,
+    "scalerPathID": 124022
+  },
+  "coordinateConvention": "RectTransform Y up; Pixi Y down; Canvas root runtime scale replaces serialized zero scale. Layout padding order left,right,top,bottom. Stable id=file:GameObjectPathID.",
+  "canvas": {
+    "root": "level0:866",
+    "scaler": {
+      "uiScaleMode": 1,
+      "referencePixelsPerUnit": 100.0,
+      "scaleFactor": 1.0,
+      "referenceResolution": [
+        1080.0,
+        1920.0
+      ],
+      "screenMatchMode": 0,
+      "matchWidthOrHeight": 0.0,
+      "physicalUnit": 3,
+      "fallbackScreenDPI": 96.0,
+      "defaultSpriteDPI": 96.0,
+      "dynamicPixelsPerUnit": 1.0,
+      "presetInfoIsWorld": false
+    }
+  },
+  "nodes": [
+    {
+      "id": "level0:866",
+      "name": "Canvas",
+      "path": "/Canvas",
+      "file": "level0",
+      "gameObjectPathID": 866,
+      "transformPathID": 103466,
+      "parent": null,
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          0.0,
+          0.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          0.0
+        ],
+        "pivot": [
+          0.0,
+          0.0
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "Canvas",
+          "pathID": 102616,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 866
+            },
+            "m_Enabled": 1,
+            "m_RenderMode": 0,
+            "m_Camera": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_PlaneDistance": 100.0,
+            "m_PixelPerfect": false,
+            "m_ReceivesEvents": true,
+            "m_OverrideSorting": false,
+            "m_OverridePixelPerfect": false,
+            "m_SortingBucketNormalizedSize": 0.0,
+            "m_VertexColorAlwaysGammaSpace": false,
+            "m_AdditionalShaderChannelsFlag": 25,
+            "m_UpdateRectTransformForStandalone": 0,
+            "m_SortingLayerID": 0,
+            "m_SortingOrder": 0,
+            "m_TargetDisplay": 0
+          }
+        },
+        {
+          "kind": "CanvasScaler",
+          "pathID": 124022,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 80,
+          "data": {
+            "uiScaleMode": 1,
+            "referencePixelsPerUnit": 100.0,
+            "scaleFactor": 1.0,
+            "referenceResolution": [
+              1080.0,
+              1920.0
+            ],
+            "screenMatchMode": 0,
+            "matchWidthOrHeight": 0.0,
+            "physicalUnit": 3,
+            "fallbackScreenDPI": 96.0,
+            "defaultSpriteDPI": 96.0,
+            "dynamicPixelsPerUnit": 1.0,
+            "presetInfoIsWorld": false
+          },
+          "decode": {
+            "serializedBytes": 80,
+            "consumedBytes": 80,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_UiScaleMode": 32,
+              "m_ReferencePixelsPerUnit": 36,
+              "m_ScaleFactor": 40,
+              "m_ReferenceResolution": 44,
+              "m_ScreenMatchMode": 52,
+              "m_MatchWidthOrHeight": 56,
+              "m_PhysicalUnit": 60,
+              "m_FallbackScreenDPI": 64,
+              "m_DefaultSpriteDPI": 68,
+              "m_DynamicPixelsPerUnit": 72,
+              "m_PresetInfoIsWorld": 76
+            }
+          }
+        },
+        {
+          "kind": "GraphicRaycaster",
+          "pathID": 124021,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 44,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:415",
+      "name": "SafeArea",
+      "path": "/Canvas/SafeArea",
+      "file": "level0",
+      "gameObjectPathID": 415,
+      "transformPathID": 103034,
+      "parent": "level0:866",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          0.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": []
+    },
+    {
+      "id": "level0:1993",
+      "name": "Monster_UI",
+      "path": "/Canvas/SafeArea/Monster_UI",
+      "file": "level0",
+      "gameObjectPathID": 1993,
+      "transformPathID": 104548,
+      "parent": "level0:415",
+      "siblingIndex": 5,
+      "active": false,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          0.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": []
+    },
+    {
+      "id": "level0:1322",
+      "name": "PetCoint_Value",
+      "path": "/Canvas/SafeArea/Monster_UI/PetCoint_Value",
+      "file": "level0",
+      "gameObjectPathID": 1322,
+      "transformPathID": 103905,
+      "parent": "level0:1993",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          1.0,
+          1.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          -117.300048828125,
+          -89.10009765625
+        ],
+        "sizeDelta": [
+          199.41741943359375,
+          65.30000305175781
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90456,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1322
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 124546,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              0.9329958558082581,
+              0.7971698045730591,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 658
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:658",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        },
+        {
+          "kind": "Bounce",
+          "pathID": 124547,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 48,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:588",
+      "name": "Image",
+      "path": "/Canvas/SafeArea/Monster_UI/PetCoint_Value/Image",
+      "file": "level0",
+      "gameObjectPathID": 588,
+      "transformPathID": 103199,
+      "parent": "level0:1322",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.5
+        ],
+        "anchorMax": [
+          0.0,
+          0.5
+        ],
+        "anchoredPosition": [
+          23.0,
+          -0.14997999370098114
+        ],
+        "sizeDelta": [
+          65.0,
+          65.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89879,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 588
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 123651,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 520
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:520",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:882",
+      "name": "Value_txt",
+      "path": "/Canvas/SafeArea/Monster_UI/PetCoint_Value/Value_txt",
+      "file": "level0",
+      "gameObjectPathID": 882,
+      "transformPathID": 103482,
+      "parent": "level0:1322",
+      "siblingIndex": 1,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          16.299999237060547,
+          3.4000000953674316
+        ],
+        "sizeDelta": [
+          127.44259643554688,
+          54.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90113,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 882
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 117230,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 516,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "0",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1006
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 75
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1018
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 32.0,
+            "fontSizeBase": 36.0,
+            "fontWeight": 400,
+            "autoSize": true,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 32.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 9.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 516,
+              "consumedBytes": 488,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 96,
+                "m_fontAsset": 100,
+                "m_sharedMaterial": 112,
+                "m_fontSharedMaterialsCount": 124,
+                "m_fontMaterial": 128,
+                "m_fontMaterialsCount": 140,
+                "m_fontColor32": 144,
+                "m_fontColor": 148,
+                "m_enableVertexGradient": 164,
+                "m_colorMode": 168,
+                "m_fontColorGradient": 172,
+                "m_fontColorGradientPreset": 236,
+                "m_spriteAsset": 248,
+                "m_tintAllSprites": 260,
+                "m_StyleSheet": 264,
+                "m_TextStyleHashCode": 276,
+                "m_overrideHtmlColors": 280,
+                "m_faceColor": 284,
+                "m_fontSize": 288,
+                "m_fontSizeBase": 292,
+                "m_fontWeight": 296,
+                "m_enableAutoSizing": 300,
+                "m_fontSizeMin": 304,
+                "m_fontSizeMax": 308,
+                "fontStyle": 312,
+                "horizontalAlignment": 316,
+                "verticalAlignment": 320,
+                "textAlignment": 324,
+                "m_characterSpacing": 328,
+                "m_wordSpacing": 332,
+                "m_lineSpacing": 336,
+                "m_lineSpacingMax": 340,
+                "m_paragraphSpacing": 344,
+                "m_charWidthMaxAdj": 348,
+                "m_TextWrappingMode": 352,
+                "m_wordWrappingRatios": 356,
+                "m_overflowMode": 360,
+                "m_linkedTextComponent": 364,
+                "parentLinkedComponent": 376,
+                "m_enableKerning": 388,
+                "m_ActiveFontFeaturesCount": 392,
+                "enableExtraPadding": 400,
+                "checkPaddingRequired": 404,
+                "isRichText": 408,
+                "EmojiFallbackSupport": 412,
+                "EnableAdvancedText": 416,
+                "parseCtrlCharacters": 420,
+                "isOrthographic": 424,
+                "isCullingEnabled": 428,
+                "horizontalMapping": 432,
+                "verticalMapping": 436,
+                "uvLineOffset": 440,
+                "geometrySortingOrder": 444,
+                "IsTextObjectScaleStatic": 448,
+                "VertexBufferAutoSizeReduction": 452,
+                "useMaxVisibleDescender": 456,
+                "m_pageToDisplay": 460,
+                "m_margin": 464,
+                "isUsingLegacyAnimationComponent": 480,
+                "isVolumetricText": 484
+              }
+            },
+            "fontKey": "sharedassets0.assets:1006",
+            "materialKey": "sharedassets0.assets:75"
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:1931",
+      "name": "Monster_Game_Slider",
+      "path": "/Canvas/SafeArea/Monster_UI/Monster_Game_Slider",
+      "file": "level0",
+      "gameObjectPathID": 1931,
+      "transformPathID": 104486,
+      "parent": "level0:1993",
+      "siblingIndex": 1,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          1.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          37.0
+        ],
+        "pivot": [
+          0.5,
+          1.0
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90927,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1931
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 125281,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.4905660152435303,
+              0.39075955748558044,
+              0.15040940046310425,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 482
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:482",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        },
+        {
+          "kind": "Monster_Game_Slider",
+          "pathID": 125282,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 208,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:1873",
+      "name": "Value_Fill",
+      "path": "/Canvas/SafeArea/Monster_UI/Monster_Game_Slider/Value_Fill",
+      "file": "level0",
+      "gameObjectPathID": 1873,
+      "transformPathID": 104432,
+      "parent": "level0:1931",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          2.09808349609375e-05,
+          0.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90883,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1873
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "SlicedFilledImage",
+          "pathID": 125216,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 116,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.5921568870544434,
+              0.4901961088180542,
+              0.8901961445808411,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 482
+            },
+            "fillDirection": 0,
+            "fillAmount": 0.3840000033378601,
+            "fillCenter": true,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:482",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 116,
+            "consumedBytes": 116,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_FillDirection": 100,
+              "m_FillAmount": 104,
+              "m_FillCenter": 108,
+              "m_PixelsPerUnitMultiplier": 112
+            }
+          }
+        },
+        {
+          "kind": "Mask",
+          "pathID": 125215,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 36,
+          "data": {
+            "showMaskGraphic": true
+          },
+          "decode": {
+            "serializedBytes": 36,
+            "consumedBytes": 36,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_ShowMaskGraphic": 32
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:1536",
+      "name": "Outline",
+      "path": "/Canvas/SafeArea/Monster_UI/Monster_Game_Slider/Outline",
+      "file": "level0",
+      "gameObjectPathID": 1536,
+      "transformPathID": 104107,
+      "parent": "level0:1931",
+      "siblingIndex": 1,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          0.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90616,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1536
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 124799,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 466
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:466",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:2085",
+      "name": "Value_txt",
+      "path": "/Canvas/SafeArea/Monster_UI/Monster_Game_Slider/Value_txt",
+      "file": "level0",
+      "gameObjectPathID": 2085,
+      "transformPathID": 104640,
+      "parent": "level0:1931",
+      "siblingIndex": 2,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          1.0
+        ],
+        "anchorMax": [
+          0.5,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          -31.200000762939453
+        ],
+        "sizeDelta": [
+          332.9000244140625,
+          50.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 91051,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 2085
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 117393,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 516,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "100%",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1006
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 75
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 30.0,
+            "fontSizeBase": 30.0,
+            "fontWeight": 400,
+            "autoSize": false,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 72.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 0.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 516,
+              "consumedBytes": 488,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 96,
+                "m_fontAsset": 100,
+                "m_sharedMaterial": 112,
+                "m_fontSharedMaterialsCount": 124,
+                "m_fontMaterial": 128,
+                "m_fontMaterialsCount": 140,
+                "m_fontColor32": 144,
+                "m_fontColor": 148,
+                "m_enableVertexGradient": 164,
+                "m_colorMode": 168,
+                "m_fontColorGradient": 172,
+                "m_fontColorGradientPreset": 236,
+                "m_spriteAsset": 248,
+                "m_tintAllSprites": 260,
+                "m_StyleSheet": 264,
+                "m_TextStyleHashCode": 276,
+                "m_overrideHtmlColors": 280,
+                "m_faceColor": 284,
+                "m_fontSize": 288,
+                "m_fontSizeBase": 292,
+                "m_fontWeight": 296,
+                "m_enableAutoSizing": 300,
+                "m_fontSizeMin": 304,
+                "m_fontSizeMax": 308,
+                "fontStyle": 312,
+                "horizontalAlignment": 316,
+                "verticalAlignment": 320,
+                "textAlignment": 324,
+                "m_characterSpacing": 328,
+                "m_wordSpacing": 332,
+                "m_lineSpacing": 336,
+                "m_lineSpacingMax": 340,
+                "m_paragraphSpacing": 344,
+                "m_charWidthMaxAdj": 348,
+                "m_TextWrappingMode": 352,
+                "m_wordWrappingRatios": 356,
+                "m_overflowMode": 360,
+                "m_linkedTextComponent": 364,
+                "parentLinkedComponent": 376,
+                "m_enableKerning": 388,
+                "m_ActiveFontFeaturesCount": 392,
+                "enableExtraPadding": 400,
+                "checkPaddingRequired": 404,
+                "isRichText": 408,
+                "EmojiFallbackSupport": 412,
+                "EnableAdvancedText": 416,
+                "parseCtrlCharacters": 420,
+                "isOrthographic": 424,
+                "isCullingEnabled": 428,
+                "horizontalMapping": 432,
+                "verticalMapping": 436,
+                "uvLineOffset": 440,
+                "geometrySortingOrder": 444,
+                "IsTextObjectScaleStatic": 448,
+                "VertexBufferAutoSizeReduction": 452,
+                "useMaxVisibleDescender": 456,
+                "m_pageToDisplay": 460,
+                "m_margin": 464,
+                "isUsingLegacyAnimationComponent": 480,
+                "isVolumetricText": 484
+              }
+            },
+            "fontKey": "sharedassets0.assets:1006",
+            "materialKey": "sharedassets0.assets:75"
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:1141",
+      "name": "Game_Slider",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider",
+      "file": "level0",
+      "gameObjectPathID": 1141,
+      "transformPathID": 103730,
+      "parent": "level0:1993",
+      "siblingIndex": 2,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          1.0
+        ],
+        "anchorMax": [
+          0.5,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          -108.0
+        ],
+        "sizeDelta": [
+          484.0,
+          25.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90314,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1141
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 124349,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.4905660152435303,
+              0.39075955748558044,
+              0.15040940046310425,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 660
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:660",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:199",
+      "name": "Outline",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Outline",
+      "file": "level0",
+      "gameObjectPathID": 199,
+      "transformPathID": 102828,
+      "parent": "level0:1141",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          0.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89572,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 199
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 123198,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.3450980484485626,
+              0.250980406999588,
+              0.13333334028720856,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": null,
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:801",
+      "name": "Hole",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Hole",
+      "file": "level0",
+      "gameObjectPathID": 801,
+      "transformPathID": 103405,
+      "parent": "level0:1141",
+      "siblingIndex": 1,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          530.0,
+          50.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": []
+    },
+    {
+      "id": "level0:1948",
+      "name": "hole_0",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Hole/hole_0",
+      "file": "level0",
+      "gameObjectPathID": 1948,
+      "transformPathID": 104503,
+      "parent": "level0:801",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          -240.0,
+          0.0
+        ],
+        "sizeDelta": [
+          50.0,
+          50.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90942,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1948
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 125299,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.3450980484485626,
+              0.24705883860588074,
+              0.12941177189350128,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 736
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:736",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:907",
+      "name": "hole_1",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Hole/hole_1",
+      "file": "level0",
+      "gameObjectPathID": 907,
+      "transformPathID": 103505,
+      "parent": "level0:801",
+      "siblingIndex": 1,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          -120.0,
+          0.0
+        ],
+        "sizeDelta": [
+          50.0,
+          50.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90131,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 907
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 124071,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.3450980484485626,
+              0.24705883860588074,
+              0.12941177189350128,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 736
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:736",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:1455",
+      "name": "hole_2",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Hole/hole_2",
+      "file": "level0",
+      "gameObjectPathID": 1455,
+      "transformPathID": 104030,
+      "parent": "level0:801",
+      "siblingIndex": 2,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          50.0,
+          50.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90553,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1455
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 124700,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.3450980484485626,
+              0.24705883860588074,
+              0.12941177189350128,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 736
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:736",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:1817",
+      "name": "hole_3",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Hole/hole_3",
+      "file": "level0",
+      "gameObjectPathID": 1817,
+      "transformPathID": 104377,
+      "parent": "level0:801",
+      "siblingIndex": 3,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          120.0,
+          0.0
+        ],
+        "sizeDelta": [
+          50.0,
+          50.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90835,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1817
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 125136,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.3450980484485626,
+              0.24705883860588074,
+              0.12941177189350128,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 736
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:736",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:711",
+      "name": "hole_4",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Hole/hole_4",
+      "file": "level0",
+      "gameObjectPathID": 711,
+      "transformPathID": 103319,
+      "parent": "level0:801",
+      "siblingIndex": 4,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          240.0,
+          0.0
+        ],
+        "sizeDelta": [
+          50.0,
+          50.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89979,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 711
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 123795,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.3450980484485626,
+              0.24705883860588074,
+              0.12941177189350128,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 736
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:736",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:72",
+      "name": "Fill_Basic",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Fill_Basic",
+      "file": "level0",
+      "gameObjectPathID": 72,
+      "transformPathID": 102705,
+      "parent": "level0:1141",
+      "siblingIndex": 2,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          -13.999984741210938,
+          -14.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89468,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 72
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "SlicedFilledImage",
+          "pathID": 123034,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 116,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.48235297203063965,
+              0.37254902720451355,
+              0.12941177189350128,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 390
+            },
+            "fillDirection": 0,
+            "fillAmount": 1.0,
+            "fillCenter": true,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:390",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 116,
+            "consumedBytes": 116,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_FillDirection": 100,
+              "m_FillAmount": 104,
+              "m_FillCenter": 108,
+              "m_PixelsPerUnitMultiplier": 112
+            }
+          }
+        },
+        {
+          "kind": "Mask",
+          "pathID": 123033,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 36,
+          "data": {
+            "showMaskGraphic": true
+          },
+          "decode": {
+            "serializedBytes": 36,
+            "consumedBytes": 36,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_ShowMaskGraphic": 32
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:1030",
+      "name": "Fill",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Fill_Basic/Fill",
+      "file": "level0",
+      "gameObjectPathID": 1030,
+      "transformPathID": 103626,
+      "parent": "level0:72",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          1.52587890625e-05,
+          0.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90228,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1030
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "SlicedFilledImage",
+          "pathID": 124215,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 116,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.5921568870544434,
+              0.4901961088180542,
+              0.8901961445808411,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 390
+            },
+            "fillDirection": 0,
+            "fillAmount": 0.4779999852180481,
+            "fillCenter": true,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:390",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 116,
+            "consumedBytes": 116,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_FillDirection": 100,
+              "m_FillAmount": 104,
+              "m_FillCenter": 108,
+              "m_PixelsPerUnitMultiplier": 112
+            }
+          }
+        },
+        {
+          "kind": "Mask",
+          "pathID": 124214,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 36,
+          "data": {
+            "showMaskGraphic": true
+          },
+          "decode": {
+            "serializedBytes": 36,
+            "consumedBytes": 36,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_ShowMaskGraphic": 32
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:1604",
+      "name": "Hole_Fill",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Hole_Fill",
+      "file": "level0",
+      "gameObjectPathID": 1604,
+      "transformPathID": 104170,
+      "parent": "level0:1141",
+      "siblingIndex": 3,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          516.0,
+          35.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": []
+    },
+    {
+      "id": "level0:1067",
+      "name": "hole_fill_0",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Hole_Fill/hole_fill_0",
+      "file": "level0",
+      "gameObjectPathID": 1067,
+      "transformPathID": 103661,
+      "parent": "level0:1604",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          -240.0,
+          0.0
+        ],
+        "sizeDelta": [
+          35.0,
+          35.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90256,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1067
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 124254,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.5921568870544434,
+              0.4901961088180542,
+              0.8901961445808411,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 684
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:684",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:430",
+      "name": "hole_fill_1",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Hole_Fill/hole_fill_1",
+      "file": "level0",
+      "gameObjectPathID": 430,
+      "transformPathID": 103048,
+      "parent": "level0:1604",
+      "siblingIndex": 1,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          -120.0,
+          0.0
+        ],
+        "sizeDelta": [
+          35.0,
+          35.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89757,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 430
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 123466,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.5921568870544434,
+              0.4901961088180542,
+              0.8901961445808411,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 684
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:684",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:66",
+      "name": "hole_fill_2",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Hole_Fill/hole_fill_2",
+      "file": "level0",
+      "gameObjectPathID": 66,
+      "transformPathID": 102700,
+      "parent": "level0:1604",
+      "siblingIndex": 2,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          35.0,
+          35.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89464,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 66
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 123027,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.5921568870544434,
+              0.4901961088180542,
+              0.8901961445808411,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 684
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:684",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:32",
+      "name": "hole_fill_3",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Hole_Fill/hole_fill_3",
+      "file": "level0",
+      "gameObjectPathID": 32,
+      "transformPathID": 102666,
+      "parent": "level0:1604",
+      "siblingIndex": 3,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          120.0,
+          0.0
+        ],
+        "sizeDelta": [
+          35.0,
+          35.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89431,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 32
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 122979,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.4901961088180542,
+              0.3764706254005432,
+              0.12941177189350128,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 684
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:684",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:427",
+      "name": "hole_fill_4",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Hole_Fill/hole_fill_4",
+      "file": "level0",
+      "gameObjectPathID": 427,
+      "transformPathID": 103045,
+      "parent": "level0:1604",
+      "siblingIndex": 4,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          240.0,
+          0.0
+        ],
+        "sizeDelta": [
+          35.0,
+          35.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89755,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 427
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 123460,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              0.4901961088180542,
+              0.3764706254005432,
+              0.12941177189350128,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 684
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:684",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:895",
+      "name": "Player_Icon",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Player_Icon",
+      "file": "level0",
+      "gameObjectPathID": 895,
+      "transformPathID": 103495,
+      "parent": "level0:1141",
+      "siblingIndex": 4,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          55.295257568359375,
+          41.039451599121094
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": []
+    },
+    {
+      "id": "level0:162",
+      "name": "Image",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Player_Icon/Image",
+      "file": "level0",
+      "gameObjectPathID": 162,
+      "transformPathID": 102791,
+      "parent": "level0:895",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          0.0,
+          12.0
+        ],
+        "sizeDelta": [
+          685.0,
+          508.3984680175781
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        0.08072300255298615,
+        0.08072300255298615,
+        0.08072300255298615
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89541,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 162
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 123153,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 821
+            },
+            "imageType": 0,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:821",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        },
+        {
+          "kind": "Outline",
+          "pathID": 123152,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 60,
+          "data": {
+            "effectColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "effectDistance": [
+              27.700000762939453,
+              23.600000381469727
+            ],
+            "useGraphicAlpha": true
+          },
+          "decode": {
+            "serializedBytes": 60,
+            "consumedBytes": 60,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_EffectColor": 32,
+              "m_EffectDistance": 48,
+              "m_UseGraphicAlpha": 56
+            }
+          }
+        },
+        {
+          "kind": "DOTweenAnimation",
+          "pathID": 123151,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 376,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:433",
+      "name": "Wave_txt",
+      "path": "/Canvas/SafeArea/Monster_UI/Game_Slider/Wave_txt",
+      "file": "level0",
+      "gameObjectPathID": 433,
+      "transformPathID": 103051,
+      "parent": "level0:1141",
+      "siblingIndex": 5,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          0.0,
+          -53.211669921875
+        ],
+        "sizeDelta": [
+          332.8999938964844,
+          50.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89759,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 433
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 117179,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 520,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "Wave 1-1",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1006
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 75
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 37.0,
+            "fontSizeBase": 37.0,
+            "fontWeight": 400,
+            "autoSize": false,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 72.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 0.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 520,
+              "consumedBytes": 492,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 100,
+                "m_fontAsset": 104,
+                "m_sharedMaterial": 116,
+                "m_fontSharedMaterialsCount": 128,
+                "m_fontMaterial": 132,
+                "m_fontMaterialsCount": 144,
+                "m_fontColor32": 148,
+                "m_fontColor": 152,
+                "m_enableVertexGradient": 168,
+                "m_colorMode": 172,
+                "m_fontColorGradient": 176,
+                "m_fontColorGradientPreset": 240,
+                "m_spriteAsset": 252,
+                "m_tintAllSprites": 264,
+                "m_StyleSheet": 268,
+                "m_TextStyleHashCode": 280,
+                "m_overrideHtmlColors": 284,
+                "m_faceColor": 288,
+                "m_fontSize": 292,
+                "m_fontSizeBase": 296,
+                "m_fontWeight": 300,
+                "m_enableAutoSizing": 304,
+                "m_fontSizeMin": 308,
+                "m_fontSizeMax": 312,
+                "fontStyle": 316,
+                "horizontalAlignment": 320,
+                "verticalAlignment": 324,
+                "textAlignment": 328,
+                "m_characterSpacing": 332,
+                "m_wordSpacing": 336,
+                "m_lineSpacing": 340,
+                "m_lineSpacingMax": 344,
+                "m_paragraphSpacing": 348,
+                "m_charWidthMaxAdj": 352,
+                "m_TextWrappingMode": 356,
+                "m_wordWrappingRatios": 360,
+                "m_overflowMode": 364,
+                "m_linkedTextComponent": 368,
+                "parentLinkedComponent": 380,
+                "m_enableKerning": 392,
+                "m_ActiveFontFeaturesCount": 396,
+                "enableExtraPadding": 404,
+                "checkPaddingRequired": 408,
+                "isRichText": 412,
+                "EmojiFallbackSupport": 416,
+                "EnableAdvancedText": 420,
+                "parseCtrlCharacters": 424,
+                "isOrthographic": 428,
+                "isCullingEnabled": 432,
+                "horizontalMapping": 436,
+                "verticalMapping": 440,
+                "uvLineOffset": 444,
+                "geometrySortingOrder": 448,
+                "IsTextObjectScaleStatic": 452,
+                "VertexBufferAutoSizeReduction": 456,
+                "useMaxVisibleDescender": 460,
+                "m_pageToDisplay": 464,
+                "m_margin": 468,
+                "isUsingLegacyAnimationComponent": 484,
+                "isVolumetricText": 488
+              }
+            },
+            "fontKey": "sharedassets0.assets:1006",
+            "materialKey": "sharedassets0.assets:75"
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:1894",
+      "name": "Exit_Btn",
+      "path": "/Canvas/SafeArea/Monster_UI/Exit_Btn",
+      "file": "level0",
+      "gameObjectPathID": 1894,
+      "transformPathID": 104451,
+      "parent": "level0:1993",
+      "siblingIndex": 3,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          0.0,
+          0.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          150.0
+        ],
+        "sizeDelta": [
+          130.0,
+          95.19000244140625
+        ],
+        "pivot": [
+          0.0,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90898,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1894
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 125243,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              0.5137255191802979,
+              0.5759073495864868,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 448
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:448",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        },
+        {
+          "kind": "Button",
+          "pathID": 125242,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 448,
+          "unknown": "custom runtime/animation component not decoded"
+        },
+        {
+          "kind": "BounceBtn",
+          "pathID": 125241,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 52,
+          "unknown": "custom runtime/animation component not decoded"
+        },
+        {
+          "kind": "SFX_BtnScript",
+          "pathID": 125240,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 36,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:10333",
+      "name": "I2_txt(Outline)",
+      "path": "/Canvas/SafeArea/Monster_UI/Exit_Btn/I2_txt(Outline)",
+      "file": "level0",
+      "gameObjectPathID": 10333,
+      "transformPathID": 105468,
+      "parent": "level0:1894",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          -4.91998291015625,
+          3.5
+        ],
+        "sizeDelta": [
+          119.95999908447266,
+          50.02159881591797
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        -0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 100976,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 10333
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 121499,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 516,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "Exit",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1009
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 72
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 45.0,
+            "fontSizeBase": 36.0,
+            "fontWeight": 400,
+            "autoSize": true,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 45.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 0.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 516,
+              "consumedBytes": 488,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 96,
+                "m_fontAsset": 100,
+                "m_sharedMaterial": 112,
+                "m_fontSharedMaterialsCount": 124,
+                "m_fontMaterial": 128,
+                "m_fontMaterialsCount": 140,
+                "m_fontColor32": 144,
+                "m_fontColor": 148,
+                "m_enableVertexGradient": 164,
+                "m_colorMode": 168,
+                "m_fontColorGradient": 172,
+                "m_fontColorGradientPreset": 236,
+                "m_spriteAsset": 248,
+                "m_tintAllSprites": 260,
+                "m_StyleSheet": 264,
+                "m_TextStyleHashCode": 276,
+                "m_overrideHtmlColors": 280,
+                "m_faceColor": 284,
+                "m_fontSize": 288,
+                "m_fontSizeBase": 292,
+                "m_fontWeight": 296,
+                "m_enableAutoSizing": 300,
+                "m_fontSizeMin": 304,
+                "m_fontSizeMax": 308,
+                "fontStyle": 312,
+                "horizontalAlignment": 316,
+                "verticalAlignment": 320,
+                "textAlignment": 324,
+                "m_characterSpacing": 328,
+                "m_wordSpacing": 332,
+                "m_lineSpacing": 336,
+                "m_lineSpacingMax": 340,
+                "m_paragraphSpacing": 344,
+                "m_charWidthMaxAdj": 348,
+                "m_TextWrappingMode": 352,
+                "m_wordWrappingRatios": 356,
+                "m_overflowMode": 360,
+                "m_linkedTextComponent": 364,
+                "parentLinkedComponent": 376,
+                "m_enableKerning": 388,
+                "m_ActiveFontFeaturesCount": 392,
+                "enableExtraPadding": 400,
+                "checkPaddingRequired": 404,
+                "isRichText": 408,
+                "EmojiFallbackSupport": 412,
+                "EnableAdvancedText": 416,
+                "parseCtrlCharacters": 420,
+                "isOrthographic": 424,
+                "isCullingEnabled": 428,
+                "horizontalMapping": 432,
+                "verticalMapping": 436,
+                "uvLineOffset": 440,
+                "geometrySortingOrder": 444,
+                "IsTextObjectScaleStatic": 448,
+                "VertexBufferAutoSizeReduction": 452,
+                "useMaxVisibleDescender": 456,
+                "m_pageToDisplay": 460,
+                "m_margin": 464,
+                "isUsingLegacyAnimationComponent": 480,
+                "isVolumetricText": 484
+              }
+            },
+            "fontKey": "sharedassets0.assets:1009",
+            "materialKey": "sharedassets0.assets:72"
+          }
+        },
+        {
+          "kind": "Localize",
+          "pathID": 139931,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 204,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:257",
+      "name": "StageClear_obj",
+      "path": "/Canvas/SafeArea/Monster_UI/StageClear_obj",
+      "file": "level0",
+      "gameObjectPathID": 257,
+      "transformPathID": 102884,
+      "parent": "level0:1993",
+      "siblingIndex": 4,
+      "active": false,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          -1080.0,
+          -1805.550048828125
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0690590888261795
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "Destroy",
+          "pathID": 123268,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 36,
+          "unknown": "custom runtime/animation component not decoded"
+        },
+        {
+          "kind": "Animator",
+          "pathID": 66738,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 257
+            },
+            "m_Enabled": 1,
+            "m_Avatar": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Controller": {
+              "m_FileID": 2,
+              "m_PathID": 303
+            },
+            "m_CullingMode": 0,
+            "m_UpdateMode": 0,
+            "m_ApplyRootMotion": false,
+            "m_LinearVelocityBlending": false,
+            "m_StabilizeFeet": false,
+            "m_AnimatePhysics": false,
+            "m_HasTransformHierarchy": true,
+            "m_AllowConstantClipSamplingOptimization": true,
+            "m_KeepAnimatorStateOnDisable": false,
+            "m_WriteDefaultValuesOnDisable": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:486",
+      "name": "Panel",
+      "path": "/Canvas/SafeArea/Monster_UI/StageClear_obj/Panel",
+      "file": "level0",
+      "gameObjectPathID": 486,
+      "transformPathID": 103101,
+      "parent": "level0:257",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          1.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          551.0
+        ],
+        "sizeDelta": [
+          1080.0,
+          114.44999694824219
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        0.9911100268363953,
+        0.9911100268363953,
+        0.9911100268363953
+      ],
+      "localRotation": [
+        0.0003452954697422683,
+        -0.0,
+        -0.0,
+        0.9999999403953552
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 89800,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 486
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 123528,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              0.9470838308334351,
+              0.8066037893295288,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 482
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:482",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        },
+        {
+          "kind": "BounceStart",
+          "pathID": 123529,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 48,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:1371",
+      "name": "Scroll",
+      "path": "/Canvas/SafeArea/Monster_UI/StageClear_obj/Panel/Scroll",
+      "file": "level0",
+      "gameObjectPathID": 1371,
+      "transformPathID": 103953,
+      "parent": "level0:486",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          0.0,
+          -17.79999542236328
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90493,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1371
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "RawImage",
+          "pathID": 124612,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 116,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              0.8568928837776184,
+              0.5330188274383545,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "texture": {
+              "m_FileID": 2,
+              "m_PathID": 120
+            },
+            "uvRect": [
+              0.0,
+              0.0,
+              26.200000762939453,
+              1.0
+            ],
+            "textureURL": "/assets/generated/texture2d/sharedassets0.assets__00000120__Pattern.png",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 116,
+            "consumedBytes": 116,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Texture": 88,
+              "m_UVRect": 100
+            }
+          }
+        },
+        {
+          "kind": "Scrolling",
+          "pathID": 124611,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 40,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:10323",
+      "name": "I2_txt(Outline)",
+      "path": "/Canvas/SafeArea/Monster_UI/StageClear_obj/Panel/I2_txt(Outline)",
+      "file": "level0",
+      "gameObjectPathID": 10323,
+      "transformPathID": 105455,
+      "parent": "level0:486",
+      "siblingIndex": 1,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          0.0,
+          17.0
+        ],
+        "sizeDelta": [
+          1002.5800170898438,
+          68.19999694824219
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 100992,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 10323
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 121486,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 536,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "스테이지 클리어!",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1009
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 72
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 45.0,
+            "fontSizeBase": 36.0,
+            "fontWeight": 400,
+            "autoSize": true,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 45.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 0.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 536,
+              "consumedBytes": 508,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 116,
+                "m_fontAsset": 120,
+                "m_sharedMaterial": 132,
+                "m_fontSharedMaterialsCount": 144,
+                "m_fontMaterial": 148,
+                "m_fontMaterialsCount": 160,
+                "m_fontColor32": 164,
+                "m_fontColor": 168,
+                "m_enableVertexGradient": 184,
+                "m_colorMode": 188,
+                "m_fontColorGradient": 192,
+                "m_fontColorGradientPreset": 256,
+                "m_spriteAsset": 268,
+                "m_tintAllSprites": 280,
+                "m_StyleSheet": 284,
+                "m_TextStyleHashCode": 296,
+                "m_overrideHtmlColors": 300,
+                "m_faceColor": 304,
+                "m_fontSize": 308,
+                "m_fontSizeBase": 312,
+                "m_fontWeight": 316,
+                "m_enableAutoSizing": 320,
+                "m_fontSizeMin": 324,
+                "m_fontSizeMax": 328,
+                "fontStyle": 332,
+                "horizontalAlignment": 336,
+                "verticalAlignment": 340,
+                "textAlignment": 344,
+                "m_characterSpacing": 348,
+                "m_wordSpacing": 352,
+                "m_lineSpacing": 356,
+                "m_lineSpacingMax": 360,
+                "m_paragraphSpacing": 364,
+                "m_charWidthMaxAdj": 368,
+                "m_TextWrappingMode": 372,
+                "m_wordWrappingRatios": 376,
+                "m_overflowMode": 380,
+                "m_linkedTextComponent": 384,
+                "parentLinkedComponent": 396,
+                "m_enableKerning": 408,
+                "m_ActiveFontFeaturesCount": 412,
+                "enableExtraPadding": 420,
+                "checkPaddingRequired": 424,
+                "isRichText": 428,
+                "EmojiFallbackSupport": 432,
+                "EnableAdvancedText": 436,
+                "parseCtrlCharacters": 440,
+                "isOrthographic": 444,
+                "isCullingEnabled": 448,
+                "horizontalMapping": 452,
+                "verticalMapping": 456,
+                "uvLineOffset": 460,
+                "geometrySortingOrder": 464,
+                "IsTextObjectScaleStatic": 468,
+                "VertexBufferAutoSizeReduction": 472,
+                "useMaxVisibleDescender": 476,
+                "m_pageToDisplay": 480,
+                "m_margin": 484,
+                "isUsingLegacyAnimationComponent": 500,
+                "isVolumetricText": 504
+              }
+            },
+            "fontKey": "sharedassets0.assets:1009",
+            "materialKey": "sharedassets0.assets:72"
+          }
+        },
+        {
+          "kind": "Localize",
+          "pathID": 139962,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 232,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    },
+    {
+      "id": "level0:1479",
+      "name": "Text (TMP)",
+      "path": "/Canvas/SafeArea/Monster_UI/StageClear_obj/Panel/Text (TMP)",
+      "file": "level0",
+      "gameObjectPathID": 1479,
+      "transformPathID": 104054,
+      "parent": "level0:486",
+      "siblingIndex": 2,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          0.0,
+          -22.0
+        ],
+        "sizeDelta": [
+          200.0,
+          50.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 90575,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1479
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 117307,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 524,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "<sprite=0>30",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1006
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 75
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1014
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 36.0,
+            "fontSizeBase": 36.0,
+            "fontWeight": 400,
+            "autoSize": false,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 72.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 0.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 524,
+              "consumedBytes": 496,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 104,
+                "m_fontAsset": 108,
+                "m_sharedMaterial": 120,
+                "m_fontSharedMaterialsCount": 132,
+                "m_fontMaterial": 136,
+                "m_fontMaterialsCount": 148,
+                "m_fontColor32": 152,
+                "m_fontColor": 156,
+                "m_enableVertexGradient": 172,
+                "m_colorMode": 176,
+                "m_fontColorGradient": 180,
+                "m_fontColorGradientPreset": 244,
+                "m_spriteAsset": 256,
+                "m_tintAllSprites": 268,
+                "m_StyleSheet": 272,
+                "m_TextStyleHashCode": 284,
+                "m_overrideHtmlColors": 288,
+                "m_faceColor": 292,
+                "m_fontSize": 296,
+                "m_fontSizeBase": 300,
+                "m_fontWeight": 304,
+                "m_enableAutoSizing": 308,
+                "m_fontSizeMin": 312,
+                "m_fontSizeMax": 316,
+                "fontStyle": 320,
+                "horizontalAlignment": 324,
+                "verticalAlignment": 328,
+                "textAlignment": 332,
+                "m_characterSpacing": 336,
+                "m_wordSpacing": 340,
+                "m_lineSpacing": 344,
+                "m_lineSpacingMax": 348,
+                "m_paragraphSpacing": 352,
+                "m_charWidthMaxAdj": 356,
+                "m_TextWrappingMode": 360,
+                "m_wordWrappingRatios": 364,
+                "m_overflowMode": 368,
+                "m_linkedTextComponent": 372,
+                "parentLinkedComponent": 384,
+                "m_enableKerning": 396,
+                "m_ActiveFontFeaturesCount": 400,
+                "enableExtraPadding": 408,
+                "checkPaddingRequired": 412,
+                "isRichText": 416,
+                "EmojiFallbackSupport": 420,
+                "EnableAdvancedText": 424,
+                "parseCtrlCharacters": 428,
+                "isOrthographic": 432,
+                "isCullingEnabled": 436,
+                "horizontalMapping": 440,
+                "verticalMapping": 444,
+                "uvLineOffset": 448,
+                "geometrySortingOrder": 452,
+                "IsTextObjectScaleStatic": 456,
+                "VertexBufferAutoSizeReduction": 460,
+                "useMaxVisibleDescender": 464,
+                "m_pageToDisplay": 468,
+                "m_margin": 472,
+                "isUsingLegacyAnimationComponent": 488,
+                "isVolumetricText": 492
+              }
+            },
+            "fontKey": "sharedassets0.assets:1006",
+            "materialKey": "sharedassets0.assets:75"
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:1736",
+      "name": "GameExplain_obj",
+      "path": "/Canvas/SafeArea/Monster_UI/GameExplain_obj",
+      "file": "level0",
+      "gameObjectPathID": 1736,
+      "transformPathID": 104300,
+      "parent": "level0:1993",
+      "siblingIndex": 5,
+      "active": false,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.0
+        ],
+        "anchorMax": [
+          1.0,
+          1.0
+        ],
+        "anchoredPosition": [
+          0.0,
+          0.0
+        ],
+        "sizeDelta": [
+          -1080.0,
+          -1805.550048828125
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0690590888261795
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "Destroy",
+          "pathID": 125032,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 36,
+          "unknown": "custom runtime/animation component not decoded"
+        },
+        {
+          "kind": "Animator",
+          "pathID": 66757,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 1736
+            },
+            "m_Enabled": 1,
+            "m_Avatar": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "m_Controller": {
+              "m_FileID": 2,
+              "m_PathID": 302
+            },
+            "m_CullingMode": 0,
+            "m_UpdateMode": 0,
+            "m_ApplyRootMotion": false,
+            "m_LinearVelocityBlending": false,
+            "m_StabilizeFeet": false,
+            "m_AnimatePhysics": false,
+            "m_HasTransformHierarchy": true,
+            "m_AllowConstantClipSamplingOptimization": true,
+            "m_KeepAnimatorStateOnDisable": false,
+            "m_WriteDefaultValuesOnDisable": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:2101",
+      "name": "Panel",
+      "path": "/Canvas/SafeArea/Monster_UI/GameExplain_obj/Panel",
+      "file": "level0",
+      "gameObjectPathID": 2101,
+      "transformPathID": 104654,
+      "parent": "level0:1736",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.0,
+          0.5
+        ],
+        "anchorMax": [
+          1.0,
+          0.5
+        ],
+        "anchoredPosition": [
+          -1.000732421875,
+          625.0700073242188
+        ],
+        "sizeDelta": [
+          1073.934814453125,
+          80.0
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "localScale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "localRotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 91062,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 2101
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "Image",
+          "pathID": 125479,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 136,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              0.39150941371917725,
+              0.39150941371917725,
+              0.7921568751335144
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "sprite": {
+              "m_FileID": 2,
+              "m_PathID": 875
+            },
+            "imageType": 1,
+            "preserveAspect": false,
+            "fillCenter": true,
+            "fillMethod": 4,
+            "fillAmount": 1.0,
+            "fillClockwise": true,
+            "fillOrigin": 0,
+            "useSpriteMesh": false,
+            "pixelsPerUnitMultiplier": 1.0,
+            "spriteKey": "sharedassets0.assets:875",
+            "materialKey": null
+          },
+          "decode": {
+            "serializedBytes": 136,
+            "consumedBytes": 136,
+            "remainingBytes": 0,
+            "fieldOffsets": {
+              "m_Material": 32,
+              "m_Color": 44,
+              "m_RaycastTarget": 60,
+              "m_RaycastPadding": 64,
+              "m_Maskable": 80,
+              "m_OnCullStateChangedCount": 84,
+              "m_Sprite": 88,
+              "m_Type": 100,
+              "m_PreserveAspect": 104,
+              "m_FillCenter": 108,
+              "m_FillMethod": 112,
+              "m_FillAmount": 116,
+              "m_FillClockwise": 120,
+              "m_FillOrigin": 124,
+              "m_UseSpriteMesh": 128,
+              "m_PixelsPerUnitMultiplier": 132
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "level0:10251",
+      "name": "Explain_txt",
+      "path": "/Canvas/SafeArea/Monster_UI/GameExplain_obj/Panel/Explain_txt",
+      "file": "level0",
+      "gameObjectPathID": 10251,
+      "transformPathID": 105574,
+      "parent": "level0:2101",
+      "siblingIndex": 0,
+      "active": true,
+      "rect": {
+        "anchorMin": [
+          0.5,
+          0.5
+        ],
+        "anchorMax": [
+          0.5,
+          0.5
+        ],
+        "anchoredPosition": [
+          1.00067138671875,
+          0.00390625
+        ],
+        "sizeDelta": [
+          1002.5800170898438,
+          68.19999694824219
+        ],
+        "pivot": [
+          0.5,
+          0.5
+        ]
+      },
+      "localPosition": [
+        0.0,
+        0.0,
+        0.0116356760263443
+      ],
+      "localScale": [
+        0.9911100268363953,
+        0.9911100268363953,
+        0.9911100268363953
+      ],
+      "localRotation": [
+        0.0003452954697422683,
+        -0.0,
+        -0.0,
+        0.9999999403953552
+      ],
+      "components": [
+        {
+          "kind": "CanvasRenderer",
+          "pathID": 101058,
+          "file": "level0",
+          "fields": {
+            "m_GameObject": {
+              "m_FileID": 0,
+              "m_PathID": 10251
+            },
+            "m_CullTransparentMesh": true
+          }
+        },
+        {
+          "kind": "TextMeshProUGUI",
+          "pathID": 121411,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 576,
+          "data": {
+            "material": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "color": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "raycastTarget": true,
+            "raycastPadding": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maskable": true,
+            "cullCalls": 0,
+            "text": "슬라임이 중앙에 도달하면 게임이 종료됩니다!",
+            "isRightToLeft": false,
+            "fontAsset": {
+              "m_FileID": 2,
+              "m_PathID": 1009
+            },
+            "sharedMaterial": {
+              "m_FileID": 2,
+              "m_PathID": 72
+            },
+            "fontSharedMaterials": [],
+            "fontMaterial": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "fontMaterials": [],
+            "fontColor32": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontColor": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "vertexGradient": false,
+            "colorMode": 3,
+            "gradientColors": [
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ],
+            "gradientPreset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "spriteAsset": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "tintAllSprites": false,
+            "styleSheet": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "styleHash": -1183493901,
+            "overrideHtmlColors": false,
+            "faceColor": [
+              255,
+              255,
+              255,
+              255
+            ],
+            "fontSize": 45.0,
+            "fontSizeBase": 36.0,
+            "fontWeight": 400,
+            "autoSize": true,
+            "fontSizeMin": 18.0,
+            "fontSizeMax": 45.0,
+            "fontStyle": 0,
+            "horizontalAlignment": 2,
+            "verticalAlignment": 512,
+            "textAlignment": 65535,
+            "characterSpacing": 0.0,
+            "wordSpacing": 0.0,
+            "lineSpacing": 0.0,
+            "lineSpacingMax": 0.0,
+            "paragraphSpacing": 0.0,
+            "charWidthMaxAdj": 0.0,
+            "wrappingMode": 1,
+            "wordWrappingRatios": 0.4000000059604645,
+            "overflowMode": 0,
+            "linkedTextComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "parentLinkedComponent": {
+              "m_FileID": 0,
+              "m_PathID": 0
+            },
+            "enableKerning": false,
+            "fontFeatures": [
+              1801810542
+            ],
+            "enableExtraPadding": false,
+            "checkPaddingRequired": false,
+            "isRichText": true,
+            "EmojiFallbackSupport": true,
+            "EnableAdvancedText": true,
+            "parseCtrlCharacters": true,
+            "isOrthographic": false,
+            "isCullingEnabled": false,
+            "horizontalMapping": 0,
+            "verticalMapping": 0,
+            "uvLineOffset": 0.0,
+            "geometrySortingOrder": 0,
+            "IsTextObjectScaleStatic": false,
+            "VertexBufferAutoSizeReduction": true,
+            "useMaxVisibleDescender": true,
+            "pageToDisplay": 0,
+            "margin": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "isUsingLegacyAnimationComponent": false,
+            "isVolumetricText": false,
+            "decode": {
+              "serializedBytes": 576,
+              "consumedBytes": 548,
+              "remainingBytes": 28,
+              "fieldOffsets": {
+                "m_Material": 32,
+                "m_Color": 44,
+                "m_RaycastTarget": 60,
+                "m_RaycastPadding": 64,
+                "m_Maskable": 80,
+                "m_OnCullStateChangedCount": 84,
+                "m_text": 88,
+                "m_isRightToLeft": 156,
+                "m_fontAsset": 160,
+                "m_sharedMaterial": 172,
+                "m_fontSharedMaterialsCount": 184,
+                "m_fontMaterial": 188,
+                "m_fontMaterialsCount": 200,
+                "m_fontColor32": 204,
+                "m_fontColor": 208,
+                "m_enableVertexGradient": 224,
+                "m_colorMode": 228,
+                "m_fontColorGradient": 232,
+                "m_fontColorGradientPreset": 296,
+                "m_spriteAsset": 308,
+                "m_tintAllSprites": 320,
+                "m_StyleSheet": 324,
+                "m_TextStyleHashCode": 336,
+                "m_overrideHtmlColors": 340,
+                "m_faceColor": 344,
+                "m_fontSize": 348,
+                "m_fontSizeBase": 352,
+                "m_fontWeight": 356,
+                "m_enableAutoSizing": 360,
+                "m_fontSizeMin": 364,
+                "m_fontSizeMax": 368,
+                "fontStyle": 372,
+                "horizontalAlignment": 376,
+                "verticalAlignment": 380,
+                "textAlignment": 384,
+                "m_characterSpacing": 388,
+                "m_wordSpacing": 392,
+                "m_lineSpacing": 396,
+                "m_lineSpacingMax": 400,
+                "m_paragraphSpacing": 404,
+                "m_charWidthMaxAdj": 408,
+                "m_TextWrappingMode": 412,
+                "m_wordWrappingRatios": 416,
+                "m_overflowMode": 420,
+                "m_linkedTextComponent": 424,
+                "parentLinkedComponent": 436,
+                "m_enableKerning": 448,
+                "m_ActiveFontFeaturesCount": 452,
+                "enableExtraPadding": 460,
+                "checkPaddingRequired": 464,
+                "isRichText": 468,
+                "EmojiFallbackSupport": 472,
+                "EnableAdvancedText": 476,
+                "parseCtrlCharacters": 480,
+                "isOrthographic": 484,
+                "isCullingEnabled": 488,
+                "horizontalMapping": 492,
+                "verticalMapping": 496,
+                "uvLineOffset": 500,
+                "geometrySortingOrder": 504,
+                "IsTextObjectScaleStatic": 508,
+                "VertexBufferAutoSizeReduction": 512,
+                "useMaxVisibleDescender": 516,
+                "m_pageToDisplay": 520,
+                "m_margin": 524,
+                "isUsingLegacyAnimationComponent": 540,
+                "isVolumetricText": 544
+              }
+            },
+            "fontKey": "sharedassets0.assets:1009",
+            "materialKey": "sharedassets0.assets:72"
+          }
+        },
+        {
+          "kind": "Localize",
+          "pathID": 140013,
+          "file": "level0",
+          "enabled": true,
+          "rawBytes": 224,
+          "unknown": "custom runtime/animation component not decoded"
+        }
+      ]
+    }
+  ],
+  "sprites": {
+    "sharedassets0.assets:390": {
+      "key": "sharedassets0.assets:390",
+      "pathID": 390,
+      "file": "sharedassets0.assets",
+      "name": "ui 13 (Fill)",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000390__ui_13_Fill_.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 22.0,
+        "height": 23.0
+      },
+      "border": [
+        11.0,
+        11.0,
+        11.0,
+        11.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:448": {
+      "key": "sharedassets0.assets:448",
+      "pathID": 448,
+      "file": "sharedassets0.assets",
+      "name": "ui 1 (Half)",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000448__ui_1_Half_.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 33.0,
+        "height": 78.0
+      },
+      "border": [
+        0.0,
+        41.0,
+        33.0,
+        37.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:466": {
+      "key": "sharedassets0.assets:466",
+      "pathID": 466,
+      "file": "sharedassets0.assets",
+      "name": "ui 12 (Outline",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000466__ui_12_Outline.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 116.0,
+        "height": 21.0
+      },
+      "border": [
+        55.0,
+        11.0,
+        55.0,
+        10.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:482": {
+      "key": "sharedassets0.assets:482",
+      "pathID": 482,
+      "file": "sharedassets0.assets",
+      "name": "ui 12",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000482__ui_12.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 116.0,
+        "height": 21.0
+      },
+      "border": [
+        55.0,
+        11.0,
+        55.0,
+        10.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:520": {
+      "key": "sharedassets0.assets:520",
+      "pathID": 520,
+      "file": "sharedassets0.assets",
+      "name": "Currency 3",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000520__Currency_3.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 148.0,
+        "height": 148.0
+      },
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:658": {
+      "key": "sharedassets0.assets:658",
+      "pathID": 658,
+      "file": "sharedassets0.assets",
+      "name": "ui 1 (Small",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000658__ui_1_Small.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 64.0,
+        "height": 76.0
+      },
+      "border": [
+        32.0,
+        44.0,
+        32.0,
+        34.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:660": {
+      "key": "sharedassets0.assets:660",
+      "pathID": 660,
+      "file": "sharedassets0.assets",
+      "name": "ui 13",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000660__ui_13.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 36.0,
+        "height": 37.0
+      },
+      "border": [
+        17.0,
+        18.0,
+        17.0,
+        18.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:684": {
+      "key": "sharedassets0.assets:684",
+      "pathID": 684,
+      "file": "sharedassets0.assets",
+      "name": "Circle 1",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000684__Circle_1.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 100.0,
+        "height": 100.0
+      },
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:736": {
+      "key": "sharedassets0.assets:736",
+      "pathID": 736,
+      "file": "sharedassets0.assets",
+      "name": "Circle",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000736__Circle.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 100.0,
+        "height": 100.0
+      },
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    },
+    "sharedassets0.assets:821": {
+      "key": "sharedassets0.assets:821",
+      "pathID": 821,
+      "file": "sharedassets0.assets",
+      "name": "Cat_icon",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000821__Cat_icon.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 127.99999237060547,
+        "height": 95.0
+      },
+      "border": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 18.68613052368164
+    },
+    "sharedassets0.assets:875": {
+      "key": "sharedassets0.assets:875",
+      "pathID": 875,
+      "file": "sharedassets0.assets",
+      "name": "ui 5",
+      "url": "/assets/generated/sprite/sharedassets0.assets__00000875__ui_5.png",
+      "rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 116.0,
+        "height": 64.0
+      },
+      "border": [
+        55.0,
+        32.0,
+        55.0,
+        32.0
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "pixelsPerUnit": 100.0
+    }
+  },
+  "materials": {
+    "sharedassets0.assets:72": {
+      "m_Name": "Mitme Atlas Material",
+      "m_Shader": {
+        "m_FileID": 0,
+        "m_PathID": 228
+      },
+      "m_ValidKeywords": [
+        "UNDERLAY_ON"
+      ],
+      "m_InvalidKeywords": [],
+      "m_LightmapFlags": 4,
+      "m_EnableInstancingVariants": false,
+      "m_DoubleSidedGI": false,
+      "m_CustomRenderQueue": -1,
+      "stringTagMap": [],
+      "disabledShaderPasses": [],
+      "m_SavedProperties": {
+        "m_TexEnvs": [
+          [
+            "_BumpMap",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_Cube",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_FaceTex",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_MainTex",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 81
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_OutlineTex",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ]
+        ],
+        "m_Ints": [],
+        "m_Floats": [
+          [
+            "_Ambient",
+            0.5
+          ],
+          [
+            "_Bevel",
+            0.5
+          ],
+          [
+            "_BevelClamp",
+            0.0
+          ],
+          [
+            "_BevelOffset",
+            0.0
+          ],
+          [
+            "_BevelRoundness",
+            0.0
+          ],
+          [
+            "_BevelWidth",
+            0.0
+          ],
+          [
+            "_BumpFace",
+            0.0
+          ],
+          [
+            "_BumpOutline",
+            0.0
+          ],
+          [
+            "_ColorMask",
+            15.0
+          ],
+          [
+            "_CullMode",
+            0.0
+          ],
+          [
+            "_Diffuse",
+            0.5
+          ],
+          [
+            "_FaceDilate",
+            1.0
+          ],
+          [
+            "_FaceUVSpeedX",
+            0.0
+          ],
+          [
+            "_FaceUVSpeedY",
+            0.0
+          ],
+          [
+            "_GlowInner",
+            0.05000000074505806
+          ],
+          [
+            "_GlowOffset",
+            0.0
+          ],
+          [
+            "_GlowOuter",
+            0.05000000074505806
+          ],
+          [
+            "_GlowPower",
+            0.75
+          ],
+          [
+            "_GradientScale",
+            10.0
+          ],
+          [
+            "_LightAngle",
+            3.1415998935699463
+          ],
+          [
+            "_MaskSoftnessX",
+            0.0
+          ],
+          [
+            "_MaskSoftnessY",
+            0.0
+          ],
+          [
+            "_OutlineSoftness",
+            0.0
+          ],
+          [
+            "_OutlineUVSpeedX",
+            0.0
+          ],
+          [
+            "_OutlineUVSpeedY",
+            0.0
+          ],
+          [
+            "_OutlineWidth",
+            1.0
+          ],
+          [
+            "_PerspectiveFilter",
+            0.875
+          ],
+          [
+            "_Reflectivity",
+            10.0
+          ],
+          [
+            "_ScaleRatioA",
+            0.4114285707473755
+          ],
+          [
+            "_ScaleRatioB",
+            0.0
+          ],
+          [
+            "_ScaleRatioC",
+            0.0
+          ],
+          [
+            "_ScaleX",
+            1.0
+          ],
+          [
+            "_ScaleY",
+            1.0
+          ],
+          [
+            "_ShaderFlags",
+            0.0
+          ],
+          [
+            "_Sharpness",
+            0.0
+          ],
+          [
+            "_SpecularPower",
+            2.0
+          ],
+          [
+            "_Stencil",
+            0.0
+          ],
+          [
+            "_StencilComp",
+            8.0
+          ],
+          [
+            "_StencilOp",
+            0.0
+          ],
+          [
+            "_StencilReadMask",
+            255.0
+          ],
+          [
+            "_StencilWriteMask",
+            255.0
+          ],
+          [
+            "_TextureHeight",
+            2048.0
+          ],
+          [
+            "_TextureWidth",
+            2048.0
+          ],
+          [
+            "_UnderlayDilate",
+            0.0
+          ],
+          [
+            "_UnderlayOffsetX",
+            1.0
+          ],
+          [
+            "_UnderlayOffsetY",
+            0.0
+          ],
+          [
+            "_UnderlaySoftness",
+            0.0
+          ],
+          [
+            "_VertexOffsetX",
+            0.0
+          ],
+          [
+            "_VertexOffsetY",
+            0.0
+          ],
+          [
+            "_WeightBold",
+            0.75
+          ],
+          [
+            "_WeightNormal",
+            0.0
+          ]
+        ],
+        "m_Colors": [
+          [
+            "_ClipRect",
+            {
+              "r": -32767.0,
+              "g": -32767.0,
+              "b": 32767.0,
+              "a": 32767.0
+            }
+          ],
+          [
+            "_EnvMatrixRotation",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 0.0
+            }
+          ],
+          [
+            "_FaceColor",
+            {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_GlowColor",
+            {
+              "r": 0.0,
+              "g": 1.0,
+              "b": 0.0,
+              "a": 0.5
+            }
+          ],
+          [
+            "_MaskCoord",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 32767.0,
+              "a": 32767.0
+            }
+          ],
+          [
+            "_OutlineColor",
+            {
+              "r": 0.3960784375667572,
+              "g": 0.2705882489681244,
+              "b": 0.1764705926179886,
+              "a": 1.0
+            }
+          ],
+          [
+            "_ReflectFaceColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_ReflectOutlineColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_SpecularColor",
+            {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_UnderlayColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 0.5
+            }
+          ]
+        ]
+      },
+      "m_BuildTextureStacks": []
+    },
+    "sharedassets0.assets:75": {
+      "m_Name": "MPLUSRounded1c-Black Atlas Material",
+      "m_Shader": {
+        "m_FileID": 0,
+        "m_PathID": 228
+      },
+      "m_ValidKeywords": [
+        "UNDERLAY_ON"
+      ],
+      "m_InvalidKeywords": [],
+      "m_LightmapFlags": 4,
+      "m_EnableInstancingVariants": false,
+      "m_DoubleSidedGI": false,
+      "m_CustomRenderQueue": -1,
+      "stringTagMap": [],
+      "disabledShaderPasses": [],
+      "m_SavedProperties": {
+        "m_TexEnvs": [
+          [
+            "_BumpMap",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_Cube",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_FaceTex",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_MainTex",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 82
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ],
+          [
+            "_OutlineTex",
+            {
+              "m_Texture": {
+                "m_FileID": 0,
+                "m_PathID": 0
+              },
+              "m_Scale": {
+                "x": 1.0,
+                "y": 1.0
+              },
+              "m_Offset": {
+                "x": 0.0,
+                "y": 0.0
+              }
+            }
+          ]
+        ],
+        "m_Ints": [],
+        "m_Floats": [
+          [
+            "_Ambient",
+            0.5
+          ],
+          [
+            "_Bevel",
+            0.0
+          ],
+          [
+            "_BevelClamp",
+            0.0
+          ],
+          [
+            "_BevelOffset",
+            -0.16699999570846558
+          ],
+          [
+            "_BevelRoundness",
+            0.0
+          ],
+          [
+            "_BevelWidth",
+            -0.5
+          ],
+          [
+            "_BumpFace",
+            0.0
+          ],
+          [
+            "_BumpOutline",
+            0.0
+          ],
+          [
+            "_ColorMask",
+            15.0
+          ],
+          [
+            "_CullMode",
+            0.0
+          ],
+          [
+            "_Diffuse",
+            0.5
+          ],
+          [
+            "_FaceDilate",
+            0.25
+          ],
+          [
+            "_FaceUVSpeedX",
+            0.0
+          ],
+          [
+            "_FaceUVSpeedY",
+            0.0
+          ],
+          [
+            "_GlowInner",
+            0.05000000074505806
+          ],
+          [
+            "_GlowOffset",
+            0.10000000149011612
+          ],
+          [
+            "_GlowOuter",
+            0.05000000074505806
+          ],
+          [
+            "_GlowPower",
+            0.75
+          ],
+          [
+            "_GradientScale",
+            26.0
+          ],
+          [
+            "_LightAngle",
+            3.1415998935699463
+          ],
+          [
+            "_MaskSoftnessX",
+            0.0
+          ],
+          [
+            "_MaskSoftnessY",
+            0.0
+          ],
+          [
+            "_OutlineSoftness",
+            0.0
+          ],
+          [
+            "_OutlineUVSpeedX",
+            0.0
+          ],
+          [
+            "_OutlineUVSpeedY",
+            0.0
+          ],
+          [
+            "_OutlineWidth",
+            0.20800000429153442
+          ],
+          [
+            "_PerspectiveFilter",
+            0.875
+          ],
+          [
+            "_Reflectivity",
+            10.0
+          ],
+          [
+            "_ScaleRatioA",
+            0.9615384340286255
+          ],
+          [
+            "_ScaleRatioB",
+            0.5408653616905212
+          ],
+          [
+            "_ScaleRatioC",
+            0.2704326808452606
+          ],
+          [
+            "_ScaleX",
+            1.0
+          ],
+          [
+            "_ScaleY",
+            1.0
+          ],
+          [
+            "_ShaderFlags",
+            1.0
+          ],
+          [
+            "_Sharpness",
+            0.0
+          ],
+          [
+            "_SpecularPower",
+            2.0
+          ],
+          [
+            "_Stencil",
+            0.0
+          ],
+          [
+            "_StencilComp",
+            8.0
+          ],
+          [
+            "_StencilOp",
+            0.0
+          ],
+          [
+            "_StencilReadMask",
+            255.0
+          ],
+          [
+            "_StencilWriteMask",
+            255.0
+          ],
+          [
+            "_TextureHeight",
+            1024.0
+          ],
+          [
+            "_TextureWidth",
+            1024.0
+          ],
+          [
+            "_UnderlayDilate",
+            1.0
+          ],
+          [
+            "_UnderlayOffsetX",
+            0.49000000953674316
+          ],
+          [
+            "_UnderlayOffsetY",
+            -1.0
+          ],
+          [
+            "_UnderlaySoftness",
+            0.0
+          ],
+          [
+            "_VertexOffsetX",
+            0.0
+          ],
+          [
+            "_VertexOffsetY",
+            0.0
+          ],
+          [
+            "_WeightBold",
+            0.75
+          ],
+          [
+            "_WeightNormal",
+            0.0
+          ]
+        ],
+        "m_Colors": [
+          [
+            "_ClipRect",
+            {
+              "r": -32767.0,
+              "g": -32767.0,
+              "b": 32767.0,
+              "a": 32767.0
+            }
+          ],
+          [
+            "_EnvMatrixRotation",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 0.0
+            }
+          ],
+          [
+            "_FaceColor",
+            {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_GlowColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 0.5
+            }
+          ],
+          [
+            "_MaskCoord",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 32767.0,
+              "a": 32767.0
+            }
+          ],
+          [
+            "_OutlineColor",
+            {
+              "r": 0.3962264060974121,
+              "g": 0.27127090096473694,
+              "b": 0.17755427956581116,
+              "a": 1.0
+            }
+          ],
+          [
+            "_ReflectFaceColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_ReflectOutlineColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_SpecularColor",
+            {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          ],
+          [
+            "_UnderlayColor",
+            {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 0.6196078658103943
+            }
+          ]
+        ]
+      },
+      "m_BuildTextureStacks": []
+    }
+  },
+  "fonts": {
+    "sharedassets0.assets:1006": {
+      "key": "sharedassets0.assets:1006",
+      "name": "MPLUS",
+      "pathID": 1006,
+      "file": "sharedassets0.assets",
+      "unknown": [
+        "TMP font glyph/face metrics not decoded; font family follows asset name"
+      ],
+      "rawBytes": 158088
+    },
+    "sharedassets0.assets:1009": {
+      "key": "sharedassets0.assets:1009",
+      "name": "Mitme_Outline",
+      "pathID": 1009,
+      "file": "sharedassets0.assets",
+      "unknown": [
+        "TMP font glyph/face metrics not decoded; font family follows asset name"
+      ],
+      "rawBytes": 24724
+    }
+  },
+  "selectedRoots": [
+    "/Canvas/SafeArea/Monster_UI"
+  ]
+}

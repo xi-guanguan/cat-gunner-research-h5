@@ -1,0 +1,1910 @@
+[
+  {
+    "kind": "Skin_manager",
+    "component": 123519,
+    "path": "/Canvas/Skin_manager",
+    "id": "level0:480",
+    "data": {
+      "Skin_list": [
+        {
+          "Damage": 0,
+          "Speed": 0,
+          "Money": 0
+        },
+        {
+          "Damage": 16,
+          "Speed": 10,
+          "Money": 5
+        },
+        {
+          "Damage": 32,
+          "Speed": 20,
+          "Money": 10
+        },
+        {
+          "Damage": 48,
+          "Speed": 30,
+          "Money": 15
+        },
+        {
+          "Damage": 64,
+          "Speed": 40,
+          "Money": 20
+        },
+        {
+          "Damage": 80,
+          "Speed": 50,
+          "Money": 25
+        },
+        {
+          "Damage": 96,
+          "Speed": 60,
+          "Money": 30
+        },
+        {
+          "Damage": 112,
+          "Speed": 70,
+          "Money": 35
+        },
+        {
+          "Damage": 128,
+          "Speed": 80,
+          "Money": 40
+        },
+        {
+          "Damage": 144,
+          "Speed": 90,
+          "Money": 45
+        },
+        {
+          "Damage": 160,
+          "Speed": 100,
+          "Money": 50
+        },
+        {
+          "Damage": 176,
+          "Speed": 110,
+          "Money": 55
+        },
+        {
+          "Damage": 192,
+          "Speed": 120,
+          "Money": 60
+        },
+        {
+          "Damage": 208,
+          "Speed": 130,
+          "Money": 65
+        },
+        {
+          "Damage": 224,
+          "Speed": 140,
+          "Money": 70
+        },
+        {
+          "Damage": 240,
+          "Speed": 150,
+          "Money": 75
+        },
+        {
+          "Damage": 256,
+          "Speed": 160,
+          "Money": 80
+        },
+        {
+          "Damage": 272,
+          "Speed": 170,
+          "Money": 85
+        },
+        {
+          "Damage": 288,
+          "Speed": 180,
+          "Money": 90
+        },
+        {
+          "Damage": 304,
+          "Speed": 190,
+          "Money": 95
+        },
+        {
+          "Damage": 320,
+          "Speed": 200,
+          "Money": 100
+        },
+        {
+          "Damage": 336,
+          "Speed": 210,
+          "Money": 105
+        },
+        {
+          "Damage": 352,
+          "Speed": 220,
+          "Money": 110
+        },
+        {
+          "Damage": 368,
+          "Speed": 230,
+          "Money": 115
+        },
+        {
+          "Damage": 384,
+          "Speed": 240,
+          "Money": 120
+        }
+      ],
+      "Skin_Unlock": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "Selected_num": 0,
+      "Price_Balance": [
+        0,
+        100,
+        200,
+        300,
+        400,
+        500,
+        600,
+        700,
+        800,
+        900,
+        1000,
+        1100,
+        1200,
+        1300,
+        1400,
+        1500,
+        1600,
+        1700,
+        1800,
+        1900,
+        2000,
+        2100,
+        2200,
+        2300,
+        2400
+      ],
+      "Skin_Colors": [
+        [
+          0.9450981020927429,
+          0.8235294818878174,
+          0.6745098233222961,
+          1.0
+        ],
+        [
+          0.7176470756530762,
+          0.7215686440467834,
+          0.7176470756530762,
+          1.0
+        ],
+        [
+          0.9490196704864502,
+          0.7960785031318665,
+          0.46274513006210327,
+          1.0
+        ],
+        [
+          0.874509871006012,
+          0.7686275243759155,
+          0.6666666865348816,
+          1.0
+        ],
+        [
+          1.0,
+          0.9803922176361084,
+          0.9450981020927429,
+          1.0
+        ],
+        [
+          0.545098066329956,
+          0.3960784673690796,
+          0.29411765933036804,
+          1.0
+        ],
+        [
+          0.4078431725502014,
+          0.4117647409439087,
+          0.3921568989753723,
+          1.0
+        ],
+        [
+          0.960784375667572,
+          0.9137255549430847,
+          0.8117647767066956,
+          1.0
+        ],
+        [
+          0.6509804129600525,
+          0.8352941870689392,
+          0.9137255549430847,
+          1.0
+        ],
+        [
+          0.9647059440612793,
+          0.8784314393997192,
+          0.7254902124404907,
+          1.0
+        ],
+        [
+          0.9686275124549866,
+          0.847058892250061,
+          0.8352941870689392,
+          1.0
+        ],
+        [
+          0.6392157077789307,
+          0.8235294818878174,
+          0.8941177129745483,
+          1.0
+        ],
+        [
+          0.7764706611633301,
+          0.6941176652908325,
+          0.6000000238418579,
+          1.0
+        ],
+        [
+          0.7568628191947937,
+          0.6627451181411743,
+          0.8313726186752319,
+          1.0
+        ],
+        [
+          0.960784375667572,
+          0.7764706611633301,
+          0.6196078658103943,
+          1.0
+        ],
+        [
+          0.7725490927696228,
+          0.5607843399047852,
+          0.3490196168422699,
+          1.0
+        ],
+        [
+          0.6431372761726379,
+          0.8235294818878174,
+          0.8980392813682556,
+          1.0
+        ],
+        [
+          0.8509804606437683,
+          0.7058823704719543,
+          0.8705883026123047,
+          1.0
+        ],
+        [
+          0.9725490808486938,
+          0.917647123336792,
+          0.5921568870544434,
+          1.0
+        ],
+        [
+          0.572549045085907,
+          0.6627451181411743,
+          0.7568628191947937,
+          1.0
+        ],
+        [
+          0.9647059440612793,
+          0.9098039865493774,
+          0.6078431606292725,
+          1.0
+        ],
+        [
+          0.9725490808486938,
+          0.7960785031318665,
+          0.8078432083129883,
+          1.0
+        ],
+        [
+          0.847058892250061,
+          0.7843137979507446,
+          0.9450981020927429,
+          1.0
+        ],
+        [
+          0.9372549653053284,
+          0.7960785031318665,
+          0.4745098352432251,
+          1.0
+        ],
+        [
+          0.9647059440612793,
+          0.8000000715255737,
+          0.8156863451004028,
+          1.0
+        ]
+      ],
+      "is_skinValueZero": false,
+      "Skin_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 593,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:593",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000593__0.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 800,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:800",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000800__1.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 544,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:544",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000544__2.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 421,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:421",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000421__3.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 471,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:471",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000471__4.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 568,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:568",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000568__5.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 721,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:721",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000721__6.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 587,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:587",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000587__7.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 701,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:701",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000701__8.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 636,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:636",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000636__9.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 754,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:754",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000754__10.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 414,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:414",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000414__11.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 892,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:892",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000892__12.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 738,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:738",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000738__13.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 702,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:702",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000702__14.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 667,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:667",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000667__15.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 592,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:592",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000592__16.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 679,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:679",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000679__17.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 878,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:878",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000878__18.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 672,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:672",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000672__19.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 619,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:619",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000619__20.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 472,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:472",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000472__21.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 590,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:590",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000590__22.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 740,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:740",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000740__23.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 765,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:765",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000765__24.png"
+        }
+      ],
+      "Skin_Bone_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 620,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:620",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000620__0.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 445,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:445",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000445__1.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 815,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:815",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000815__2.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 829,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:829",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000829__3.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 709,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:709",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000709__4.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 638,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:638",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000638__5.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 409,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:409",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000409__6.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 549,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:549",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000549__7.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 580,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:580",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000580__8.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 467,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:467",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000467__9.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 560,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:560",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000560__10.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 818,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:818",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000818__11.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 842,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:842",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000842__12.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 439,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:439",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000439__13.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 630,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:630",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000630__14.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 406,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:406",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000406__15.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 615,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:615",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000615__16.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 588,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:588",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000588__17.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 506,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:506",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000506__18.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 802,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:802",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000802__19.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 770,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:770",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000770__20.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 733,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:733",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000733__21.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 706,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:706",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000706__22.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 527,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:527",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000527__23.png"
+        },
+        {
+          "fileID": 2,
+          "pathID": 394,
+          "id": null,
+          "path": null,
+          "spriteKey": "sharedassets0.assets:394",
+          "url": "/assets/generated/sprite/sharedassets0.assets__00000394__24.png"
+        }
+      ],
+      "Skin_item_list": [
+        {
+          "fileID": 0,
+          "pathID": 147372,
+          "id": "level0:35252",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128497,
+          "id": "level0:5289",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (1)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128500,
+          "id": "level0:5291",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (2)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128489,
+          "id": "level0:5282",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (3)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128498,
+          "id": "level0:5292",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (4)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128512,
+          "id": "level0:5277",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (5)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128496,
+          "id": "level0:5288",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (6)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128495,
+          "id": "level0:5286",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (7)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128510,
+          "id": "level0:5279",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (8)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128491,
+          "id": "level0:5285",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (9)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128493,
+          "id": "level0:5283",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (10)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128501,
+          "id": "level0:5293",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (11)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128509,
+          "id": "level0:5278",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (12)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128502,
+          "id": "level0:5270",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (13)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128494,
+          "id": "level0:5287",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (14)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128507,
+          "id": "level0:5275",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (15)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128492,
+          "id": "level0:5284",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (16)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128511,
+          "id": "level0:5276",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (17)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128505,
+          "id": "level0:5273",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (18)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128506,
+          "id": "level0:5274",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (19)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128499,
+          "id": "level0:5290",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (20)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128508,
+          "id": "level0:5280",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (21)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128504,
+          "id": "level0:5272",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (22)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128503,
+          "id": "level0:5271",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (23)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 128490,
+          "id": "level0:5281",
+          "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (24)"
+        }
+      ],
+      "Skin_List_UI": {
+        "fileID": 0,
+        "pathID": 2285,
+        "id": "level0:2285",
+        "path": "/Canvas/Skin_manager/SkinList_UI"
+      },
+      "skin_info_ui": {
+        "fileID": 0,
+        "pathID": 124065,
+        "id": "level0:903",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI"
+      },
+      "Damage_Accum_txt": {
+        "fileID": 0,
+        "pathID": 117337,
+        "id": "level0:1687",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Stats/Damage/Value_txt"
+      },
+      "Speed_Accum_txt": {
+        "fileID": 0,
+        "pathID": 117339,
+        "id": "level0:1693",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Stats/Speed/Value_txt"
+      },
+      "Money_Accum_txt": {
+        "fileID": 0,
+        "pathID": 117372,
+        "id": "level0:1944",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Stats/Money/Value_txt"
+      }
+    },
+    "bytes": 1856,
+    "parsedBytes": 1856,
+    "sha256": "b67dea34194e7102b9f2ed0bbf1f0c80ae11c16932dee3d99a4199fed59ed68e"
+  },
+  {
+    "kind": "Skin_Info_UI",
+    "component": 124065,
+    "path": "/Canvas/Skin_manager/SkinInfo_UI",
+    "id": "level0:903",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 125501,
+        "id": "level0:2121",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Cat/Cat_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 123154,
+        "id": "level0:165",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Cat/Shadow"
+      },
+      "Locked_img": {
+        "fileID": 0,
+        "pathID": 123228,
+        "id": "level0:224",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Cat/Cat_img/Locked_obj"
+      },
+      "Next_Btn_obj": {
+        "fileID": 0,
+        "pathID": 1746,
+        "id": "level0:1746",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Btn_list/Next_Btn"
+      },
+      "Before_Btn_obj": {
+        "fileID": 0,
+        "pathID": 1360,
+        "id": "level0:1360",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Btn_list/Before_Btn"
+      },
+      "Num_txt": {
+        "fileID": 0,
+        "pathID": 117384,
+        "id": "level0:2020",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Cat/Num_txt"
+      },
+      "Damage_txt": {
+        "fileID": 0,
+        "pathID": 117183,
+        "id": "level0:467",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Damage (1)/Value_txt"
+      },
+      "Speed_txt": {
+        "fileID": 0,
+        "pathID": 117379,
+        "id": "level0:1971",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Speed (1)/Value_txt"
+      },
+      "Money_txt": {
+        "fileID": 0,
+        "pathID": 117381,
+        "id": "level0:2002",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Money/Value_txt"
+      },
+      "Purchase_Btn_obj": {
+        "fileID": 0,
+        "pathID": 282,
+        "id": "level0:282",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Purchase_Btn"
+      },
+      "Select_Btn_obj": {
+        "fileID": 0,
+        "pathID": 1637,
+        "id": "level0:1637",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Select_Btn"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 310,
+        "id": "level0:310",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Selected"
+      },
+      "Price_txt": {
+        "fileID": 0,
+        "pathID": 117197,
+        "id": "level0:576",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Purchase_Btn/Price_txt"
+      },
+      "Purchase_Btn": {
+        "fileID": 0,
+        "pathID": 123293,
+        "id": "level0:282",
+        "path": "/Canvas/Skin_manager/SkinInfo_UI/Panel/Purchase_Btn"
+      },
+      "Color_Disable": [
+        1.0,
+        0.49803921580314636,
+        0.49803921580314636,
+        1.0
+      ]
+    },
+    "bytes": 216,
+    "parsedBytes": 216,
+    "sha256": "2a6a05aa7c3dcdba32a2f03481b19326ff6e9ece3c452a9787e64145ca193ab5"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128489,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (3)",
+    "id": "level0:5282",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129072,
+        "id": "level0:35709",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (3)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145374,
+        "id": "level0:15722",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (3)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4834,
+        "id": "level0:4834",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (3)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16083,
+        "id": "level0:16083",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (3)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "c260a7f499c0c57b0dda51c50a0103dea452254c1a5bd876f8b8d7dde6cd7478"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128490,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (24)",
+    "id": "level0:5281",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129071,
+        "id": "level0:35708",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (24)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145375,
+        "id": "level0:15723",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (24)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4833,
+        "id": "level0:4833",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (24)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16082,
+        "id": "level0:16082",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (24)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "52c7c3bcb847b9c730f5098c63d9dd155ae14c977833bcfce7ed3e049537ab05"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128491,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (9)",
+    "id": "level0:5285",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129075,
+        "id": "level0:35712",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (9)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145371,
+        "id": "level0:15724",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (9)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4837,
+        "id": "level0:4837",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (9)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16086,
+        "id": "level0:16086",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (9)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "30cf010ec10088695eaf83d410c30c47b5d79f88212b6989444bf830ff4a2706"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128492,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (16)",
+    "id": "level0:5284",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129073,
+        "id": "level0:35711",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (16)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145372,
+        "id": "level0:15726",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (16)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4835,
+        "id": "level0:4835",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (16)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16085,
+        "id": "level0:16085",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (16)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "ccdf9050867952f2283bdb0e3729bb263437794e0cc5cf90f0a6e94c0f04ad6c"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128493,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (10)",
+    "id": "level0:5283",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129074,
+        "id": "level0:35710",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (10)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145373,
+        "id": "level0:15725",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (10)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4836,
+        "id": "level0:4836",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (10)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16084,
+        "id": "level0:16084",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (10)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "73e78f20b46c296e86198c7ea07652041ac003bb0acb93d57b5a50c380a7621d"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128494,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (14)",
+    "id": "level0:5287",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129069,
+        "id": "level0:35714",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (14)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145377,
+        "id": "level0:15727",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (14)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4839,
+        "id": "level0:4839",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (14)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16088,
+        "id": "level0:16088",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (14)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "2f18f0ebb301462685c070d5dc8e783eab7f82ae72b2439ae111c5a4e89be438"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128495,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (7)",
+    "id": "level0:5286",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129068,
+        "id": "level0:35713",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (7)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145378,
+        "id": "level0:15728",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (7)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4838,
+        "id": "level0:4838",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (7)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16087,
+        "id": "level0:16087",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (7)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "e9de292cdb3a952bfea3677fbe9653754e0358a34cfa2e2f094fbbe38bcbd543"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128496,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (6)",
+    "id": "level0:5288",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129070,
+        "id": "level0:35715",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (6)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145376,
+        "id": "level0:15729",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (6)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4840,
+        "id": "level0:4840",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (6)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16089,
+        "id": "level0:16089",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (6)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "26bf1e3e4ee5f61ab4c1381d8cecbf96e7c36dcd4002b2ae79f93c22f8dfab93"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128497,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (1)",
+    "id": "level0:5289",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129077,
+        "id": "level0:35716",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (1)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145382,
+        "id": "level0:15717",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (1)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4828,
+        "id": "level0:4828",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (1)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16077,
+        "id": "level0:16077",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (1)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "1ab24f869a5f88151085770b99636f515a3cfc9f8ad0d40021d0766db5ed4a1b"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128498,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (4)",
+    "id": "level0:5292",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129078,
+        "id": "level0:35719",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (4)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145379,
+        "id": "level0:15720",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (4)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4829,
+        "id": "level0:4829",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (4)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16080,
+        "id": "level0:16080",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (4)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "7835635505e13de985e927f4af908632e26a1bd0f24a28af9cf986f48fd8de8c"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128499,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (20)",
+    "id": "level0:5290",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129079,
+        "id": "level0:35718",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (20)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145381,
+        "id": "level0:15719",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (20)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4831,
+        "id": "level0:4831",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (20)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16078,
+        "id": "level0:16078",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (20)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "341737fdea5fd3742e90688b6401c25683fe1fae5e588d5c3d983f24f967338d"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128500,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (2)",
+    "id": "level0:5291",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129080,
+        "id": "level0:35717",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (2)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145380,
+        "id": "level0:15718",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (2)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4830,
+        "id": "level0:4830",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (2)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16079,
+        "id": "level0:16079",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (2)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "deb0090a43ea1f91e11a06659d16c4cc69d11d1d2c6605990aaeb505813aa0b4"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128501,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (11)",
+    "id": "level0:5293",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129076,
+        "id": "level0:35720",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (11)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145383,
+        "id": "level0:15721",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (11)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4832,
+        "id": "level0:4832",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (11)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16081,
+        "id": "level0:16081",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (11)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "d197a1a2b9d78c6636b5ceb9f64e6f9b13341cfa4f419cd4683b705acfdefcbc"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128502,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (13)",
+    "id": "level0:5270",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129059,
+        "id": "level0:35721",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (13)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145360,
+        "id": "level0:15738",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (13)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4825,
+        "id": "level0:4825",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (13)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16074,
+        "id": "level0:16074",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (13)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "bcded9d8d195ab1f6f15aacf48683c1330127fe43290fc307b8ef626f01e3b7b"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128503,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (23)",
+    "id": "level0:5271",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129057,
+        "id": "level0:35722",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (23)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145362,
+        "id": "level0:15739",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (23)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4826,
+        "id": "level0:4826",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (23)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16075,
+        "id": "level0:16075",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (23)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "fb9d449f70f71fbedcc7faaa99c48fbe4e9113ded070c328e568ec5d29af2451"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128504,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (22)",
+    "id": "level0:5272",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129058,
+        "id": "level0:35723",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (22)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145361,
+        "id": "level0:15740",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (22)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4827,
+        "id": "level0:4827",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (22)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16076,
+        "id": "level0:16076",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (22)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "0a69c035e3fa166a31e59bfa413f4949e593c1ac72b6d9cbfa0e34ab4b5dc895"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128505,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (18)",
+    "id": "level0:5273",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129067,
+        "id": "level0:35724",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (18)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145363,
+        "id": "level0:15730",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (18)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4817,
+        "id": "level0:4817",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (18)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16066,
+        "id": "level0:16066",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (18)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "60c6c5485b3d7eb0571e3d9bd40706e271bc4a9ee783e80b19b87222c6ee5a5b"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128506,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (19)",
+    "id": "level0:5274",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129060,
+        "id": "level0:35726",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (19)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145370,
+        "id": "level0:15732",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (19)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4819,
+        "id": "level0:4819",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (19)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16067,
+        "id": "level0:16067",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (19)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "353ac28b9957495c737a8ec964784afec6f5d49b1193959161f852e8a09c80de"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128507,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (15)",
+    "id": "level0:5275",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129061,
+        "id": "level0:35725",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (15)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145369,
+        "id": "level0:15731",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (15)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4818,
+        "id": "level0:4818",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (15)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16068,
+        "id": "level0:16068",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (15)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "bc4fb18672c169eb921d84f6b996ab8cf4f0b068af02766248ed741d7ad79af4"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128508,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (21)",
+    "id": "level0:5280",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129066,
+        "id": "level0:35731",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (21)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145364,
+        "id": "level0:15733",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (21)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4824,
+        "id": "level0:4824",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (21)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16073,
+        "id": "level0:16073",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (21)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "0e9becf8f1d6aa7dffd7eefc831fc8e72c996dfc456fecbfe5d71894df2debc0"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128509,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (12)",
+    "id": "level0:5278",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129062,
+        "id": "level0:35730",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (12)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145366,
+        "id": "level0:15737",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (12)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4821,
+        "id": "level0:4821",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (12)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16071,
+        "id": "level0:16071",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (12)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "4468682642f865eb3b38011bc943cfad38bc4aef24b499ea2bb62e4f1f92f7a1"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128510,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (8)",
+    "id": "level0:5279",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129063,
+        "id": "level0:35729",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (8)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145365,
+        "id": "level0:15736",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (8)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4820,
+        "id": "level0:4820",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (8)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16072,
+        "id": "level0:16072",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (8)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "33aec1029e66ead8affd658a9426c187d43cb66e83d3441199508c90c639a54c"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128511,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (17)",
+    "id": "level0:5276",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129064,
+        "id": "level0:35728",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (17)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145368,
+        "id": "level0:15735",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (17)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4823,
+        "id": "level0:4823",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (17)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16069,
+        "id": "level0:16069",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (17)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "66b843f59339ba7d19deaf5745eff1e2d470fcb9c05b644d4ee246aefb34590b"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 128512,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (5)",
+    "id": "level0:5277",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 129065,
+        "id": "level0:35727",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (5)/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 145367,
+        "id": "level0:15734",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (5)/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 4822,
+        "id": "level0:4822",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (5)/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 16070,
+        "id": "level0:16070",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI (5)/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "69d26a1ef613ecb339887d593be904311840f383549494b672350525d1dc2134"
+  },
+  {
+    "kind": "Skin_Item_UI",
+    "component": 147372,
+    "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI",
+    "id": "level0:35252",
+    "data": {
+      "Cat_img": {
+        "fileID": 0,
+        "pathID": 146907,
+        "id": "level0:4472",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI/Cat/Sprite"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 131947,
+        "id": "level0:22832",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI/Cat/Shadow"
+      },
+      "Selected_obj": {
+        "fileID": 0,
+        "pathID": 35557,
+        "id": "level0:35557",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI/Selected_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 22534,
+        "id": "level0:22534",
+        "path": "/Canvas/Skin_manager/SkinList_UI/Panel/Image/Scroll View/Viewport/Content/Skin_item_UI/Locked_obj"
+      }
+    },
+    "bytes": 80,
+    "parsedBytes": 80,
+    "sha256": "02fe78c5b9b06a0234c95f9b486b12ad8c3fb989460f4292d0580ecfaa3153df"
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "id": "level0:8459",
+    "path": "/Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (2)",
+    "kind": "Core_Purchase_Panel",
+    "component": 133103,
+    "data": {
+      "type": 0,
+      "is_Special": false,
+      "SoldOut_obj": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      },
+      "count_tmp": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      },
+      "remainTime_tmp": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      },
+      "purchaseButton": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      }
+    },
+    "bytes": 88,
+    "parsedBytes": 88,
+    "sha256": "f2f18a6b620d4f2d32fb90005615863f6522d4e68ecd847b395d45e28bc024d3"
+  },
+  {
+    "id": "level0:8458",
+    "path": "/Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (4)",
+    "kind": "Core_Purchase_Panel",
+    "component": 133104,
+    "data": {
+      "type": 3,
+      "is_Special": false,
+      "SoldOut_obj": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      },
+      "count_tmp": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      },
+      "remainTime_tmp": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      },
+      "purchaseButton": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      }
+    },
+    "bytes": 88,
+    "parsedBytes": 88,
+    "sha256": "0cfea4d118eeaa337513820850b10a07585b1f524da466b9a0c682593f44daa9"
+  },
+  {
+    "id": "level0:8456",
+    "path": "/Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (3)",
+    "kind": "Core_Purchase_Panel",
+    "component": 133105,
+    "data": {
+      "type": 1,
+      "is_Special": false,
+      "SoldOut_obj": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      },
+      "count_tmp": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      },
+      "remainTime_tmp": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      },
+      "purchaseButton": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      }
+    },
+    "bytes": 88,
+    "parsedBytes": 88,
+    "sha256": "56e03bae461508e8e79b45fccac506b17236b77bdc0e48662bad1fdeaaea2475"
+  },
+  {
+    "id": "level0:8457",
+    "path": "/Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (5)",
+    "kind": "Core_Purchase_Panel",
+    "component": 133106,
+    "data": {
+      "type": 2,
+      "is_Special": false,
+      "SoldOut_obj": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      },
+      "count_tmp": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      },
+      "remainTime_tmp": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      },
+      "purchaseButton": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null
+      }
+    },
+    "bytes": 88,
+    "parsedBytes": 88,
+    "sha256": "89d37f62c58e227a3edfebc0355a2e886a6c070855db7a7d101b1103849c7045"
+  },
+  {
+    "id": "level0:4490",
+    "path": "/Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (Limited)",
+    "kind": "Core_Purchase_Panel",
+    "component": 137576,
+    "data": {
+      "type": 4,
+      "is_Special": true,
+      "SoldOut_obj": {
+        "fileID": 0,
+        "pathID": 18543,
+        "id": "level0:18543"
+      },
+      "count_tmp": {
+        "fileID": 0,
+        "pathID": 118642,
+        "id": "level0:18176"
+      },
+      "remainTime_tmp": {
+        "fileID": 0,
+        "pathID": 120048,
+        "id": "level0:17915"
+      },
+      "purchaseButton": {
+        "fileID": 0,
+        "pathID": 135166,
+        "id": "level0:4490"
+      }
+    },
+    "bytes": 88,
+    "parsedBytes": 88,
+    "sha256": "b8b5246620f63b9c519aab409a16fe6ec15de416dac8ea09aed273c067133cb4"
+  },
+  {
+    "id": "level0:11659",
+    "path": "/Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (Limited) (1)",
+    "kind": "Core_Purchase_Panel",
+    "component": 146807,
+    "data": {
+      "type": 5,
+      "is_Special": true,
+      "SoldOut_obj": {
+        "fileID": 0,
+        "pathID": 6817,
+        "id": "level0:6817"
+      },
+      "count_tmp": {
+        "fileID": 0,
+        "pathID": 119478,
+        "id": "level0:8684"
+      },
+      "remainTime_tmp": {
+        "fileID": 0,
+        "pathID": 118094,
+        "id": "level0:8813"
+      },
+      "purchaseButton": {
+        "fileID": 0,
+        "pathID": 130277,
+        "id": "level0:11659"
+      }
+    },
+    "bytes": 88,
+    "parsedBytes": 88,
+    "sha256": "1a2a0a820f325f347b240388aa24fb35c8bb8bd4ec928b502e11fc207dec1abd"
+  },
+  {
+    "id": "level0:11660",
+    "path": "/Canvas/Adventure_manager/PrismCore_Purchase_popup/Panel/Prism_Pack (Limited) (2)",
+    "kind": "Core_Purchase_Panel",
+    "component": 146808,
+    "data": {
+      "type": 6,
+      "is_Special": true,
+      "SoldOut_obj": {
+        "fileID": 0,
+        "pathID": 6816,
+        "id": "level0:6816"
+      },
+      "count_tmp": {
+        "fileID": 0,
+        "pathID": 119477,
+        "id": "level0:8685"
+      },
+      "remainTime_tmp": {
+        "fileID": 0,
+        "pathID": 118093,
+        "id": "level0:8812"
+      },
+      "purchaseButton": {
+        "fileID": 0,
+        "pathID": 130276,
+        "id": "level0:11660"
+      }
+    },
+    "bytes": 88,
+    "parsedBytes": 88,
+    "sha256": "5205ee339df977694bc9a9475fa5b6677c908399a4d940a96a44e5af79b947c3"
+  }
+]

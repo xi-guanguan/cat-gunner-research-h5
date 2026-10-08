@@ -1,0 +1,109 @@
+{
+  "sourceSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "bundleSha256": "12a68a5fe3c5d40de08cb430543f6ee2a7cc13a91f7e92fea862085e0977e7a5",
+  "type1Defaults": {
+    "minDisplayStage": 15,
+    "maxHudDisplayStage": 35
+  },
+  "typeSelection": "online config unresolved; never assume type1 in ordinary saves",
+  "banners": [
+    {
+      "path": "/Canvas/Contents_UI/Monster_UI/GameEnd_obj /Remove Ads ALL (Inapp)/FreeCash_Banner",
+      "id": "level0:23541",
+      "component": 129625,
+      "place": "banner_reward",
+      "bytes": 52,
+      "sha256": "6d0f8ce04a2fc55a2f1a17f1a2fd6d1f77c6e78dfc9a9e382f1e8bc982c1950c"
+    },
+    {
+      "path": "/Canvas/Contents_UI/Mine_UI/GameEnd_obj/Remove Ads ALL (Inapp)/FreeCash_Banner",
+      "id": "level0:23542",
+      "component": 129626,
+      "place": "banner_reward",
+      "bytes": 52,
+      "sha256": "761e5bd2c0644f133b99e88498f715c082dfc2d99110c5a2193646c023ac6d84"
+    },
+    {
+      "path": "/Canvas/Contents_UI/SpeedRun_UI/GameWin_obj/Remove Ads ALL (Inapp)/FreeCash_Banner",
+      "id": "level0:23543",
+      "component": 129627,
+      "place": "banner_reward",
+      "bytes": 52,
+      "sha256": "3163c9f2183a3018b80be49a04382a66e60ea9716831916f12426086b0a688fc"
+    },
+    {
+      "path": "/Canvas/Contents_UI/Boss_UI/GameSweep_obj/Remove Ads ALL (Inapp)/FreeCash_Banner",
+      "id": "level0:23540",
+      "component": 129628,
+      "place": "banner_reward",
+      "bytes": 52,
+      "sha256": "10af34c7f55e80352b8b9f238cbc097dd5a6133fe1cb3c4c5092ea73b611ff26"
+    },
+    {
+      "path": "/Canvas/Contents_UI/Monster_UI/GameSweep_obj/Remove Ads ALL (Inapp)/FreeCash_Banner",
+      "id": "level0:23537",
+      "component": 129629,
+      "place": "banner_reward",
+      "bytes": 52,
+      "sha256": "9cd6416dd855813c13e1ba1edb4e654cacca3fe76fb426c3ef3492cdc80d6a7c"
+    },
+    {
+      "path": "/Canvas/Contents_UI/SpeedRun_UI/GameSweep_obj/Remove Ads ALL (Inapp)/FreeCash_Banner",
+      "id": "level0:23538",
+      "component": 129630,
+      "place": "banner_reward",
+      "bytes": 52,
+      "sha256": "db966de57d2f1811f8b7f650d76d1c02d73e82702c0dfd3231a66a8082cb8813"
+    },
+    {
+      "path": "/Canvas/Contents_UI/Boss_UI/GameFail_obj/Remove Ads ALL (Inapp)/FreeCash_Banner",
+      "id": "level0:23539",
+      "component": 129631,
+      "place": "banner_reward",
+      "bytes": 52,
+      "sha256": "17b9593de5c0b178c85e9fc050f4542a8882a722599f22f9408d5deddd1df5a5"
+    },
+    {
+      "path": "/Canvas/Contents_UI/SpeedRun_UI/GameFail_obj/Remove Ads ALL (Inapp)/FreeCash_Banner",
+      "id": "level0:23534",
+      "component": 129632,
+      "place": "banner_reward",
+      "bytes": 52,
+      "sha256": "939f5bac4518a6a768906aa375e549ed09645d058d59bbb0e086f6318d636684"
+    },
+    {
+      "path": "/Canvas/Contents_UI/Boss_UI/GameWin_obj/Remove Ads ALL (Inapp)/FreeCash_Banner",
+      "id": "level0:23535",
+      "component": 129633,
+      "place": "banner_reward",
+      "bytes": 52,
+      "sha256": "dc231d865d9fd87fa154fb326f90b050b08fe73d486dff7a574322c64b47063b"
+    },
+    {
+      "path": "/Canvas/Contents_UI/Mine_UI/GameSweep_obj/Remove Ads ALL (Inapp)/FreeCash_Banner",
+      "id": "level0:23536",
+      "component": 129634,
+      "place": "banner_reward",
+      "bytes": 52,
+      "sha256": "ae58d700b2841f0b5dc0736137067b4a6f6fd0c39b146162f7f015083cb4bf8f"
+    },
+    {
+      "path": "/Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/Free Reward/FreeCash_Banner",
+      "id": "level0:23342",
+      "component": 137992,
+      "place": "shop",
+      "bytes": 40,
+      "sha256": "479a6183fda2c2d3304dd4459f32953ed320095489ee78482106b88261527d04"
+    },
+    {
+      "path": "/Canvas/Buff_manager/Buff_UI/InApp & FREECASH/FreeCash/FreeCash_Banner",
+      "id": "level0:19393",
+      "component": 141030,
+      "place": "banner",
+      "bytes": 44,
+      "sha256": "0f62f04756084f49d0a75c04f6452ddafd9e76e90ff13e5a7ade7241b8e845a7"
+    }
+  ],
+  "importedNodes": 30,
+  "root": "/Canvas/FreeCash_manager/FreeCash_UI"
+}

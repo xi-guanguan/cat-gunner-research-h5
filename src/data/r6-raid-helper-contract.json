@@ -1,0 +1,134 @@
+{
+  "storedFormationOffset": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "storedFormationEvidence": {
+    "file": "hunt-cat-config.json",
+    "catComponentID": 136810,
+    "field": {
+      "offset": 1228,
+      "bytes": 12,
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "rawSha256": "989402f1af9f322ca60ac0281275eb590886f84e5e69039087d52b6fc3e3274f"
+  },
+  "sourceSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "product": "catgunner_raid_helper",
+  "defaultPrice": "$3.99",
+  "defaultPriceSource": "level0:403 serialized TMP; no live store price",
+  "gunTypeCodes": [
+    2,
+    4,
+    1,
+    5,
+    6,
+    0,
+    3
+  ],
+  "gunTypeArrayField": "040757CAC9BEC9601D26557D637E532748D527B71A21B087C961B76A1DEDB46F",
+  "gunTypeFieldRegistrationQualification": "Local field index/SHA match, raw FieldRef type-index registration unparsed (same bounded method as pig).",
+  "helperGunRange": [
+    50,
+    54
+  ],
+  "starSlotCount": 3,
+  "helperComponentID": 136810,
+  "warpOffset": [
+    7,
+    0,
+    -7
+  ],
+  "rules": [
+    "Helper active iff helperSeasonIndex != -1 and equals current seasonIndex. Season_Check does not delete helperSeasonIndex.",
+    "Helper gun scans50..54 for weakType, then From index clamped0..4+50, bounds check.",
+    "Helper_StarLv_return loops ALL Raid+0x88 slots, not selected-only. Serialized Raid_Start_UI has3 slots; shared StarUpgrade array has3 entries.",
+    "Helper purchases set current season index, Save then close and reload. Native external store callbacks not reproduced; local provider explicitly identified.",
+    "Helper-star level0:36993 event target PPtr is0:0; original orphan event, do NOT invent a fourth upgrade slot.",
+    "Popup Demo level0:17916 Button source-disabled; keep disabled.",
+    "Helper_Reload initial position uses Cat stored FormationOffset; Cat_manager.Warp uses manager Helper_FormationOffset. Distinct consumers."
+  ],
+  "buttons": [
+    {
+      "id": "level0:58",
+      "path": "/Canvas/Contents_UI/Raid_UI/Helper_Purchase_Popup/Panel/Purchase_Btn",
+      "component": 123016,
+      "targetFileID": 0,
+      "targetPathID": 123163,
+      "targetType": "Raid_Helper_Purchase_Popup, Assembly-CSharp",
+      "method": "OnClick_Purchase",
+      "mode": 1,
+      "boolArg": true,
+      "callState": 2,
+      "bytes": 464,
+      "parsedBytes": 464,
+      "sha256": "bc4749fefaeb1ec699f73b24b7d0b87fc76e36e8538e07d596ff4908ecd8b9e4"
+    },
+    {
+      "id": "level0:1098",
+      "path": "/Canvas/Contents_UI/Raid_UI/Helper_Purchase_Popup/Background",
+      "component": 124293,
+      "targetFileID": 0,
+      "targetPathID": 171,
+      "targetType": "UnityEngine.GameObject, UnityEngine",
+      "method": "SetActive",
+      "mode": 6,
+      "boolArg": false,
+      "callState": 2,
+      "bytes": 452,
+      "parsedBytes": 452,
+      "sha256": "7d7d85c5981904db16951ad224ed02adc8e79763769dc25f7b8522020e6ff5ce"
+    },
+    {
+      "id": "level0:1149",
+      "path": "/Canvas/Contents_UI/Raid_UI/Helper_Purchase_Popup/Panel/Close_Btn",
+      "component": 124357,
+      "targetFileID": 0,
+      "targetPathID": 171,
+      "targetType": "UnityEngine.GameObject, UnityEngine",
+      "method": "SetActive",
+      "mode": 6,
+      "boolArg": false,
+      "callState": 2,
+      "bytes": 452,
+      "parsedBytes": 452,
+      "sha256": "fe80ffce2830d59aae17ae514329aa0a0376a80a2ff1ab1310cae5c418993b2e"
+    },
+    {
+      "id": "level0:36993",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot/Star_obj",
+      "component": 140808,
+      "targetFileID": 0,
+      "targetPathID": 0,
+      "targetType": "Raid_GunSlot, Assembly-CSharp",
+      "method": "onClick_StarUpgrade",
+      "mode": 1,
+      "boolArg": false,
+      "callState": 2,
+      "bytes": 456,
+      "parsedBytes": 456,
+      "sha256": "0ec2ff53c614c1466ef6eebf244dcb4bb6977b0b019bd6a295c9bf830e2084f8"
+    },
+    {
+      "id": "level0:17199",
+      "path": "/Canvas/Contents_UI/Raid_UI/Raid_Start_UI/Panel/Gun_Slot/Helper_Slot",
+      "component": 146525,
+      "targetFileID": 0,
+      "targetPathID": 133360,
+      "targetType": "Raid_HelperSlot, Assembly-CSharp",
+      "method": "OnClick_Slot",
+      "mode": 1,
+      "boolArg": false,
+      "callState": 2,
+      "bytes": 448,
+      "parsedBytes": 448,
+      "sha256": "14ae24af2b4a34e1c4ace8e2524b9cf1078d5afae747eacf9b92a502ecb55947"
+    }
+  ],
+  "proof": "STATIC ONLY; H5 callback anti-replay/clock/RNG/physics are adapters; source-device verification NOT_RUN"
+}

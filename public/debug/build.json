@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "mode": "WIP / 非verified发布",
+  "verifiedBaseRevision": "ae635223dd2d7303888750db9d4c5c38ee12c54f",
+  "branch": "codex/catgunner-h5",
+  "sourceInputSHA256": "6257d9881676800cdc84f867b76bc180b230ddb004ffb2399666c626187af97d",
+  "inputFileCount": 370,
+  "assetManifestVerified": false,
+  "scope": "当前TS/JSON源数据与翻译目录/测试/Debug外壳/配置内容；不包含原资源哈希，不证明原机/真人/全入口完成。",
+  "qaStorage": "独立内存，普通档不读不写",
+  "provider": "local-test / online-not-connected"
+}

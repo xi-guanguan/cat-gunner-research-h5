@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createLevel,tick} from '../rules';
+import {BigValue} from '../big-value';
+import {sourceProjectileState,SourceGunType} from '../gun-projectiles';
+import {sourceFishCombatModifiers,freshSourceFishState} from '../r5-fish';
+const base={permanentDamagePercent:BigValue.fromInteger(100),permanentMoneyPercent:BigValue.fromInteger(100),permanentSpeedPercent:100,skinSpeedPercent:100,attackSpeedBuff:1};
+function scenario(type=0,chance=0){const s=createLevel();s.targets=s.targets.slice(0,1).map(t=>({...t,position:{x:s.player.x+5,y:s.player.y},health:1e9,maxHealth:1e9,healthValue:BigValue.fromInteger(1000000000)}));s.primaryGun={id:'source-gun-6',sourceType:type,damage:100,intervalSeconds:.1,pelletCount:5,spreadDegrees:10};s.combatModifiers={...base,criticalChance:chance,criticalDamagePercent:211};return s;}
+function attack(s){for(let i=0;i<90;i++){s=tick(s,1/60);if(s.shotEvents.length)return s;}throw Error('No shot');}
+test('native attack consumes critical RNG before spread and all shotgun pellets inherit the result',()=>{const s=attack(scenario(SourceGunType.Shotgun,2));assert.equal(s.shotEvents[0].critical,true);assert.equal(s.projectiles.length,5);assert.ok(s.projectiles.every(p=>p.critical&&p.damageValue.eq(211)));const normal=attack(scenario(SourceGunType.Shotgun,0));assert.ok(normal.projectiles.every(p=>!p.critical&&p.damageValue.eq(100)));assert.equal(normal.projectileRngState,s.projectileRngState);assert.deepEqual(normal.projectiles.map(p=>p.velocity),s.projectiles.map(p=>p.velocity));});
+test('stored critical damage survives later modifier changes; hit does not re-roll',()=>{let s=scenario();s.primaryGun=undefined;s.shootCooldown=100;s.targets[0].health=10000;s.targets[0].healthValue=BigValue.fromInteger(10000);s.targets[0].position={...s.player};s.projectiles=[{id:777,critical:true,position:{...s.player},velocity:{x:1,y:0},damage:211,damageValue:BigValue.fromInteger(211),remainingRange:100,distanceTraveled:0,gunSlot:0,source:sourceProjectileState(0)}];s=tick(s,1/60);assert.ok(s.targets[0].healthValue.eq(BigValue.fromInteger(10000).nativeSubtract(211)));});
+test('fish modifiers sum duplicate critical properties without clamping and use native125 base',()=>{const fish={...freshSourceFishState(),inventory:[6,6]},m=sourceFishCombatModifiers(base,fish);assert.equal(m.criticalChance,2);assert.equal(m.criticalDamagePercent,125+2*2000);});
+
+test('ordinary G precedes Buff and critical G follows the independent coefficients',()=>{const s=scenario(0,2);s.primaryGun.damage=1.75;s.primaryGun.damageValue=BigValue.from('1.75');s.combatModifiers={...base,damageBuffMultiplier:4,fishDamagePercent:100,criticalChance:2,criticalDamagePercent:133,relicCriticalPercent:100};const c=attack(s);assert.ok(c.projectiles.every(p=>p.damageValue.eq(5)));s.combatModifiers.criticalChance=0;const n=attack(s);assert.ok(n.projectiles.every(p=>p.damageValue.eq(4)));});

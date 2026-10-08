@@ -1,0 +1,78 @@
+{
+  "maximumPurchases": [
+    2,
+    2,
+    1
+  ],
+  "petCoinRewards": [
+    300,
+    700,
+    1500
+  ],
+  "gunBase": [
+    20,
+    30,
+    35
+  ],
+  "products": [
+    "catgunner_dailygun_0",
+    "catgunner_dailygun_1",
+    "catgunner_dailygun_2"
+  ],
+  "plusProducts": [
+    "catgunner_pluspack_time",
+    "catgunner_pluspack_reward",
+    "catgunner_pluspack_auto"
+  ],
+  "plusDays": 7,
+  "epoch": [
+    2024,
+    1,
+    1
+  ],
+  "entryDegree": 3,
+  "vipHistoricMax": 190,
+  "productEvidence": [
+    {
+      "product": "catgunner_dailygun_",
+      "flag": "dailyGunPrefix",
+      "slot": "0x5d642f8",
+      "relativeRelocationAddend": "0x5f1da20",
+      "encodedUsage": "0xa0008113",
+      "literalIndex": 16521,
+      "dataIndex": 553904,
+      "length": 19
+    },
+    {
+      "product": "catgunner_pluspack_time",
+      "flag": "plus0",
+      "slot": "0x5d64130",
+      "relativeRelocationAddend": "0x5f1da68",
+      "encodedUsage": "0xa0008125",
+      "literalIndex": 16530,
+      "dataIndex": 554095,
+      "length": 23
+    },
+    {
+      "product": "catgunner_pluspack_reward",
+      "flag": "plus1",
+      "slot": "0x5d64140",
+      "relativeRelocationAddend": "0x5f1da60",
+      "encodedUsage": "0xa0008123",
+      "literalIndex": 16529,
+      "dataIndex": 554070,
+      "length": 25
+    },
+    {
+      "product": "catgunner_pluspack_auto",
+      "flag": "plus2",
+      "slot": "0x5d64138",
+      "relativeRelocationAddend": "0x5f1da58",
+      "encodedUsage": "0xa0008121",
+      "literalIndex": 16528,
+      "dataIndex": 554047,
+      "length": 23
+    }
+  ],
+  "sourceELFSHA256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583"
+}

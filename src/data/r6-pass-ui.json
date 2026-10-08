@@ -1,0 +1,1202 @@
+[
+  {
+    "kind": "NewSeason_UI",
+    "id": "level0:1110",
+    "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI",
+    "component": 124314,
+    "data": {
+      "VIP_Purchase_popup_obj": {
+        "fileID": 0,
+        "pathID": 2133,
+        "id": "level0:2133",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)"
+      },
+      "Mission_Reward_Items": [
+        {
+          "fileID": 0,
+          "pathID": 125923,
+          "id": "level0:5634",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic"
+        },
+        {
+          "fileID": 0,
+          "pathID": 125920,
+          "id": "level0:5632",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 125925,
+          "id": "level0:5636",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)"
+        }
+      ]
+    },
+    "bytes": 84,
+    "sha256": "31968ac7ff0018768c27d1c16495e72c2e814eee01e33fa0b5530e2a568bc5af"
+  },
+  {
+    "kind": "NewSeason_UI",
+    "id": "level0:1211",
+    "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)",
+    "component": 124424,
+    "data": {
+      "VIP_Purchase_popup_obj": {
+        "fileID": 0,
+        "pathID": 543,
+        "id": "level0:543",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)"
+      },
+      "Mission_Reward_Items": [
+        {
+          "fileID": 0,
+          "pathID": 125922,
+          "id": "level0:5633",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic"
+        },
+        {
+          "fileID": 0,
+          "pathID": 125924,
+          "id": "level0:5635",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)"
+        },
+        {
+          "fileID": 0,
+          "pathID": 125921,
+          "id": "level0:5631",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)"
+        }
+      ]
+    },
+    "bytes": 84,
+    "sha256": "a0804e0235e9e90271649d654849bca1b00df24449c9ef167be86fd3e220c75f"
+  },
+  {
+    "kind": "VIP_Purchase_Ingame",
+    "id": "level0:1750",
+    "path": "/Canvas/SafeArea/Mission_maanger/LuxuryPass_Purchase_UI/Panel/VIP_Pass_ui",
+    "component": 125050,
+    "data": {
+      "type": 0,
+      "Reclaim_popup": false,
+      "Purchase_Btn": {
+        "fileID": 0,
+        "pathID": 125085,
+        "id": "level0:1775",
+        "path": "/Canvas/SafeArea/Mission_maanger/LuxuryPass_Purchase_UI/Panel/VIP_Pass_ui/Purchase_Btn"
+      },
+      "Purchased_obj": {
+        "fileID": 0,
+        "pathID": 2250,
+        "id": "level0:2250",
+        "path": "/Canvas/SafeArea/Mission_maanger/LuxuryPass_Purchase_UI/Panel/VIP_Pass_ui/Purchased_obj"
+      },
+      "Price_Normal_obj": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      },
+      "Price_Upgrade_obj": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    },
+    "bytes": 88,
+    "sha256": "dc803f5567839b6a7b1d581a5a206c4f742b1792b59769b54bc4d20a481cd1e3"
+  },
+  {
+    "kind": "VIP_Purchase_Ingame",
+    "id": "level0:2040",
+    "path": "/Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/Panel/VIP_Pass_ui",
+    "component": 125402,
+    "data": {
+      "type": 0,
+      "Reclaim_popup": false,
+      "Purchase_Btn": {
+        "fileID": 0,
+        "pathID": 125170,
+        "id": "level0:1841",
+        "path": "/Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/Panel/VIP_Pass_ui/Purchase_Btn"
+      },
+      "Purchased_obj": {
+        "fileID": 0,
+        "pathID": 1489,
+        "id": "level0:1489",
+        "path": "/Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/Panel/VIP_Pass_ui/Purchased_obj"
+      },
+      "Price_Normal_obj": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      },
+      "Price_Upgrade_obj": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    },
+    "bytes": 88,
+    "sha256": "45b7ae6f0dcfeb14fdc6b9c6d9166b3c3fb7e4177672e1ddaaa6ec40b1675ff9"
+  },
+  {
+    "kind": "Mission_Reward_Item",
+    "id": "level0:5632",
+    "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)",
+    "component": 125920,
+    "data": {
+      "_degree": 0,
+      "_Lv": 0,
+      "Dia_obj": {
+        "fileID": 0,
+        "pathID": 25977,
+        "id": "level0:25977",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Dia"
+      },
+      "Gun_obj": {
+        "fileID": 0,
+        "pathID": 23215,
+        "id": "level0:23215",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun"
+      },
+      "Core_obj": {
+        "fileID": 0,
+        "pathID": 10738,
+        "id": "level0:10738",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Core"
+      },
+      "Dia_Reward_txt": {
+        "fileID": 0,
+        "pathID": 118005,
+        "id": "level0:4718",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Dia/Dia_Value"
+      },
+      "Core_Reward_txt": {
+        "fileID": 0,
+        "pathID": 121875,
+        "id": "level0:20428",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Core/Core_Value"
+      },
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 140103,
+        "id": "level0:13885",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 140872,
+        "id": "level0:33018",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 134913,
+        "id": "level0:9382",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 33564,
+          "id": "level0:33564",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17416,
+          "id": "level0:17416",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 24874,
+          "id": "level0:24874",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2715,
+          "id": "level0:2715",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 35529,
+          "id": "level0:35529",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3607,
+          "id": "level0:3607",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 25882,
+          "id": "level0:25882",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21199,
+          "id": "level0:21199",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/X"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 120204,
+        "id": "level0:18479",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Type_txt"
+      },
+      "NonClear_obj": {
+        "fileID": 0,
+        "pathID": 19884,
+        "id": "level0:19884",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/NonClear_obj"
+      },
+      "GetAble_obj": {
+        "fileID": 0,
+        "pathID": 18667,
+        "id": "level0:18667",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/GetAble_obj"
+      },
+      "Get_obj": {
+        "fileID": 0,
+        "pathID": 9248,
+        "id": "level0:9248",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Get_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 30645,
+        "id": "level0:30645",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Locked_obj"
+      },
+      "SequenceLocked_obj": {
+        "fileID": 0,
+        "pathID": 24778,
+        "id": "level0:24778",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/SequenceLocked_obj"
+      },
+      "SequenceLocked_obj2": {
+        "fileID": 0,
+        "pathID": 19604,
+        "id": "level0:19604",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/SequenceLocked_obj2"
+      },
+      "AD_Reward_obj": {
+        "fileID": 0,
+        "pathID": 23051,
+        "id": "level0:23051",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/AD_Icon"
+      }
+    },
+    "bytes": 332,
+    "sha256": "6bc7a61e6c7aebadb0c66cff03916adaa4d192495bf4160941f419694488fb1e"
+  },
+  {
+    "kind": "Mission_Reward_Item",
+    "id": "level0:5631",
+    "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)",
+    "component": 125921,
+    "data": {
+      "_degree": 0,
+      "_Lv": 0,
+      "Dia_obj": {
+        "fileID": 0,
+        "pathID": 25976,
+        "id": "level0:25976",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Dia"
+      },
+      "Gun_obj": {
+        "fileID": 0,
+        "pathID": 23216,
+        "id": "level0:23216",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun"
+      },
+      "Core_obj": {
+        "fileID": 0,
+        "pathID": 10737,
+        "id": "level0:10737",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Core"
+      },
+      "Dia_Reward_txt": {
+        "fileID": 0,
+        "pathID": 118004,
+        "id": "level0:4719",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Dia/Dia_Value"
+      },
+      "Core_Reward_txt": {
+        "fileID": 0,
+        "pathID": 121874,
+        "id": "level0:20429",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Core/Core_Value"
+      },
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 140102,
+        "id": "level0:13884",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 140871,
+        "id": "level0:33017",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 134914,
+        "id": "level0:9381",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 33563,
+          "id": "level0:33563",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17417,
+          "id": "level0:17417",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 24875,
+          "id": "level0:24875",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2716,
+          "id": "level0:2716",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 35530,
+          "id": "level0:35530",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3606,
+          "id": "level0:3606",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 25883,
+          "id": "level0:25883",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21200,
+          "id": "level0:21200",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/X"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 120203,
+        "id": "level0:18478",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Type_txt"
+      },
+      "NonClear_obj": {
+        "fileID": 0,
+        "pathID": 19885,
+        "id": "level0:19885",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/NonClear_obj"
+      },
+      "GetAble_obj": {
+        "fileID": 0,
+        "pathID": 18666,
+        "id": "level0:18666",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/GetAble_obj"
+      },
+      "Get_obj": {
+        "fileID": 0,
+        "pathID": 9247,
+        "id": "level0:9247",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Get_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 30646,
+        "id": "level0:30646",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Locked_obj"
+      },
+      "SequenceLocked_obj": {
+        "fileID": 0,
+        "pathID": 24779,
+        "id": "level0:24779",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/SequenceLocked_obj"
+      },
+      "SequenceLocked_obj2": {
+        "fileID": 0,
+        "pathID": 19605,
+        "id": "level0:19605",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/SequenceLocked_obj2"
+      },
+      "AD_Reward_obj": {
+        "fileID": 0,
+        "pathID": 23052,
+        "id": "level0:23052",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/AD_Icon"
+      }
+    },
+    "bytes": 332,
+    "sha256": "6cb14406af750c41848bbe8e33354325788bce458c0a1feffe7ee852ef199371"
+  },
+  {
+    "kind": "Mission_Reward_Item",
+    "id": "level0:5633",
+    "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic",
+    "component": 125922,
+    "data": {
+      "_degree": 0,
+      "_Lv": 0,
+      "Dia_obj": {
+        "fileID": 0,
+        "pathID": 25975,
+        "id": "level0:25975",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Dia"
+      },
+      "Gun_obj": {
+        "fileID": 0,
+        "pathID": 23214,
+        "id": "level0:23214",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun"
+      },
+      "Core_obj": {
+        "fileID": 0,
+        "pathID": 10736,
+        "id": "level0:10736",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Core"
+      },
+      "Dia_Reward_txt": {
+        "fileID": 0,
+        "pathID": 118003,
+        "id": "level0:4717",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Dia/Dia_Value"
+      },
+      "Core_Reward_txt": {
+        "fileID": 0,
+        "pathID": 121873,
+        "id": "level0:20427",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Core/Core_Value"
+      },
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 140104,
+        "id": "level0:13886",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 140873,
+        "id": "level0:33016",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 134915,
+        "id": "level0:9383",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 33562,
+          "id": "level0:33562",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17415,
+          "id": "level0:17415",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 24873,
+          "id": "level0:24873",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2717,
+          "id": "level0:2717",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 35531,
+          "id": "level0:35531",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3605,
+          "id": "level0:3605",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 25881,
+          "id": "level0:25881",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21201,
+          "id": "level0:21201",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/X"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 120202,
+        "id": "level0:18480",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Type_txt"
+      },
+      "NonClear_obj": {
+        "fileID": 0,
+        "pathID": 19886,
+        "id": "level0:19886",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/NonClear_obj"
+      },
+      "GetAble_obj": {
+        "fileID": 0,
+        "pathID": 18665,
+        "id": "level0:18665",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/GetAble_obj"
+      },
+      "Get_obj": {
+        "fileID": 0,
+        "pathID": 9246,
+        "id": "level0:9246",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Get_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 30647,
+        "id": "level0:30647",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Locked_obj"
+      },
+      "SequenceLocked_obj": {
+        "fileID": 0,
+        "pathID": 24777,
+        "id": "level0:24777",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/SequenceLocked_obj"
+      },
+      "SequenceLocked_obj2": {
+        "fileID": 0,
+        "pathID": 19603,
+        "id": "level0:19603",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/SequenceLocked_obj2"
+      },
+      "AD_Reward_obj": {
+        "fileID": 0,
+        "pathID": 23050,
+        "id": "level0:23050",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/AD_Icon"
+      }
+    },
+    "bytes": 332,
+    "sha256": "b6857eb36ef7e4fe5e457186d4efa8086e3b17e22cbccd72b38c8e0189b9cbf0"
+  },
+  {
+    "kind": "Mission_Reward_Item",
+    "id": "level0:5634",
+    "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic",
+    "component": 125923,
+    "data": {
+      "_degree": 0,
+      "_Lv": 0,
+      "Dia_obj": {
+        "fileID": 0,
+        "pathID": 25978,
+        "id": "level0:25978",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Dia"
+      },
+      "Gun_obj": {
+        "fileID": 0,
+        "pathID": 23212,
+        "id": "level0:23212",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun"
+      },
+      "Core_obj": {
+        "fileID": 0,
+        "pathID": 10740,
+        "id": "level0:10740",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Core"
+      },
+      "Dia_Reward_txt": {
+        "fileID": 0,
+        "pathID": 118006,
+        "id": "level0:4720",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Dia/Dia_Value"
+      },
+      "Core_Reward_txt": {
+        "fileID": 0,
+        "pathID": 121877,
+        "id": "level0:20430",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Core/Core_Value"
+      },
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 140105,
+        "id": "level0:13883",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 140874,
+        "id": "level0:33020",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 134917,
+        "id": "level0:9384",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 33561,
+          "id": "level0:33561",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17419,
+          "id": "level0:17419",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 24871,
+          "id": "level0:24871",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2718,
+          "id": "level0:2718",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 35527,
+          "id": "level0:35527",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3609,
+          "id": "level0:3609",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 25885,
+          "id": "level0:25885",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21197,
+          "id": "level0:21197",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Degree (2)/X"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 120201,
+        "id": "level0:18477",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Gun/Type_txt"
+      },
+      "NonClear_obj": {
+        "fileID": 0,
+        "pathID": 19882,
+        "id": "level0:19882",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/NonClear_obj"
+      },
+      "GetAble_obj": {
+        "fileID": 0,
+        "pathID": 18663,
+        "id": "level0:18663",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/GetAble_obj"
+      },
+      "Get_obj": {
+        "fileID": 0,
+        "pathID": 9250,
+        "id": "level0:9250",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Get_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 30644,
+        "id": "level0:30644",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/Locked_obj"
+      },
+      "SequenceLocked_obj": {
+        "fileID": 0,
+        "pathID": 24776,
+        "id": "level0:24776",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/SequenceLocked_obj"
+      },
+      "SequenceLocked_obj2": {
+        "fileID": 0,
+        "pathID": 19602,
+        "id": "level0:19602",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/SequenceLocked_obj2"
+      },
+      "AD_Reward_obj": {
+        "fileID": 0,
+        "pathID": 23054,
+        "id": "level0:23054",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic/AD_Icon"
+      }
+    },
+    "bytes": 332,
+    "sha256": "f6ac640fc95146909771b34b3132dfe44109e7e534d5abfb518aeb340ba2a7c2"
+  },
+  {
+    "kind": "Mission_Reward_Item",
+    "id": "level0:5635",
+    "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)",
+    "component": 125924,
+    "data": {
+      "_degree": 0,
+      "_Lv": 0,
+      "Dia_obj": {
+        "fileID": 0,
+        "pathID": 25979,
+        "id": "level0:25979",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Dia"
+      },
+      "Gun_obj": {
+        "fileID": 0,
+        "pathID": 23213,
+        "id": "level0:23213",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun"
+      },
+      "Core_obj": {
+        "fileID": 0,
+        "pathID": 10739,
+        "id": "level0:10739",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Core"
+      },
+      "Dia_Reward_txt": {
+        "fileID": 0,
+        "pathID": 118007,
+        "id": "level0:4721",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Dia/Dia_Value"
+      },
+      "Core_Reward_txt": {
+        "fileID": 0,
+        "pathID": 121876,
+        "id": "level0:20431",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Core/Core_Value"
+      },
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 140106,
+        "id": "level0:13882",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 140875,
+        "id": "level0:33019",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 134916,
+        "id": "level0:9385",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 33560,
+          "id": "level0:33560",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17418,
+          "id": "level0:17418",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 24872,
+          "id": "level0:24872",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2719,
+          "id": "level0:2719",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 35528,
+          "id": "level0:35528",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3608,
+          "id": "level0:3608",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 25884,
+          "id": "level0:25884",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21198,
+          "id": "level0:21198",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Degree (2)/X"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 120200,
+        "id": "level0:18476",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Gun/Type_txt"
+      },
+      "NonClear_obj": {
+        "fileID": 0,
+        "pathID": 19883,
+        "id": "level0:19883",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/NonClear_obj"
+      },
+      "GetAble_obj": {
+        "fileID": 0,
+        "pathID": 18664,
+        "id": "level0:18664",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/GetAble_obj"
+      },
+      "Get_obj": {
+        "fileID": 0,
+        "pathID": 9249,
+        "id": "level0:9249",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Get_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 30643,
+        "id": "level0:30643",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/Locked_obj"
+      },
+      "SequenceLocked_obj": {
+        "fileID": 0,
+        "pathID": 24775,
+        "id": "level0:24775",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/SequenceLocked_obj"
+      },
+      "SequenceLocked_obj2": {
+        "fileID": 0,
+        "pathID": 19601,
+        "id": "level0:19601",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/SequenceLocked_obj2"
+      },
+      "AD_Reward_obj": {
+        "fileID": 0,
+        "pathID": 23053,
+        "id": "level0:23053",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI (forced)/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (1)/AD_Icon"
+      }
+    },
+    "bytes": 332,
+    "sha256": "0afc559d577809047306372d0ce1bb02d30ffcd71c75e7656770541e1f918c93"
+  },
+  {
+    "kind": "Mission_Reward_Item",
+    "id": "level0:5636",
+    "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)",
+    "component": 125925,
+    "data": {
+      "_degree": 0,
+      "_Lv": 0,
+      "Dia_obj": {
+        "fileID": 0,
+        "pathID": 25974,
+        "id": "level0:25974",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Dia"
+      },
+      "Gun_obj": {
+        "fileID": 0,
+        "pathID": 23211,
+        "id": "level0:23211",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun"
+      },
+      "Core_obj": {
+        "fileID": 0,
+        "pathID": 10741,
+        "id": "level0:10741",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Core"
+      },
+      "Dia_Reward_txt": {
+        "fileID": 0,
+        "pathID": 118008,
+        "id": "level0:4716",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Dia/Dia_Value"
+      },
+      "Core_Reward_txt": {
+        "fileID": 0,
+        "pathID": 121878,
+        "id": "level0:20432",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Core/Core_Value"
+      },
+      "Gun_img": {
+        "fileID": 0,
+        "pathID": 140101,
+        "id": "level0:13887",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Gun/Gun_img"
+      },
+      "Shadow_img": {
+        "fileID": 0,
+        "pathID": 140870,
+        "id": "level0:33021",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Gun"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 134912,
+        "id": "level0:9386",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Panel"
+      },
+      "Degree_objs": [
+        {
+          "fileID": 0,
+          "pathID": 33565,
+          "id": "level0:33565",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/D"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17414,
+          "id": "level0:17414",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/C"
+        },
+        {
+          "fileID": 0,
+          "pathID": 24870,
+          "id": "level0:24870",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/B"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2714,
+          "id": "level0:2714",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/A"
+        },
+        {
+          "fileID": 0,
+          "pathID": 35526,
+          "id": "level0:35526",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/S"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3610,
+          "id": "level0:3610",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/SS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 25886,
+          "id": "level0:25886",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/SSS"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21202,
+          "id": "level0:21202",
+          "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Degree (2)/X"
+        }
+      ],
+      "Type_txt": {
+        "fileID": 0,
+        "pathID": 120205,
+        "id": "level0:18475",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Gun/Type_txt"
+      },
+      "NonClear_obj": {
+        "fileID": 0,
+        "pathID": 19887,
+        "id": "level0:19887",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/NonClear_obj"
+      },
+      "GetAble_obj": {
+        "fileID": 0,
+        "pathID": 18662,
+        "id": "level0:18662",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/GetAble_obj"
+      },
+      "Get_obj": {
+        "fileID": 0,
+        "pathID": 9245,
+        "id": "level0:9245",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Get_obj"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 30642,
+        "id": "level0:30642",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/Locked_obj"
+      },
+      "SequenceLocked_obj": {
+        "fileID": 0,
+        "pathID": 24774,
+        "id": "level0:24774",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/SequenceLocked_obj"
+      },
+      "SequenceLocked_obj2": {
+        "fileID": 0,
+        "pathID": 19600,
+        "id": "level0:19600",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/SequenceLocked_obj2"
+      },
+      "AD_Reward_obj": {
+        "fileID": 0,
+        "pathID": 23055,
+        "id": "level0:23055",
+        "path": "/Canvas/SafeArea/Mission_maanger/NewSeason_UI/VIP Panel (Inapp)/Panel/Reward_list/Mission_Reward_Epic (2)/AD_Icon"
+      }
+    },
+    "bytes": 332,
+    "sha256": "647b48e6caa8ab7dfcbba1db22aad04434da3dacd3e212e72e9a34099bfe7d4a"
+  },
+  {
+    "kind": "VIP_Purchase_Ingame",
+    "id": "level0:22720",
+    "path": "/Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/VIP/VIP_Pass_ui",
+    "component": 135508,
+    "data": {
+      "type": 0,
+      "Reclaim_popup": false,
+      "Purchase_Btn": {
+        "fileID": 0,
+        "pathID": 133849,
+        "id": "level0:37385",
+        "path": "/Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/VIP/VIP_Pass_ui/Purchase_Btn"
+      },
+      "Purchased_obj": {
+        "fileID": 0,
+        "pathID": 28549,
+        "id": "level0:28549",
+        "path": "/Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/VIP/VIP_Pass_ui/Purchased_obj"
+      },
+      "Price_Normal_obj": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      },
+      "Price_Upgrade_obj": {
+        "fileID": 0,
+        "pathID": 0,
+        "id": null,
+        "path": null
+      }
+    },
+    "bytes": 88,
+    "sha256": "a3805b7124a432833a56b3b11af1d9093aa788f9922c49efd96fa509e5685bac"
+  },
+  {
+    "kind": "VIP_Purchase_Ingame",
+    "id": "level0:20944",
+    "path": "/Canvas/SafeArea/Mission_maanger/LuxuryPass_Purchase_UI/VIP empty/Luxury_Pass_ui",
+    "component": 140332,
+    "data": {
+      "type": 1,
+      "Reclaim_popup": true,
+      "Purchase_Btn": {
+        "fileID": 0,
+        "pathID": 146094,
+        "id": "level0:17541",
+        "path": "/Canvas/SafeArea/Mission_maanger/LuxuryPass_Purchase_UI/VIP empty/Luxury_Pass_ui/Purchase_Btn"
+      },
+      "Purchased_obj": {
+        "fileID": 0,
+        "pathID": 31074,
+        "id": "level0:31074",
+        "path": "/Canvas/SafeArea/Mission_maanger/LuxuryPass_Purchase_UI/VIP empty/Luxury_Pass_ui/Purchased_obj"
+      },
+      "Price_Normal_obj": {
+        "fileID": 0,
+        "pathID": 35982,
+        "id": "level0:35982",
+        "path": "/Canvas/SafeArea/Mission_maanger/LuxuryPass_Purchase_UI/VIP empty/Luxury_Pass_ui/Purchase_Btn/Price_txt"
+      },
+      "Price_Upgrade_obj": {
+        "fileID": 0,
+        "pathID": 33141,
+        "id": "level0:33141",
+        "path": "/Canvas/SafeArea/Mission_maanger/LuxuryPass_Purchase_UI/VIP empty/Luxury_Pass_ui/Purchase_Btn/Price_txt (Upgrade)"
+      }
+    },
+    "bytes": 88,
+    "sha256": "f05c26024a96b89d436f1b3b6954c0edd8db1addf1ec086c2af8b52f884b6278"
+  },
+  {
+    "kind": "VIP_Purchase_Ingame",
+    "id": "level0:25444",
+    "path": "/Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/Luxury/Luxury_Pass_ui",
+    "component": 141694,
+    "data": {
+      "type": 1,
+      "Reclaim_popup": false,
+      "Purchase_Btn": {
+        "fileID": 0,
+        "pathID": 148786,
+        "id": "level0:11664",
+        "path": "/Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/Luxury/Luxury_Pass_ui/Purchase_Btn"
+      },
+      "Purchased_obj": {
+        "fileID": 0,
+        "pathID": 37062,
+        "id": "level0:37062",
+        "path": "/Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/Luxury/Luxury_Pass_ui/Purchased_obj"
+      },
+      "Price_Normal_obj": {
+        "fileID": 0,
+        "pathID": 33201,
+        "id": "level0:33201",
+        "path": "/Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/Luxury/Luxury_Pass_ui/Purchase_Btn/Price_txt"
+      },
+      "Price_Upgrade_obj": {
+        "fileID": 0,
+        "pathID": 36012,
+        "id": "level0:36012",
+        "path": "/Canvas/SafeArea/Mission_maanger/VipPass_Purchase_UI/Luxury/Luxury_Pass_ui/Purchase_Btn/Price_txt (Upgrade)"
+      }
+    },
+    "bytes": 88,
+    "sha256": "3b6dd5b40a04bf8260b56cdbe5d971bdb530e88d8b2ff88f156150383efe4815"
+  }
+]

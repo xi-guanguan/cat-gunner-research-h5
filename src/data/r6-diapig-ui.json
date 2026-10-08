@@ -1,0 +1,90 @@
+[
+  {
+    "kind": "DiaPig",
+    "id": "level0:17039",
+    "path": "/Canvas/Shop_manager/DiaPig",
+    "component": 148321,
+    "data": {
+      "Dia_Now": 0,
+      "Dia_Max": 500,
+      "diapig_ui": {
+        "fileID": 0,
+        "pathID": 148204,
+        "id": "level0:10834",
+        "path": "/Canvas/Shop_manager/DiaPig/DiaPig_UI"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 148943,
+        "id": "level0:28562",
+        "path": "/Canvas/SafeArea/Main_UI/Btn_list/Right_Menu/DiaPig_obj/DiaPig_Btn/Slider/Fill"
+      }
+    },
+    "bytes": 64,
+    "sha256": "953b5f87f0d73281ee487fe293b9b93c464b0f5630fb442feb572c24a06264b2"
+  },
+  {
+    "kind": "DiaPig_UI",
+    "id": "level0:10834",
+    "path": "/Canvas/Shop_manager/DiaPig/DiaPig_UI",
+    "component": 148204,
+    "data": {
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 20232,
+        "id": "level0:20232",
+        "path": "/Canvas/Shop_manager/DiaPig/DiaPig_UI/Panel/Locked_obj"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 7820,
+        "id": "level0:7820",
+        "path": "/Canvas/Shop_manager/DiaPig/DiaPig_UI/Panel/Unlock_obj"
+      },
+      "Remove_Ads_All_obj": {
+        "fileID": 0,
+        "pathID": 1920,
+        "id": "level0:1920",
+        "path": "/Canvas/Shop_manager/DiaPig/DiaPig_UI/Remove Ads ALL (Inapp)"
+      },
+      "Remove_Ads_Forced_obj": {
+        "fileID": 0,
+        "pathID": 1980,
+        "id": "level0:1980",
+        "path": "/Canvas/Shop_manager/DiaPig/DiaPig_UI/Remove Ads Fored (Inapp)"
+      },
+      "CoolTime_txt": {
+        "fileID": 0,
+        "pathID": 119741,
+        "id": "level0:3126",
+        "path": "/Canvas/Shop_manager/DiaPig/DiaPig_UI/Panel/Unlock_obj/Dia/Cool_txt"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 121326,
+        "id": "level0:2701",
+        "path": "/Canvas/Shop_manager/DiaPig/DiaPig_UI/Panel/Unlock_obj/Dia/Count_txt"
+      },
+      "DiaValue_txt": {
+        "fileID": 0,
+        "pathID": 118340,
+        "id": "level0:33952",
+        "path": "/Canvas/Shop_manager/DiaPig/DiaPig_UI/Panel/Explain_txt"
+      },
+      "Descrip_obj": {
+        "fileID": 0,
+        "pathID": 33952,
+        "id": "level0:33952",
+        "path": "/Canvas/Shop_manager/DiaPig/DiaPig_UI/Panel/Explain_txt"
+      },
+      "Descrip_obj_Init": {
+        "fileID": 0,
+        "pathID": 10229,
+        "id": "level0:10229",
+        "path": "/Canvas/Shop_manager/DiaPig/DiaPig_UI/Panel/Explain_txt (1)"
+      }
+    },
+    "bytes": 140,
+    "sha256": "de06f10310c2ae6aecd1c4158bccaf9ecd205613f9211d10482e14b1846328b3"
+  }
+]

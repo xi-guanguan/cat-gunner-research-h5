@@ -1,0 +1,4519 @@
+[
+  {
+    "kind": "Draw_Relic_Btn",
+    "id": "level0:8966",
+    "component": 136885,
+    "sha256": "b06b5ac76f95c66373762f452f6e12887df76689e2e2b4202e369449218f612a",
+    "data": {
+      "is_Max": false,
+      "DrawCount": 1,
+      "downPanel": {
+        "fileID": 0,
+        "pathID": 123505,
+        "id": "level0:466"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 141076,
+        "id": "level0:8966"
+      },
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 148815,
+        "id": "level0:18772"
+      },
+      "Price_txt": {
+        "fileID": 0,
+        "pathID": 119061,
+        "id": "level0:35065"
+      },
+      "Color_Panel_Able": [
+        1.0,
+        0.8352941274642944,
+        0.41960784792900085,
+        1.0
+      ],
+      "Colo_Paner_Disable": [
+        0.6823529601097107,
+        0.6823529601097107,
+        0.6823529601097107,
+        1.0
+      ],
+      "Color_Price_Disable": [
+        1.0,
+        0.5333333611488342,
+        0.5333333611488342,
+        1.0
+      ]
+    }
+  },
+  {
+    "kind": "Draw_Relic_Btn",
+    "id": "level0:25473",
+    "component": 147154,
+    "sha256": "83f44823dc053d573a79bb1c4a2d9379c476def6989f4ea32168e71649a11fa6",
+    "data": {
+      "is_Max": true,
+      "DrawCount": 10,
+      "downPanel": {
+        "fileID": 0,
+        "pathID": 123505,
+        "id": "level0:466"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132075,
+        "id": "level0:25473"
+      },
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 135313,
+        "id": "level0:35026"
+      },
+      "Price_txt": {
+        "fileID": 0,
+        "pathID": 121795,
+        "id": "level0:18885"
+      },
+      "Color_Panel_Able": [
+        1.0,
+        0.8352941274642944,
+        0.41960784792900085,
+        1.0
+      ],
+      "Colo_Paner_Disable": [
+        0.6823529601097107,
+        0.6823529601097107,
+        0.6823529601097107,
+        1.0
+      ],
+      "Color_Price_Disable": [
+        1.0,
+        0.5333333611488342,
+        0.5333333611488342,
+        1.0
+      ]
+    }
+  },
+  {
+    "kind": "Relic_DownPanel",
+    "id": "level0:466",
+    "component": 123505,
+    "sha256": "c3387b45182eabdbabae75ea94ee4a45bfb19e6f26498f33cb642b9a4cd5e1f2",
+    "data": {
+      "DrawMode_Btn_list": [
+        {
+          "fileID": 0,
+          "pathID": 129095,
+          "id": "level0:15650"
+        },
+        {
+          "fileID": 0,
+          "pathID": 142413,
+          "id": "level0:36887"
+        },
+        {
+          "fileID": 0,
+          "pathID": 142414,
+          "id": "level0:36888"
+        },
+        {
+          "fileID": 0,
+          "pathID": 142415,
+          "id": "level0:36889"
+        }
+      ],
+      "Draw_Relic_Btn_list": [
+        {
+          "fileID": 0,
+          "pathID": 136885,
+          "id": "level0:8966"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147154,
+          "id": "level0:25473"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 124300,
+        "id": "level0:1101"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 117409,
+        "id": "level0:2193"
+      },
+      "Draw_Percent_txt_list": [
+        {
+          "fileID": 0,
+          "pathID": 118481,
+          "id": "level0:29986"
+        },
+        {
+          "fileID": 0,
+          "pathID": 117131,
+          "id": "level0:109"
+        },
+        {
+          "fileID": 0,
+          "pathID": 117322,
+          "id": "level0:1603"
+        }
+      ],
+      "MaxDraw_Count_txt": {
+        "fileID": 0,
+        "pathID": 122383,
+        "id": "level0:3645"
+      },
+      "MaxDraw_Price_txt": {
+        "fileID": 0,
+        "pathID": 121795,
+        "id": "level0:18885"
+      },
+      "Core_Alert_objs": [
+        {
+          "fileID": 0,
+          "pathID": 34916,
+          "id": "level0:34916"
+        },
+        {
+          "fileID": 0,
+          "pathID": 18298,
+          "id": "level0:18298"
+        },
+        {
+          "fileID": 0,
+          "pathID": 18299,
+          "id": "level0:18299"
+        },
+        {
+          "fileID": 0,
+          "pathID": 18300,
+          "id": "level0:18300"
+        }
+      ],
+      "currentCoreType": 0
+    }
+  },
+  {
+    "kind": "Relic_DrawMode_Btn",
+    "id": "level0:15650",
+    "component": 129095,
+    "sha256": "c92f2b885e6f3389da192389a08b83107b0724ed1e61d162fd8bb23caa3aa5a3",
+    "data": {
+      "_type": 0,
+      "downPanel": {
+        "fileID": 0,
+        "pathID": 123505,
+        "id": "level0:466"
+      },
+      "On_obj": {
+        "fileID": 0,
+        "pathID": 22349,
+        "id": "level0:22349"
+      },
+      "Off_obj": {
+        "fileID": 0,
+        "pathID": 29886,
+        "id": "level0:29886"
+      }
+    }
+  },
+  {
+    "kind": "Relic_DrawMode_Btn",
+    "id": "level0:36887",
+    "component": 142413,
+    "sha256": "5cfd102f50f1f4efd6e3a5410bf6bdc760f2ec94795dce820f18e520eb2c518e",
+    "data": {
+      "_type": 1,
+      "downPanel": {
+        "fileID": 0,
+        "pathID": 123505,
+        "id": "level0:466"
+      },
+      "On_obj": {
+        "fileID": 0,
+        "pathID": 2631,
+        "id": "level0:2631"
+      },
+      "Off_obj": {
+        "fileID": 0,
+        "pathID": 14011,
+        "id": "level0:14011"
+      }
+    }
+  },
+  {
+    "kind": "Relic_DrawMode_Btn",
+    "id": "level0:36888",
+    "component": 142414,
+    "sha256": "6d78eb35ca4c873daf31efdfec5edcc2e68f730df01a4f332a65ccd7ce973399",
+    "data": {
+      "_type": 2,
+      "downPanel": {
+        "fileID": 0,
+        "pathID": 123505,
+        "id": "level0:466"
+      },
+      "On_obj": {
+        "fileID": 0,
+        "pathID": 2629,
+        "id": "level0:2629"
+      },
+      "Off_obj": {
+        "fileID": 0,
+        "pathID": 14013,
+        "id": "level0:14013"
+      }
+    }
+  },
+  {
+    "kind": "Relic_DrawMode_Btn",
+    "id": "level0:36889",
+    "component": 142415,
+    "sha256": "bdb9bb5bfea7f3ea467debf3070a2869d1d65a6da2245c7c91792afef8ae4f1c",
+    "data": {
+      "_type": 3,
+      "downPanel": {
+        "fileID": 0,
+        "pathID": 123505,
+        "id": "level0:466"
+      },
+      "On_obj": {
+        "fileID": 0,
+        "pathID": 2630,
+        "id": "level0:2630"
+      },
+      "Off_obj": {
+        "fileID": 0,
+        "pathID": 14012,
+        "id": "level0:14012"
+      }
+    }
+  },
+  {
+    "kind": "Relic_Draw_Panel",
+    "id": "level0:1543",
+    "component": 124806,
+    "sha256": "83354fb092ec254e1b1a2de37ed6d9695b079c5f2c838850bc38d7c942e0b442",
+    "data": {
+      "Relic_Item_Single": {
+        "fileID": 0,
+        "pathID": 147292,
+        "id": "level0:34897"
+      },
+      "Relic_Item_List": [
+        {
+          "fileID": 0,
+          "pathID": 147304,
+          "id": "level0:34893"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147301,
+          "id": "level0:34891"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147295,
+          "id": "level0:34899"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147297,
+          "id": "level0:34901"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147294,
+          "id": "level0:34894"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147293,
+          "id": "level0:34895"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147300,
+          "id": "level0:34888"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147298,
+          "id": "level0:34900"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147302,
+          "id": "level0:34892"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147296,
+          "id": "level0:34898"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147291,
+          "id": "level0:34896"
+        },
+        {
+          "fileID": 0,
+          "pathID": 147303,
+          "id": "level0:34890"
+        }
+      ],
+      "Relic_Item_obj": {
+        "fileID": 0,
+        "pathID": 626,
+        "id": "level0:626"
+      },
+      "Relic_Item_obj_List": [
+        {
+          "fileID": 0,
+          "pathID": 413,
+          "id": "level0:413"
+        },
+        {
+          "fileID": 0,
+          "pathID": 1716,
+          "id": "level0:1716"
+        },
+        {
+          "fileID": 0,
+          "pathID": 1181,
+          "id": "level0:1181"
+        },
+        {
+          "fileID": 0,
+          "pathID": 1584,
+          "id": "level0:1584"
+        },
+        {
+          "fileID": 0,
+          "pathID": 1606,
+          "id": "level0:1606"
+        },
+        {
+          "fileID": 0,
+          "pathID": 422,
+          "id": "level0:422"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2099,
+          "id": "level0:2099"
+        },
+        {
+          "fileID": 0,
+          "pathID": 1088,
+          "id": "level0:1088"
+        },
+        {
+          "fileID": 0,
+          "pathID": 1629,
+          "id": "level0:1629"
+        },
+        {
+          "fileID": 0,
+          "pathID": 1150,
+          "id": "level0:1150"
+        },
+        {
+          "fileID": 0,
+          "pathID": 1796,
+          "id": "level0:1796"
+        },
+        {
+          "fileID": 0,
+          "pathID": 143,
+          "id": "level0:143"
+        }
+      ],
+      "Close_Btn": {
+        "fileID": 0,
+        "pathID": 1293,
+        "id": "level0:1293"
+      },
+      "Left_Btn": {
+        "fileID": 0,
+        "pathID": 846,
+        "id": "level0:846"
+      },
+      "Right_Btn": {
+        "fileID": 0,
+        "pathID": 799,
+        "id": "level0:799"
+      },
+      "Single_CloseDelay": 0.5,
+      "Multi_Interval": 0.10000000149011612,
+      "Page_Delay": 0.30000001192092896
+    }
+  },
+  {
+    "kind": "Relic_Info_UI",
+    "id": "level0:1042",
+    "component": 124226,
+    "sha256": "51f80530770fedfded967fff8f660bd6d0a1cfce0bc206f86d2f53e6f0a87ae0",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 147299,
+        "id": "level0:34889"
+      },
+      "Name_txt": {
+        "fileID": 0,
+        "pathID": 121471,
+        "id": "level0:10297"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117178,
+        "id": "level0:426"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 117374,
+        "id": "level0:1950"
+      },
+      "Explain_txt": {
+        "fileID": 0,
+        "pathID": 121506,
+        "id": "level0:10339"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 124199,
+        "id": "level0:1016"
+      },
+      "Upgrade_Btn_img": {
+        "fileID": 0,
+        "pathID": 132074,
+        "id": "level0:25474"
+      },
+      "Color_UpgradeAble": [
+        1.0,
+        0.9176470637321472,
+        0.35686275362968445,
+        1.0
+      ],
+      "Color_UpgradeDisable": [
+        0.6784313917160034,
+        0.6784313917160034,
+        0.6784313917160034,
+        1.0
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:3555",
+    "component": 126116,
+    "sha256": "6748d46454493649da8d0e3d89cc275496bec93e3d0ce53e0abf8560b257ae36",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 136855,
+        "id": "level0:19045"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 118184,
+        "id": "level0:9531"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 121140,
+        "id": "level0:34783"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 139577,
+        "id": "level0:25281"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 22830,
+        "id": "level0:22830"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 29961,
+        "id": "level0:29961"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 13842,
+        "id": "level0:13842"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 137838,
+        "id": "level0:29961"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 131867,
+        "id": "level0:31203"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7096",
+    "component": 129655,
+    "sha256": "855fc62a67fd98638114401356f24d6087b0f5309f50221da3a2c90e58f2f558",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133727,
+        "id": "level0:12524"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117740,
+        "id": "level0:5005"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122150,
+        "id": "level0:31226"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140909,
+        "id": "level0:19864"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26461,
+        "id": "level0:26461"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36236,
+        "id": "level0:36236"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18836,
+        "id": "level0:18836"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141315,
+        "id": "level0:36236"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128364,
+        "id": "level0:34940"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7094",
+    "component": 129656,
+    "sha256": "77f5895c3860c90cdd21dfb19523faf9e19b7f407a220fdef57b49776f87acce",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133725,
+        "id": "level0:12526"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117738,
+        "id": "level0:5007"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122151,
+        "id": "level0:31224"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140910,
+        "id": "level0:19863"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26459,
+        "id": "level0:26459"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36234,
+        "id": "level0:36234"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18835,
+        "id": "level0:18835"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141313,
+        "id": "level0:36234"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128366,
+        "id": "level0:34939"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7095",
+    "component": 129657,
+    "sha256": "ddcb2e9e1bf9921f8c1e2a3d390dbc97ac133b72017e41a276f8b59e2ad08bd8",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133726,
+        "id": "level0:12525"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117739,
+        "id": "level0:5006"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122152,
+        "id": "level0:31225"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140911,
+        "id": "level0:19862"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26460,
+        "id": "level0:26460"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36235,
+        "id": "level0:36235"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18834,
+        "id": "level0:18834"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141314,
+        "id": "level0:36235"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128365,
+        "id": "level0:34938"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7098",
+    "component": 129658,
+    "sha256": "39e0cec5b5c85ecaf241fc6eb53c3ca3b4347c8f941a79bc99910b97e76df8d7",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133728,
+        "id": "level0:12528"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117737,
+        "id": "level0:5008"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122148,
+        "id": "level0:31228"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140913,
+        "id": "level0:19861"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26463,
+        "id": "level0:26463"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36232,
+        "id": "level0:36232"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18838,
+        "id": "level0:18838"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141311,
+        "id": "level0:36232"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128363,
+        "id": "level0:34936"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7097",
+    "component": 129659,
+    "sha256": "531341c706311fc9b661c83868e4713dc57c50e7eb9decc306e70a91622993ff",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133729,
+        "id": "level0:12527"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117736,
+        "id": "level0:5009"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122149,
+        "id": "level0:31227"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140912,
+        "id": "level0:19860"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26462,
+        "id": "level0:26462"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36233,
+        "id": "level0:36233"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18837,
+        "id": "level0:18837"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141312,
+        "id": "level0:36233"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128362,
+        "id": "level0:34937"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7102",
+    "component": 129660,
+    "sha256": "9c4b92ab45541f9df24fe3455044f1d900da0ab7730a3c0b296717da055befd3",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133731,
+        "id": "level0:12531"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117735,
+        "id": "level0:5010"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122154,
+        "id": "level0:31222"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140906,
+        "id": "level0:19869"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26457,
+        "id": "level0:26457"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36239,
+        "id": "level0:36239"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18832,
+        "id": "level0:18832"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141308,
+        "id": "level0:36239"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128360,
+        "id": "level0:34933"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7101",
+    "component": 129661,
+    "sha256": "3c1276b44aba035afdb2bc50f431828077341ccfa239d22c3ca1e00db8f0e19f",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133730,
+        "id": "level0:12532"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117734,
+        "id": "level0:5011"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122155,
+        "id": "level0:31221"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140907,
+        "id": "level0:19868"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26456,
+        "id": "level0:26456"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36238,
+        "id": "level0:36238"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18831,
+        "id": "level0:18831"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141307,
+        "id": "level0:36238"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128361,
+        "id": "level0:34932"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7100",
+    "component": 129662,
+    "sha256": "807e1bcd2286661ee3f88772b7a34b3ef9ed22c20de087f3027f7e2cdabc7b20",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133733,
+        "id": "level0:12529"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117733,
+        "id": "level0:5012"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122156,
+        "id": "level0:31220"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140904,
+        "id": "level0:19867"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26455,
+        "id": "level0:26455"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36241,
+        "id": "level0:36241"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18830,
+        "id": "level0:18830"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141310,
+        "id": "level0:36241"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128358,
+        "id": "level0:34935"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7099",
+    "component": 129663,
+    "sha256": "20748efdb37f325d646724c82420cd5ca21eb05ace45705bbcd91bf8ae847770",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133732,
+        "id": "level0:12530"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117732,
+        "id": "level0:5013"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122157,
+        "id": "level0:31219"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140905,
+        "id": "level0:19866"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26454,
+        "id": "level0:26454"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36240,
+        "id": "level0:36240"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18829,
+        "id": "level0:18829"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141309,
+        "id": "level0:36240"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128359,
+        "id": "level0:34934"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7103",
+    "component": 129664,
+    "sha256": "a0320d0b55bae3df5e68cfdc1347445ce2025786de1e1c90c11f32c1d28e2eb9",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133734,
+        "id": "level0:12533"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117731,
+        "id": "level0:5014"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122153,
+        "id": "level0:31223"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140908,
+        "id": "level0:19865"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26458,
+        "id": "level0:26458"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36237,
+        "id": "level0:36237"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18833,
+        "id": "level0:18833"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141306,
+        "id": "level0:36237"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128357,
+        "id": "level0:34931"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7092",
+    "component": 129665,
+    "sha256": "06ffeb18079f33b7476e0414154c486d30aa6103e8de7096b65179171e54c48f",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133735,
+        "id": "level0:12522"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117730,
+        "id": "level0:5001"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122144,
+        "id": "level0:31232"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140903,
+        "id": "level0:19872"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26453,
+        "id": "level0:26453"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36242,
+        "id": "level0:36242"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18828,
+        "id": "level0:18828"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141317,
+        "id": "level0:36242"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128370,
+        "id": "level0:34942"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7091",
+    "component": 129666,
+    "sha256": "6dfaf2c78190d74462ea5c0c9800fd6e8d9d8ac5a83c6a67f87610a909f3283e",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133737,
+        "id": "level0:12520"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117729,
+        "id": "level0:5002"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122145,
+        "id": "level0:31231"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140901,
+        "id": "level0:19871"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26452,
+        "id": "level0:26452"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36244,
+        "id": "level0:36244"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18827,
+        "id": "level0:18827"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141319,
+        "id": "level0:36244"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128368,
+        "id": "level0:34944"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7090",
+    "component": 129667,
+    "sha256": "4c7a1431762c7cb88d8839f9bee076536caad6b95bee5c0e743697672124fa58",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133736,
+        "id": "level0:12521"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117728,
+        "id": "level0:5003"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122146,
+        "id": "level0:31230"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140902,
+        "id": "level0:19870"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26451,
+        "id": "level0:26451"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36243,
+        "id": "level0:36243"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18826,
+        "id": "level0:18826"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141318,
+        "id": "level0:36243"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128369,
+        "id": "level0:34943"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item",
+    "id": "level0:7093",
+    "component": 129668,
+    "sha256": "97b46f15a5d6d86e8ff40b36c49c924116ec8e2fbf23cae02f9490ef27ec43d3",
+    "data": {
+      "relic_item_demo": {
+        "fileID": 0,
+        "pathID": 133738,
+        "id": "level0:12523"
+      },
+      "Lv_txt": {
+        "fileID": 0,
+        "pathID": 117727,
+        "id": "level0:5004"
+      },
+      "Count_txt": {
+        "fileID": 0,
+        "pathID": 122147,
+        "id": "level0:31229"
+      },
+      "Fill": {
+        "fileID": 0,
+        "pathID": 140900,
+        "id": "level0:19873"
+      },
+      "Unlock_obj": {
+        "fileID": 0,
+        "pathID": 26450,
+        "id": "level0:26450"
+      },
+      "Locked_obj": {
+        "fileID": 0,
+        "pathID": 36245,
+        "id": "level0:36245"
+      },
+      "Alert_obj": {
+        "fileID": 0,
+        "pathID": 18825,
+        "id": "level0:18825"
+      },
+      "LockedPanel_img": {
+        "fileID": 0,
+        "pathID": 141316,
+        "id": "level0:36245"
+      },
+      "LockedCore_img": {
+        "fileID": 0,
+        "pathID": 128367,
+        "id": "level0:34941"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12526",
+    "component": 133725,
+    "sha256": "ab06b188385261df8586bb8c8258187f3e48375c37920639e672b3a6ac573e01",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28745,
+          "id": "level0:28745"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28210,
+          "id": "level0:28210"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15949,
+          "id": "level0:15949"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11207,
+          "id": "level0:11207"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36371,
+          "id": "level0:36371"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28120,
+          "id": "level0:28120"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36743,
+          "id": "level0:36743"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17119,
+          "id": "level0:17119"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2363,
+          "id": "level0:2363"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21079,
+          "id": "level0:21079"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9669,
+          "id": "level0:9669"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39022,
+          "id": "level0:39022"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19615,
+          "id": "level0:19615"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141562,
+        "id": "level0:28238"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149146,
+        "id": "level0:12526"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12525",
+    "component": 133726,
+    "sha256": "a74851e321121dd22b232e7b972846328f6a412b34d90d353df5a8c69e65e10a",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28746,
+          "id": "level0:28746"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28209,
+          "id": "level0:28209"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15950,
+          "id": "level0:15950"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11206,
+          "id": "level0:11206"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36372,
+          "id": "level0:36372"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28121,
+          "id": "level0:28121"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36742,
+          "id": "level0:36742"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17120,
+          "id": "level0:17120"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2364,
+          "id": "level0:2364"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21078,
+          "id": "level0:21078"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9670,
+          "id": "level0:9670"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39021,
+          "id": "level0:39021"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19616,
+          "id": "level0:19616"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141563,
+        "id": "level0:28239"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149147,
+        "id": "level0:12525"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12524",
+    "component": 133727,
+    "sha256": "988b9e532b55f92f1bf9e71775b798a2a60221a4b59641bfce76bf9c9bd10d00",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28747,
+          "id": "level0:28747"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28208,
+          "id": "level0:28208"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15948,
+          "id": "level0:15948"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11208,
+          "id": "level0:11208"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36370,
+          "id": "level0:36370"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28122,
+          "id": "level0:28122"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36741,
+          "id": "level0:36741"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17118,
+          "id": "level0:17118"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2365,
+          "id": "level0:2365"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21077,
+          "id": "level0:21077"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9671,
+          "id": "level0:9671"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39020,
+          "id": "level0:39020"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19617,
+          "id": "level0:19617"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141561,
+        "id": "level0:28237"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149148,
+        "id": "level0:12524"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12528",
+    "component": 133728,
+    "sha256": "5f5ac32b88ee5a7e066245a6d3fc1cd70231bc3dbafb7543b99be97d8f352b3e",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28744,
+          "id": "level0:28744"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28206,
+          "id": "level0:28206"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15947,
+          "id": "level0:15947"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11205,
+          "id": "level0:11205"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36373,
+          "id": "level0:36373"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28124,
+          "id": "level0:28124"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36745,
+          "id": "level0:36745"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17121,
+          "id": "level0:17121"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2366,
+          "id": "level0:2366"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21081,
+          "id": "level0:21081"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9672,
+          "id": "level0:9672"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39023,
+          "id": "level0:39023"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19618,
+          "id": "level0:19618"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141559,
+        "id": "level0:28235"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149144,
+        "id": "level0:12528"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12527",
+    "component": 133729,
+    "sha256": "274927b292ff2f2482e74287265ea07596e039879d0918655caa807ca304aa18",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28743,
+          "id": "level0:28743"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28207,
+          "id": "level0:28207"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15946,
+          "id": "level0:15946"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11204,
+          "id": "level0:11204"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36374,
+          "id": "level0:36374"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28123,
+          "id": "level0:28123"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36744,
+          "id": "level0:36744"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17122,
+          "id": "level0:17122"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2367,
+          "id": "level0:2367"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21080,
+          "id": "level0:21080"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9673,
+          "id": "level0:9673"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39024,
+          "id": "level0:39024"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19619,
+          "id": "level0:19619"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141560,
+        "id": "level0:28236"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149145,
+        "id": "level0:12527"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12532",
+    "component": 133730,
+    "sha256": "ac603632083a6bb2d425bff96fd2839168a2f427fee838793dc4466f83b40166",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28741,
+          "id": "level0:28741"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28213,
+          "id": "level0:28213"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15945,
+          "id": "level0:15945"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11202,
+          "id": "level0:11202"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36366,
+          "id": "level0:36366"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28127,
+          "id": "level0:28127"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36739,
+          "id": "level0:36739"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17114,
+          "id": "level0:17114"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2368,
+          "id": "level0:2368"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21085,
+          "id": "level0:21085"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9664,
+          "id": "level0:9664"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39026,
+          "id": "level0:39026"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19620,
+          "id": "level0:19620"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141566,
+        "id": "level0:28242"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149140,
+        "id": "level0:12532"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12531",
+    "component": 133731,
+    "sha256": "f6127693df1f2985c846a4bc76d82fbe6412dd8d7d4d76266ee948e371f4bef4",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28742,
+          "id": "level0:28742"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28212,
+          "id": "level0:28212"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15944,
+          "id": "level0:15944"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11203,
+          "id": "level0:11203"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36365,
+          "id": "level0:36365"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28128,
+          "id": "level0:28128"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36738,
+          "id": "level0:36738"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17113,
+          "id": "level0:17113"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2369,
+          "id": "level0:2369"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21084,
+          "id": "level0:21084"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9665,
+          "id": "level0:9665"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39025,
+          "id": "level0:39025"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19621,
+          "id": "level0:19621"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141565,
+        "id": "level0:28241"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149141,
+        "id": "level0:12531"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12530",
+    "component": 133732,
+    "sha256": "6dec846b906b25743594d7c729d031be3a5f490e6d0cf5bba03821aa7c246719",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28739,
+          "id": "level0:28739"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28215,
+          "id": "level0:28215"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15943,
+          "id": "level0:15943"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11200,
+          "id": "level0:11200"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36368,
+          "id": "level0:36368"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28125,
+          "id": "level0:28125"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36737,
+          "id": "level0:36737"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17116,
+          "id": "level0:17116"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2370,
+          "id": "level0:2370"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21083,
+          "id": "level0:21083"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9666,
+          "id": "level0:9666"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39028,
+          "id": "level0:39028"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19622,
+          "id": "level0:19622"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141568,
+        "id": "level0:28244"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149142,
+        "id": "level0:12530"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12529",
+    "component": 133733,
+    "sha256": "2037df74e84b9d462a18bf4eec0964d1705b4f0be7261a8fdb7b06bb622ac49f",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28740,
+          "id": "level0:28740"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28214,
+          "id": "level0:28214"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15942,
+          "id": "level0:15942"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11201,
+          "id": "level0:11201"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36367,
+          "id": "level0:36367"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28126,
+          "id": "level0:28126"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36736,
+          "id": "level0:36736"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17115,
+          "id": "level0:17115"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2371,
+          "id": "level0:2371"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21082,
+          "id": "level0:21082"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9667,
+          "id": "level0:9667"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39027,
+          "id": "level0:39027"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19623,
+          "id": "level0:19623"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141567,
+        "id": "level0:28243"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149143,
+        "id": "level0:12529"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12533",
+    "component": 133734,
+    "sha256": "8aa945d2311b4f7ba1f67aed1654ec9afcd71ca91e3239fd0608fa5484932d9c",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28738,
+          "id": "level0:28738"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28211,
+          "id": "level0:28211"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15941,
+          "id": "level0:15941"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11199,
+          "id": "level0:11199"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36369,
+          "id": "level0:36369"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28129,
+          "id": "level0:28129"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36740,
+          "id": "level0:36740"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17117,
+          "id": "level0:17117"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2372,
+          "id": "level0:2372"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21086,
+          "id": "level0:21086"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9668,
+          "id": "level0:9668"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39029,
+          "id": "level0:39029"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19624,
+          "id": "level0:19624"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141564,
+        "id": "level0:28240"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149139,
+        "id": "level0:12533"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12522",
+    "component": 133735,
+    "sha256": "36d371271449a65ac17c1a82b2074cfe7706e7b26afcbf95f28193ebb18ddc20",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28737,
+          "id": "level0:28737"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28202,
+          "id": "level0:28202"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15954,
+          "id": "level0:15954"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11212,
+          "id": "level0:11212"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36362,
+          "id": "level0:36362"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28132,
+          "id": "level0:28132"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36749,
+          "id": "level0:36749"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17110,
+          "id": "level0:17110"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2359,
+          "id": "level0:2359"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21075,
+          "id": "level0:21075"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9675,
+          "id": "level0:9675"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39016,
+          "id": "level0:39016"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19611,
+          "id": "level0:19611"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141555,
+        "id": "level0:28231"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149150,
+        "id": "level0:12522"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12521",
+    "component": 133736,
+    "sha256": "b008fe5956294c19df43a68802c9840fcaeb560f9a50d8bd4c40d9c73de2dca8",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28735,
+          "id": "level0:28735"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28204,
+          "id": "level0:28204"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15953,
+          "id": "level0:15953"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11210,
+          "id": "level0:11210"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36364,
+          "id": "level0:36364"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28130,
+          "id": "level0:28130"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36748,
+          "id": "level0:36748"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17112,
+          "id": "level0:17112"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2360,
+          "id": "level0:2360"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21074,
+          "id": "level0:21074"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9676,
+          "id": "level0:9676"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39018,
+          "id": "level0:39018"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19612,
+          "id": "level0:19612"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141557,
+        "id": "level0:28233"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149151,
+        "id": "level0:12521"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12520",
+    "component": 133737,
+    "sha256": "b20ea153402cf6605646a445695d816aa205594013712b9d2d28fc6a5cbf66bf",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28736,
+          "id": "level0:28736"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28203,
+          "id": "level0:28203"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15952,
+          "id": "level0:15952"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11211,
+          "id": "level0:11211"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36363,
+          "id": "level0:36363"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28131,
+          "id": "level0:28131"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36747,
+          "id": "level0:36747"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17111,
+          "id": "level0:17111"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2361,
+          "id": "level0:2361"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21073,
+          "id": "level0:21073"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9677,
+          "id": "level0:9677"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39017,
+          "id": "level0:39017"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19613,
+          "id": "level0:19613"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141556,
+        "id": "level0:28232"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149152,
+        "id": "level0:12520"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:12523",
+    "component": 133738,
+    "sha256": "e655ccf79c8abfbc1efd9079179925b5e6175520ef9062c6ce9a711818adc1e7",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 28734,
+          "id": "level0:28734"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28205,
+          "id": "level0:28205"
+        },
+        {
+          "fileID": 0,
+          "pathID": 15951,
+          "id": "level0:15951"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11209,
+          "id": "level0:11209"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36361,
+          "id": "level0:36361"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28133,
+          "id": "level0:28133"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36746,
+          "id": "level0:36746"
+        },
+        {
+          "fileID": 0,
+          "pathID": 17109,
+          "id": "level0:17109"
+        },
+        {
+          "fileID": 0,
+          "pathID": 2362,
+          "id": "level0:2362"
+        },
+        {
+          "fileID": 0,
+          "pathID": 21076,
+          "id": "level0:21076"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9674,
+          "id": "level0:9674"
+        },
+        {
+          "fileID": 0,
+          "pathID": 39019,
+          "id": "level0:39019"
+        },
+        {
+          "fileID": 0,
+          "pathID": 19614,
+          "id": "level0:19614"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 141558,
+        "id": "level0:28234"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 149149,
+        "id": "level0:12523"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:19045",
+    "component": 136855,
+    "sha256": "fed7c22ac56a465fbd67370d8a403c61c32ce262f0f3108d87f6b5b260b5194a",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 20853,
+          "id": "level0:20853"
+        },
+        {
+          "fileID": 0,
+          "pathID": 22482,
+          "id": "level0:22482"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12025,
+          "id": "level0:12025"
+        },
+        {
+          "fileID": 0,
+          "pathID": 16277,
+          "id": "level0:16277"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34462,
+          "id": "level0:34462"
+        },
+        {
+          "fileID": 0,
+          "pathID": 22350,
+          "id": "level0:22350"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33783,
+          "id": "level0:33783"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10725,
+          "id": "level0:10725"
+        },
+        {
+          "fileID": 0,
+          "pathID": 8751,
+          "id": "level0:8751"
+        },
+        {
+          "fileID": 0,
+          "pathID": 28667,
+          "id": "level0:28667"
+        },
+        {
+          "fileID": 0,
+          "pathID": 4841,
+          "id": "level0:4841"
+        },
+        {
+          "fileID": 0,
+          "pathID": 32657,
+          "id": "level0:32657"
+        },
+        {
+          "fileID": 0,
+          "pathID": 25568,
+          "id": "level0:25568"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 137653,
+        "id": "level0:22470"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 146464,
+        "id": "level0:19045"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34896",
+    "component": 147291,
+    "sha256": "0b60a16cf4655eae014fb10743c6164a029a32b0e6f30028d091fe022709d050",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3751,
+          "id": "level0:3751"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3657,
+          "id": "level0:3657"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33390,
+          "id": "level0:33390"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36718,
+          "id": "level0:36718"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10909,
+          "id": "level0:10909"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3572,
+          "id": "level0:3572"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11313,
+          "id": "level0:11313"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34111,
+          "id": "level0:34111"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26412,
+          "id": "level0:26412"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6651,
+          "id": "level0:6651"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20185,
+          "id": "level0:20185"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12378,
+          "id": "level0:12378"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9434,
+          "id": "level0:9434"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128931,
+        "id": "level0:3632"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132843,
+        "id": "level0:34896"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34897",
+    "component": 147292,
+    "sha256": "8f32bf20a334a6e5fd56a6c90dded05bca7a84bd7a1341bbb11d4bf808de4f55",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3750,
+          "id": "level0:3750"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3656,
+          "id": "level0:3656"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33391,
+          "id": "level0:33391"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36719,
+          "id": "level0:36719"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10908,
+          "id": "level0:10908"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3573,
+          "id": "level0:3573"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11312,
+          "id": "level0:11312"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34112,
+          "id": "level0:34112"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26411,
+          "id": "level0:26411"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6652,
+          "id": "level0:6652"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20184,
+          "id": "level0:20184"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12379,
+          "id": "level0:12379"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9433,
+          "id": "level0:9433"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128930,
+        "id": "level0:3631"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132842,
+        "id": "level0:34897"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34895",
+    "component": 147293,
+    "sha256": "4dfb9d10386a4bac09f971b7f29956b73e661a9d8f65de4b272cf10fcc9ea907",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3752,
+          "id": "level0:3752"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3655,
+          "id": "level0:3655"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33392,
+          "id": "level0:33392"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36717,
+          "id": "level0:36717"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10910,
+          "id": "level0:10910"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3574,
+          "id": "level0:3574"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11311,
+          "id": "level0:11311"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34113,
+          "id": "level0:34113"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26413,
+          "id": "level0:26413"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6650,
+          "id": "level0:6650"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20186,
+          "id": "level0:20186"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12377,
+          "id": "level0:12377"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9435,
+          "id": "level0:9435"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128932,
+        "id": "level0:3633"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132844,
+        "id": "level0:34895"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34894",
+    "component": 147294,
+    "sha256": "10f5f4a24e9e2442265b47b91cf0c304c1ebdb181175062894b63de66e28bee4",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3749,
+          "id": "level0:3749"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3658,
+          "id": "level0:3658"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33389,
+          "id": "level0:33389"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36716,
+          "id": "level0:36716"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10911,
+          "id": "level0:10911"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3571,
+          "id": "level0:3571"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11310,
+          "id": "level0:11310"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34114,
+          "id": "level0:34114"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26414,
+          "id": "level0:26414"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6649,
+          "id": "level0:6649"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20187,
+          "id": "level0:20187"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12380,
+          "id": "level0:12380"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9436,
+          "id": "level0:9436"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128933,
+        "id": "level0:3634"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132845,
+        "id": "level0:34894"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34899",
+    "component": 147295,
+    "sha256": "818d6bb73c5a2b3d420d2724d36980d6961c5213a9b4ecefe86518bcc7f471b5",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3748,
+          "id": "level0:3748"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3653,
+          "id": "level0:3653"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33388,
+          "id": "level0:33388"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36715,
+          "id": "level0:36715"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10912,
+          "id": "level0:10912"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3576,
+          "id": "level0:3576"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11315,
+          "id": "level0:11315"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34115,
+          "id": "level0:34115"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26415,
+          "id": "level0:26415"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6654,
+          "id": "level0:6654"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20188,
+          "id": "level0:20188"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12381,
+          "id": "level0:12381"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9437,
+          "id": "level0:9437"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128928,
+        "id": "level0:3629"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132840,
+        "id": "level0:34899"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34898",
+    "component": 147296,
+    "sha256": "ce89b4cf011e4b880cc51ff8259e1a0abcb0126887a4f3ee9a5cead698b22ae7",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3747,
+          "id": "level0:3747"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3654,
+          "id": "level0:3654"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33387,
+          "id": "level0:33387"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36714,
+          "id": "level0:36714"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10913,
+          "id": "level0:10913"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3575,
+          "id": "level0:3575"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11314,
+          "id": "level0:11314"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34116,
+          "id": "level0:34116"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26416,
+          "id": "level0:26416"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6653,
+          "id": "level0:6653"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20189,
+          "id": "level0:20189"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12382,
+          "id": "level0:12382"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9438,
+          "id": "level0:9438"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128929,
+        "id": "level0:3630"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132841,
+        "id": "level0:34898"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34901",
+    "component": 147297,
+    "sha256": "e760e4e44b61e7011dc7c289862488db8357c004405e45865db23bf9fa5c373f",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3746,
+          "id": "level0:3746"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3659,
+          "id": "level0:3659"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33386,
+          "id": "level0:33386"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36713,
+          "id": "level0:36713"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10906,
+          "id": "level0:10906"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3578,
+          "id": "level0:3578"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11309,
+          "id": "level0:11309"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34109,
+          "id": "level0:34109"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26417,
+          "id": "level0:26417"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6656,
+          "id": "level0:6656"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20182,
+          "id": "level0:20182"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12383,
+          "id": "level0:12383"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9439,
+          "id": "level0:9439"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128934,
+        "id": "level0:3635"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132838,
+        "id": "level0:34901"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34900",
+    "component": 147298,
+    "sha256": "6a1f188e5bf258add7c15f7250844661e6c0f4da34f57d79bae6a9e7b619062e",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3745,
+          "id": "level0:3745"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3660,
+          "id": "level0:3660"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33385,
+          "id": "level0:33385"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36712,
+          "id": "level0:36712"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10907,
+          "id": "level0:10907"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3577,
+          "id": "level0:3577"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11308,
+          "id": "level0:11308"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34110,
+          "id": "level0:34110"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26418,
+          "id": "level0:26418"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6655,
+          "id": "level0:6655"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20183,
+          "id": "level0:20183"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12384,
+          "id": "level0:12384"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9440,
+          "id": "level0:9440"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128935,
+        "id": "level0:3636"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132839,
+        "id": "level0:34900"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34889",
+    "component": 147299,
+    "sha256": "c65bf17d1c7a3d3bc3d1746c3c494e21fc2468381f6efb49b72ca626e18c1182",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3743,
+          "id": "level0:3743"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3651,
+          "id": "level0:3651"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33398,
+          "id": "level0:33398"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36724,
+          "id": "level0:36724"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10902,
+          "id": "level0:10902"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3579,
+          "id": "level0:3579"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11318,
+          "id": "level0:11318"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34105,
+          "id": "level0:34105"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26405,
+          "id": "level0:26405"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6644,
+          "id": "level0:6644"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20191,
+          "id": "level0:20191"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12372,
+          "id": "level0:12372"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9427,
+          "id": "level0:9427"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128926,
+        "id": "level0:3627"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132850,
+        "id": "level0:34889"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34888",
+    "component": 147300,
+    "sha256": "993044b839fa454d3486ea8bd7b37e7f23ec047a660152989437f2a9ebb07e78",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3744,
+          "id": "level0:3744"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3650,
+          "id": "level0:3650"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33397,
+          "id": "level0:33397"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36725,
+          "id": "level0:36725"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10901,
+          "id": "level0:10901"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3580,
+          "id": "level0:3580"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11317,
+          "id": "level0:11317"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34104,
+          "id": "level0:34104"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26406,
+          "id": "level0:26406"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6643,
+          "id": "level0:6643"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20192,
+          "id": "level0:20192"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12371,
+          "id": "level0:12371"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9428,
+          "id": "level0:9428"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128925,
+        "id": "level0:3626"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132851,
+        "id": "level0:34888"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34891",
+    "component": 147301,
+    "sha256": "922facf53b3d03f3e716a4bc90797e9ad0dd910a5545efad2f597a7d5198fd30",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3741,
+          "id": "level0:3741"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3648,
+          "id": "level0:3648"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33395,
+          "id": "level0:33395"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36721,
+          "id": "level0:36721"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10905,
+          "id": "level0:10905"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3581,
+          "id": "level0:3581"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11321,
+          "id": "level0:11321"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34107,
+          "id": "level0:34107"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26408,
+          "id": "level0:26408"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6646,
+          "id": "level0:6646"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20194,
+          "id": "level0:20194"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12375,
+          "id": "level0:12375"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9430,
+          "id": "level0:9430"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128923,
+        "id": "level0:3624"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132848,
+        "id": "level0:34891"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34892",
+    "component": 147302,
+    "sha256": "e8f033adca891c0f79f3c8f004ebdfbfdf1b1076cc2cb4b9e9e4b38a0067d229",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3740,
+          "id": "level0:3740"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3649,
+          "id": "level0:3649"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33396,
+          "id": "level0:33396"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36722,
+          "id": "level0:36722"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10904,
+          "id": "level0:10904"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3582,
+          "id": "level0:3582"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11320,
+          "id": "level0:11320"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34108,
+          "id": "level0:34108"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26407,
+          "id": "level0:26407"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6647,
+          "id": "level0:6647"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20193,
+          "id": "level0:20193"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12374,
+          "id": "level0:12374"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9429,
+          "id": "level0:9429"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128924,
+        "id": "level0:3625"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132847,
+        "id": "level0:34892"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34890",
+    "component": 147303,
+    "sha256": "7a180d2a27feff2a38c891c4d9a00ca1a6b95c18a5c244b7e12deb301f986154",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3742,
+          "id": "level0:3742"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3647,
+          "id": "level0:3647"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33394,
+          "id": "level0:33394"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36723,
+          "id": "level0:36723"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10903,
+          "id": "level0:10903"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3583,
+          "id": "level0:3583"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11319,
+          "id": "level0:11319"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34106,
+          "id": "level0:34106"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26409,
+          "id": "level0:26409"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6645,
+          "id": "level0:6645"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20195,
+          "id": "level0:20195"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12373,
+          "id": "level0:12373"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9431,
+          "id": "level0:9431"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128922,
+        "id": "level0:3623"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132849,
+        "id": "level0:34890"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  },
+  {
+    "kind": "Relic_Item_Demo",
+    "id": "level0:34893",
+    "component": 147304,
+    "sha256": "7d30a92bfa5ae8e8b30f5fe901de98e33e4c4fe1f113bc3a34f126ad4758e26e",
+    "data": {
+      "Relic_Type_objs": [
+        {
+          "fileID": 0,
+          "pathID": 3739,
+          "id": "level0:3739"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3652,
+          "id": "level0:3652"
+        },
+        {
+          "fileID": 0,
+          "pathID": 33393,
+          "id": "level0:33393"
+        },
+        {
+          "fileID": 0,
+          "pathID": 36720,
+          "id": "level0:36720"
+        },
+        {
+          "fileID": 0,
+          "pathID": 10900,
+          "id": "level0:10900"
+        },
+        {
+          "fileID": 0,
+          "pathID": 3584,
+          "id": "level0:3584"
+        },
+        {
+          "fileID": 0,
+          "pathID": 11316,
+          "id": "level0:11316"
+        },
+        {
+          "fileID": 0,
+          "pathID": 34103,
+          "id": "level0:34103"
+        },
+        {
+          "fileID": 0,
+          "pathID": 26410,
+          "id": "level0:26410"
+        },
+        {
+          "fileID": 0,
+          "pathID": 6648,
+          "id": "level0:6648"
+        },
+        {
+          "fileID": 0,
+          "pathID": 20190,
+          "id": "level0:20190"
+        },
+        {
+          "fileID": 0,
+          "pathID": 12376,
+          "id": "level0:12376"
+        },
+        {
+          "fileID": 0,
+          "pathID": 9432,
+          "id": "level0:9432"
+        }
+      ],
+      "Core_img": {
+        "fileID": 0,
+        "pathID": 128927,
+        "id": "level0:3628"
+      },
+      "Panel_img": {
+        "fileID": 0,
+        "pathID": 132846,
+        "id": "level0:34893"
+      },
+      "Panel_sprites": [
+        {
+          "fileID": 2,
+          "pathID": 395,
+          "id": "level0:395"
+        },
+        {
+          "fileID": 2,
+          "pathID": 705,
+          "id": "level0:705"
+        },
+        {
+          "fileID": 2,
+          "pathID": 411,
+          "id": "level0:411"
+        }
+      ]
+    }
+  }
+]

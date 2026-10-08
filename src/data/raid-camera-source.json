@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sceneSha256": "12a68a5fe3c5d40de08cb430543f6ee2a7cc13a91f7e92fea862085e0977e7a5",
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "camera": {
+    "id": 64047,
+    "chain": [
+      {
+        "pathID": 39272,
+        "name": "Camera_manager",
+        "position": [
+          -100.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          -0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "pathID": 39276,
+        "name": "Main Camera",
+        "position": [
+          73.5,
+          72.11000061035156,
+          -73.4000015258789
+        ],
+        "rotation": [
+          0.2798451781272888,
+          -0.3647055923938751,
+          0.11591566354036331,
+          0.880477249622345
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ],
+    "orthographic": true,
+    "orthographicSize": 40.0,
+    "scope": "serialized main camera; follow/zoom consumer not yet verified"
+  },
+  "follow": {
+    "componentID": 123273,
+    "targetTransformID": 44677,
+    "targetCatComponentID": 147400,
+    "rawSha256": "c672a658cc47e5461ecbe969dd06834f38daeee192e97fec2354a1d2a50fcb94"
+  },
+  "limitations": [
+    "Same serialized main camera and Follow target as Hunt; mode5 dynamic zoom is NOT_RUN.",
+    "Follow world-position copy is static native evidence; H5 projection/scheduling is an adapter, not Unity renderer parity."
+  ]
+}

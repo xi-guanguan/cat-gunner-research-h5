@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "nativeSha256": "80eb8bcbebd058ffb4beac5d8d7d544066587a7a1abee8898874847ff13dc583",
+  "eulerIcall": "UnityEngine.Quaternion::Internal_FromEulerRad_Injected(UnityEngine.Vector3&,UnityEngine.Quaternion&)",
+  "joystickYawRadians": -0.7853981852531433,
+  "camCorrectionYawRadians": 0.7853981852531433,
+  "camForwardEulerRadians": [
+    0.6981316804885864,
+    -0.7853981852531433,
+    0
+  ],
+  "mapCenter": [
+    -100.0,
+    0.0,
+    0
+  ],
+  "screenPitchSin": 0.5773502588272095,
+  "scope": "Static Cat cctor + joystick inputs. FromEulerRad engine native implementation and real scene camera not captured."
+}
