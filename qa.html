@@ -1,220 +1,220 @@
 <!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cat Gunner 定向验收</title>
 <style>body{margin:40px auto;padding:0 24px;max-width:800px;font:16px/1.7 system-ui;background:#eee9d9;color:#3f4038}h1{font-size:28px}nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}a{color:#344e3e;background:#fffaf0;border:1px solid #bbbca8;border-radius:12px;padding:14px;text-decoration:none}small{display:block;color:#636756}p{max-width:650px}</style>
-<h1>Cat Gunner 定向验收</h1><p>此页仅供开发预览。除“正常入口”外均注入检查状态，用来直达具体问题；这些场景不证明自然成长或原作一致性。夹具不会写入正常存档。</p><p><a href="/debug.html">打开验收 Debug 控制台 · 独立夹具／状态／故障注入</a></p><nav>
-<a href="/?qa=gun-auto">武器自动与背包听感<small>独立夹具；自动操作／面板静音／省电进出需实际操作和听感验收</small></a>
-<a href="/?qa=auto-ad">自动强化广告 type12<small>本地四态provider，源600秒、当日门禁、保存重试</small></a>
-<a href="/?qa=auto-ad-off">关闭开关时领奖<small>先存600秒，不强制开启；倒计时仍消耗</small></a>
-<a href="/?qa=auto-ad-used">今日已领取<small>不能重新领；日期为明示本地夹具</small></a>
-<a href="/?qa=auto-ad-permanent">永久自动强化<small>源永久权益：无需每日广告</small></a>
-<a href="/?qa=auto-ad&amp;provider-outcome=cancelled">自动强化广告取消<small>不改日期/时长</small></a>
-<a href="/?qa=auto-ad-remove-all&amp;provider-outcome=unavailable">自动强化去全广告<small>源去奖励广告先于SDK检查，仍需保存</small></a>
-<a href="/?qa=gun-daily">每日武器广告 type10<small>源历史30门槛；本地日期/RNG，四态provider与保存重试</small></a>
-<a href="/?qa=gun-daily-full">每日枪满盘<small>拒绝领取，不消耗日期/RNG</small></a>
-<a href="/?qa=gun-daily-used">每日枪已领取<small>保存/重载不重复发奖</small></a>
-<a href="/?qa=gun-daily-disabled">每日枪源服务器未启用<small>保持原开关，未冒充线上配置</small></a>
-<a href="/?qa=gun-daily-locked">每日枪进度锁定<small>历史进度29，源门槛30</small></a>
-<a href="/?qa=gun-daily&amp;provider-outcome=cancelled">每日枪广告取消<small>不发奖、不消耗当日机会</small></a>
-<a href="/?qa=gun-daily-remove-all&amp;provider-outcome=unavailable">全去广告权益<small>不依赖广告SDK，仍校验领取/存档</small></a>
-<a href="/?qa=gun-daily-remove-forced&amp;provider-outcome=unavailable">仅去强制广告<small>不得误绕过奖励广告</small></a>
-<a href="/?qa=gun-daily-freecash&amp;provider-outcome=unavailable">FreeCash奖励广告权益<small>源RewardAdRemoved消费者</small></a>
-<a href="/?qa=adgun-trigger">临时广告枪：合成触发<small>Weapon02／ID14／1800秒；本地配置与provider明示，原机未对照</small></a>
-<a href="/?qa=adgun">临时广告枪领取<small>原倒计时挂点；type9；同UID转正式，不重复发奖</small></a>
-<a href="/?qa=adgun-expire">临时广告枪到期<small>10秒夹具／每0.25秒检查／按UID删除</small></a>
-<a href="/?qa=adgun-expire&amp;adgun-provider-delay=1500">广告处理中跨到期<small>本地延迟1500ms；明确QA时钟；busy时不删除</small></a>
-<a href="/?qa=adgun&amp;provider-outcome=failure">临时枪广告失败<small>无正式领取／保留临时状态至到期</small></a>
-<a href="/?qa=adgun&amp;provider-outcome=cancelled">临时枪广告取消<small>不发奖／不写正式图鉴</small></a>
-<a href="/?qa=adgun&amp;provider-outcome=unavailable">临时枪广告未连接<small>准确不可用提示，不假线上回执</small></a>
-<a href="/?qa=adgun-disabled">Weapon02本地配置关闭<small>无临时枪；非已取得服务器配置</small></a>
-<a href="/?qa=adgun-catalog">历史B级门禁<small>历史已获ID≥10仅置事件标记，不再赠枪</small></a>
-<a href="/?qa=adgun-full">满盘合成<small>真实合成腾位后才加入临时枪</small></a>
+<h1>Cat Gunner 定向验收</h1><p>此页仅供开发预览。除“正常入口”外均注入检查状态，用来直达具体问题；这些场景不证明自然成长或原作一致性。夹具不会写入正常存档。</p><p><a href="/cat-gunner-research-h5/debug.html">打开验收 Debug 控制台 · 独立夹具／状态／故障注入</a></p><nav>
+<a href="/cat-gunner-research-h5/?qa=gun-auto">武器自动与背包听感<small>独立夹具；自动操作／面板静音／省电进出需实际操作和听感验收</small></a>
+<a href="/cat-gunner-research-h5/?qa=auto-ad">自动强化广告 type12<small>本地四态provider，源600秒、当日门禁、保存重试</small></a>
+<a href="/cat-gunner-research-h5/?qa=auto-ad-off">关闭开关时领奖<small>先存600秒，不强制开启；倒计时仍消耗</small></a>
+<a href="/cat-gunner-research-h5/?qa=auto-ad-used">今日已领取<small>不能重新领；日期为明示本地夹具</small></a>
+<a href="/cat-gunner-research-h5/?qa=auto-ad-permanent">永久自动强化<small>源永久权益：无需每日广告</small></a>
+<a href="/cat-gunner-research-h5/?qa=auto-ad&amp;provider-outcome=cancelled">自动强化广告取消<small>不改日期/时长</small></a>
+<a href="/cat-gunner-research-h5/?qa=auto-ad-remove-all&amp;provider-outcome=unavailable">自动强化去全广告<small>源去奖励广告先于SDK检查，仍需保存</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-daily">每日武器广告 type10<small>源历史30门槛；本地日期/RNG，四态provider与保存重试</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-daily-full">每日枪满盘<small>拒绝领取，不消耗日期/RNG</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-daily-used">每日枪已领取<small>保存/重载不重复发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-daily-disabled">每日枪源服务器未启用<small>保持原开关，未冒充线上配置</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-daily-locked">每日枪进度锁定<small>历史进度29，源门槛30</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-daily&amp;provider-outcome=cancelled">每日枪广告取消<small>不发奖、不消耗当日机会</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-daily-remove-all&amp;provider-outcome=unavailable">全去广告权益<small>不依赖广告SDK，仍校验领取/存档</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-daily-remove-forced&amp;provider-outcome=unavailable">仅去强制广告<small>不得误绕过奖励广告</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-daily-freecash&amp;provider-outcome=unavailable">FreeCash奖励广告权益<small>源RewardAdRemoved消费者</small></a>
+<a href="/cat-gunner-research-h5/?qa=adgun-trigger">临时广告枪：合成触发<small>Weapon02／ID14／1800秒；本地配置与provider明示，原机未对照</small></a>
+<a href="/cat-gunner-research-h5/?qa=adgun">临时广告枪领取<small>原倒计时挂点；type9；同UID转正式，不重复发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=adgun-expire">临时广告枪到期<small>10秒夹具／每0.25秒检查／按UID删除</small></a>
+<a href="/cat-gunner-research-h5/?qa=adgun-expire&amp;adgun-provider-delay=1500">广告处理中跨到期<small>本地延迟1500ms；明确QA时钟；busy时不删除</small></a>
+<a href="/cat-gunner-research-h5/?qa=adgun&amp;provider-outcome=failure">临时枪广告失败<small>无正式领取／保留临时状态至到期</small></a>
+<a href="/cat-gunner-research-h5/?qa=adgun&amp;provider-outcome=cancelled">临时枪广告取消<small>不发奖／不写正式图鉴</small></a>
+<a href="/cat-gunner-research-h5/?qa=adgun&amp;provider-outcome=unavailable">临时枪广告未连接<small>准确不可用提示，不假线上回执</small></a>
+<a href="/cat-gunner-research-h5/?qa=adgun-disabled">Weapon02本地配置关闭<small>无临时枪；非已取得服务器配置</small></a>
+<a href="/cat-gunner-research-h5/?qa=adgun-catalog">历史B级门禁<small>历史已获ID≥10仅置事件标记，不再赠枪</small></a>
+<a href="/cat-gunner-research-h5/?qa=adgun-full">满盘合成<small>真实合成腾位后才加入临时枪</small></a>
 
-<a href="/?qa=hunt-client">普通程序：实时狩猎闭环<small>第12大关夹具，普通源按钮→真实逐弹狩猎→结算→原场景；同一构建，独立档</small></a>
-<a href="/?qa=hunt-client-defeat">普通程序：狩猎侵入失败<small>弱装备夹具；失败／广告追加／退出恢复，普通战斗不双推进</small></a>
-<a href="/?qa=hunt-client-locked">普通程序：狩猎进度门禁<small>historicMax109保留源第12大关门禁；未达条件不启动或发奖</small></a>
-<a href="/?qa=hunt-client&amp;hunt-prepare-delay=3000">普通程序：狩猎准备及切档<small>明示3秒资源延迟；准备期间不启动，重置使旧资源与回调失效</small></a>
-<a href="/?qa=hunt-client&amp;hunt-prepare-outcome=failure">普通程序：资源失败<small>明示加载失败夹具；无run、无扣费、不写结算</small></a>
-<a href="/?qa=raid-live-mission-empty">突袭任务：未达成<small>原8任务／门禁与进度；独立内存测试档</small></a>
-<a href="/?qa=raid-live-mission-clear">突袭任务：可领取<small>原滚动页、首次奖励与本地任务票；线上未连接</small></a>
-<a href="/?qa=raid-live-mission-owned">突袭任务：已购票<small>两次独立领取、周重置、回调隔离；非原机等价</small></a>
-<a href="/?qa=raid-live-helper-unowned">突袭助手：未购与本地交易<small>原助手Popup／源默认价$3.99；成功失败取消不可用、防重放；无真实支付</small></a>
-<a href="/?qa=raid-live-helper-owned">突袭助手：已购第四Cat<small>明确当前赛季权益夹具；原50–54弱点枪与三槽最小星级、真实逐弹命中、省电</small></a>
-<a href="/?qa=raid-live-helper-expired">突袭助手：旧周失效<small>保留历史权益字段、不迁移赠送；周历、重载与延迟旧回调拒绝</small></a>
-<a href="/?qa=raid-live-helper-holes">突袭助手：空洞三枪槽<small>明确装备夹具；两玩家猫加真实助手，无伪库存身份、不造第四强化槽</small></a>
-<a href="/?qa=raid-live">实时突袭：三枪逐弹闭环<small>原五Boss当周外观／领队与五态AI／60秒源计时／星宝石结算；H5适配；普通突袭入口已接，原机／真人未对照</small></a>
-<a href="/?qa=raid-live-holes">实时突袭：空洞装备／compact猫槽<small>隔离夹具，可保存重载、提前退出和省电；普通存档零读写</small></a>
-<a href="/?qa=raid-live-star-pig-empty">突袭存钱罐：未满锁定<small>独立测试档／源容量660、入场+50与血条+25；未满不交易，不写普通存档</small></a>
-<a href="/?qa=raid-live-star-pig-full">突袭存钱罐：一级满罐购买<small>明确满罐注入夹具；本地交易无真实支付，失败／取消／延迟重置与重载</small></a>
-<a href="/?qa=raid-live-star-pig-lv2">突袭存钱罐：二级容量1500<small>源默认价$2.99／购买两次后升三级；原UI与本地交易</small></a>
-<a href="/?qa=raid-live-star-pig-lv3">突袭存钱罐：三级容量2500<small>源默认价$4.99／一次后本赛季售罄；不冒充线上回执</small></a>
-<a href="/?qa=raid-live-star-pig-soldout">突袭存钱罐：本季售罄<small>明确售罄注入夹具；关闭返回原突袭选枪，赛季重置需单独验证</small></a>
-<a href="/?qa=raid-live-ad">实时突袭：本地广告入场<small>源免费2次已用夹具；成功／失败／取消／不可用／延迟重置回调</small></a>
-<a href="/?qa=raid-live-purchase">实时突袭：本地购买入场<small>源广告已用夹具；无真实支付或线上回执，次数与结算按真实消费</small></a>
-<a href="/?qa=hunt-live">实时狩猎：三猫原枪<small>源生成／寻敌／移动／逐弹碰撞与结算；隔离测试档。H5相机／粒子适配，原机未对照</small></a>
-<a href="/?qa=hunt-live-victory">实时狩猎：连续清关<small>高装备夹具；真实弹丸击杀，不直接清怪。存档与本地广告追加可验收</small></a>
-<a href="/?qa=hunt-live-defeat">实时狩猎：侵入失败<small>新手枪夹具；真实侵入／失败／退出；测试时钟加速始终可见</small></a>
-<a href="/?qa=hunt-live-holes">实时狩猎：装备空洞／星级<small>源compact绑定：枪0／空／枪2对应Cat槽0／1；三类源星级消费者</small></a>
-<a href="/?qa=hunt-live-victory&amp;hunt-provider-delay=3000">实时狩猎：广告处理中退出<small>明示本地3秒延迟；关闭／重置后旧回调不能写新档</small></a>
-<a href="/?qa=challenge-3">挑战源入口／排行榜壳<small>普通攻速升级生效，Rank仅本地档；原机未对照</small></a>
-<a href="/?qa=challenge-fight">挑战逐弹战斗验收<small>独立高装备夹具，真实计时／命中／胜利即时发奖</small></a>
-<a href="/?qa=challenge-victory">挑战已发30钻结算<small>广告追加90钻；退出不再发奖；本地provider</small></a>
-<a href="/?qa=challenge-freecash">挑战 FreeCash 分支<small>独立夹具投影源互斥横幅；线上未连接、不发奖</small></a>
-<a href="/?qa=challenge-victory-auto">挑战去广告自动120钻<small>自动奖励不能再次领取；保存／返回可验收</small></a>
-<a href="/?qa=challenge-sweep">挑战Plus2单关扫荡<small>严格战力要求；扫荡胜利即时30钻；广告另加90</small></a>
-<a href="/?qa=challenge-sweep-auto">挑战自动奖励扫荡<small>单关／120钻／不重复领取</small></a>
-<a href="/?qa=challenge-sweep-low">挑战战力不足<small>准确业务门禁和效率条，不伪装未实现</small></a>
-<a href="/?qa=challenge-victory&amp;provider-outcome=cancelled">挑战广告取消<small>保留初始30钻，不发额外90钻</small></a>
-<a href="/?qa=challenge-victory&amp;reward-provider-delay=5000">挑战等待期间关闭／切档<small>本地5秒延迟；旧回调不写新档</small></a>
-<a href="/?qa=challenge-defeat">挑战失败返回<small>不发奖、不升关；清除本次运行身份</small></a>
-<a href="/">正常入口<small>现有存档或默认新档</small></a><a href="/?qa=entry">新档战斗<small>方向键、地板与边墙随动</small></a>
-<a href="/?qa=third-layout">第三大关布局<small>目标不重复、出生区域</small></a><a href="/?qa=third-stage">第三大关 Boss<small>独立身体和 HP 层级</small></a>
-<a href="/?qa=three-cats">三猫独立射击<small>朝向、枪口、回弹、跟随</small></a><a href="/?qa=eight-aim">八方向目标<small>瞄准选择与运动</small></a>
-<a href="/?qa=upgrade-49">升级差 1 金币<small>绿色 Fill、百分比、还差多少</small></a><a href="/?qa=upgrade-50">升级恰好够钱<small>可升级状态与购买扣款</small></a>
-<a href="/?qa=upgrade-51">升级多 1 金币<small>购买后余额与状态切换</small></a><a href="/?qa=last-gun">最后一件装备<small>卸下限制与面板反馈</small></a>
-<a href="/?qa=rebirth">转生<small>报价、确认、重置和保留</small></a><a href="/?qa=permanent">永久强化<small>连续购买与余额</small></a>
-<a href="/?qa=mine-speed">矿场速度广告入场<small>本地测试provider；速度+300秒与扣票一起提交，源入场动画时序待证</small></a>
-<a href="/?qa=mine-speed-auto">矿场Plus2分支速度入场<small>源Auto对象；实际矿场战斗与一次扣票</small></a>
-<a href="/?qa=mine-speed&amp;reward-provider-delay=2000">矿场广告等待/关闭/切档<small>等待期间禁止第二次入场；关闭或切档撤销旧回调</small></a>
-<a href="/?qa=mine-speed&amp;provider-outcome=cancelled">矿场广告取消<small>无增益／无扣票／不启动战斗</small></a>
-<a href="/?qa=mine-speed-empty">矿场次数用完<small>具体次数门禁，不走假加载</small></a>
-<a href="/?qa=boss-reward">首领结算三倍<small>直达扫荡胜利／base1x已到账＋provider确认extra2x／GUI待验</small></a>
-<a href="/?qa=boss-reward-plus">首领奖励套餐结算<small>Plus1：base300＋extra600／只追加两倍</small></a>
-<a href="/?qa=boss-reward-auto">首领自动奖励<small>总计3x已到账，不再显示广告入口</small></a>
-<a href="/?qa=boss-reward-save-failure">首领奖励保存失败<small>先保存再发布／解除夹具后原回执重试／不重复广告</small></a>
-<a href="/?qa=boss-reward&amp;reward-provider-delay=3000">首领迟到回调<small>3秒本地延迟／返回结算后不发奖</small></a>
-<a href="/?qa=boss-reward&amp;provider-outcome=failure">首领奖励失败<small>本地失败回调，不追加钻石</small></a>
-<a href="/?qa=boss-reward&amp;provider-outcome=cancelled">首领奖励取消<small>本地取消回调，不追加钻石</small></a>
-<a href="/?qa=boss-reward&amp;provider-outcome=unavailable">首领奖励未连接<small>保留基础奖励，明确不可用原因</small></a>
-<a href="/?qa=boss-plus">首领原横幅：七天时间Plus<small>源type0／historicMax190，先保存后生效；规则通过，GUI待验</small></a>
-<a href="/?qa=hunt-plus">狩猎原横幅：七天自动Plus<small>源type2／自动扫荡消费者；规则通过，GUI待验</small></a>
-<a href="/?qa=boss-plus-locked">首领Plus进度门禁<small>historicMax189：隐藏横幅，不伪装未实现</small></a>
-<a href="/?qa=hunt-plus-active">狩猎Plus已生效<small>原横幅隐藏／原自动分支，七天到期后恢复</small></a>
-<a href="/?qa=boss-plus&amp;activity-save-failure=1">首领Plus保存失败<small>点原商品同回执重试；不重复provider／GUI待验</small></a>
-<a href="/?qa=hunt-plus&amp;activity-provider-delay=1500">狩猎Plus延迟回调与关闭<small>明示本地1500ms；关闭不取消，换档拒绝／GUI待验</small></a>
-<a href="/?qa=mine-plus">矿场七天奖励Plus购买<small>原banner直接购买，保持矿场上下文；本地交易</small></a>
-<a href="/?qa=mine">矿场战斗<small>矿石、计时、积分、退出</small></a><a href="/?qa=mine-result">矿场结算<small>领取一次、返回主关卡</small></a>
-<a href="/?qa=special-guns">特殊枪<small>穿透、导弹、爆炸狙击命中</small></a>
-<a href="/?qa=weekly">周商店／周枪<small>原3档 · 当地周一轮换 · 本地provider，源机未对照</small></a>
-<a href="/?qa=weekly&amp;activity-save-failure=1">周枪保存失败与同回执重试<small>明示独立夹具 · 规则通过／GUI待验 · 不重复交易</small></a>
-<a href="/?qa=plus-panel&amp;activity-save-failure=1">Plus保存失败与同回执重试<small>权益保存后发布 · 重试当下起算七天／GUI待验</small></a>
-<a href="/?qa=weekly&amp;activity-provider-delay=1500">周枪延迟回调／关闭面板<small>明示1500ms本地延迟 · 管理器持有交易／GUI待验</small></a>
-<a href="/?qa=weekly-hud">周商店原HUD入口<small>A级历史图鉴门槛 · 原Button1010</small></a>
-<a href="/?qa=weekly-locked">周商店进度门槛<small>历史B级不启动周商店</small></a>
-<a href="/?qa=weekly-vip-locked">Plus未达20大关<small>具体门禁，不冒充暂未实现</small></a>
-<a href="/?qa=weekly-full">周枪满库存<small>无枪、无宠物币、无购买账本</small></a>
-<a href="/?qa=weekly-cap">周枪次数已满<small>每周2／2／1 · 周一清次数</small></a>
-<a href="/?qa=plus-panel">Plus三类七天权益<small>回调UTC起算，不叠加 · 无真实支付</small></a>
-<a href="/?qa=plus-active">Plus生效与剩余时间<small>严格七天，源日期时钟为H5适配</small></a>
-<a href="/?qa=plus-expire">Plus临近到期<small>10秒夹具 · 不推进战斗</small></a>
-<a href="/?qa=gun-auto-shop">武器自动权益导航<small>无权益→原Plus滚底→本地购买→返回背包，不擅自启动</small></a>
-<a href="/?qa=pet-auto-shop">宠物自动权益导航<small>无权益→原Plus滚底→本地购买→返回宠物</small></a>
-<a href="/?qa=gun-auto-expire">武器自动到期中止<small>10秒七天边界夹具 · 不消费移动中武器</small></a>
-<a href="/?qa=pet-auto-expire">宠物自动到期中止<small>10秒七天边界夹具 · 不消费移动中宠物</small></a>
-<a href="/?qa=plus-legacy">旧档无购买日期权益<small>不虚构过期时间，不缩短旧权益</small></a>
-<a href="/?qa=weekly&amp;provider-outcome=failure">周枪交易失败<small>本地provider，无枪／宠物币／计数变更</small></a>
-<a href="/?qa=weekly&amp;provider-outcome=cancelled">周枪交易取消<small>本地provider，无枪／宠物币／计数变更</small></a>
-<a href="/?qa=weekly&amp;provider-outcome=unavailable">周枪交易未连接<small>本地provider，无枪／宠物币／计数变更</small></a>
-<a href="/?qa=diapig">钻石存钱罐／锁定<small>原6按钮 · 本地交易 · 源机对照未完成</small></a>
-<a href="/?qa=diapig-hud">存钱罐主界面入口<small>源Button19278与Fill28562</small></a>
-<a href="/?qa=diapig-one">单权益累计／领取<small>每60秒1钻 · 本地单调时钟，离线信任未接</small></a>
-<a href="/?qa=diapig-both">双权益累计<small>每60秒2钻 · 独立旗标 · 不即时赠送</small></a>
-<a href="/?qa=diapig-full">500满罐领取<small>满罐重置时钟 · 123456789长余额</small></a>
-<a href="/?qa=diapig&amp;provider-outcome=failure">存钱罐交易失败<small>无权益／无发奖</small></a>
-<a href="/?qa=diapig&amp;provider-outcome=cancelled">存钱罐取消交易<small>无权益／无发奖</small></a>
-<a href="/?qa=diapig&amp;provider-outcome=unavailable">存钱罐商店未连接<small>明确不可用，不假线上成功</small></a>
-<a href="/?qa=stepup">StepUp 五档活动<small>原奖励／本地测试provider／不支付；原机对照未完成</small></a>
-<a href="/?qa=stepup&amp;activity-save-failure=1">StepUp保存失败与同回执重试<small>明示独立夹具 · 不部分发枪／钻石／账本，GUI待验</small></a>
-<a href="/?qa=stepup&amp;activity-provider-delay=1500">StepUp延迟回调／关闭面板<small>明示1500ms本地延迟 · 换档拒绝旧交易／GUI待验</small></a>
-<a href="/?qa=stepup-hud">StepUp HUD 入口<small>历史B级门槛与7天计时</small></a>
-<a href="/?qa=stepup-banner">StepUp 背包横幅<small>详情与返回上下文</small></a>
-<a href="/?qa=stepup-full">StepUp 满库存<small>不发枪、不发钻、不登记购买</small></a>
-<a href="/?qa=stepup-expired">StepUp 过期<small>明确结束态</small></a>
-<a href="/?qa=stepup-complete">StepUp 全购买<small>所有权及隐藏入口</small></a>
-<a href="/?qa=stepup-locked">StepUp 门槛未达<small>不强制启动、不赠送</small></a>
-<a href="/?qa=stepup&provider-outcome=failure">StepUp 交易失败<small>本地失败回调、无奖励</small></a>
-<a href="/?qa=stepup&provider-outcome=cancelled">StepUp 交易取消<small>本地取消回调、无奖励</small></a>
-<a href="/?qa=stepup&provider-outcome=unavailable">StepUp 商店未连接<small>准确不可用提示、无奖励</small></a>
-<a href="/?qa=buff-panel">左上 x3 增益<small>源规则／本地provider；GUI待复验，不是线上广告</small></a>
-<a href="/?qa=gun-storage">武器详情与保险库<small>保护、移动、拖入、取出；规则与两尺寸GUI夹具通过，原机未对照</small></a>
-<a href="/?qa=gun-storage-locked">第40大关门槛<small>明确锁定原因，余额不扣；规则与两尺寸GUI夹具通过</small></a>
-<a href="/?qa=gun-storage-full">满武器库存<small>保险库取出拒绝，详情返回；规则与两尺寸GUI夹具通过</small></a>
-<a href="/?qa=gun-safe">保险库顺序扩容<small>6免费槽＋10购买槽，50→500钻；规则与两尺寸GUI夹具通过</small></a>
-<a href="/?qa=gun-safe-empty">保险库钻石不足<small>49钻不能购买50钻槽位，明确拒绝</small></a>
-<a href="/?qa=gun-safe-full">满保险库<small>拖入拒绝，不消费武器；规则与两尺寸GUI夹具通过</small></a>
-<a href="/?qa=gun-collection">65枪图鉴<small>未拥有可看详情、滚动返回；两尺寸滚动／返回夹具通过，原机未对照</small></a>
-<a href="/?qa=star-slots">三枪槽星级入口<small>独立星之宝石、换枪不换星；源门槛40大关</small></a>
-<a href="/?qa=star-upgrade">星级强化<small>原弹窗、消耗与成功／失败、存档</small></a>
-<a href="/?qa=star-pity">18星失败递增<small>1%起步，最高5%，不保证成功</small></a>
-<a href="/?qa=star-empty">星之宝石不足<small>拒绝不消耗，不推进随机数</small></a>
-<a href="/?qa=star-max">20星上限<small>无扣费，MAX展示</small></a>
-<a href="/?qa=star-locked">普通门槛夹具<small>第40大关前不显示强化按钮</small></a>
-
-
+<a href="/cat-gunner-research-h5/?qa=hunt-client">普通程序：实时狩猎闭环<small>第12大关夹具，普通源按钮→真实逐弹狩猎→结算→原场景；同一构建，独立档</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-client-defeat">普通程序：狩猎侵入失败<small>弱装备夹具；失败／广告追加／退出恢复，普通战斗不双推进</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-client-locked">普通程序：狩猎进度门禁<small>historicMax109保留源第12大关门禁；未达条件不启动或发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-client&amp;hunt-prepare-delay=3000">普通程序：狩猎准备及切档<small>明示3秒资源延迟；准备期间不启动，重置使旧资源与回调失效</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-client&amp;hunt-prepare-outcome=failure">普通程序：资源失败<small>明示加载失败夹具；无run、无扣费、不写结算</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-mission-empty">突袭任务：未达成<small>原8任务／门禁与进度；独立内存测试档</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-mission-clear">突袭任务：可领取<small>原滚动页、首次奖励与本地任务票；线上未连接</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-mission-owned">突袭任务：已购票<small>两次独立领取、周重置、回调隔离；非原机等价</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-helper-unowned">突袭助手：未购与本地交易<small>原助手Popup／源默认价$3.99；成功失败取消不可用、防重放；无真实支付</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-helper-owned">突袭助手：已购第四Cat<small>明确当前赛季权益夹具；原50–54弱点枪与三槽最小星级、真实逐弹命中、省电</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-helper-expired">突袭助手：旧周失效<small>保留历史权益字段、不迁移赠送；周历、重载与延迟旧回调拒绝</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-helper-holes">突袭助手：空洞三枪槽<small>明确装备夹具；两玩家猫加真实助手，无伪库存身份、不造第四强化槽</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live">实时突袭：三枪逐弹闭环<small>原五Boss当周外观／领队与五态AI／60秒源计时／星宝石结算；H5适配；普通突袭入口已接，原机／真人未对照</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-holes">实时突袭：空洞装备／compact猫槽<small>隔离夹具，可保存重载、提前退出和省电；普通存档零读写</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-star-pig-empty">突袭存钱罐：未满锁定<small>独立测试档／源容量660、入场+50与血条+25；未满不交易，不写普通存档</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-star-pig-full">突袭存钱罐：一级满罐购买<small>明确满罐注入夹具；本地交易无真实支付，失败／取消／延迟重置与重载</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-star-pig-lv2">突袭存钱罐：二级容量1500<small>源默认价$2.99／购买两次后升三级；原UI与本地交易</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-star-pig-lv3">突袭存钱罐：三级容量2500<small>源默认价$4.99／一次后本赛季售罄；不冒充线上回执</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-star-pig-soldout">突袭存钱罐：本季售罄<small>明确售罄注入夹具；关闭返回原突袭选枪，赛季重置需单独验证</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-ad">实时突袭：本地广告入场<small>源免费2次已用夹具；成功／失败／取消／不可用／延迟重置回调</small></a>
+<a href="/cat-gunner-research-h5/?qa=raid-live-purchase">实时突袭：本地购买入场<small>源广告已用夹具；无真实支付或线上回执，次数与结算按真实消费</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-live">实时狩猎：三猫原枪<small>源生成／寻敌／移动／逐弹碰撞与结算；隔离测试档。H5相机／粒子适配，原机未对照</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-live-victory">实时狩猎：连续清关<small>高装备夹具；真实弹丸击杀，不直接清怪。存档与本地广告追加可验收</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-live-defeat">实时狩猎：侵入失败<small>新手枪夹具；真实侵入／失败／退出；测试时钟加速始终可见</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-live-holes">实时狩猎：装备空洞／星级<small>源compact绑定：枪0／空／枪2对应Cat槽0／1；三类源星级消费者</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-live-victory&amp;hunt-provider-delay=3000">实时狩猎：广告处理中退出<small>明示本地3秒延迟；关闭／重置后旧回调不能写新档</small></a>
+<a href="/cat-gunner-research-h5/?qa=challenge-3">挑战源入口／排行榜壳<small>普通攻速升级生效，Rank仅本地档；原机未对照</small></a>
+<a href="/cat-gunner-research-h5/?qa=challenge-fight">挑战逐弹战斗验收<small>独立高装备夹具，真实计时／命中／胜利即时发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=challenge-victory">挑战已发30钻结算<small>广告追加90钻；退出不再发奖；本地provider</small></a>
+<a href="/cat-gunner-research-h5/?qa=challenge-freecash">挑战 FreeCash 分支<small>独立夹具投影源互斥横幅；线上未连接、不发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=challenge-victory-auto">挑战去广告自动120钻<small>自动奖励不能再次领取；保存／返回可验收</small></a>
+<a href="/cat-gunner-research-h5/?qa=challenge-sweep">挑战Plus2单关扫荡<small>严格战力要求；扫荡胜利即时30钻；广告另加90</small></a>
+<a href="/cat-gunner-research-h5/?qa=challenge-sweep-auto">挑战自动奖励扫荡<small>单关／120钻／不重复领取</small></a>
+<a href="/cat-gunner-research-h5/?qa=challenge-sweep-low">挑战战力不足<small>准确业务门禁和效率条，不伪装未实现</small></a>
+<a href="/cat-gunner-research-h5/?qa=challenge-victory&amp;provider-outcome=cancelled">挑战广告取消<small>保留初始30钻，不发额外90钻</small></a>
+<a href="/cat-gunner-research-h5/?qa=challenge-victory&amp;reward-provider-delay=5000">挑战等待期间关闭／切档<small>本地5秒延迟；旧回调不写新档</small></a>
+<a href="/cat-gunner-research-h5/?qa=challenge-defeat">挑战失败返回<small>不发奖、不升关；清除本次运行身份</small></a>
+<a href="/cat-gunner-research-h5/">正常入口<small>现有存档或默认新档</small></a><a href="/cat-gunner-research-h5/?qa=entry">新档战斗<small>方向键、地板与边墙随动</small></a>
+<a href="/cat-gunner-research-h5/?qa=third-layout">第三大关布局<small>目标不重复、出生区域</small></a><a href="/cat-gunner-research-h5/?qa=third-stage">第三大关 Boss<small>独立身体和 HP 层级</small></a>
+<a href="/cat-gunner-research-h5/?qa=three-cats">三猫独立射击<small>朝向、枪口、回弹、跟随</small></a><a href="/cat-gunner-research-h5/?qa=eight-aim">八方向目标<small>瞄准选择与运动</small></a>
+<a href="/cat-gunner-research-h5/?qa=upgrade-49">升级差 1 金币<small>绿色 Fill、百分比、还差多少</small></a><a href="/cat-gunner-research-h5/?qa=upgrade-50">升级恰好够钱<small>可升级状态与购买扣款</small></a>
+<a href="/cat-gunner-research-h5/?qa=upgrade-51">升级多 1 金币<small>购买后余额与状态切换</small></a><a href="/cat-gunner-research-h5/?qa=last-gun">最后一件装备<small>卸下限制与面板反馈</small></a>
+<a href="/cat-gunner-research-h5/?qa=rebirth">转生<small>报价、确认、重置和保留</small></a><a href="/cat-gunner-research-h5/?qa=permanent">永久强化<small>连续购买与余额</small></a>
+<a href="/cat-gunner-research-h5/?qa=mine-speed">矿场速度广告入场<small>本地测试provider；速度+300秒与扣票一起提交，源入场动画时序待证</small></a>
+<a href="/cat-gunner-research-h5/?qa=mine-speed-auto">矿场Plus2分支速度入场<small>源Auto对象；实际矿场战斗与一次扣票</small></a>
+<a href="/cat-gunner-research-h5/?qa=mine-speed&amp;reward-provider-delay=2000">矿场广告等待/关闭/切档<small>等待期间禁止第二次入场；关闭或切档撤销旧回调</small></a>
+<a href="/cat-gunner-research-h5/?qa=mine-speed&amp;provider-outcome=cancelled">矿场广告取消<small>无增益／无扣票／不启动战斗</small></a>
+<a href="/cat-gunner-research-h5/?qa=mine-speed-empty">矿场次数用完<small>具体次数门禁，不走假加载</small></a>
+<a href="/cat-gunner-research-h5/?qa=boss-reward">首领结算三倍<small>直达扫荡胜利／base1x已到账＋provider确认extra2x／GUI待验</small></a>
+<a href="/cat-gunner-research-h5/?qa=boss-reward-plus">首领奖励套餐结算<small>Plus1：base300＋extra600／只追加两倍</small></a>
+<a href="/cat-gunner-research-h5/?qa=boss-reward-auto">首领自动奖励<small>总计3x已到账，不再显示广告入口</small></a>
+<a href="/cat-gunner-research-h5/?qa=boss-reward-save-failure">首领奖励保存失败<small>先保存再发布／解除夹具后原回执重试／不重复广告</small></a>
+<a href="/cat-gunner-research-h5/?qa=boss-reward&amp;reward-provider-delay=3000">首领迟到回调<small>3秒本地延迟／返回结算后不发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=boss-reward&amp;provider-outcome=failure">首领奖励失败<small>本地失败回调，不追加钻石</small></a>
+<a href="/cat-gunner-research-h5/?qa=boss-reward&amp;provider-outcome=cancelled">首领奖励取消<small>本地取消回调，不追加钻石</small></a>
+<a href="/cat-gunner-research-h5/?qa=boss-reward&amp;provider-outcome=unavailable">首领奖励未连接<small>保留基础奖励，明确不可用原因</small></a>
+<a href="/cat-gunner-research-h5/?qa=boss-plus">首领原横幅：七天时间Plus<small>源type0／historicMax190，先保存后生效；规则通过，GUI待验</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-plus">狩猎原横幅：七天自动Plus<small>源type2／自动扫荡消费者；规则通过，GUI待验</small></a>
+<a href="/cat-gunner-research-h5/?qa=boss-plus-locked">首领Plus进度门禁<small>historicMax189：隐藏横幅，不伪装未实现</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-plus-active">狩猎Plus已生效<small>原横幅隐藏／原自动分支，七天到期后恢复</small></a>
+<a href="/cat-gunner-research-h5/?qa=boss-plus&amp;activity-save-failure=1">首领Plus保存失败<small>点原商品同回执重试；不重复provider／GUI待验</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-plus&amp;activity-provider-delay=1500">狩猎Plus延迟回调与关闭<small>明示本地1500ms；关闭不取消，换档拒绝／GUI待验</small></a>
+<a href="/cat-gunner-research-h5/?qa=mine-plus">矿场七天奖励Plus购买<small>原banner直接购买，保持矿场上下文；本地交易</small></a>
+<a href="/cat-gunner-research-h5/?qa=mine">矿场战斗<small>矿石、计时、积分、退出</small></a><a href="/cat-gunner-research-h5/?qa=mine-result">矿场结算<small>领取一次、返回主关卡</small></a>
+<a href="/cat-gunner-research-h5/?qa=special-guns">特殊枪<small>穿透、导弹、爆炸狙击命中</small></a>
+<a href="/cat-gunner-research-h5/?qa=weekly">周商店／周枪<small>原3档 · 当地周一轮换 · 本地provider，源机未对照</small></a>
+<a href="/cat-gunner-research-h5/?qa=weekly&amp;activity-save-failure=1">周枪保存失败与同回执重试<small>明示独立夹具 · 规则通过／GUI待验 · 不重复交易</small></a>
+<a href="/cat-gunner-research-h5/?qa=plus-panel&amp;activity-save-failure=1">Plus保存失败与同回执重试<small>权益保存后发布 · 重试当下起算七天／GUI待验</small></a>
+<a href="/cat-gunner-research-h5/?qa=weekly&amp;activity-provider-delay=1500">周枪延迟回调／关闭面板<small>明示1500ms本地延迟 · 管理器持有交易／GUI待验</small></a>
+<a href="/cat-gunner-research-h5/?qa=weekly-hud">周商店原HUD入口<small>A级历史图鉴门槛 · 原Button1010</small></a>
+<a href="/cat-gunner-research-h5/?qa=weekly-locked">周商店进度门槛<small>历史B级不启动周商店</small></a>
+<a href="/cat-gunner-research-h5/?qa=weekly-vip-locked">Plus未达20大关<small>具体门禁，不冒充暂未实现</small></a>
+<a href="/cat-gunner-research-h5/?qa=weekly-full">周枪满库存<small>无枪、无宠物币、无购买账本</small></a>
+<a href="/cat-gunner-research-h5/?qa=weekly-cap">周枪次数已满<small>每周2／2／1 · 周一清次数</small></a>
+<a href="/cat-gunner-research-h5/?qa=plus-panel">Plus三类七天权益<small>回调UTC起算，不叠加 · 无真实支付</small></a>
+<a href="/cat-gunner-research-h5/?qa=plus-active">Plus生效与剩余时间<small>严格七天，源日期时钟为H5适配</small></a>
+<a href="/cat-gunner-research-h5/?qa=plus-expire">Plus临近到期<small>10秒夹具 · 不推进战斗</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-auto-shop">武器自动权益导航<small>无权益→原Plus滚底→本地购买→返回背包，不擅自启动</small></a>
+<a href="/cat-gunner-research-h5/?qa=pet-auto-shop">宠物自动权益导航<small>无权益→原Plus滚底→本地购买→返回宠物</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-auto-expire">武器自动到期中止<small>10秒七天边界夹具 · 不消费移动中武器</small></a>
+<a href="/cat-gunner-research-h5/?qa=pet-auto-expire">宠物自动到期中止<small>10秒七天边界夹具 · 不消费移动中宠物</small></a>
+<a href="/cat-gunner-research-h5/?qa=plus-legacy">旧档无购买日期权益<small>不虚构过期时间，不缩短旧权益</small></a>
+<a href="/cat-gunner-research-h5/?qa=weekly&amp;provider-outcome=failure">周枪交易失败<small>本地provider，无枪／宠物币／计数变更</small></a>
+<a href="/cat-gunner-research-h5/?qa=weekly&amp;provider-outcome=cancelled">周枪交易取消<small>本地provider，无枪／宠物币／计数变更</small></a>
+<a href="/cat-gunner-research-h5/?qa=weekly&amp;provider-outcome=unavailable">周枪交易未连接<small>本地provider，无枪／宠物币／计数变更</small></a>
+<a href="/cat-gunner-research-h5/?qa=diapig">钻石存钱罐／锁定<small>原6按钮 · 本地交易 · 源机对照未完成</small></a>
+<a href="/cat-gunner-research-h5/?qa=diapig-hud">存钱罐主界面入口<small>源Button19278与Fill28562</small></a>
+<a href="/cat-gunner-research-h5/?qa=diapig-one">单权益累计／领取<small>每60秒1钻 · 本地单调时钟，离线信任未接</small></a>
+<a href="/cat-gunner-research-h5/?qa=diapig-both">双权益累计<small>每60秒2钻 · 独立旗标 · 不即时赠送</small></a>
+<a href="/cat-gunner-research-h5/?qa=diapig-full">500满罐领取<small>满罐重置时钟 · 123456789长余额</small></a>
+<a href="/cat-gunner-research-h5/?qa=diapig&amp;provider-outcome=failure">存钱罐交易失败<small>无权益／无发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=diapig&amp;provider-outcome=cancelled">存钱罐取消交易<small>无权益／无发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=diapig&amp;provider-outcome=unavailable">存钱罐商店未连接<small>明确不可用，不假线上成功</small></a>
+<a href="/cat-gunner-research-h5/?qa=stepup">StepUp 五档活动<small>原奖励／本地测试provider／不支付；原机对照未完成</small></a>
+<a href="/cat-gunner-research-h5/?qa=stepup&amp;activity-save-failure=1">StepUp保存失败与同回执重试<small>明示独立夹具 · 不部分发枪／钻石／账本，GUI待验</small></a>
+<a href="/cat-gunner-research-h5/?qa=stepup&amp;activity-provider-delay=1500">StepUp延迟回调／关闭面板<small>明示1500ms本地延迟 · 换档拒绝旧交易／GUI待验</small></a>
+<a href="/cat-gunner-research-h5/?qa=stepup-hud">StepUp HUD 入口<small>历史B级门槛与7天计时</small></a>
+<a href="/cat-gunner-research-h5/?qa=stepup-banner">StepUp 背包横幅<small>详情与返回上下文</small></a>
+<a href="/cat-gunner-research-h5/?qa=stepup-full">StepUp 满库存<small>不发枪、不发钻、不登记购买</small></a>
+<a href="/cat-gunner-research-h5/?qa=stepup-expired">StepUp 过期<small>明确结束态</small></a>
+<a href="/cat-gunner-research-h5/?qa=stepup-complete">StepUp 全购买<small>所有权及隐藏入口</small></a>
+<a href="/cat-gunner-research-h5/?qa=stepup-locked">StepUp 门槛未达<small>不强制启动、不赠送</small></a>
+<a href="/cat-gunner-research-h5/?qa=stepup&provider-outcome=failure">StepUp 交易失败<small>本地失败回调、无奖励</small></a>
+<a href="/cat-gunner-research-h5/?qa=stepup&provider-outcome=cancelled">StepUp 交易取消<small>本地取消回调、无奖励</small></a>
+<a href="/cat-gunner-research-h5/?qa=stepup&provider-outcome=unavailable">StepUp 商店未连接<small>准确不可用提示、无奖励</small></a>
+<a href="/cat-gunner-research-h5/?qa=buff-panel">左上 x3 增益<small>源规则／本地provider；GUI待复验，不是线上广告</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-storage">武器详情与保险库<small>保护、移动、拖入、取出；规则与两尺寸GUI夹具通过，原机未对照</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-storage-locked">第40大关门槛<small>明确锁定原因，余额不扣；规则与两尺寸GUI夹具通过</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-storage-full">满武器库存<small>保险库取出拒绝，详情返回；规则与两尺寸GUI夹具通过</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-safe">保险库顺序扩容<small>6免费槽＋10购买槽，50→500钻；规则与两尺寸GUI夹具通过</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-safe-empty">保险库钻石不足<small>49钻不能购买50钻槽位，明确拒绝</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-safe-full">满保险库<small>拖入拒绝，不消费武器；规则与两尺寸GUI夹具通过</small></a>
+<a href="/cat-gunner-research-h5/?qa=gun-collection">65枪图鉴<small>未拥有可看详情、滚动返回；两尺寸滚动／返回夹具通过，原机未对照</small></a>
+<a href="/cat-gunner-research-h5/?qa=star-slots">三枪槽星级入口<small>独立星之宝石、换枪不换星；源门槛40大关</small></a>
+<a href="/cat-gunner-research-h5/?qa=star-upgrade">星级强化<small>原弹窗、消耗与成功／失败、存档</small></a>
+<a href="/cat-gunner-research-h5/?qa=star-pity">18星失败递增<small>1%起步，最高5%，不保证成功</small></a>
+<a href="/cat-gunner-research-h5/?qa=star-empty">星之宝石不足<small>拒绝不消耗，不推进随机数</small></a>
+<a href="/cat-gunner-research-h5/?qa=star-max">20星上限<small>无扣费，MAX展示</small></a>
+<a href="/cat-gunner-research-h5/?qa=star-locked">普通门槛夹具<small>第40大关前不显示强化按钮</small></a>
 
 
 
 
-<a href="/?qa=boss-result-freecash">首领结果 FreeCash<small>原扫荡结果入口／本地SDK／返回不重建</small></a>
-<a href="/?qa=offerwall-page">OfferWall 本地客户端<small>成功/失败/取消/不可用；余额→持久待扣→扣款→钻石；线上未连接</small></a>
-<a href="/?qa=offerwall-shop">OfferWall 商店原入口<small>源type1 10大关门禁，返回保位；QA SDK余额明确标注</small></a>
-<a href="/?qa=offerwall-pending">OfferWall 扣款后存档恢复<small>待领取17为隔离夹具，不赠普通档资源</small></a>
-<a href="/?qa=freecash-page">FreeCash 本地链接页<small>原UI／激励免广告权益／不真实链接／不送真钱钻石枪</small></a>
-<a href="/?qa=freecash-hud">FreeCash HUD入口<small>明示配置15–35；正常源码门禁，无线上配置回执</small></a>
-<a href="/?qa=freecash-shop">FreeCash 商店返回<small>覆盖原面板，保留滚动和上下文</small></a>
-<a href="/?qa=freecash-buff">FreeCash 增益横幅<small>激励广告权益与永久buff、强制广告分别消费</small></a>
-<a href="/?qa=freecash-owned">FreeCash 已领取／重载<small>不再曝光，不重复发权益</small></a>
-<a href="/?qa=freecash-page&amp;provider-outcome=failure">FreeCash 失败<small>不发权益、可重试</small></a>
-<a href="/?qa=freecash-page&amp;provider-outcome=cancelled">FreeCash 取消<small>不发权益、不支付</small></a>
-<a href="/?qa=freecash-page&amp;provider-outcome=unavailable">FreeCash 未连接<small>准确不可用，不假成功</small></a>
-<a href="/?qa=freecash-page&amp;freecash-provider-delay=3000">FreeCash 延迟回调<small>明示3秒；换档／重复／存档失败边界</small></a>
-<a href="/?qa=pass-initial">通行证：初季双轨与原购买弹窗<small>独立档；源顺序门禁／VIP／本地交易，不真实支付</small></a>
-<a href="/?qa=pass-later">通行证：后季武器轨<small>原后季16–29奖励表；真实库存消费，不是初季表</small></a>
-<a href="/?qa=pass-core">通行证：后季Core分支<small>明示gunSeason=false夹具；棱晶Core3而非宠物币，无捏造切换按钮</small></a>
-<a href="/?qa=pass-final">通行证：普通轨最后领奖→原强制换季页<small>独立前24格已领夹具；成功提交后弹出，不逐帧重弹，取消保留与原新季确认</small></a>
-<a href="/?qa=pass-final-vip">通行证：VIP高级轨最后领奖<small>普通25格／高级前24格已领夹具；VIP双轨全领后触发源forced页</small></a>
-<a href="/?qa=pass-next">通行证：新季原弹窗<small>双轨全领夹具；确认重置、取消保留、本地月底夹紧日期</small></a>
-<a href="/?qa=pass-full">通行证：枪包已满<small>等级6／前两格已领夹具；枪奖拒绝且不吞领取状态</small></a>
-<a href="/?qa=pass-provider">通行证：本地交易与重载<small>成功一次入账；原卡详情和返回，无线上服务回执</small></a>
-<a href="/?qa=pass-provider&amp;provider-outcome=failure">通行证：provider失败<small>不变余额或当季权益</small></a>
-<a href="/?qa=pass-provider&amp;provider-outcome=cancelled">通行证：provider取消<small>不变余额或当季权益</small></a>
-<a href="/?qa=pass-provider&amp;provider-outcome=unavailable">通行证：服务不可用<small>准确不可用，不伪造成功</small></a>
-<a href="/?qa=pass-provider&amp;pass-provider-delay=3000">通行证：延迟回调<small>明示3秒；可测试关闭、换档、跨季后旧请求不发奖</small></a>
-<a href="/?qa=pass-scroll">通行证中段领取<small>同实例局部刷新与连续领取回归</small></a>
-<a href="/?qa=pet-auto">宠物自动合成<small>源规则与实际点击已测，原机待对照</small></a>
-<a href="/?qa=pet-drag">宠物库存移动／交换<small>源nearest分支、锁组／稳定ID；独立夹具，不改玩家档</small></a>
-<a href="/?qa=pet-draw-info">宠物抽取概率<small>原 Info 按钮对应 GO1050；D级100%，不虚构高阶概率</small></a>
-<a href="/?qa=pet-info">宠物详情<small>原资源／属性；拖动重排另有独立夹具，原机未对照</small></a>
-<a href="/?qa=prism-shop">棱镜核心商店<small>七个源商品／全部入账核心3；本地provider，无支付，原机未对照</small></a>
-<a href="/?qa=prism-cooldown">核心24小时／7天限购<small>滚动间隔，两个周包独立；不是周一刷新</small></a>
-<a href="/?qa=prism-overflow">核心源int32容量拒绝<small>无发奖／无登记购买</small></a>
-<a href="/?qa=prism-shop&amp;provider-outcome=failure">核心交易失败<small>失败回调，不发奖</small></a>
-<a href="/?qa=prism-shop&amp;provider-outcome=cancelled">核心交易取消<small>取消回调，不发奖</small></a>
-<a href="/?qa=prism-shop&amp;provider-outcome=unavailable">核心交易未连接<small>准确不可用，不伪造线上回执</small></a>
-<a href="/?qa=relic-panel">遗物核心抽取与详情<small>15个源身份／四种核心；H5 RNG与揭示时序，原机未对照</small></a>
-<a href="/?qa=relic-upgrade">遗物碎片升级<small>真实消耗与属性／返回保位；独立测试档</small></a>
-<a href="/?qa=relic-boundary">遗物Lv299源数组边界<small>第301项未取证，明确拒绝且不扣碎片</small></a>
-<a href="/?qa=relic-empty">遗物核心不足<small>零核心夹具；拒绝不扣款／不推进RNG</small></a>
-<a href="/?qa=relic-consumers">遗物属性消费者<small>全Lv2夹具，攻击／金币／暴伤／转生；Skip和离线仍未闭合</small></a>
-<a href="/?qa=adventure-panel">探索／选择宠物<small>独立票20；周日2026-10-04起点；地区核心≠宠物币</small></a>
-<a href="/?qa=adventure-dispatch">探索进行中／减时<small>本地provider；真实点击派遣→减时→领取已测</small></a>
-<a href="/?qa=adventure-dispatch&amp;provider-outcome=failure">探索广告失败<small>本地测试失败回调，不减时／不发奖</small></a>
-<a href="/?qa=adventure-dispatch&amp;provider-outcome=cancelled">探索广告取消<small>本地测试取消回调，不减时／不发奖</small></a>
-<a href="/?qa=adventure-finish">探索到期／领取<small>规则与390×844实际点击通过；连续原机NOT_RUN</small></a>
-<a href="/?qa=adventure-locked">派遣宠物锁定<small>允许装备／交换，禁止合成／重复派遣</small></a>
-<a href="/?qa=hunt-sweep">狩猎扫荡入口<small>源门槛、Plus2及战力消费者，本地数值路径</small></a>
-<a href="/?qa=hunt-sweep-result">狩猎扫荡异步奖励<small>本地provider四态、额外1×、返回入口与防重复</small></a>
-<a href="/?qa=hunt-sweep-result-auto">狩猎自动2×结算<small>权益快照，不可重复广告领奖</small></a>
-<a href="/?qa=hunt-sweep-result-freecash">狩猎FreeCash分支<small>外部服务未连接，不伪造发奖</small></a>
-<a href="/?qa=hunt-panel">狩猎原入口<small>已接实时逐弹战斗；原机同前态／真人验证未完成</small></a>
-<a href="/?qa=late-content">后期入口审计<small>突袭、遗物、活动生命周期仍未闭合</small></a>
-<a href="/?qa=shop">商城礼包与广告权益<small>本地provider，不真实支付；源机NOT_RUN</small></a>
-<a href="/?qa=shop-owned">商城已拥有／长余额<small>严格不重复首购赠送</small></a>
-<a href="/?qa=shop-old-save">商城旧档迁移<small>新增diaPack默认false，不赠资源</small></a>
-<a href="/?qa=mine-pack">矿场六次礼包<small>原购买页，首次500钻，本地provider</small></a>
-<a href="/?qa=shop&amp;provider-outcome=failure">商城交易失败<small>不发奖、不置权益</small></a>
-<a href="/?qa=shop&amp;provider-outcome=cancelled">商城交易取消<small>不发奖、不置权益</small></a>
-<a href="/?qa=shop&amp;provider-outcome=unavailable">商城服务不可用<small>不伪造线上成功</small></a>
-<a href="/?qa=mine-result">矿场结算／追加奖励<small>本地异步provider；结算与退出竞态回归</small></a>
-<a href="/?qa=mine-result-auto">矿场自动四倍<small>结算即入账，不允许重复追加</small></a>
-<a href="/?qa=mine-sweep-result">矿场扫荡结算<small>先扣票发基础，再确认回调追加三倍</small></a>
-<a href="/?qa=mine-result-freecash">矿场FreeCash横幅<small>源互斥展示；线上服务未连接</small></a>
+
+
+<a href="/cat-gunner-research-h5/?qa=boss-result-freecash">首领结果 FreeCash<small>原扫荡结果入口／本地SDK／返回不重建</small></a>
+<a href="/cat-gunner-research-h5/?qa=offerwall-page">OfferWall 本地客户端<small>成功/失败/取消/不可用；余额→持久待扣→扣款→钻石；线上未连接</small></a>
+<a href="/cat-gunner-research-h5/?qa=offerwall-shop">OfferWall 商店原入口<small>源type1 10大关门禁，返回保位；QA SDK余额明确标注</small></a>
+<a href="/cat-gunner-research-h5/?qa=offerwall-pending">OfferWall 扣款后存档恢复<small>待领取17为隔离夹具，不赠普通档资源</small></a>
+<a href="/cat-gunner-research-h5/?qa=freecash-page">FreeCash 本地链接页<small>原UI／激励免广告权益／不真实链接／不送真钱钻石枪</small></a>
+<a href="/cat-gunner-research-h5/?qa=freecash-hud">FreeCash HUD入口<small>明示配置15–35；正常源码门禁，无线上配置回执</small></a>
+<a href="/cat-gunner-research-h5/?qa=freecash-shop">FreeCash 商店返回<small>覆盖原面板，保留滚动和上下文</small></a>
+<a href="/cat-gunner-research-h5/?qa=freecash-buff">FreeCash 增益横幅<small>激励广告权益与永久buff、强制广告分别消费</small></a>
+<a href="/cat-gunner-research-h5/?qa=freecash-owned">FreeCash 已领取／重载<small>不再曝光，不重复发权益</small></a>
+<a href="/cat-gunner-research-h5/?qa=freecash-page&amp;provider-outcome=failure">FreeCash 失败<small>不发权益、可重试</small></a>
+<a href="/cat-gunner-research-h5/?qa=freecash-page&amp;provider-outcome=cancelled">FreeCash 取消<small>不发权益、不支付</small></a>
+<a href="/cat-gunner-research-h5/?qa=freecash-page&amp;provider-outcome=unavailable">FreeCash 未连接<small>准确不可用，不假成功</small></a>
+<a href="/cat-gunner-research-h5/?qa=freecash-page&amp;freecash-provider-delay=3000">FreeCash 延迟回调<small>明示3秒；换档／重复／存档失败边界</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-initial">通行证：初季双轨与原购买弹窗<small>独立档；源顺序门禁／VIP／本地交易，不真实支付</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-later">通行证：后季武器轨<small>原后季16–29奖励表；真实库存消费，不是初季表</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-core">通行证：后季Core分支<small>明示gunSeason=false夹具；棱晶Core3而非宠物币，无捏造切换按钮</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-final">通行证：普通轨最后领奖→原强制换季页<small>独立前24格已领夹具；成功提交后弹出，不逐帧重弹，取消保留与原新季确认</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-final-vip">通行证：VIP高级轨最后领奖<small>普通25格／高级前24格已领夹具；VIP双轨全领后触发源forced页</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-next">通行证：新季原弹窗<small>双轨全领夹具；确认重置、取消保留、本地月底夹紧日期</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-full">通行证：枪包已满<small>等级6／前两格已领夹具；枪奖拒绝且不吞领取状态</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-provider">通行证：本地交易与重载<small>成功一次入账；原卡详情和返回，无线上服务回执</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-provider&amp;provider-outcome=failure">通行证：provider失败<small>不变余额或当季权益</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-provider&amp;provider-outcome=cancelled">通行证：provider取消<small>不变余额或当季权益</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-provider&amp;provider-outcome=unavailable">通行证：服务不可用<small>准确不可用，不伪造成功</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-provider&amp;pass-provider-delay=3000">通行证：延迟回调<small>明示3秒；可测试关闭、换档、跨季后旧请求不发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=pass-scroll">通行证中段领取<small>同实例局部刷新与连续领取回归</small></a>
+<a href="/cat-gunner-research-h5/?qa=pet-auto">宠物自动合成<small>源规则与实际点击已测，原机待对照</small></a>
+<a href="/cat-gunner-research-h5/?qa=pet-drag">宠物库存移动／交换<small>源nearest分支、锁组／稳定ID；独立夹具，不改玩家档</small></a>
+<a href="/cat-gunner-research-h5/?qa=pet-draw-info">宠物抽取概率<small>原 Info 按钮对应 GO1050；D级100%，不虚构高阶概率</small></a>
+<a href="/cat-gunner-research-h5/?qa=pet-info">宠物详情<small>原资源／属性；拖动重排另有独立夹具，原机未对照</small></a>
+<a href="/cat-gunner-research-h5/?qa=prism-shop">棱镜核心商店<small>七个源商品／全部入账核心3；本地provider，无支付，原机未对照</small></a>
+<a href="/cat-gunner-research-h5/?qa=prism-cooldown">核心24小时／7天限购<small>滚动间隔，两个周包独立；不是周一刷新</small></a>
+<a href="/cat-gunner-research-h5/?qa=prism-overflow">核心源int32容量拒绝<small>无发奖／无登记购买</small></a>
+<a href="/cat-gunner-research-h5/?qa=prism-shop&amp;provider-outcome=failure">核心交易失败<small>失败回调，不发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=prism-shop&amp;provider-outcome=cancelled">核心交易取消<small>取消回调，不发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=prism-shop&amp;provider-outcome=unavailable">核心交易未连接<small>准确不可用，不伪造线上回执</small></a>
+<a href="/cat-gunner-research-h5/?qa=relic-panel">遗物核心抽取与详情<small>15个源身份／四种核心；H5 RNG与揭示时序，原机未对照</small></a>
+<a href="/cat-gunner-research-h5/?qa=relic-upgrade">遗物碎片升级<small>真实消耗与属性／返回保位；独立测试档</small></a>
+<a href="/cat-gunner-research-h5/?qa=relic-boundary">遗物Lv299源数组边界<small>第301项未取证，明确拒绝且不扣碎片</small></a>
+<a href="/cat-gunner-research-h5/?qa=relic-empty">遗物核心不足<small>零核心夹具；拒绝不扣款／不推进RNG</small></a>
+<a href="/cat-gunner-research-h5/?qa=relic-consumers">遗物属性消费者<small>全Lv2夹具，攻击／金币／暴伤／转生；Skip和离线仍未闭合</small></a>
+<a href="/cat-gunner-research-h5/?qa=adventure-panel">探索／选择宠物<small>独立票20；周日2026-10-04起点；地区核心≠宠物币</small></a>
+<a href="/cat-gunner-research-h5/?qa=adventure-dispatch">探索进行中／减时<small>本地provider；真实点击派遣→减时→领取已测</small></a>
+<a href="/cat-gunner-research-h5/?qa=adventure-dispatch&amp;provider-outcome=failure">探索广告失败<small>本地测试失败回调，不减时／不发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=adventure-dispatch&amp;provider-outcome=cancelled">探索广告取消<small>本地测试取消回调，不减时／不发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=adventure-finish">探索到期／领取<small>规则与390×844实际点击通过；连续原机NOT_RUN</small></a>
+<a href="/cat-gunner-research-h5/?qa=adventure-locked">派遣宠物锁定<small>允许装备／交换，禁止合成／重复派遣</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-sweep">狩猎扫荡入口<small>源门槛、Plus2及战力消费者，本地数值路径</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-sweep-result">狩猎扫荡异步奖励<small>本地provider四态、额外1×、返回入口与防重复</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-sweep-result-auto">狩猎自动2×结算<small>权益快照，不可重复广告领奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-sweep-result-freecash">狩猎FreeCash分支<small>外部服务未连接，不伪造发奖</small></a>
+<a href="/cat-gunner-research-h5/?qa=hunt-panel">狩猎原入口<small>已接实时逐弹战斗；原机同前态／真人验证未完成</small></a>
+<a href="/cat-gunner-research-h5/?qa=late-content">后期入口审计<small>突袭、遗物、活动生命周期仍未闭合</small></a>
+<a href="/cat-gunner-research-h5/?qa=shop">商城礼包与广告权益<small>本地provider，不真实支付；源机NOT_RUN</small></a>
+<a href="/cat-gunner-research-h5/?qa=shop-owned">商城已拥有／长余额<small>严格不重复首购赠送</small></a>
+<a href="/cat-gunner-research-h5/?qa=shop-old-save">商城旧档迁移<small>新增diaPack默认false，不赠资源</small></a>
+<a href="/cat-gunner-research-h5/?qa=mine-pack">矿场六次礼包<small>原购买页，首次500钻，本地provider</small></a>
+<a href="/cat-gunner-research-h5/?qa=shop&amp;provider-outcome=failure">商城交易失败<small>不发奖、不置权益</small></a>
+<a href="/cat-gunner-research-h5/?qa=shop&amp;provider-outcome=cancelled">商城交易取消<small>不发奖、不置权益</small></a>
+<a href="/cat-gunner-research-h5/?qa=shop&amp;provider-outcome=unavailable">商城服务不可用<small>不伪造线上成功</small></a>
+<a href="/cat-gunner-research-h5/?qa=mine-result">矿场结算／追加奖励<small>本地异步provider；结算与退出竞态回归</small></a>
+<a href="/cat-gunner-research-h5/?qa=mine-result-auto">矿场自动四倍<small>结算即入账，不允许重复追加</small></a>
+<a href="/cat-gunner-research-h5/?qa=mine-sweep-result">矿场扫荡结算<small>先扣票发基础，再确认回调追加三倍</small></a>
+<a href="/cat-gunner-research-h5/?qa=mine-result-freecash">矿场FreeCash横幅<small>源互斥展示；线上服务未连接</small></a>
 </nav><p>操作：方向键 / WASD 或拖动摇杆。当前版本为 WIP；特殊枪场景覆盖穿透、导弹、爆炸狙击。Unity 随机序列、导弹中途物理碰撞、完整粒子曲线和平台能力仍有待确认项。</p></html>

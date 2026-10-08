@@ -24,14 +24,14 @@ function renderCatalog() {
  providerScope();
  for(const button of $('focus').children)button.hidden=!`${button.textContent} ${button.dataset.route}`.toLowerCase().includes(term);
 }
-function providerScope() {const route=new URL($('scenario').value||'/',location.origin).searchParams.get('qa'),host=usesHostProviderControls(route);$('outcome').disabled=host;$('delay').disabled=host;$('provider-scope').textContent=host?'独立战斗宿主：此处回调控件不生效。请用游戏内自己的provider选择器；右侧只读状态显示实际结果。':'主程序：外壳只设置本地provider回调夹具；无外部服务的动作不受这些控件影响。';}
+function providerScope() {const route=new URL($('scenario').value||'/cat-gunner-research-h5/',location.origin).searchParams.get('qa'),host=usesHostProviderControls(route);$('outcome').disabled=host;$('delay').disabled=host;$('provider-scope').textContent=host?'独立战斗宿主：此处回调控件不生效。请用游戏内自己的provider选择器；右侧只读状态显示实际结果。':'主程序：外壳只设置本地provider回调夹具；无外部服务的动作不受这些控件影响。';}
 function cardSelection(route) {
  $('search').value='';renderCatalog();const item=catalog.find(c=>new URL(c.url,location.origin).searchParams.get('qa')===route);
  if(!item){notice('此场景未在同构建选择页中登记，拒绝启动。');return;}
  $('scenario').value=item.url;providerScope();launch();
 }
 async function refreshBuild() {
- try {const r=await fetch('/debug/build.json',{cache:'no-store'});if(!r.ok)throw Error(`HTTP ${r.status}`);build=await r.json();}
+ try {const r=await fetch('/cat-gunner-research-h5/debug/build.json',{cache:'no-store'});if(!r.ok)throw Error(`HTTP ${r.status}`);build=await r.json();}
  catch(error){build={status:'NOT_AVAILABLE',reason:String(error)};}
  $('build').textContent=JSON.stringify(build,null,2);
 }
@@ -125,11 +125,11 @@ $('export').addEventListener('click',()=>{
 });
 async function init() {
  try {
- const r=await fetch('/qa.html',{cache:'no-store'});if(!r.ok)throw Error(`场景目录HTTP ${r.status}`);
+ const r=await fetch('/cat-gunner-research-h5/qa.html',{cache:'no-store'});if(!r.ok)throw Error(`场景目录HTTP ${r.status}`);
  const doc=new DOMParser().parseFromString(await r.text(),'text/html'),seen=new Set();
  for(const a of doc.querySelectorAll('a[href]')) {
   const u=new URL(a.getAttribute('href'),location.origin);const route=u.searchParams.get('qa');
-  if(u.origin!==location.origin||u.pathname!=='/'||!route||seen.has(u.pathname+u.search))continue;
+  if(u.origin!==location.origin||u.pathname!=='/cat-gunner-research-h5/'||!route||seen.has(u.pathname+u.search))continue;
   seen.add(u.pathname+u.search);known.add(route);
   catalog.push({url:u.pathname+u.search,title:[...a.childNodes].filter(n=>n.nodeType===Node.TEXT_NODE).map(n=>n.textContent).join('').trim()||route,description:a.querySelector('small')?.textContent??''});
  }
@@ -139,7 +139,7 @@ async function init() {
   const button=document.createElement('button');button.textContent=f.title;button.dataset.route=f.route;button.addEventListener('click',()=>cardSelection(f.route));$('focus').append(button);
  }
  $('scenario').disabled=false;renderCatalog();
- const initial=catalog.find(c=>c.url==='/?qa=boss-reward-save-failure');if(initial)$('scenario').value=initial.url;
+ const initial=catalog.find(c=>c.url==='/cat-gunner-research-h5/?qa=boss-reward-save-failure');if(initial)$('scenario').value=initial.url;
  await refreshBuild();launch();
  }catch(error){$('catalog-status').textContent=`加载失败：${String(error)}；不会加载普通入口。`;notice('场景目录不可用，请刷新本页或检查预览服务。');}
 }

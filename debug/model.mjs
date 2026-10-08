@@ -22,7 +22,7 @@ export function usesHostProviderControls(route) {return /^(raid-live|hunt-live)/
 export function normalizedDelay(value) {const n=Number(value);return Number.isFinite(n)?Math.min(5000,Math.max(0,Math.trunc(n))):0;}
 export function scenarioURL(base, known, outcome='success', delay=0) {
   const u=new URL(base,'http://debug.invalid');
-  if(u.origin!=='http://debug.invalid'||u.pathname!=='/'||u.searchParams.getAll('qa').length!==1||!known.has(u.searchParams.get('qa')))throw Error('拒绝普通入口、未知场景或跨域地址');
+  if(u.origin!=='http://debug.invalid'||u.pathname!=='/cat-gunner-research-h5/'||u.searchParams.getAll('qa').length!==1||!known.has(u.searchParams.get('qa')))throw Error('拒绝普通入口、未知场景或跨域地址');
   if(!['success','failure','cancelled','unavailable'].includes(outcome))throw Error('未知provider状态');
   if(usesHostProviderControls(u.searchParams.get('qa')))return u.pathname+u.search;
   u.searchParams.set('provider-outcome',outcome);
