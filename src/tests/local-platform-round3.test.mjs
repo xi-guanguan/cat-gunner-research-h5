@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { freshPlatformState,decodePlatformState,confirmedDeveloperGrant,developerResource,developerChallengeBonus,developerMineBonus,developerShopPurchase } from '../local-platform.ts';
+import { freshPlatformState,decodePlatformState,localPurchaseSimulationEnabled,confirmedDeveloperGrant,developerResource,developerChallengeBonus,developerMineBonus,developerShopPurchase } from '../local-platform.ts';
 import { createSession,openChallenge,startChallenge,serializeSession,deserializeSession } from '../session.ts';
 import { mineSettlement } from '../meta-progression.ts';
 const ready=()=>({...freshPlatformState(),developerEnabled:true});
@@ -40,4 +40,14 @@ test('source shop five packs double only the first purchase, replay cannot pay a
   r=developerShopPurchase(r.session,r.platform,id,'1');assert.equal(r.session.diamonds,amount*3);
   assert.equal(developerShopPurchase(r.session,{...r.platform,freePurchases:false},id,'2').status,'unavailable');
  }
+});
+
+test('Pages free IAP preview does not enable developer grants and respects existing opt-out',()=>{
+ const fresh=freshPlatformState();assert.equal(localPurchaseSimulationEnabled(fresh,false),false);
+ assert.equal(localPurchaseSimulationEnabled(fresh,true),true);
+ assert.equal(confirmedDeveloperGrant(createSession(2),fresh,'preview:no-dev','ad',1).status,'unavailable');
+ assert.equal(confirmedDeveloperGrant(createSession(2),fresh,'preview:no-dev','purchase',1).status,'unavailable');
+ const optedOut=decodePlatformState(JSON.stringify({...fresh,freePurchases:false}));
+ assert.equal(localPurchaseSimulationEnabled(optedOut,true),false);
+ assert.equal(localPurchaseSimulationEnabled({...fresh,developerEnabled:true},false),true);
 });

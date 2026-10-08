@@ -3,7 +3,7 @@
   "mode": "WIP / 非verified发布",
   "verifiedBaseRevision": "ae635223dd2d7303888750db9d4c5c38ee12c54f",
   "branch": "codex/catgunner-h5",
-  "sourceInputSHA256": "6257d9881676800cdc84f867b76bc180b230ddb004ffb2399666c626187af97d",
+  "sourceInputSHA256": "d9224219d9e5250b423ab449ad0603e00ad885ddefb60262bd597d6b13945154",
   "inputFileCount": 370,
   "assetManifestVerified": false,
   "scope": "当前TS/JSON源数据与翻译目录/测试/Debug外壳/配置内容；不包含原资源哈希，不证明原机/真人/全入口完成。",

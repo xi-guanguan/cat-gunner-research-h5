@@ -16,6 +16,10 @@ export interface LocalPlatformState {
 }
 export const LOCAL_PLATFORM_KEY = "catgunner-local-platform-v1";
 export const freshPlatformState = (): LocalPlatformState => ({schema:1,developerEnabled:false,freeAds:true,freePurchases:true,sequence:0,claims:[],audit:[]});
+/** Pages research preview can offer no-cost local IAP without enabling developer grants, ads or cloud identity.
+ * An existing save with freePurchases=false stays opted out. */
+export const localPurchaseSimulationEnabled = (state:LocalPlatformState, pagesPreview:boolean):boolean =>
+  state.freePurchases && (pagesPreview || state.developerEnabled);
 export function decodePlatformState(text: string | null): LocalPlatformState {
   if (!text) return freshPlatformState();
   try {

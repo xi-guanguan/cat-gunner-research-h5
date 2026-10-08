@@ -22,7 +22,7 @@ jobs:
       - run: npm ci
       - run: npm run build:pages
         env:
-          CATGUNNER_SOURCE_REVISION: a28afe2fd7a2be5400b94201eab68947a076f2b4
+          CATGUNNER_SOURCE_REVISION: 492aa93bdf96c165b866cd6c99d83f1f818fd7c6
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

@@ -38,7 +38,7 @@ export interface SourcePlatformUI {
 export interface SourcePanelOptions {
   textures:Record<string,Texture>; viewport:SourceUiViewport; panel:string;
   session:Session; activities:ActivityState; platform:LocalPlatformState; preferences:BrowserPreferences;
-  autoAdUI?:{today:string;pending:boolean;saveFailed:boolean}; passPopup?:SourcePassPopup; passPending?:boolean; passSaveFailed?:boolean; purchaseSaveFailed?:boolean; purchaseSaveFailedProduct?:string; purchasePending?:boolean; rewardPending?:boolean; qaLocalProvider?:boolean; meta?:SourceMetaState; platformUI?:SourcePlatformUI; notice?:string; action:(name:string,payload?:any)=>void;
+  autoAdUI?:{today:string;pending:boolean;saveFailed:boolean}; passPopup?:SourcePassPopup; passPending?:boolean; passSaveFailed?:boolean; purchaseSaveFailed?:boolean; purchaseSaveFailedProduct?:string; purchasePending?:boolean; rewardPending?:boolean; qaLocalProvider?:boolean; purchaseLocalProvider?:boolean; meta?:SourceMetaState; platformUI?:SourcePlatformUI; notice?:string; action:(name:string,payload?:any)=>void;
 }
 /** Action contract: close, preference(key), developer, claim-daily, permanent,
  * confirm-rebirth, permanent-upgrade(damage|speed|money), start-challenge, start-mine,
@@ -106,7 +106,7 @@ export function createSourcePanel(options:SourcePanelOptions):SourceUiView|null 
       show('/Remove Ads ALL (Inapp)/FreeCash_Banner',banner.freeCash);
       show('/Remove Ads ALL (Inapp)/Remove_AD_All/Purchased_obj',meta.entitlements.removeAdsAll);
       bind('/Remove Ads ALL (Inapp)/Remove_AD_All','result-remove-ads');bind('/Remove Ads ALL (Inapp)/Remove_AD_All/Purchase_Btn','result-remove-ads');
-      set('/Remove Ads ALL (Inapp)/Remove_AD_All/Purchase_Btn/Price_txt',options.purchaseSaveFailedProduct==='remove_all_ads'?'重试保存':options.purchasePending?'本地处理中…':options.qaLocalProvider||platform.developerEnabled&&platform.freePurchases?'本地测试购买':'服务未连接');
+      set('/Remove Ads ALL (Inapp)/Remove_AD_All/Purchase_Btn/Price_txt',options.purchaseSaveFailedProduct==='remove_all_ads'?'重试保存':options.purchasePending?'本地处理中…':options.purchaseLocalProvider||options.qaLocalProvider||platform.developerEnabled&&platform.freePurchases?'本地测试购买':'服务未连接');
       set('/Remove Ads ALL (Inapp)/FreeCash_Banner/I2_txt(Outline)','FreeCash · 本地测试／线上未连接');
       set('/Remove Ads ALL (Inapp)/FreeCash_Banner/Purchase_Btn/I2_txt(Outline)','查看服务状态');
       bind('/Remove Ads ALL (Inapp)/FreeCash_Banner','freecash-open','banner_reward');bind('/Remove Ads ALL (Inapp)/FreeCash_Banner/Purchase_Btn','freecash-open','banner_reward');
@@ -232,7 +232,7 @@ export function createSourcePanel(options:SourcePanelOptions):SourceUiView|null 
     bind('/Panel/Auto_obj/Sweep_Btn','challenge-sweep');
     show('/Banner_PlusPack',sourceChallengePlusBannerVisible(session.historicMax,auto));
     show('/Banner_PlusPack/Plus_Auto/NonPurchase_Panel',true);show('/Banner_PlusPack/Plus_Auto/Active_Panel',false);
-    set('/Banner_PlusPack/Plus_Auto/NonPurchase_Panel/Price_txt',options.qaLocalProvider||platform.developerEnabled&&platform.freePurchases?'本地测试购买':'购买未连接');
+    set('/Banner_PlusPack/Plus_Auto/NonPurchase_Panel/Price_txt',options.purchaseLocalProvider||options.qaLocalProvider||platform.developerEnabled&&platform.freePurchases?'本地测试购买':'购买未连接');
     bind('/Banner_PlusPack/Plus_Auto','challenge-plus-purchase');
   } else if(options.panel==='mine'){
     const gate=contentGate(session.historicMax,'mine'),maximum=meta.entitlements.minePack?6:2,today=localMineTime.today();
@@ -264,7 +264,7 @@ export function createSourcePanel(options:SourcePanelOptions):SourceUiView|null 
     set('/Panel/MinePack/I2_txt','永久增加每日矿场次数至 6；首次赠送 500 钻石。');
     set('/Panel/MinePack/Dia/Price_txt','500');
     set('/Panel/MinePack/Profile/Image/Text (TMP)','6');
-    set('/Panel/MinePack/Purchase_Btn/Price_txt',options.purchasePending?'处理中':options.qaLocalProvider||platform.developerEnabled&&platform.freePurchases?'本地测试':'服务未连接');
+    set('/Panel/MinePack/Purchase_Btn/Price_txt',options.purchasePending?'处理中':options.purchaseLocalProvider||options.qaLocalProvider||platform.developerEnabled&&platform.freePurchases?'本地测试':'服务未连接');
     show('/Panel/MinePack/Purchased_obj',meta.entitlements.minePack);show('/Panel/MinePack/Purchase_Btn',!meta.entitlements.minePack);
     // Both original Buttons invoke Inapp_Purchase_Panel.Purchase (123920 / child).
     bind('/Panel/MinePack','package-purchase','mine_pack');bind('/Panel/MinePack/Purchase_Btn','package-purchase','mine_pack');
@@ -297,7 +297,7 @@ export function createSourcePanel(options:SourcePanelOptions):SourceUiView|null 
   }
   if(options.panel==='shop'){
     const content='/Panel/Scroll View/Viewport/Content';
-    const projection=sourceShopProjection({diamonds:session.diamonds,entitlements:meta.entitlements,claims:platform.claims,shopFirstBuy:meta.shopFirstBuy,offerWallBanner:options.platformUI?.offerWallBanner,freeCashBanner:options.platformUI?.freeCashBanner,localProvider:options.qaLocalProvider===true||platform.developerEnabled&&platform.freePurchases,pending:options.purchasePending===true,saveFailedProduct:options.purchaseSaveFailedProduct,notice:options.notice??''});
+    const projection=sourceShopProjection({diamonds:session.diamonds,entitlements:meta.entitlements,claims:platform.claims,shopFirstBuy:meta.shopFirstBuy,offerWallBanner:options.platformUI?.offerWallBanner,freeCashBanner:options.platformUI?.freeCashBanner,localProvider:options.purchaseLocalProvider===true||options.qaLocalProvider===true||platform.developerEnabled&&platform.freePurchases,pending:options.purchasePending===true,saveFailedProduct:options.purchaseSaveFailedProduct,notice:options.notice??''});
     Object.assign(text,projection.text);Object.assign(active,projection.active);
     for(const card of SOURCE_SHOP_CARDS){bind(`${content}/${card.group}/${card.name}`,'package-purchase',card.product);bind(`${content}/${card.group}/${card.name}/Purchase_Btn`,'package-purchase',card.product);}
     shopContract.shop.offerings.forEach((offer,i)=>bind(content+'/Dia (List)/Dia_Pack'+(i?` (${i})`:''),'shop-purchase',offer.id));

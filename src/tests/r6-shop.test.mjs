@@ -50,7 +50,7 @@ test('remove ads buy through original callback initializes pig before first flag
  const all=req('remove_all_ads','txn:all'),both=sourceRemoveAdsPurchase({...a.state,pig:tick.state,runtime:tick.runtime},all,response(all),{...clock,nowUTC:160000,monoSeconds:160});assert.equal(both.state.entitlements.removeAdsForced,true);assert.equal(both.state.entitlements.removeAdsAll,true);assert.equal(both.state.pig.diamonds,1);
 });
 test('shop projection retains original cards with specific descriptions and first-buy states, never claims real store connected',()=>{
- const state={...fresh(),localProvider:true,pending:false,notice:''},p=sourceShopProjection(state);for(const c of SOURCE_SHOP_CARDS){const path='/Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/'+c.group+'/'+c.name;assert.equal(p.active[path+'/Purchase_Btn'],true);assert.equal(p.text[path+'/Purchase_Btn/Price_txt'],'本地测试');assert.ok(!p.text[path+'/I2_txt'].includes('暂未接入'));}
+ const state={...fresh(),localProvider:true,pending:false,notice:''},p=sourceShopProjection(state);assert.match(Object.values(p.text).join('|'),/免费模拟内购 · 不扣费/);for(const c of SOURCE_SHOP_CARDS){const path='/Canvas/SafeArea/Shop_UI/Panel/Scroll View/Viewport/Content/'+c.group+'/'+c.name;assert.equal(p.active[path+'/Purchase_Btn'],true);assert.equal(p.text[path+'/Purchase_Btn/Price_txt'],'本地测试');assert.ok(!p.text[path+'/I2_txt'].includes('暂未接入'));}
  const offline=sourceShopProjection({...state,localProvider:false});assert.ok(Object.values(offline.text).includes('服务未连接'));assert.ok(Object.values(offline.text).some(t=>t.includes('外部服务未连接')));
 });
 test('source constants exact product identities and raw index mapping remain traceable',()=>{

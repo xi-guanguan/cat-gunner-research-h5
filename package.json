@@ -7,7 +7,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "tsc --noEmit && vite build",
     "check": "tsc --noEmit",
-    "build:pages": "npm run build -- --base=/cat-gunner-research-h5/ && node scripts/prepare-github-pages.mjs dist /cat-gunner-research-h5/"
+    "build:pages": "VITE_PREVIEW_FREE_PURCHASES=true npm run build -- --base=/cat-gunner-research-h5/ && node scripts/prepare-github-pages.mjs dist /cat-gunner-research-h5/"
   },
   "dependencies": {
     "pixi-spine": "4.0.6",

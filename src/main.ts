@@ -103,7 +103,7 @@ import { loadingPose, type SourceLoadingAnimation } from "./loading-animation";
 import round2UILayout from "./data/round2-ui-layout.json";
 import round3UI from "./data/round3-ui-contract.json";
 import { SceneTransition } from "./scene-transition";
-import { freshPlatformState, decodePlatformState, LOCAL_PLATFORM_KEY, developerResource, developerShopPurchase, confirmedDeveloperGrant, type GrantResult } from "./local-platform";
+import { freshPlatformState, decodePlatformState, LOCAL_PLATFORM_KEY, localPurchaseSimulationEnabled, developerResource, developerShopPurchase, confirmedDeveloperGrant, type GrantResult } from "./local-platform";
 import {ACTIVITY_STORAGE_KEY,createActivityState,decodeActivityState,serializeActivityState,claimDaily as claimSourceDaily,observeActivities,claimMission,passView,claimPass,developerActivityExp,ACTIVITY_MISSIONS,type ActivityCounter} from "./source-activities";
 import {sourceUiAssetURLs,createSourceUiView,type SourceUiTree,type SourceUiView,type SourceUiViewport} from "./source-ui";
 import {createSourceHud} from "./source-hud";
@@ -773,6 +773,8 @@ let passPopup:SourcePassPopup='none';
 let qaPassDate:string|null=null,qaPassSaveFailure=false;
 let localPanel: "mine-pack"|"weekly"|"diapig"|"stepup"|"none"|"shop"|"activities"|"developer"|"missions"|"pass"|"fish"|"boss"|"pet"|"pet-info"|"pet-draw-info"|"gun-collection"|"gun-info"|"gun-safe"|"gun-guide"|"star"|"skin"|"skin-info"|"monster"|"adventure"|"raid"|"raid-star-pig"|"raid-helper"|"raid-mission"|"redeem"|"auto"|"buff" = "none";
 let platform = decodePlatformState(gameStorage.getItem(LOCAL_PLATFORM_KEY));
+const pagesPurchasePreview=import.meta.env.VITE_PREVIEW_FREE_PURCHASES === "true";
+const purchaseSimulationEnabled=()=>localPurchaseSimulationEnabled(platform,pagesPurchasePreview);
 let localNotice = "";
 let activityPage=0;
 const localControls: Container[] = [];
@@ -799,7 +801,7 @@ function drawLocalPanel() {
     const top=Math.max(40,(H-760)/2),bottom=Math.min(H-24,top+760);
     modal.addChild(panelSurface(28,top,484,bottom-top),label("开发者模式",28,270,top+40),settingLabel("用户扩展 · 本地测试操作会保存",15,270,top+74),closeControl(478,top+40,()=>{localPanel="none";localNotice="";update();}));
     modal.addChild(grantButton(platform.developerEnabled?"开发者模式：已开启":"开启开发者模式",top+120,()=>{platform={...platform,developerEnabled:!platform.developerEnabled};savePlatform();update();},platform.developerEnabled?0x9bd7aa:0xffcf66));
-    (["freeAds","freePurchases"] as const).forEach((kind,i)=>modal.addChild(control(`${kind==="freeAds"?"免广告":"免购买"}：${platform[kind]?"开":"关"}`,163+i*214,top+180,196,48,platform[kind]?0xa8d9e6:0xcbbf9f,()=>{platform={...platform,[kind]:!platform[kind]};savePlatform();update();})));
+    (["freeAds","freePurchases"] as const).forEach((kind,i)=>modal.addChild(control(`${kind==="freeAds"?"免广告":"免费模拟内购"}：${platform[kind]?"开":"关"}`,163+i*214,top+180,196,48,platform[kind]?0xa8d9e6:0xcbbf9f,()=>{platform={...platform,[kind]:!platform[kind]};savePlatform();update();})));
     const bundle=()=>({session,activities,platform,meta});
     const actions:[string,()=>void][]=[
       ["钻石 +1000",()=>applyGrant(developerResource(session,platform,"diamonds"))],["金币 +100万",()=>applyGrant(developerResource(session,platform,"coins"))],
@@ -814,14 +816,14 @@ function drawLocalPanel() {
     modal.addChild(settingLabel(localNotice||"免购买仅提供显式开发回执",14,270,bottom-62),settingLabel(`已记录 ${platform.sequence} 次测试操作`,13,270,bottom-30));return;
   }
   if(localPanel==="shop") {
-    localTitle("商店",platform.developerEnabled&&platform.freePurchases?"开发者免购买已开启":"钻石补给 · 本地购买测试");
+    localTitle("商店",purchaseSimulationEnabled()?"免费模拟内购 · 不扣费 · 奖励保存在此浏览器":"钻石补给 · 免费模拟购买已关闭");
     modal.addChild(picture(loaded[paths.diamond],92,365,34),settingLabel(`持有 ${session.diamonds} 钻石`,19,270,365));
     round3UI.shop.offerings.forEach((offer,i)=>{
       const y=446+i*92,first=!platform.claims.some(id=>id.startsWith(`shop:${offer.id}:`));
       modal.addChild(sourceSurface(694,49,y-37,442,78,0xf8dea7,220),picture(loaded[offer.art.url],94,y,65),
         settingLabel(`${offer.reward.amount} 钻石`,22,233,y-13),
         settingLabel(first?`首次双倍 · ${offer.reward.amount*offer.firstPurchaseMultiplier}`:"钻石补给",14,231,y+17),
-        control(platform.developerEnabled&&platform.freePurchases?"免费领取":"启用测试",432,y,91,47,0xade3b0,()=>{
+        control(purchaseSimulationEnabled()?"免费模拟":"启用测试",432,y,91,47,0xade3b0,()=>{
           void requestShopPurchase(offer.id);
         }));
     });
@@ -1319,7 +1321,7 @@ async function enterLiveRaid(){
   // Publish only after serialization/storage succeeds. Owner retry uses same committed delta.
   write:(bundle,reason)=>{const envelope=JSON.parse(serializeSession(bundle.session));envelope.activities=JSON.parse(serializeActivityState(bundle.activities));envelope.platform=bundle.platform;envelope.meta=JSON.parse(serializeSourceMetaState(bundle.meta));if(!qaFixtureActive)gameStorage.setItem(SAVE_KEY,JSON.stringify(envelope));({session,meta,activities,platform}=bundle);raidClientHistory.push({kind:'save',phase:owner.phase,reason});},
   notice:text=>{localNotice=text;},events:events=>{for(const e of events){raidClientHistory.push({kind:e.kind==='battle'?e.event.kind:e.kind,phase:owner.phase});if(e.kind==='phase'||e.kind==='restore-field'){resetMovementInput();lastPanel='';}}if(raidClientHistory.length>400)raidClientHistory.splice(0,raidClientHistory.length-400);},
-  async execute(request){raidClientHistory.push({kind:'provider-request',phase:owner.phase,id:request.id});const params=new URLSearchParams(location.search),outcome=params.get('provider-outcome');if(qaFixtureActive&&outcome==='delayed-success')await new Promise(resolve=>setTimeout(resolve,2000));const response=await createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||platform.developerEnabled&&(request.kind==='ad'?platform.freeAds:platform.freePurchases)),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);raidClientHistory.push({kind:'provider-'+response.status,phase:owner.phase,id:request.id});return response;},
+  async execute(request){raidClientHistory.push({kind:'provider-request',phase:owner.phase,id:request.id});const params=new URLSearchParams(location.search),outcome=params.get('provider-outcome');if(qaFixtureActive&&outcome==='delayed-success')await new Promise(resolve=>setTimeout(resolve,2000));const response=await createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||(request.kind==='ad'?platform.developerEnabled&&platform.freeAds:purchaseSimulationEnabled())),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);raidClientHistory.push({kind:'provider-'+response.status,phase:owner.phase,id:request.id});return response;},
   scene:(host,selection)=>{const view=new SourceRaidSceneView(host,{session,meta,activities,platform},selection,sourceWeekOffset(new Date(stepUpClock())),W,H);raidScene=view;raidWorldLayer.addChild(view.root);let ownedHud:SourceUiView|null=null;
    return new SourceRaidCatClientScene(host,selection,{read:()=>({session,meta,activities,platform}),
     prepare:async()=>{const params=new URLSearchParams(location.search),delay=qaFixtureActive?Math.min(5000,Math.max(0,Number(params.get('raid-prepare-delay'))||0)):0;if(delay)await new Promise(resolve=>setTimeout(resolve,delay));if(qaFixtureActive&&params.get('raid-prepare-outcome')==='failure')throw Error('明示QA资源准备失败');
@@ -1440,7 +1442,7 @@ activityPurchaseClient=new SourceActivityPurchaseClient({
  async execute(request){
   const params=new URLSearchParams(location.search),outcome=params.get('provider-outcome'),delay=qaFixtureActive?Math.min(10000,Math.max(0,Number(params.get('activity-provider-delay'))||0)):0;
   if(delay)await new Promise(resolve=>setTimeout(resolve,delay));
-  return createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||platform.developerEnabled&&platform.freePurchases),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);
+  return createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||purchaseSimulationEnabled()),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);
  },notice(message){localNotice=message;update();},granted(gun){feedback.playReward();if(gun){newGunQueue.push(gun);openNextNewGun();}update();}
 });
 shopPurchaseClient=new SourceShopPurchaseClient({
@@ -1454,7 +1456,7 @@ shopPurchaseClient=new SourceShopPurchaseClient({
  async execute(request){
   const params=new URLSearchParams(location.search),outcome=params.get('provider-outcome'),delay=qaFixtureActive?Math.min(10000,Math.max(0,Number(params.get('shop-provider-delay'))||0)):0;
   if(delay)await new Promise(resolve=>setTimeout(resolve,delay));
-  return createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||platform.developerEnabled&&platform.freePurchases),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);
+  return createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||purchaseSimulationEnabled()),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);
  },notice(message){localNotice=message;update();},granted(){feedback.playReward();autoUpgradeDirtyKey='';update();}
 });
 // Explicit H5 adaptation: local UTC is not a trusted server clock. No offline catch-up
@@ -1475,7 +1477,7 @@ diaPigPurchaseClient=new SourceRemoveAdsPurchaseClient({
  async execute(request){
   const params=new URLSearchParams(location.search),outcome=params.get('provider-outcome'),delay=qaFixtureActive?Math.min(10000,Math.max(0,Number(params.get('shop-provider-delay'))||0)):0;
   if(delay)await new Promise(resolve=>setTimeout(resolve,delay));
-  return createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||platform.developerEnabled&&platform.freePurchases),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);
+  return createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||purchaseSimulationEnabled()),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);
  },notice(message){localNotice=message;update();},granted(){feedback.playReward();update();}
 });
 async function requestDiaPigPurchase(product:string){
@@ -1519,7 +1521,7 @@ function openWeeklyAuto(returnPanel:'none'|'pet'){
  if(!sourceWeeklyVIPUnlocked(session)){localNotice='自动合成及Plus页在第20大关开放';update();return;}
  refreshWeekly();weeklyMenu=1;weeklyReturn=returnPanel;weeklyScrollToAuto=true;session=sourceWeeklyVisit(session,1);saveProgress();showLocalPanel('weekly');
 }
-function entryPlusPurchaseUI(){return {pending:!!activityPurchaseClient.pending||!!shopPurchaseClient.pending||!!diaPigPurchaseClient.pending,saveFailedProduct:activityPurchaseClient.saveFailed?activityPurchaseClient.pending?.request.purpose:undefined,localProvider:qaFixtureActive||platform.developerEnabled&&platform.freePurchases};}
+function entryPlusPurchaseUI(){return {pending:!!activityPurchaseClient.pending||!!shopPurchaseClient.pending||!!diaPigPurchaseClient.pending,saveFailedProduct:activityPurchaseClient.saveFailed?activityPurchaseClient.pending?.request.purpose:undefined,localProvider:qaFixtureActive||purchaseSimulationEnabled()};}
 function weeklyPanelState(){return {session,entitlements:meta.entitlements,nowUTC:stepUpClock(),menu:weeklyMenu,petCoin:meta.petCoin,pending:!!activityPurchaseClient.pending,saveFailedProduct:activityPurchaseClient.saveFailed?activityPurchaseClient.pending?.request.purpose:undefined,notice:localNotice};}
 async function requestWeeklyReward(item:number,isPlus:boolean,fromEntry:false|true|'challenge'|'boss'|'hunt'=false){
  const family=isPlus?'plus':'weekly';
@@ -1606,7 +1608,7 @@ const passClient=new SourcePassClient({
  clock:passClock,requestID:()=>`pass:${crypto.randomUUID()}`,
  async execute(request){
   const params=new URLSearchParams(location.search),outcome=params.get('provider-outcome'),delay=qaFixtureActive?Math.min(10000,Math.max(0,Number(params.get('pass-provider-delay'))||0)):0;
-  const enabled=outcome!=='unavailable'&&(qaFixtureActive||platform.developerEnabled&&(request.kind==='ad'?platform.freeAds:platform.freePurchases));
+  const enabled=outcome!=='unavailable'&&(qaFixtureActive||(request.kind==='ad'?platform.developerEnabled&&platform.freeAds:purchaseSimulationEnabled()));
   const provider=createLocalRewardProvider(enabled,qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success');
   if(delay)await new Promise(resolve=>setTimeout(resolve,delay));return provider.execute(request);
  },
@@ -1617,7 +1619,7 @@ const raidMissionClient=new SourceRaidMissionClient({
  read:()=>({bundle:{session,meta,activities,platform},contextID:`main:${weeklyStateOwner}`}),
  write(bundle){const envelope=JSON.parse(serializeSession(bundle.session));envelope.activities=JSON.parse(serializeActivityState(bundle.activities));envelope.platform=bundle.platform;envelope.meta=JSON.parse(serializeSourceMetaState(bundle.meta));if(!qaFixtureActive)gameStorage.setItem(SAVE_KEY,JSON.stringify(envelope));session=bundle.session;meta=bundle.meta;},
  requestID:()=>`raid-mission:${crypto.randomUUID()}`,
- async execute(request){const outcome=new URLSearchParams(location.search).get('provider-outcome');return createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||platform.developerEnabled&&platform.freePurchases),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);},
+ async execute(request){const outcome=new URLSearchParams(location.search).get('provider-outcome');return createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||purchaseSimulationEnabled()),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);},
  notice(message){localNotice=message;update();},ticketPopup(){raidMissionTicketOpen=true;update();}
 });
 async function requestRaidMissionPurchase(){refreshRaidClock();const ok=raidMissionClient.saveFailed?raidMissionClient.retrySave():await raidMissionClient.purchase();if(ok)raidMissionTicketOpen=false;update();}
@@ -1626,7 +1628,7 @@ const raidHelperClient=new SourceRaidHelperClient({
  read:()=>({state:meta.raid,historicMax:session.historicMax,contextID:`main:${weeklyStateOwner}`}),
  write(state){const nextMeta={...meta,raid:state};const envelope=JSON.parse(serializeSession(session));envelope.activities=JSON.parse(serializeActivityState(activities));envelope.platform=platform;envelope.meta=JSON.parse(serializeSourceMetaState(nextMeta));if(!qaFixtureActive)gameStorage.setItem(SAVE_KEY,JSON.stringify(envelope));meta=nextMeta;},
  requestID:()=>`raid-helper:${crypto.randomUUID()}`,
- async execute(request){const outcome=new URLSearchParams(location.search).get('provider-outcome');return createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||platform.developerEnabled&&platform.freePurchases),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);},
+ async execute(request){const outcome=new URLSearchParams(location.search).get('provider-outcome');return createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||purchaseSimulationEnabled()),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);},
  notice(message){localNotice=message;update();}
 });
 async function requestRaidHelperPurchase(){refreshRaidClock();const ok=raidHelperClient.saveFailed?raidHelperClient.retrySave():await raidHelperClient.purchase();if(ok&&localPanel==='raid-helper')localPanel='raid';update();}
@@ -1635,7 +1637,7 @@ const raidStarPigClient=new SourceRaidStarPigClient({
  read:()=>({state:meta.raidStarPig??freshSourceRaidStarPig(),starGem:session.starGem??0,historicMax:session.historicMax,contextID:`main:${weeklyStateOwner}`}),
  write(state,starGem){const nextSession={...session,starGem},nextMeta={...meta,raidStarPig:state};const envelope=JSON.parse(serializeSession(nextSession));envelope.activities=JSON.parse(serializeActivityState(activities));envelope.platform=platform;envelope.meta=JSON.parse(serializeSourceMetaState(nextMeta));if(!qaFixtureActive)gameStorage.setItem(SAVE_KEY,JSON.stringify(envelope));session=nextSession;meta=nextMeta;},
  requestID:()=>`raid-pig:${crypto.randomUUID()}`,
- async execute(request){const outcome=new URLSearchParams(location.search).get('provider-outcome');return createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||platform.developerEnabled&&platform.freePurchases),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);},
+ async execute(request){const outcome=new URLSearchParams(location.search).get('provider-outcome');return createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||purchaseSimulationEnabled()),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);},
  notice(message){localNotice=message;update();}
 });
 async function requestRaidStarPigPurchase(){refreshRaidClock();if(raidStarPigClient.saveFailed)raidStarPigClient.retrySave();else await raidStarPigClient.purchase();update();}
@@ -1741,7 +1743,7 @@ async function requestPrismReward(item:number){
  const params=new URLSearchParams(location.search),outcome=params.get('provider-outcome');
  const delay=qaFixtureActive?Math.min(10000,Math.max(0,Number(params.get('prism-provider-delay')??0)||0)):0;
  if(delay)await new Promise(resolve=>setTimeout(resolve,delay));
- const response=await createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||platform.developerEnabled&&platform.freePurchases),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);
+ const response=await createLocalRewardProvider(outcome!=='unavailable'&&(qaFixtureActive||purchaseSimulationEnabled()),qaFixtureActive&&(outcome==='failure'||outcome==='cancelled')?outcome:'success').execute(request);
  if(pendingPrismReward!==request||prismStateOwner!==owner)return;pendingPrismReward=null;
  if(meta.coreShop!==sourceState){localNotice='存档上下文已变更；旧交易回调未发奖';update();return;}
  const grant=sourcePrismReward(meta.coreShop,meta.adventure.cores,request,response,stepUpClock(),session.historicMax);
@@ -1771,7 +1773,7 @@ function drawPanel() {
   if(sourcePanel&&localPanel==='star'&&!settingsOpen&&renderedPanelIdentity===currentPanelIdentity()){
     (sourcePanel as SourceStarPanelView).sync(starPanelState());return;
   }
-  if(sourcePanel&&localPanel==='shop'&&!settingsOpen&&renderedPanelIdentity===currentPanelIdentity()){syncSourceShopPanel(sourcePanel,{diamonds:session.diamonds,entitlements:meta.entitlements,claims:platform.claims,shopFirstBuy:meta.shopFirstBuy,offerWallBanner:offerWallProjection(),freeCashBanner:freeCashBannerProjection(),localProvider:qaFixtureActive||platform.developerEnabled&&platform.freePurchases,pending:!!shopPurchaseClient.pending||!!diaPigPurchaseClient.pending,saveFailedProduct:diaPigPurchaseClient.saveFailed?diaPigPurchaseClient.pending?.purpose:shopPurchaseClient.saveFailed?shopPurchaseClient.pending?.purpose:undefined,notice:localNotice||session.notice});lastPanel=panelKey();return;}
+  if(sourcePanel&&localPanel==='shop'&&!settingsOpen&&renderedPanelIdentity===currentPanelIdentity()){syncSourceShopPanel(sourcePanel,{diamonds:session.diamonds,entitlements:meta.entitlements,claims:platform.claims,shopFirstBuy:meta.shopFirstBuy,offerWallBanner:offerWallProjection(),freeCashBanner:freeCashBannerProjection(),localProvider:qaFixtureActive||purchaseSimulationEnabled(),pending:!!shopPurchaseClient.pending||!!diaPigPurchaseClient.pending,saveFailedProduct:diaPigPurchaseClient.saveFailed?diaPigPurchaseClient.pending?.purpose:shopPurchaseClient.saveFailed?shopPurchaseClient.pending?.purpose:undefined,notice:localNotice||session.notice});lastPanel=panelKey();return;}
   if(sourcePanel&&localPanel==='weekly'&&'sync'in sourcePanel&&!settingsOpen&&renderedPanelIdentity===currentPanelIdentity()){(sourcePanel as SourceWeeklyPanelView).sync(weeklyPanelState());lastPanel=panelKey();return;}
   if(sourcePanel&&localPanel==='diapig'&&'sync'in sourcePanel&&!settingsOpen&&renderedPanelIdentity===currentPanelIdentity()){(sourcePanel as SourceDiaPigPanelView).sync(diaPigPanelState());lastPanel=panelKey();return;}
   if(sourcePanel&&localPanel==='stepup'&&'sync'in sourcePanel&&!settingsOpen&&renderedPanelIdentity===currentPanelIdentity()){(sourcePanel as SourceStepUpPanelView).sync({session,nowUTC:stepUpClock(),pending:!!activityPurchaseClient.pending,saveFailedProduct:activityPurchaseClient.saveFailed?activityPurchaseClient.pending?.request.purpose:undefined,notice:localNotice});lastPanel=panelKey();return;}
@@ -1863,12 +1865,12 @@ function drawPanel() {
   if(localPanel==="pet-draw-info"){sourcePanel=createSourcePetDrawInfoPanel({textures:loaded,viewport:{width:W,height:H},action:onSourceAction});modal.addChild(sourcePanel.root);return;}
   if(localPanel==="pet-info"){sourcePanel=createSourcePetInfoPanel({textures:loaded,viewport:{width:W,height:H},grade:petInfoGrade,action:onSourceAction});modal.addChild(sourcePanel.root);return;}
   if(localPanel==="pet"){sourcePanel=createSourcePetPanel({...petPanelState(),textures:loaded,viewport:{width:W,height:H},pointerSurface:canvas,clientToUi:(x,y)=>{const r=canvas.getBoundingClientRect();return {x:(x-r.left)*W/r.width,y:(y-r.top)*H/r.height};},action:onSourceAction});modal.addChild(sourcePanel.root);return;}
-  if(localPanel==="monster"){sourcePanel=createSourceHuntPanel({textures:loaded,viewport:{width:W,height:H},hunt:meta.hunt,historicMax:session.historicMax,plusPurchase:entryPlusPurchaseUI(),teamPower:runtimeSourceHuntPower({session,activities,platform,meta}),maxDisplayStage:Math.floor(session.historicMax/10)+1,entitlements:sourceRewardEntitlements(meta.entitlements),notice:localNotice||session.notice,pending:platformPending||!!pendingHuntResultReward||!!liveHunt?.pendingBonus||!!liveHunt?.preparing,purchasePending:!!diaPigPurchaseClient.pending,purchaseSaveFailed:diaPigPurchaseClient.saveFailed,removeAdsAll:meta.entitlements.removeAdsAll,localProvider:qaFixtureActive||platform.developerEnabled&&platform.freePurchases,freeCashBanner:{...freeCashBannerProjection()},entryAvailable:true,action:onSourceAction});if(sourcePanel)modal.addChild(sourcePanel.root);return;}
-  if(localPanel==="boss"||session.mode==="boss-result"){sourcePanel=createSourceBossPanel({textures:loaded,viewport:{width:W,height:H},boss:session.boss,bonusPending:!!bossResultRewardClient.pending,bonusSaveFailed:bossResultRewardClient.saveFailed,plusPurchase:entryPlusPurchaseUI(),realPower:sessionBossPower(session,meta.entitlements,meta.fish,meta.buffTimes,meta.relic),historicMax:session.historicMax,entitlements:sourceRewardEntitlements(meta.entitlements),notice:localNotice||session.notice,pending:platformPending,purchasePending:!!diaPigPurchaseClient.pending,purchaseSaveFailed:diaPigPurchaseClient.saveFailed,removeAdsAll:meta.entitlements.removeAdsAll,localProvider:qaFixtureActive||platform.developerEnabled&&platform.freePurchases,freeCashBanner:{...freeCashBannerProjection()},action:onSourceAction});if(sourcePanel)modal.addChild(sourcePanel.root);return;}
+  if(localPanel==="monster"){sourcePanel=createSourceHuntPanel({textures:loaded,viewport:{width:W,height:H},hunt:meta.hunt,historicMax:session.historicMax,plusPurchase:entryPlusPurchaseUI(),teamPower:runtimeSourceHuntPower({session,activities,platform,meta}),maxDisplayStage:Math.floor(session.historicMax/10)+1,entitlements:sourceRewardEntitlements(meta.entitlements),notice:localNotice||session.notice,pending:platformPending||!!pendingHuntResultReward||!!liveHunt?.pendingBonus||!!liveHunt?.preparing,purchasePending:!!diaPigPurchaseClient.pending,purchaseSaveFailed:diaPigPurchaseClient.saveFailed,removeAdsAll:meta.entitlements.removeAdsAll,localProvider:qaFixtureActive||purchaseSimulationEnabled(),freeCashBanner:{...freeCashBannerProjection()},entryAvailable:true,action:onSourceAction});if(sourcePanel)modal.addChild(sourcePanel.root);return;}
+  if(localPanel==="boss"||session.mode==="boss-result"){sourcePanel=createSourceBossPanel({textures:loaded,viewport:{width:W,height:H},boss:session.boss,bonusPending:!!bossResultRewardClient.pending,bonusSaveFailed:bossResultRewardClient.saveFailed,plusPurchase:entryPlusPurchaseUI(),realPower:sessionBossPower(session,meta.entitlements,meta.fish,meta.buffTimes,meta.relic),historicMax:session.historicMax,entitlements:sourceRewardEntitlements(meta.entitlements),notice:localNotice||session.notice,pending:platformPending,purchasePending:!!diaPigPurchaseClient.pending,purchaseSaveFailed:diaPigPurchaseClient.saveFailed,removeAdsAll:meta.entitlements.removeAdsAll,localProvider:qaFixtureActive||purchaseSimulationEnabled(),freeCashBanner:{...freeCashBannerProjection()},action:onSourceAction});if(sourcePanel)modal.addChild(sourcePanel.root);return;}
   const featurePanels=new Set(["mine-pack","fish","boss","pet","monster","adventure","redeem","auto","buff"]);
   const originalPanel=featurePanels.has(localPanel)?localPanel:settingsOpen?"settings":localPanel==="shop"?"shop":localPanel==="missions"?"missions":localPanel==="pass"?"pass":session.overlay==="challenge-sweep"?"challenge-sweep":session.overlay==="challenge"?"challenge":session.overlay==="mine"?"mine":session.overlay==="rebirth"?"rebirth":session.overlay==="permanent"?"permanent":session.overlay==="daily"?"daily":session.mode==="victory"?"challenge-win":session.mode==="defeat"?"challenge-fail":session.mode==="mine-result"?"mine-result":null;
   if(originalPanel){
-    sourcePanel=createSourcePanel({textures:loaded,viewport:{width:W,height:H},panel:originalPanel,session,activities,platform,preferences,meta,autoAdUI:{today:autoAdDate(),pending:!!autoAdClient.pending,saveFailed:autoAdClient.saveFailed},passPopup,passPending:passClient.pending,passSaveFailed:passClient.saveFailed,purchaseSaveFailed:shopPurchaseClient.saveFailed||diaPigPurchaseClient.saveFailed,purchaseSaveFailedProduct:diaPigPurchaseClient.saveFailed?diaPigPurchaseClient.pending?.purpose:shopPurchaseClient.saveFailed?shopPurchaseClient.pending?.purpose:undefined,purchasePending:!!shopPurchaseClient.pending||!!diaPigPurchaseClient.pending,rewardPending:!!pendingMineResultReward||!!pendingChallengeReward,qaLocalProvider:qaFixtureActive,platformUI:{signedIn:selectedPlatformProvider().isSignedIn(),pending:platformPending,freeCashBanner:{...freeCashBannerProjection()},confirmation:platformConfirmation?.action as "cloud-save"|"cloud-load"|undefined,preview:platformPreview},notice:localNotice||session.notice,action:onSourceAction});
+    sourcePanel=createSourcePanel({textures:loaded,viewport:{width:W,height:H},panel:originalPanel,session,activities,platform,preferences,meta,autoAdUI:{today:autoAdDate(),pending:!!autoAdClient.pending,saveFailed:autoAdClient.saveFailed},passPopup,passPending:passClient.pending,passSaveFailed:passClient.saveFailed,purchaseSaveFailed:shopPurchaseClient.saveFailed||diaPigPurchaseClient.saveFailed,purchaseSaveFailedProduct:diaPigPurchaseClient.saveFailed?diaPigPurchaseClient.pending?.purpose:shopPurchaseClient.saveFailed?shopPurchaseClient.pending?.purpose:undefined,purchasePending:!!shopPurchaseClient.pending||!!diaPigPurchaseClient.pending,rewardPending:!!pendingMineResultReward||!!pendingChallengeReward,qaLocalProvider:qaFixtureActive,purchaseLocalProvider:purchaseSimulationEnabled(),platformUI:{signedIn:selectedPlatformProvider().isSignedIn(),pending:platformPending,freeCashBanner:{...freeCashBannerProjection()},confirmation:platformConfirmation?.action as "cloud-save"|"cloud-load"|undefined,preview:platformPreview},notice:localNotice||session.notice,action:onSourceAction});
     if(sourcePanel){sourcePanel.restoreScroll(panelScrollMemory.get(renderedPanelIdentity)??{});modal.addChild(sourcePanel.root);
       if(originalPanel==="settings"||originalPanel==="redeem"){
         const close=sourcePanel.get(originalPanel==="settings"?"/Canvas/Setting/Setting_UI/Close_Btn":"/Canvas/Setting/Redeem_UI/Close_Btn")?.getBounds();
@@ -2581,6 +2583,6 @@ if (import.meta.env.DEV||new URLSearchParams(location.search).has('qa')) {
     const link=document.createElement('a');link.href='/qa.html';link.textContent='返回全功能测试选择页';link.style.color='#fff4ca';error.appendChild(link);document.body.appendChild(error);
   }
   (window as Window & {__catRigDebug?:()=>unknown}).__catRigDebug=()=>catRigs.map(rig=>rig.debugPose());
-  qa.__catPresentation=()=>({transition:{active:transition.active,elapsed:transition.elapsed,alpha:transition.alpha,kind:transition.kind},settingsOpen,localPanel,qaFixtureActive,platformUI:{pending:platformPending,confirmation:platformConfirmation?.action,signedIn:selectedPlatformProvider().isSignedIn(),notice:localNotice},newGunPopup:!!newGunPopup,activities:{dailyClaims:activities.dailyClaims,lastDailyDate:activities.lastDailyDate,counters:activities.counters,passExp:activities.passExp,passLevel:passView(activities).level,passClaims:activities.passClaims},platform:{developerEnabled:platform.developerEnabled,freeAds:platform.freeAds,freePurchases:platform.freePurchases,sequence:platform.sequence,audit:platform.audit},preferences,feedback:feedback.diagnostics,shots:recentShotChecks,projectiles:[...projectileViews.values()].map(view=>view.presentation),muzzles:muzzleViews.map(item=>item.view.presentation),ecoMode,meta:{...meta,adventure:encodeSourceAdventureState(meta.adventure)},adventure:{navigation:adventureNavigation,clock:{...adventureClock(),nowTicks:adventureClock().nowTicks.toString()},pending:pendingAdventureReward?.id??null,diagnostics:sourcePanel?.diagnostics},feedbackCount:fleeting.filter(item=>!item.adapterView).length,impacts:fleeting.filter(item=>item.adapterView).map(item=>item.adapterView!.presentation),cards:cards.map(c=>({kind:c.kind,status:c.status.text,
+  qa.__catPresentation=()=>({transition:{active:transition.active,elapsed:transition.elapsed,alpha:transition.alpha,kind:transition.kind},settingsOpen,localPanel,qaFixtureActive,pagesPurchasePreview,purchaseSimulationEnabled:purchaseSimulationEnabled(),platformUI:{pending:platformPending,confirmation:platformConfirmation?.action,signedIn:selectedPlatformProvider().isSignedIn(),notice:localNotice},newGunPopup:!!newGunPopup,activities:{dailyClaims:activities.dailyClaims,lastDailyDate:activities.lastDailyDate,counters:activities.counters,passExp:activities.passExp,passLevel:passView(activities).level,passClaims:activities.passClaims},platform:{developerEnabled:platform.developerEnabled,freeAds:platform.freeAds,freePurchases:platform.freePurchases,sequence:platform.sequence,audit:platform.audit},preferences,feedback:feedback.diagnostics,shots:recentShotChecks,projectiles:[...projectileViews.values()].map(view=>view.presentation),muzzles:muzzleViews.map(item=>item.view.presentation),ecoMode,meta:{...meta,adventure:encodeSourceAdventureState(meta.adventure)},adventure:{navigation:adventureNavigation,clock:{...adventureClock(),nowTicks:adventureClock().nowTicks.toString()},pending:pendingAdventureReward?.id??null,diagnostics:sourcePanel?.diagnostics},feedbackCount:fleeting.filter(item=>!item.adapterView).length,impacts:fleeting.filter(item=>item.adapterView).map(item=>item.adapterView!.presentation),cards:cards.map(c=>({kind:c.kind,status:c.status.text,
     percent:c.percent.text,price:c.cost.text,fillHeight:100*c.fillFraction,fillFraction:c.fillFraction,fillMode:"source-sliced-sprite-bottom-to-top"})),rigs:catRigs.map(r=>r.debugPose())});
 }

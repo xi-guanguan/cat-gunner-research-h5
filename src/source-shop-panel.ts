@@ -10,7 +10,7 @@ export function sourceShopProjection(s:SourceShopPanelState){
  // The retained Shop instance must refresh its own currency, not only the hidden field HUD.
  text[SOURCE_SHOP_ROOT+'/Panel/TopBar/Currency/Dia/Price_txt']=String(s.diamonds);
  const set=(p:string,v:string)=>{text[SOURCE_SHOP_CONTENT+p]=v;},show=(p:string,v:boolean)=>{active[SOURCE_SHOP_CONTENT+p]=v;};
- set('/Free Reward/TOP/I2_txt','免费奖励 · 外部服务未连接');set('/Remove Ads/Remove_AD/I2_txt','广告权益');set('/Package/License/I2_txt','特殊礼包');set('/Dia (List)/Dia/I2_txt',s.notice||'钻石 · 本地测试交易，不真实支付');
+ set('/Free Reward/TOP/I2_txt','免费奖励 · 外部服务未连接');set('/Remove Ads/Remove_AD/I2_txt','广告权益');set('/Package/License/I2_txt','特殊礼包');set('/Dia (List)/Dia/I2_txt',s.notice||(s.localProvider?'免费模拟内购 · 不扣费 · 奖励保存在本机':'钻石 · 本地测试交易未开启'));
  for(const card of SOURCE_SHOP_CARDS){
   const p=`/${card.group}/${card.name}`,owned=s.entitlements[card.flag];
   set(p+'/I2_txt(Outline)',card.title);set(p+'/I2_txt',owned?'已拥有':card.description);
